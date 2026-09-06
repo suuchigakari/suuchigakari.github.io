@@ -28,6 +28,16 @@ npm start          # http://localhost:8000/ で表示
 npm test           # リンク生成ロジックのテスト
 ```
 
+## 公開する（Amazonアソシエイト申請の前提）
+
+アソシエイトの申請には、**誰でも閲覧できる状態のサイト**が必要です。GitHub Pages で公開する場合：
+
+1. リポジトリの Settings → Pages → Source を **GitHub Actions** に変更する
+2. `main` に push すると `.github/workflows/pages.yml` がテストを実行し、静的ファイルをそのまま公開する
+3. 発行された URL を申請フォームに入力する
+
+申請の要件と手順は `docs/associate_application_checklist.md` にまとめてあります。
+
 ES モジュールを `fetch` で読み込むため、`index.html` を `file://` で直接開くと動きません。必ず `npm start` 経由で開いてください。
 
 ### 1. アソシエイトタグを設定する
@@ -81,6 +91,8 @@ ES モジュールを `fetch` で読み込むため、`index.html` を `file://`
 | パス | 役割 |
 | --- | --- |
 | `CLAUDE.md` | 運用ルール（料率の扱い、数値の裏取り、開示表記、リライト期限） |
+| `pages/about.html` / `pages/privacy.html` | 運営者情報・プライバシーポリシー（申請前に連絡先の記入が必要） |
+| `docs/associate_application_checklist.md` | アソシエイト申請の要件と手順 |
 | `docs/` | ジャンル選定の調査結果と記事構成案 |
 | `src/affiliate.js` | ASIN 抽出・リンク生成のライブラリ（ブラウザ / Node 共用） |
 | `src/luggage.js` | 機内持ち込み規定の適合判定（各辺・3辺合計・重量） |
