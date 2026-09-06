@@ -1,0 +1,122 @@
+{
+  "asOf": "2026-08",
+  "disclaimer": "以下は2026年8月時点で確認した各社の機内持ち込み手荷物規定です。規定は改定されます。搭乗前に必ず各社公式サイトで確認してください。",
+  "upcomingChanges": [
+    {
+      "airlineId": "jetstar",
+      "effectiveFrom": "2027-02-02",
+      "summary": "ジェットスター航空(JQ)の全フライトで機内持ち込み手荷物の規定が変更予定。公開後のリライトが必要。"
+    }
+  ],
+  "airlines": [
+    {
+      "id": "peach",
+      "name": "ピーチ",
+      "group": "LCC",
+      "maxSidesCm": [50, 40, 25],
+      "maxTotalCm": 115,
+      "weightLimitKg": 7,
+      "weightScope": "combined2",
+      "sidesConfidence": "reported",
+      "notes": [
+        "公式サイトに各辺の上限の明記がなく、解説サイトによって案内が分かれる。カスタマーセンターは「3辺合計115cm以内であれば持ち込み可」と回答したという報告もある。",
+        "本サイトは安全側に倒し、各辺 50×40×25cm を満たすものだけを○と判定する。",
+        "100席未満の小型機(離島路線など)は3辺合計100cm以内とさらに厳しい。"
+      ]
+    },
+    {
+      "id": "jetstar",
+      "name": "ジェットスター",
+      "group": "LCC",
+      "maxSidesCm": [56, 36, 23],
+      "maxTotalCm": null,
+      "weightLimitKg": 7,
+      "weightScope": "combined2",
+      "sidesConfidence": "official",
+      "notes": [
+        "3辺合計ではなく各辺で判定する。",
+        "2027年2月2日よりジェットスター航空(JQ)の全フライトで規定が変更予定。"
+      ]
+    },
+    {
+      "id": "spring",
+      "name": "スプリング・ジャパン",
+      "group": "LCC",
+      "maxSidesCm": [56, 36, 23],
+      "maxTotalCm": 115,
+      "weightLimitKg": 7,
+      "weightScope": "combined2",
+      "sidesConfidence": "official",
+      "notes": []
+    },
+    {
+      "id": "zipair",
+      "name": "ZIPAIR",
+      "group": "LCC",
+      "maxSidesCm": [55, 40, 25],
+      "maxTotalCm": 120,
+      "weightLimitKg": 7,
+      "weightScope": "combined2",
+      "sidesConfidence": "official",
+      "notes": []
+    },
+    {
+      "id": "airasia",
+      "name": "エアアジア",
+      "group": "LCC",
+      "maxSidesCm": [56, 36, 23],
+      "maxTotalCm": 115,
+      "weightLimitKg": 7,
+      "weightScope": "combined2",
+      "sidesConfidence": "official",
+      "notes": []
+    },
+    {
+      "id": "hkexpress",
+      "name": "香港エクスプレス",
+      "group": "LCC",
+      "maxSidesCm": [56, 36, 23],
+      "maxTotalCm": 115,
+      "weightLimitKg": 7,
+      "weightScope": "combined2",
+      "sidesConfidence": "official",
+      "notes": []
+    },
+    {
+      "id": "jejuair",
+      "name": "チェジュ航空",
+      "group": "LCC",
+      "maxSidesCm": [55, 40, 20],
+      "maxTotalCm": 115,
+      "weightLimitKg": 10,
+      "weightScope": "combined2",
+      "sidesConfidence": "official",
+      "notes": ["奥行20cmは主要LCCの中で最も厳しい。"]
+    },
+    {
+      "id": "tway",
+      "name": "ティーウェイ航空",
+      "group": "LCC",
+      "maxSidesCm": [55, 40, 20],
+      "maxTotalCm": 115,
+      "weightLimitKg": 10,
+      "weightScope": "combined2",
+      "sidesConfidence": "official",
+      "notes": ["奥行20cmは主要LCCの中で最も厳しい。"]
+    },
+    {
+      "id": "ana_jal",
+      "name": "ANA・JAL(参考)",
+      "group": "FSC",
+      "maxSidesCm": [55, 40, 25],
+      "maxTotalCm": 115,
+      "weightLimitKg": 10,
+      "weightScope": "combined2",
+      "sidesConfidence": "official",
+      "notes": [
+        "各辺55×40×25cmと3辺合計115cm以内が併記されているが、55+40+25=120cmで両立しない。本サイトは両方を満たすものだけを○と判定する。",
+        "100席未満の小型機は3辺合計100cm以内・各辺45×35×20cmとさらに厳しい。"
+      ]
+    }
+  ]
+}

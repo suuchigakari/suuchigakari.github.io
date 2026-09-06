@@ -1,0 +1,59 @@
+.article { max-width: 860px; padding-bottom: 60px; }
+.article h1 { font-size: 1.6rem; line-height: 1.5; margin: 28px 0 12px; }
+.article h1 small { font-size: 1rem; font-weight: 600; color: var(--muted); }
+.article h2 { font-size: 1.15rem; margin: 36px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
+.article section { margin-bottom: 8px; }
+.article ul { padding-left: 1.2em; }
+.article li { margin-bottom: 4px; }
+.lead { font-size: 1rem; }
+.brand a { color: inherit; text-decoration: none; }
+
+.callout {
+  padding: 16px 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  margin: 24px 0;
+}
+.callout h2 { margin: 0 0 8px; font-size: 1rem; border: 0; padding: 0; }
+.callout ul { margin: 0 0 8px; }
+
+.verdict-box {
+  display: grid;
+  gap: 10px;
+  padding: 16px 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.verdict-box p { margin: 0; }
+.size { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--accent); }
+
+.checker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0;
+}
+.checker label { display: flex; flex-direction: column; gap: 4px; font-size: 0.78rem; color: var(--muted); }
+.checker input {
+  width: 130px;
+  padding: 8px 10px;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+td.ok { color: var(--good); font-weight: 700; }
+td.ng { color: var(--bad); font-weight: 700; }
+td.unknown { color: var(--muted); }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.reason { display: block; font-size: 0.78rem; font-weight: 400; color: var(--muted); }
+
+.notes { font-size: 0.8rem; color: var(--muted); margin-top: 10px; }
+.notes ul { padding-left: 1.2em; margin: 4px 0 12px; }
+.notes h3 { font-size: 0.85rem; margin: 12px 0 4px; color: var(--text); }
+.empty-table { padding: 14px; border: 1px dashed var(--border); border-radius: 10px; color: var(--muted); font-size: 0.85rem; }

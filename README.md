@@ -8,7 +8,18 @@ Amazon アソシエイト向けの、**商品紹介サイト**と**アフィリ�
 - `data/products.json` に商品を書くだけで、比較サイトが生成される（検索 / カテゴリ絞り込み / 並び替え / 比較表）
 - 商品リンクは表示時に `?tag=` 付きで生成されるので、タグ変更は `site.config.json` の 1 か所だけ
 - 商品ページ URL を貼るだけで、追跡パラメータを落とした最短形リンク（HTML / Markdown 付き）を作れるツール
-- リンク生成ロジックは単体テスト付きのライブラリ（`src/affiliate.js`）として独立
+- **機内持ち込みキャリーケースの適合判定**：外寸と本体重量から、LCC 9 社への可否・各辺の余裕・中身に使える重量を自動計算（`src/luggage.js`）
+- ジャンル選定の調査結果（31ジャンル・紹介料率・Tier 評価）は `docs/` に格納。運用ルールは `CLAUDE.md`
+
+## ジャンル選定と記事
+
+| ドキュメント | 内容 |
+|---|---|
+| `docs/amazon_hikaku_master_list_v2.md` | マスターリスト（31ジャンル・料率・Tier S〜E）。**ジャンルの判断はこれが正** |
+| `docs/lcc_carrycase_article_plan.md` | Tier S「キャリーケース」（料率8%）の記事構成案 |
+| `articles/lcc-carrycase.html` | 上記構成案の実装。規定早見表・両立不可の説明・判定ツール・比較表を生成 |
+
+記事の核である「ピーチ可 / ジェットスター可」の判定列は、手作業の○×ではなく `data/airlines.json` の規定から自動計算します。規定を書き換えれば、結論の推奨サイズ（現在 50 × 36 × 23cm）も比較表も追随します。
 
 ## 使い方
 
@@ -69,13 +80,19 @@ ES モジュールを `fetch` で読み込むため、`index.html` を `file://`
 
 | パス | 役割 |
 | --- | --- |
+| `CLAUDE.md` | 運用ルール（料率の扱い、数値の裏取り、開示表記、リライト期限） |
+| `docs/` | ジャンル選定の調査結果と記事構成案 |
 | `src/affiliate.js` | ASIN 抽出・リンク生成のライブラリ（ブラウザ / Node 共用） |
+| `src/luggage.js` | 機内持ち込み規定の適合判定（各辺・3辺合計・重量） |
+| `articles/lcc-carrycase.html` | LCC 対応キャリーケースの記事 |
+| `data/airlines.json` | 航空会社別の機内持ち込み規定（確認日・根拠つき） |
+| `data/luggage-products.json` | 記事用の商品データ（外寸を裏取りしたものだけ掲載される） |
 | `assets/app.js` | 商品一覧・絞り込み・比較表の描画 |
 | `index.html` / `assets/style.css` | サイト本体（ライト / ダーク対応） |
 | `tools/link.html` | リンク作成ツール |
 | `site.config.json` | サイト名・タグ・開示文などの設定 |
 | `data/products.json` | 商品データ |
-| `test/affiliate.test.mjs` | 単体テスト（`node --test`） |
+| `test/*.test.mjs` | 単体テスト（`node --test`、27件） |
 | `scripts/serve.mjs` | 依存なしの開発用静的サーバ |
 
 ## リンク生成の仕様
@@ -94,8 +111,29 @@ ES モジュールを `fetch` で読み込むため、`index.html` を `file://`
 - **商品画像**: Amazon の商品画像は PA-API または公式ウィジェット経由でのみ利用できます。画像をローカルに保存して貼り付けないでください。
 - **リンク属性**: 生成されるリンクには `rel="nofollow sponsored"` が付きます。手書きでリンクを足す場合も同じ属性を付けてください。
 
+## キャリーケース記事のデータ運用
+
+`data/luggage-products.json` の商品は、**外寸を一次情報で確認したものだけ**が比較表に載ります。
+
+```json
+{
+  "asin": "B0XXXXXXXX",
+  "name": "商品名",
+  "type": "ハード",
+  "heightCm": 50, "widthCm": 36, "depthCm": 23,
+  "weightKg": 2.4, "capacityL": 34,
+  "dimensionsVerified": true,
+  "dimensionSource": "メーカー公式 https://… （2026-09-06 確認）"
+}
+```
+
+- `dimensionsVerified` が `false`、または寸法が `null` の商品は表に出ず、「外寸が未確認のため未掲載」として件数だけ表示されます
+- 寸法はキャスター・ハンドル・前面ポケットを**含んだ**外寸を入れてください。通販の「本体サイズ」表記は含まないことがあります
+- 規定を更新するときは `data/airlines.json` の `asOf` と根拠（`sidesConfidence`）も更新してください
+
 ## 今後の拡張候補
 
 - PA-API v5 連携（商品名・画像・価格の自動取得。アクセスキーと直近の売上実績が必要）
-- 記事ページ（1 商品 1 レビュー）の追加と、カテゴリ別ランキングページ
+- Tier A ジャンル（ベビーゲート・クーラーボックス・寝袋・アウトドアチェア・LEDランタン／いずれも料率4%）の記事化
+- ラゲッジスケール記事（キャリーケース記事からの内部リンク先）
 - クリック計測（`?tag=` とは別に、内部イベントで CTA のクリック率を計測）

@@ -42,7 +42,7 @@ body {
 .site-header { padding: 32px 0 20px; border-bottom: 1px solid var(--border); background: var(--surface); }
 .brand { margin: 0; font-size: 1.4rem; font-weight: 700; letter-spacing: 0.01em; }
 .tagline { margin: 4px 0 0; color: var(--muted); }
-.nav { margin-top: 10px; }
+.nav { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 16px; }
 .nav a { color: var(--accent); text-decoration: none; font-size: 0.9rem; }
 .nav a:hover { text-decoration: underline; }
 

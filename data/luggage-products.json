@@ -1,0 +1,48 @@
+{
+  "asOf": "2026-09",
+  "note": "外寸(キャスター・ハンドル・ポケットを含む全体)を一次情報で確認できた商品だけを dimensionsVerified: true にすること。false のものは比較表に出さず、未掲載として件数だけ表示する。",
+  "products": [
+    {
+      "asin": "",
+      "name": "（記入例）LCC特化ハードキャリー",
+      "type": "ハード",
+      "heightCm": null,
+      "widthCm": null,
+      "depthCm": null,
+      "weightKg": null,
+      "capacityL": null,
+      "priceRange": "",
+      "dimensionsVerified": false,
+      "dimensionSource": "",
+      "note": "Amazon商品ページまたはメーカー公式で外寸を確認してから数値を入れる"
+    },
+    {
+      "asin": "",
+      "name": "（記入例）超軽量ソフトキャリー(本体2kg以下)",
+      "type": "ソフト",
+      "heightCm": null,
+      "widthCm": null,
+      "depthCm": null,
+      "weightKg": null,
+      "capacityL": null,
+      "priceRange": "",
+      "dimensionsVerified": false,
+      "dimensionSource": "",
+      "note": "重量制限に効くタイプ。空の状態の重量を確認する"
+    },
+    {
+      "asin": "",
+      "name": "（記入例）フロントオープン型",
+      "type": "フロントオープン",
+      "heightCm": null,
+      "widthCm": null,
+      "depthCm": null,
+      "weightKg": null,
+      "capacityL": null,
+      "priceRange": "",
+      "dimensionsVerified": false,
+      "dimensionSource": "",
+      "note": "外寸が膨らみがちなので、奥行の実測値に注意"
+    }
+  ]
+}
