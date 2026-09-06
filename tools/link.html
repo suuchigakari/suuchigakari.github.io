@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>アフィリエイトリンク作成ツール</title>
+    <link rel="stylesheet" href="../assets/style.css" />
+    <style>
+      .tool { max-width: 780px; }
+      .tool textarea,
+      .tool input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        font: inherit;
+        color: var(--text);
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+      }
+      .tool textarea { min-height: 120px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85rem; }
+      .row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 16px; }
+      .row > label { flex: 1 1 220px; display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; color: var(--muted); }
+      .result { margin-top: 24px; }
+      .result h2 { font-size: 0.95rem; margin: 20px 0 6px; }
+      .output { display: flex; gap: 8px; align-items: flex-start; }
+      .output code {
+        flex: 1;
+        display: block;
+        padding: 10px;
+        overflow-wrap: anywhere;
+        font-size: 0.85rem;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+      }
+      button.copy {
+        padding: 8px 14px;
+        font: inherit;
+        font-size: 0.82rem;
+        color: var(--accent-text);
+        background: var(--accent);
+        border: 0;
+        border-radius: 999px;
+        cursor: pointer;
+      }
+      .error { color: var(--bad); font-weight: 600; }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <p class="brand">アフィリエイトリンク作成ツール</p>
+        <p class="tagline">商品ページURL（または ASIN）から、追跡パラメータを除いた短いリンクを作ります。</p>
+        <nav class="nav"><a href="../index.html">商品一覧へ戻る</a></nav>
+      </div>
+    </header>
+
+    <main class="wrap tool">
+      <section class="row">
+        <label>
+          <span>アソシエイトタグ</span>
+          <input type="text" id="tag" placeholder="example-22" autocomplete="off" />
+        </label>
+        <label>
+          <span>マーケットプレイス</span>
+          <select id="domain"></select>
+        </label>
+        <label>
+          <span>リンクテキスト（任意）</span>
+          <input type="text" id="label" placeholder="Amazonで価格を見る" autocomplete="off" />
+        </label>
+      </section>
+
+      <label class="field" style="display: block">
+        <span>商品ページURL / ASIN（1行に1件）</span>
+        <textarea id="input" placeholder="https://www.amazon.co.jp/dp/B0XXXXXXXX&#10;B0YYYYYYYY"></textarea>
+      </label>
+
+      <div class="result" id="result" aria-live="polite"></div>
+    </main>
+
+    <script type="module">
+      import {
+        MARKETPLACES,
+        buildHtmlSnippet,
+        buildMarkdownSnippet,
+        isValidTag,
+        toAffiliateLink,
+      } from '../src/affiliate.js';
+
+      const $ = (id) => document.getElementById(id);
+      const TAG_STORAGE_KEY = 'affiliate-tag';
+
+      const domainSelect = $('domain');
+      for (const [host, name] of Object.entries(MARKETPLACES)) {
+        const option = document.createElement('option');
+        option.value = host;
+        option.textContent = `${name} (${host})`;
+        domainSelect.append(option);
+      }
+
+      try {
+        const savedTag = localStorage.getItem(TAG_STORAGE_KEY);
+        if (savedTag) $('tag').value = savedTag;
+      } catch {
+        /* プライベートウィンドウ等では保存を諦める */
+      }
+
+      if (!$('tag').value) {
+        fetch('../site.config.json')
+          .then((response) => (response.ok ? response.json() : null))
+          .then((config) => {
+            if (config?.associateTag && !$('tag').value) {
+              $('tag').value = config.associateTag;
+              render();
+            }
+          })
+          .catch(() => {});
+      }
+
+      function outputBlock(title, value) {
+        const wrapper = document.createElement('div');
+        const heading = document.createElement('h2');
+        heading.textContent = title;
+        const row = document.createElement('div');
+        row.className = 'output';
+        const code = document.createElement('code');
+        code.textContent = value;
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'copy';
+        button.textContent = 'コピー';
+        button.addEventListener('click', async () => {
+          try {
+            await navigator.clipboard.writeText(value);
+            button.textContent = 'コピーしました';
+          } catch {
+            button.textContent = 'コピーできません';
+          }
+          setTimeout(() => {
+            button.textContent = 'コピー';
+          }, 1500);
+        });
+        row.append(code, button);
+        wrapper.append(heading, row);
+        return wrapper;
+      }
+
+      function render() {
+        const tag = $('tag').value.trim();
+        const domain = domainSelect.value;
+        const label = $('label').value.trim();
+        const lines = $('input').value.split('\n').map((line) => line.trim()).filter(Boolean);
+        const result = $('result');
+        result.replaceChildren();
+
+        if (!isValidTag(tag)) {
+          if (tag) {
+            const error = document.createElement('p');
+            error.className = 'error';
+            error.textContent = 'アソシエイトタグの形式が正しくありません（例: example-22）。';
+            result.append(error);
+          }
+          return;
+        }
+
+        try {
+          localStorage.setItem(TAG_STORAGE_KEY, tag);
+        } catch {
+          /* 保存できなくても動作に影響はない */
+        }
+
+        const urls = [];
+        for (const line of lines) {
+          const block = document.createElement('section');
+          try {
+            const { url, asin } = toAffiliateLink(line, { tag, defaultDomain: domain, forceDomain: domain });
+            urls.push(url);
+            block.append(outputBlock(`リンク (${asin})`, url));
+            block.append(outputBlock('HTML', buildHtmlSnippet({ url, label: label || url })));
+            block.append(outputBlock('Markdown', buildMarkdownSnippet({ url, label: label || url })));
+          } catch (error) {
+            const message = document.createElement('p');
+            message.className = 'error';
+            message.textContent = `${line} → ${error.message}`;
+            block.append(message);
+          }
+          result.append(block);
+        }
+
+        if (urls.length > 1) {
+          result.append(outputBlock('URL 一覧（まとめてコピー）', urls.join('\n')));
+        }
+      }
+
+      for (const id of ['tag', 'domain', 'label', 'input']) {
+        $(id).addEventListener('input', render);
+        $(id).addEventListener('change', render);
+      }
+      render();
+    </script>
+  </body>
+</html>

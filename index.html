@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ガジェット比較ノート</title>
+    <meta name="description" content="実際に使った製品を比較して紹介する、Amazonアソシエイト対応の商品紹介サイト。" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <p class="brand" id="site-name">ガジェット比較ノート</p>
+        <p class="tagline" id="site-tagline"></p>
+        <nav class="nav"><a href="./tools/link.html">リンク作成ツール</a></nav>
+      </div>
+    </header>
+
+    <p class="disclosure" id="disclosure" role="note"></p>
+    <p class="warning" id="tag-warning" hidden></p>
+
+    <main class="wrap">
+      <section class="controls" aria-label="絞り込み">
+        <label class="field">
+          <span>キーワード</span>
+          <input type="search" id="q" placeholder="商品名・特徴で検索" autocomplete="off" />
+        </label>
+        <label class="field">
+          <span>カテゴリ</span>
+          <select id="category"><option value="">すべて</option></select>
+        </label>
+        <label class="field">
+          <span>並び替え</span>
+          <select id="sort">
+            <option value="score">評価が高い順</option>
+            <option value="name">商品名順</option>
+            <option value="category">カテゴリ順</option>
+          </select>
+        </label>
+        <p class="count" id="count" aria-live="polite"></p>
+      </section>
+
+      <section id="compare-section" hidden aria-label="比較表">
+        <div class="compare-head">
+          <h2>比較表</h2>
+          <button type="button" id="clear-compare" class="link-button">選択を解除</button>
+        </div>
+        <div class="table-scroll"><table id="compare-table"></table></div>
+      </section>
+
+      <section id="products" class="grid" aria-label="商品一覧"></section>
+      <p class="empty" id="empty" hidden>該当する商品がありません。</p>
+      <p class="price-note" id="price-note"></p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p id="footer-disclosure"></p>
+        <p class="small">&copy; <span id="year"></span> <span class="footer-name"></span></p>
+      </div>
+    </footer>
+
+    <script type="module" src="./assets/app.js"></script>
+  </body>
+</html>
