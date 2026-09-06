@@ -212,17 +212,45 @@ function renderChecker(airlines) {
   );
 }
 
+/** 本体サイズ表記と全体サイズの差が最も大きい実例を、掲載商品から探して文章にする。 */
+function renderBodySizeGap(listed) {
+  const withBody = listed
+    .filter((product) => typeof product.bodySizeCm === 'string')
+    .map((product) => {
+      const bodyHeight = Number.parseFloat(product.bodySizeCm);
+      return { product, gap: Number((product.heightCm - bodyHeight).toFixed(1)) };
+    })
+    .filter(({ gap }) => Number.isFinite(gap) && gap > 0)
+    .sort((a, b) => b.gap - a.gap);
+
+  if (withBody.length === 0) return;
+  const { product, gap } = withBody[0];
+  el('body-gap').textContent =
+    `実例：${product.name} は本体サイズ ${product.bodySizeCm}cm に対し、キャスターとハンドルを含む全体サイズは ` +
+    `${product.heightCm}×${product.widthCm}×${product.depthCm}cm です。高さだけで ${gap}cm 増えます。`;
+}
+
 function renderProducts(dataset, airlines, config) {
   const products = dataset.products ?? [];
   const listed = products.filter(
     (product) => product.dimensionsVerified === true && typeof product.heightCm === 'number',
   );
   const pending = products.filter((product) => !listed.includes(product));
-  const shown = airlines.filter((airline) => ['peach', 'jetstar', 'zipair', 'ana_jal'].includes(airline.id));
+  const shown = airlines.filter((airline) =>
+    ['peach', 'jetstar', 'zipair', 'jejuair', 'ana_jal'].includes(airline.id),
+  );
+  const peach = airlines.find((airline) => airline.id === 'peach');
+  const jetstar = airlines.find((airline) => airline.id === 'jetstar');
+  const bothCount = listed.filter((product) => {
+    const results = evaluateAll(product, [peach, jetstar], {});
+    return results.peach.verdict === 'ok' && results.jetstar.verdict === 'ok';
+  }).length;
+
+  renderBodySizeGap(listed);
 
   el('products-status').textContent =
     listed.length > 0
-      ? `外寸を一次情報で確認できた ${listed.length} 件を掲載しています（${dataset.asOf} 時点）。`
+      ? `メーカー公式の仕様表で外寸（キャスター・ハンドル込み）を確認できた ${listed.length} 台を掲載しています（${dataset.asOf} 確認）。うちピーチとジェットスターの両方に持ち込めるのは ${bothCount} 台です。`
       : '外寸を一次情報で確認できた商品がまだありません。確認できたものだけをここに掲載します。';
 
   const table = el('products-table');
@@ -253,18 +281,30 @@ function renderProducts(dataset, airlines, config) {
         th,
         textCell(product.type ?? '—'),
         textCell(`${product.heightCm} × ${product.widthCm} × ${product.depthCm}`, 'num'),
+        textCell(product.bodySizeCm ?? '—', 'num'),
         textCell(`${totalCm(product)}`, 'num'),
         textCell(typeof product.weightKg === 'number' ? `${product.weightKg} kg` : '—', 'num'),
         textCell(typeof product.capacityL === 'number' ? `${product.capacityL} L` : '—', 'num'),
         ...shown.map((airline) => verdictCell(results[airline.id])),
       );
+      if (product.note) {
+        const noteRow = document.createElement('tr');
+        const noteCell = document.createElement('td');
+        noteCell.colSpan = 7 + shown.length;
+        noteCell.className = 'row-note';
+        noteCell.textContent = product.note;
+        noteRow.append(noteCell);
+        tbody.append(tr, noteRow);
+        continue;
+      }
       tbody.append(tr);
     }
     table.replaceChildren(
       headerRow([
         '商品',
         'タイプ',
-        '外寸 (cm)',
+        '外寸 (cm・キャスター込み)',
+        '本体サイズ表記 (cm)',
         '3辺合計',
         '本体重量',
         '容量',
@@ -276,6 +316,20 @@ function renderProducts(dataset, airlines, config) {
 
   const pendingBox = el('products-pending');
   pendingBox.replaceChildren();
+
+  const sources = listed.filter((product) => product.dimensionSource);
+  if (sources.length > 0) {
+    const heading = document.createElement('h3');
+    heading.textContent = 'サイズの出典';
+    const list = document.createElement('ul');
+    for (const product of sources) {
+      const li = document.createElement('li');
+      li.textContent = `${product.name}：${product.dimensionSource}`;
+      list.append(li);
+    }
+    pendingBox.append(heading, list);
+  }
+
   if (pending.length === 0) return;
 
   const heading = document.createElement('p');

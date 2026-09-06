@@ -57,3 +57,5 @@ td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .notes ul { padding-left: 1.2em; margin: 4px 0 12px; }
 .notes h3 { font-size: 0.85rem; margin: 12px 0 4px; color: var(--text); }
 .empty-table { padding: 14px; border: 1px dashed var(--border); border-radius: 10px; color: var(--muted); font-size: 0.85rem; }
+
+td.row-note { font-size: 0.78rem; color: var(--muted); background: color-mix(in srgb, var(--border) 25%, transparent); }
