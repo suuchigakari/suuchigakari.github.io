@@ -29,28 +29,28 @@ export function inRange(value, range) {
  * @param {number[]|{base:number[], expanded?:number[], partsNote?:string}} spec
  * @returns {{ status: string, detail: string }}
  */
-export function evaluateRange(value, spec) {
+export function evaluateRange(value, spec, unit = '') {
   if (spec == null) {
     return { status: FIT.UNKNOWN, detail: '公式に明記なし' };
   }
   if (isRange(spec)) {
     return inRange(value, spec)
-      ? { status: FIT.OK, detail: `${spec[0]}〜${spec[1]}cm に収まる` }
-      : { status: FIT.NG, detail: `対応幅は ${spec[0]}〜${spec[1]}cm` };
+      ? { status: FIT.OK, detail: `${spec[0]}〜${spec[1]}${unit} に収まる` }
+      : { status: FIT.NG, detail: `対応範囲は ${spec[0]}〜${spec[1]}${unit}` };
   }
   if (inRange(value, spec.base)) {
-    return { status: FIT.OK, detail: `本体のみで対応（${spec.base[0]}〜${spec.base[1]}cm）` };
+    return { status: FIT.OK, detail: `本体のみで対応（${spec.base[0]}〜${spec.base[1]}${unit}）` };
   }
   if (spec.expanded && inRange(value, spec.expanded)) {
     return {
       status: FIT.OK_WITH_PARTS,
       detail: spec.partsNote
-        ? `${spec.partsNote}で対応（〜${spec.expanded[1]}cm）`
-        : `拡張パーツで対応（〜${spec.expanded[1]}cm）`,
+        ? `${spec.partsNote}で対応（〜${spec.expanded[1]}${unit}）`
+        : `拡張パーツで対応（〜${spec.expanded[1]}${unit}）`,
     };
   }
   const max = spec.expanded ? spec.expanded[1] : spec.base[1];
-  return { status: FIT.NG, detail: `対応幅は最大 ${max}cm` };
+  return { status: FIT.NG, detail: `対応範囲は最大 ${max}${unit}` };
 }
 
 /**
@@ -103,7 +103,7 @@ export function evaluateProduct(product, requirements) {
     const spec = product.specs?.[requirement.key];
     let result;
     if (requirement.type === 'range') {
-      result = evaluateRange(requirement.value, spec);
+      result = evaluateRange(requirement.value, spec, requirement.unit ?? '');
     } else if (requirement.type === 'atLeast') {
       result = evaluateAtLeast(requirement.value, spec, requirement.unit ?? '');
     } else if (requirement.type === 'atMost') {

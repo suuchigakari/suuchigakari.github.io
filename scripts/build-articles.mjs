@@ -19,6 +19,12 @@ const COMPUTED = {
 const root = new URL('..', import.meta.url);
 const articlesDir = new URL('data/articles/', root);
 
+/** filter は numberInput 単体でも numberInputs 配列でも書ける。 */
+function numberInputsOf(filter) {
+  if (!filter) return [];
+  return filter.numberInputs ?? (filter.numberInput ? [filter.numberInput] : []);
+}
+
 const STATUS_LABEL = {
   [FIT.OK]: '○',
   [FIT.OK_WITH_PARTS]: '△',
@@ -87,7 +93,8 @@ function renderProductRow(product, columns, config, verdict) {
       )}</td></tr>`
     : '';
 
-  const detail = verdict.results[0]?.detail ?? '';
+  const failed = verdict.results.find((result) => result.status !== FIT.OK);
+  const detail = (failed ?? verdict.results[0])?.detail ?? '';
   return `          <tr data-product="${escapeHtml(product.name)}">
             <th scope="row">${name}</th>
             <td class="verdict ${verdict.status}">${STATUS_LABEL[verdict.status]}<span class="reason">${escapeHtml(
@@ -117,14 +124,19 @@ ${rows}
 
 function renderFilter(filter) {
   if (!filter) return '';
-  const { numberInput, flagInput } = filter;
+  const { flagInput } = filter;
+  const inputs = numberInputsOf(filter)
+    .map(
+      (input, index) => `          <label>${escapeHtml(input.label)}
+            <input type="number" id="filter-number-${index}" step="${input.step ?? 0.5}" min="${input.min}" max="${input.max}" value="${input.default}" />
+          </label>`,
+    )
+    .join('\n');
   return `      <section>
         <h2>${escapeHtml(filter.heading)}</h2>
         <p class="small">${escapeHtml(filter.note)}</p>
         <form class="checker" id="filter">
-          <label>${escapeHtml(numberInput.label)}
-            <input type="number" id="filter-number" step="${numberInput.step ?? 0.5}" min="${numberInput.min}" max="${numberInput.max}" value="${numberInput.default}" />
-          </label>
+${inputs}
           <label class="checkbox">
             <input type="checkbox" id="filter-flag" />${escapeHtml(flagInput.label)}
           </label>
@@ -147,18 +159,14 @@ function renderSources(products, sources) {
 function renderArticle(article, config) {
   const products = verifiedProducts(article.products);
   const pending = article.products.length - products.length;
-  const input = article.filter?.numberInput;
-  const requirements = input
-    ? [
-        {
-          key: input.key,
-          type: input.type,
-          value: input.default,
-          unit: input.unit ?? '',
-          label: input.label,
-        },
-      ]
-    : [];
+  const inputs = numberInputsOf(article.filter);
+  const requirements = inputs.map((input) => ({
+    key: input.key,
+    type: input.type,
+    value: input.default,
+    unit: input.unit ?? '',
+    label: input.label,
+  }));
   // 初期表示の判定は「幅だけ」で行う（チェックボックスは既定でオフのため）。
   const initial = products.map((product) => evaluateProduct(product, requirements));
 
@@ -205,9 +213,9 @@ ${renderFilter(article.filter)}
           article.asOf,
         )} 確認）。${pending > 0 ? `仕様を確認できなかった ${pending} 件は掲載していません。` : ''}</p>
 ${renderTable(products, article.columns, config, initial)}
-        <p class="small">判定は「${escapeHtml(input?.label ?? '')}」に入力した値に対する結果です（初期値 ${
-          input?.default ?? ''
-        }）。${escapeHtml(article.verdictLegend ?? '○＝条件を満たす、△＝拡張パーツが必要、×＝満たさない、?＝公式に明記なし。')}</p>
+        <p class="small">判定は「${escapeHtml(
+          inputs.map((input) => `${input.label} ${input.default}`).join('』『'),
+        )}」に対する結果です。${escapeHtml(article.verdictLegend ?? '○＝条件を満たす、△＝拡張パーツが必要、×＝満たさない、?＝公式に明記なし。')}</p>
       </section>
 
 ${renderSources(products, article.sources)}

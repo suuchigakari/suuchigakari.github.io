@@ -29,6 +29,9 @@ test('単純なレンジ判定', () => {
   assert.equal(inRange(95, [67, 91]), false);
   assert.equal(evaluateRange(80, [67, 91]).status, FIT.OK);
   assert.equal(evaluateRange(95, [67, 91]).status, FIT.NG);
+  // 単位は呼び出し側が渡す（cm 固定にしない）
+  assert.match(evaluateRange(80, [67, 91], 'cm').detail, /67〜91cm/);
+  assert.match(evaluateRange(25, [8, 20], 'kg').detail, /対応範囲は 8〜20kg/);
 });
 
 test('拡張パーツが必要な範囲は ok-with-parts になる', () => {
@@ -37,7 +40,7 @@ test('拡張パーツが必要な範囲は ok-with-parts になる', () => {
   assert.equal(evaluateRange(120, spec).status, FIT.OK_WITH_PARTS);
   assert.match(evaluateRange(120, spec).detail, /ワイドパネル/);
   assert.equal(evaluateRange(200, spec).status, FIT.NG);
-  assert.match(evaluateRange(200, spec).detail, /最大 187cm/);
+  assert.match(evaluateRange(200, spec, 'cm').detail, /最大 187cm/);
 });
 
 test('仕様が無いレンジは unknown', () => {
@@ -54,7 +57,7 @@ test('安全に関わるフラグは、明記がなければ ok にしない', (
 
 test('商品全体の判定は、最も厳しい結果を採用する', () => {
   const requirements = [
-    { key: 'openingWidthCm', type: 'range', value: 80, label: '開口幅' },
+    { key: 'openingWidthCm', type: 'range', value: 80, unit: 'cm', label: '開口幅' },
     { key: 'stairTop', type: 'flag', required: true, label: '階段上' },
   ];
   const result = evaluateProduct(gate, requirements);

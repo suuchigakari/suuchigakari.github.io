@@ -15,7 +15,10 @@ const dataNode = document.getElementById('article-data');
 const form = document.getElementById('filter');
 if (dataNode && form) {
   const { filter, products } = JSON.parse(dataNode.textContent);
-  const numberInput = document.getElementById('filter-number');
+  const numberInputs = filter.numberInputs ?? (filter.numberInput ? [filter.numberInput] : []);
+  const numberFields = numberInputs.map((_, index) =>
+    document.getElementById(`filter-number-${index}`),
+  );
   const flagInput = document.getElementById('filter-flag');
   const summary = document.getElementById('filter-summary');
   const rows = new Map(
@@ -26,16 +29,13 @@ if (dataNode && form) {
   );
 
   const render = () => {
-    const value = Number(numberInput.value);
-    const requirements = [
-      {
-        key: filter.numberInput.key,
-        type: filter.numberInput.type,
-        value,
-        unit: filter.numberInput.unit ?? '',
-        label: filter.numberInput.label,
-      },
-    ];
+    const requirements = numberInputs.map((input, index) => ({
+      key: input.key,
+      type: input.type,
+      value: Number(numberFields[index].value),
+      unit: input.unit ?? '',
+      label: input.label,
+    }));
     if (flagInput.checked) {
       requirements.push({
         key: filter.flagInput.key,
@@ -63,9 +63,9 @@ if (dataNode && form) {
       cell.append(reason);
     }
 
-    const condition = `${filter.numberInput.label.replace(/\s*\(.*\)/, '')} ${value}${
-      filter.numberInput.unit ?? ''
-    }`;
+    const condition = requirements
+      .map((requirement) => `${requirement.label.replace(/\s*\(.*\)/, '')} ${requirement.value}${requirement.unit}`)
+      .join('・');
     summary.textContent = flagInput.checked
       ? `${condition}・${filter.flagInput.label}：${products.length} 件中 ${usable} 件が候補`
       : `${condition}：${products.length} 件中 ${usable} 件が候補`;
