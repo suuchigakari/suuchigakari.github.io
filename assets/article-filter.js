@@ -2,7 +2,7 @@
  * 生成された比較表の絞り込み。
  * 表そのものは静的HTMLとして出力済みで、この読み込みは付加機能。
  */
-import { FIT, evaluateProduct } from '../src/fit.js';
+import { FIT, applyTransform, evaluateProduct } from '../src/fit.js';
 
 const STATUS_LABEL = {
   [FIT.OK]: '○',
@@ -32,7 +32,7 @@ if (dataNode && form) {
     const requirements = numberInputs.map((input, index) => ({
       key: input.key,
       type: input.type,
-      value: Number(numberFields[index].value),
+      value: applyTransform(Number(numberFields[index].value), input.transform),
       unit: input.unit ?? '',
       label: input.label,
     }));
@@ -63,8 +63,11 @@ if (dataNode && form) {
       cell.append(reason);
     }
 
-    const condition = requirements
-      .map((requirement) => `${requirement.label.replace(/\s*\(.*\)/, '')} ${requirement.value}${requirement.unit}`)
+    const condition = numberInputs
+      .map(
+        (input, index) =>
+          `${input.label.replace(/\s*\(.*\)/, '')} ${numberFields[index].value}${input.unit ?? ''}`,
+      )
       .join('・');
     summary.textContent = flagInput.checked
       ? `${condition}・${filter.flagInput.label}：${products.length} 件中 ${usable} 件が候補`

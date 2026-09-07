@@ -9,7 +9,14 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 
 import { buildAffiliateUrl, escapeHtml } from '../src/affiliate.js';
-import { FIT, bulkRatio, evaluateProduct, formatSpec, verifiedProducts } from '../src/fit.js';
+import {
+  FIT,
+  applyTransform,
+  bulkRatio,
+  evaluateProduct,
+  formatSpec,
+  verifiedProducts,
+} from '../src/fit.js';
 
 /** 列の値を仕様から計算する場合の関数。JSON からは名前で参照する。 */
 const COMPUTED = {
@@ -163,7 +170,7 @@ function renderArticle(article, config) {
   const requirements = inputs.map((input) => ({
     key: input.key,
     type: input.type,
-    value: input.default,
+    value: applyTransform(input.default, input.transform),
     unit: input.unit ?? '',
     label: input.label,
   }));

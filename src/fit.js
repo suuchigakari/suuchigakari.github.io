@@ -125,6 +125,15 @@ export function evaluateProduct(product, requirements) {
   return { status, results };
 }
 
+/**
+ * 入力値から要件の値を作る変換。
+ * 例: 平面鏡は身長の半分の鏡面高さがあれば全身が映るので、身長入力を half で渡す。
+ */
+export function applyTransform(value, transform) {
+  if (transform === 'half') return Number((value / 2).toFixed(1));
+  return value;
+}
+
 /** 掲載してよい商品（仕様を一次情報で確認済み）だけに絞る。 */
 export function verifiedProducts(products) {
   return products.filter((product) => product.verified === true);

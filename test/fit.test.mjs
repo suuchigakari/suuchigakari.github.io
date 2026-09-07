@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 
 import {
   FIT,
+  applyTransform,
   bulkRatio,
   evaluateAtLeast,
   evaluateAtMost,
@@ -134,4 +135,10 @@ test('「この値以下」の判定（温度など、小さいほど強い仕�
     ]).status,
     FIT.NG,
   );
+});
+
+test('入力値の変換（身長→必要な鏡面高さ）', () => {
+  assert.equal(applyTransform(170, 'half'), 85);
+  assert.equal(applyTransform(165, 'half'), 82.5);
+  assert.equal(applyTransform(170, undefined), 170);
 });
