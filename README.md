@@ -5,8 +5,8 @@ Amazon アソシエイト向けの、**商品紹介サイト**と**アフィリ�
 
 ## できること
 
-- `data/products.json` に商品を書くだけで、比較サイトが生成される（検索 / カテゴリ絞り込み / 並び替え / 比較表）
-- 商品リンクは表示時に `?tag=` 付きで生成されるので、タグ変更は `site.config.json` の 1 か所だけ
+- `data/articles/*.json` に書いた記事から、静的な記事HTMLとトップページを生成
+- 商品リンクは `?tag=` 付きで生成されるので、タグ変更は `site.config.json` の 1 か所だけ
 - 商品ページ URL を貼るだけで、追跡パラメータを落とした最短形リンク（HTML / Markdown 付き）を作れるツール
 - **機内持ち込みキャリーケースの適合判定**：外寸と本体重量から、LCC 9 社への可否・各辺の余裕・中身に使える重量を自動計算（`src/luggage.js`）
 - ジャンル選定の調査結果（31ジャンル・紹介料率・Tier 評価）は `docs/` に格納。運用ルールは `CLAUDE.md`
@@ -24,9 +24,18 @@ Amazon アソシエイト向けの、**商品紹介サイト**と**アフィリ�
 ## 使い方
 
 ```bash
-npm start          # http://localhost:8000/ で表示
-npm test           # リンク生成ロジックのテスト
+npm run build      # data/articles/*.json から記事HTMLとトップページを生成
+npm start          # 生成してから http://localhost:8000/ で表示
+npm test           # 判定ロジックのテスト
 ```
+
+### 記事を追加する
+
+1. `data/articles/<slug>.json` を作る（リード文・外す人・結論・本文・比較表の列・商品データ）
+2. 商品の仕様はメーカー公式で確認し、`verified: true` と `source`（URL＋確認日）を書く。確認できないものは `verified: false` のままにする（表に出ない）
+3. `npm run build` で `articles/<slug>.html` と `index.html` を生成し、生成物ごとコミットする
+
+本文も比較表も静的HTMLとして出力されるので、JavaScript を切っても読めます。絞り込みだけが `assets/article-filter.js` による付加機能です。
 
 ## 公開する（Amazonアソシエイト申請の前提）
 
@@ -99,11 +108,12 @@ ES モジュールを `fetch` で読み込むため、`index.html` を `file://`
 | `articles/lcc-carrycase.html` | LCC 対応キャリーケースの記事 |
 | `data/airlines.json` | 航空会社別の機内持ち込み規定（確認日・根拠つき） |
 | `data/luggage-products.json` | 記事用の商品データ（外寸を裏取りしたものだけ掲載される） |
-| `assets/app.js` | 商品一覧・絞り込み・比較表の描画 |
-| `index.html` / `assets/style.css` | サイト本体（ライト / ダーク対応） |
+| `scripts/build-articles.mjs` | 記事HTML・トップページの生成 |
+| `src/fit.js` | 記事共通の適合判定（レンジ・拡張パーツ・フラグ） |
+| `assets/article-filter.js` | 生成された比較表の絞り込み（付加機能） |
+| `index.html` / `assets/style.css` | サイト本体（生成物・ライト / ダーク対応） |
 | `tools/link.html` | リンク作成ツール |
 | `site.config.json` | サイト名・タグ・開示文などの設定 |
-| `data/products.json` | 商品データ |
 | `test/*.test.mjs` | 単体テスト（`node --test`、27件） |
 | `scripts/serve.mjs` | 依存なしの開発用静的サーバ |
 

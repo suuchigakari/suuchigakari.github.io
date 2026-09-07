@@ -5,8 +5,9 @@
   "type": "module",
   "description": "Amazonアソシエイト向けの商品紹介サイトとアフィリエイトリンク作成ツール",
   "scripts": {
-    "start": "node scripts/serve.mjs",
-    "test": "node --test test/*.test.mjs"
+    "start": "node scripts/build-articles.mjs && node scripts/serve.mjs",
+    "test": "node --test test/*.test.mjs",
+    "build": "node scripts/build-articles.mjs"
   },
   "engines": {
     "node": ">=20"

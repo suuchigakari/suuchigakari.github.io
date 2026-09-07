@@ -4,68 +4,65 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ガジェット比較ノート</title>
-    <meta name="description" content="実際に使った製品を比較して紹介する、Amazonアソシエイト対応の商品紹介サイト。" />
+    <meta name="description" content="実際に使って選んだ製品だけを、比較して紹介します。" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/article.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="wrap">
-        <p class="brand" id="site-name">ガジェット比較ノート</p>
-        <p class="tagline" id="site-tagline"></p>
-        <nav class="nav">
-          <a href="./articles/lcc-carrycase.html">記事：LCC対応キャリーケースの選び方</a>
-          <a href="./tools/link.html">リンク作成ツール</a>
-        </nav>
+        <p class="brand">ガジェット比較ノート</p>
+        <p class="tagline">実際に使って選んだ製品だけを、比較して紹介します。</p>
+        <nav class="nav"><a href="./tools/link.html">リンク作成ツール</a></nav>
       </div>
     </header>
 
-    <p class="disclosure" id="disclosure" role="note"></p>
-    <p class="warning" id="tag-warning" hidden></p>
+    <p class="disclosure">当サイトは Amazon アソシエイト・プログラムの参加者です。適格販売により収入を得ています。記事内の商品リンクにはアフィリエイトリンクが含まれます。</p>
 
     <main class="wrap">
-      <section class="controls" aria-label="絞り込み">
-        <label class="field">
-          <span>キーワード</span>
-          <input type="search" id="q" placeholder="商品名・特徴で検索" autocomplete="off" />
-        </label>
-        <label class="field">
-          <span>カテゴリ</span>
-          <select id="category"><option value="">すべて</option></select>
-        </label>
-        <label class="field">
-          <span>並び替え</span>
-          <select id="sort">
-            <option value="score">評価が高い順</option>
-            <option value="name">商品名順</option>
-            <option value="category">カテゴリ順</option>
-          </select>
-        </label>
-        <p class="count" id="count" aria-live="polite"></p>
+      <section class="callout" aria-label="このサイトの方針">
+        <h2>数値で比べられるものだけを扱います</h2>
+        <ul>
+          <li>スペックはメーカー公式または航空会社公式で確認した数値のみを掲載し、確認日と出典を残しています。</li>
+          <li>確認できなかった商品は掲載しません（件数だけ表示します）。</li>
+          <li>価格は掲載していません。変動するため、リンク先の Amazon.co.jp でご確認ください。</li>
+        </ul>
       </section>
 
-      <section id="compare-section" hidden aria-label="比較表">
-        <div class="compare-head">
-          <h2>比較表</h2>
-          <button type="button" id="clear-compare" class="link-button">選択を解除</button>
-        </div>
-        <div class="table-scroll"><table id="compare-table"></table></div>
+      <section class="grid" aria-label="記事一覧">
+        <article class="card">
+          <p class="meta">
+            <span class="badge">キャリーケース</span>
+            <span class="badge">紹介料率 8.00%</span>
+            <span class="badge">2026-09-06 確認</span>
+          </p>
+          <h2><a href="./articles/lcc-carrycase.html">LCCで弾かれないキャリーケースの選び方</a></h2>
+          <p class="summary">「3辺合計115cm以内」を満たしてもLCCでは各辺の上限で弾かれます。ピーチとジェットスターの規定は1台で両立しません。</p>
+          <p class="small">掲載 7 件（メーカー公式の仕様で確認したものだけ）</p>
+        </article>
+        <article class="card">
+          <p class="meta">
+            <span class="badge">ベビーゲート</span>
+            <span class="badge">紹介料率 4.00%</span>
+            <span class="badge">2026-09-07 確認</span>
+          </p>
+          <h2><a href="./articles/baby-gate.html">ベビーゲートは「最大◯cm」で選ぶと付かない｜開口幅と固定方式で選ぶ</a></h2>
+          <p class="summary">ベビーゲートの対応幅は範囲で決まっていて、実測した開口幅が範囲外だと拡張パーツが要るか、そもそも付きません。階段上に置けるのはネジ固定を公式に明記した製品だけです。開口幅を入れて対応製品を判定できます。</p>
+          <p class="small">掲載 7 件（メーカー公式の仕様で確認したものだけ）</p>
+        </article>
       </section>
 
-      <section id="products" class="grid" aria-label="商品一覧"></section>
-      <p class="empty" id="empty" hidden>該当する商品がありません。</p>
-      <p class="price-note" id="price-note"></p>
+      <p class="price-note">価格・在庫は変動します。最新の価格は Amazon の商品ページでご確認ください。</p>
     </main>
 
     <footer class="site-footer">
       <div class="wrap">
-        <p id="footer-disclosure"></p>
+        <p>当サイトは Amazon アソシエイト・プログラムの参加者です。適格販売により収入を得ています。記事内の商品リンクにはアフィリエイトリンクが含まれます。</p>
         <p class="small">
           <a href="./pages/about.html">運営者情報</a> ・ <a href="./pages/privacy.html">プライバシーポリシー</a>
         </p>
-        <p class="small">&copy; <span id="year"></span> <span class="footer-name"></span></p>
+        <p class="small">&copy; 2026 ガジェット比較ノート</p>
       </div>
     </footer>
-
-    <script type="module" src="./assets/app.js"></script>
   </body>
 </html>
