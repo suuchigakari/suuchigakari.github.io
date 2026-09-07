@@ -5,6 +5,7 @@ import {
   FIT,
   bulkRatio,
   evaluateAtLeast,
+  evaluateAtMost,
   outerVolumeL,
   evaluateFlag,
   evaluateProduct,
@@ -115,6 +116,19 @@ test('atLeast も商品判定に使える', () => {
   assert.equal(evaluateProduct(cooler, requirements).status, FIT.OK);
   assert.equal(
     evaluateProduct({ verified: true, specs: { capacityL: 14 } }, requirements).status,
+    FIT.NG,
+  );
+});
+
+test('「この値以下」の判定（温度など、小さいほど強い仕様）', () => {
+  assert.equal(evaluateAtMost(5, 3, '℃').status, FIT.OK);
+  assert.equal(evaluateAtMost(5, 7, '℃').status, FIT.NG);
+  assert.match(evaluateAtMost(5, 7, '℃').detail, /5℃ には足りない/);
+  assert.equal(evaluateAtMost(5, null).status, FIT.UNKNOWN);
+  assert.equal(
+    evaluateProduct({ specs: { comfortC: 7 } }, [
+      { key: 'comfortC', type: 'atMost', value: 5, unit: '℃', label: '快適温度' },
+    ]).status,
     FIT.NG,
   );
 });

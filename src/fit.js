@@ -66,6 +66,18 @@ export function evaluateAtLeast(value, spec, unit = '') {
 }
 
 /**
+ * 「この値以下であること」を求める判定（例: 想定する最低気温 5℃ 以下で快適に使える）。
+ */
+export function evaluateAtMost(value, spec, unit = '') {
+  if (typeof spec !== 'number') {
+    return { status: FIT.UNKNOWN, detail: '公式に明記なし' };
+  }
+  return spec <= value
+    ? { status: FIT.OK, detail: `${spec}${unit}` }
+    : { status: FIT.NG, detail: `${spec}${unit}（${value}${unit} には足りない）` };
+}
+
+/**
  * 真偽値の仕様。null は「公式に明記なし」として unknown を返す。
  * 安全に関わる項目（階段上に設置できるか等）は、明記がないものを ok にしない。
  */
@@ -94,6 +106,8 @@ export function evaluateProduct(product, requirements) {
       result = evaluateRange(requirement.value, spec);
     } else if (requirement.type === 'atLeast') {
       result = evaluateAtLeast(requirement.value, spec, requirement.unit ?? '');
+    } else if (requirement.type === 'atMost') {
+      result = evaluateAtMost(requirement.value, spec, requirement.unit ?? '');
     } else {
       result = evaluateFlag(spec, { required: requirement.required });
     }
