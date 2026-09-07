@@ -54,6 +54,18 @@ export function evaluateRange(value, spec) {
 }
 
 /**
+ * 「この値以上あること」を求める判定（例: 必要な容量 25L 以上）。
+ */
+export function evaluateAtLeast(value, spec, unit = '') {
+  if (typeof spec !== 'number') {
+    return { status: FIT.UNKNOWN, detail: '公式に明記なし' };
+  }
+  return spec >= value
+    ? { status: FIT.OK, detail: `${spec}${unit}` }
+    : { status: FIT.NG, detail: `${spec}${unit}（${value}${unit} に届かない）` };
+}
+
+/**
  * 真偽値の仕様。null は「公式に明記なし」として unknown を返す。
  * 安全に関わる項目（階段上に設置できるか等）は、明記がないものを ok にしない。
  */
@@ -77,10 +89,14 @@ export function evaluateFlag(spec, { required = true } = {}) {
 export function evaluateProduct(product, requirements) {
   const results = requirements.map((requirement) => {
     const spec = product.specs?.[requirement.key];
-    const result =
-      requirement.type === 'range'
-        ? evaluateRange(requirement.value, spec)
-        : evaluateFlag(spec, { required: requirement.required });
+    let result;
+    if (requirement.type === 'range') {
+      result = evaluateRange(requirement.value, spec);
+    } else if (requirement.type === 'atLeast') {
+      result = evaluateAtLeast(requirement.value, spec, requirement.unit ?? '');
+    } else {
+      result = evaluateFlag(spec, { required: requirement.required });
+    }
     return { ...requirement, ...result };
   });
 
@@ -106,9 +122,29 @@ export function formatSpec(spec, unit = '') {
   if (typeof spec === 'boolean') return spec ? '○' : '×';
   if (typeof spec === 'number') return `${spec}${unit}`;
   if (isRange(spec)) return `${spec[0]}〜${spec[1]}${unit}`;
+  // 3辺の寸法は「幅 × 奥行 × 高さ」として表示する
+  if (Array.isArray(spec) && spec.length === 3 && spec.every((n) => typeof n === 'number')) {
+    return `${spec.join(' × ')}${unit}`;
+  }
   if (typeof spec === 'object' && isRange(spec.base)) {
     const base = `${spec.base[0]}〜${spec.base[1]}${unit}`;
     return spec.expanded ? `${base}（拡張時 〜${spec.expanded[1]}${unit}）` : base;
   }
   return String(spec);
+}
+
+/** 外寸（cm の3辺）から体積(L)を出す。 */
+export function outerVolumeL(sidesCm) {
+  if (!Array.isArray(sidesCm) || sidesCm.length !== 3) return null;
+  return Number((sidesCm.reduce((product, side) => product * side, 1) / 1000).toFixed(1));
+}
+
+/**
+ * 「外寸体積 ÷ 内容量」。断熱材の厚みぶんだけ大きくなるので、
+ * 同じ容量なら数値が大きいほど嵩張る（＝壁が厚い）。
+ */
+export function bulkRatio(sidesCm, capacityL) {
+  const outer = outerVolumeL(sidesCm);
+  if (outer === null || typeof capacityL !== 'number' || capacityL <= 0) return null;
+  return Number((outer / capacityL).toFixed(2));
 }

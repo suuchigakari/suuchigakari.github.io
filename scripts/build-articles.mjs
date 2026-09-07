@@ -9,7 +9,12 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 
 import { buildAffiliateUrl, escapeHtml } from '../src/affiliate.js';
-import { FIT, evaluateProduct, formatSpec, verifiedProducts } from '../src/fit.js';
+import { FIT, bulkRatio, evaluateProduct, formatSpec, verifiedProducts } from '../src/fit.js';
+
+/** 列の値を仕様から計算する場合の関数。JSON からは名前で参照する。 */
+const COMPUTED = {
+  bulkRatio: (product) => bulkRatio(product.specs?.outerCm, product.specs?.capacityL),
+};
 
 const root = new URL('..', import.meta.url);
 const articlesDir = new URL('data/articles/', root);
@@ -67,7 +72,10 @@ function renderProductRow(product, columns, config, verdict) {
 
   const cells = columns
     .map((column) => {
-      const value = formatSpec(product.specs?.[column.key], column.unit ?? '');
+      const raw = column.computed
+        ? COMPUTED[column.computed](product)
+        : product.specs?.[column.key];
+      const value = formatSpec(raw, column.unit ?? '');
       const className = value === '公式に明記なし' ? 'unknown' : 'num';
       return `<td class="${className}">${escapeHtml(value)}</td>`;
     })
@@ -109,13 +117,13 @@ ${rows}
 
 function renderFilter(filter) {
   if (!filter) return '';
-  const { widthInput, flagInput } = filter;
+  const { numberInput, flagInput } = filter;
   return `      <section>
         <h2>${escapeHtml(filter.heading)}</h2>
         <p class="small">${escapeHtml(filter.note)}</p>
         <form class="checker" id="filter">
-          <label>${escapeHtml(widthInput.label)}
-            <input type="number" id="filter-width" step="0.5" min="${widthInput.min}" max="${widthInput.max}" value="${widthInput.default}" />
+          <label>${escapeHtml(numberInput.label)}
+            <input type="number" id="filter-number" step="${numberInput.step ?? 0.5}" min="${numberInput.min}" max="${numberInput.max}" value="${numberInput.default}" />
           </label>
           <label class="checkbox">
             <input type="checkbox" id="filter-flag" />${escapeHtml(flagInput.label)}
@@ -139,9 +147,16 @@ function renderSources(products, sources) {
 function renderArticle(article, config) {
   const products = verifiedProducts(article.products);
   const pending = article.products.length - products.length;
-  const requirements = article.filter
+  const input = article.filter?.numberInput;
+  const requirements = input
     ? [
-        { key: article.filter.widthInput.key, type: 'range', value: article.filter.widthInput.default, label: article.filter.widthInput.label },
+        {
+          key: input.key,
+          type: input.type,
+          value: input.default,
+          unit: input.unit ?? '',
+          label: input.label,
+        },
       ]
     : [];
   // 初期表示の判定は「幅だけ」で行う（チェックボックスは既定でオフのため）。
@@ -190,9 +205,9 @@ ${renderFilter(article.filter)}
           article.asOf,
         )} 確認）。${pending > 0 ? `仕様を確認できなかった ${pending} 件は掲載していません。` : ''}</p>
 ${renderTable(products, article.columns, config, initial)}
-        <p class="small">判定は「${escapeHtml(article.filter?.widthInput.label ?? '')}」に入力した値に対する結果です（初期値 ${
-          article.filter?.widthInput.default ?? ''
-        }）。○＝本体のみで対応、△＝拡張パーツが必要、×＝対応範囲外、?＝公式に明記なし。</p>
+        <p class="small">判定は「${escapeHtml(input?.label ?? '')}」に入力した値に対する結果です（初期値 ${
+          input?.default ?? ''
+        }）。${escapeHtml(article.verdictLegend ?? '○＝条件を満たす、△＝拡張パーツが必要、×＝満たさない、?＝公式に明記なし。')}</p>
       </section>
 
 ${renderSources(products, article.sources)}

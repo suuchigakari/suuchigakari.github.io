@@ -15,7 +15,7 @@ const dataNode = document.getElementById('article-data');
 const form = document.getElementById('filter');
 if (dataNode && form) {
   const { filter, products } = JSON.parse(dataNode.textContent);
-  const widthInput = document.getElementById('filter-width');
+  const numberInput = document.getElementById('filter-number');
   const flagInput = document.getElementById('filter-flag');
   const summary = document.getElementById('filter-summary');
   const rows = new Map(
@@ -26,9 +26,15 @@ if (dataNode && form) {
   );
 
   const render = () => {
-    const width = Number(widthInput.value);
+    const value = Number(numberInput.value);
     const requirements = [
-      { key: filter.widthInput.key, type: 'range', value: width, label: filter.widthInput.label },
+      {
+        key: filter.numberInput.key,
+        type: filter.numberInput.type,
+        value,
+        unit: filter.numberInput.unit ?? '',
+        label: filter.numberInput.label,
+      },
     ];
     if (flagInput.checked) {
       requirements.push({
@@ -57,9 +63,12 @@ if (dataNode && form) {
       cell.append(reason);
     }
 
+    const condition = `${filter.numberInput.label.replace(/\s*\(.*\)/, '')} ${value}${
+      filter.numberInput.unit ?? ''
+    }`;
     summary.textContent = flagInput.checked
-      ? `開口幅 ${width}cm・階段上に設置：${products.length} 件中 ${usable} 件が候補`
-      : `開口幅 ${width}cm：${products.length} 件中 ${usable} 件が候補`;
+      ? `${condition}・${filter.flagInput.label}：${products.length} 件中 ${usable} 件が候補`
+      : `${condition}：${products.length} 件中 ${usable} 件が候補`;
   };
 
   form.addEventListener('input', render);

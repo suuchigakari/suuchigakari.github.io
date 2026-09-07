@@ -70,7 +70,7 @@
         <p class="small">実測した開口幅（柱の内側から内側まで）と、設置場所を選んでください。判定はこの端末の中だけで行われ、どこにも送信されません。</p>
         <form class="checker" id="filter">
           <label>開口幅 (cm)
-            <input type="number" id="filter-width" step="0.5" min="40" max="200" value="80" />
+            <input type="number" id="filter-number" step="0.5" min="40" max="200" value="80" />
           </label>
           <label class="checkbox">
             <input type="checkbox" id="filter-flag" />階段の上に設置する
@@ -176,17 +176,20 @@
   "filter": {
     "heading": "開口幅を入れて絞り込む",
     "note": "実測した開口幅（柱の内側から内側まで）と、設置場所を選んでください。判定はこの端末の中だけで行われ、どこにも送信されません。",
-    "widthInput": {
-      "key": "openingWidthCm",
-      "label": "開口幅 (cm)",
-      "default": 80,
-      "min": 40,
-      "max": 200
-    },
     "flagInput": {
       "key": "stairTop",
       "label": "階段の上に設置する",
       "default": false
+    },
+    "numberInput": {
+      "key": "openingWidthCm",
+      "type": "range",
+      "label": "開口幅 (cm)",
+      "unit": "cm",
+      "default": 80,
+      "min": 40,
+      "max": 200,
+      "step": 0.5
     }
   },
   "products": [

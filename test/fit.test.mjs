@@ -3,6 +3,9 @@ import assert from 'node:assert/strict';
 
 import {
   FIT,
+  bulkRatio,
+  evaluateAtLeast,
+  outerVolumeL,
   evaluateFlag,
   evaluateProduct,
   evaluateRange,
@@ -87,4 +90,31 @@ test('仕様の表示形式', () => {
   assert.equal(formatSpec(true), '○');
   assert.equal(formatSpec(4.5, 'kg'), '4.5kg');
   assert.equal(formatSpec('つっぱり式'), 'つっぱり式');
+  assert.equal(formatSpec([46, 36, 31.5]), '46 × 36 × 31.5');
+});
+
+test('「この値以上」の判定', () => {
+  assert.equal(evaluateAtLeast(25, 28, 'L').status, FIT.OK);
+  assert.equal(evaluateAtLeast(25, 21, 'L').status, FIT.NG);
+  assert.match(evaluateAtLeast(25, 21, 'L').detail, /25L に届かない/);
+  assert.equal(evaluateAtLeast(25, null).status, FIT.UNKNOWN);
+});
+
+test('外寸体積と嵩張り率', () => {
+  assert.equal(outerVolumeL([55, 34, 40]), 74.8);
+  assert.equal(outerVolumeL([46]), null);
+  // 同じ25Lでも、壁が厚いほど嵩張り率が大きくなる
+  assert.equal(bulkRatio([55, 34, 40], 25), 2.99);
+  assert.equal(bulkRatio([44.5, 30, 36.5], 25), 1.95);
+  assert.equal(bulkRatio([55, 34, 40], 0), null);
+});
+
+test('atLeast も商品判定に使える', () => {
+  const cooler = { verified: true, specs: { capacityL: 26 } };
+  const requirements = [{ key: 'capacityL', type: 'atLeast', value: 25, unit: 'L', label: '容量' }];
+  assert.equal(evaluateProduct(cooler, requirements).status, FIT.OK);
+  assert.equal(
+    evaluateProduct({ verified: true, specs: { capacityL: 14 } }, requirements).status,
+    FIT.NG,
+  );
 });

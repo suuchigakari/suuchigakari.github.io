@@ -5,13 +5,26 @@
   "commissionRate": "4.00%",
   "title": "ベビーゲートは「最大◯cm」で選ぶと付かない｜開口幅と固定方式で選ぶ",
   "description": "ベビーゲートの対応幅は範囲で決まっていて、実測した開口幅が範囲外だと拡張パーツが要るか、そもそも付きません。階段上に置けるのはネジ固定を公式に明記した製品だけです。開口幅を入れて対応製品を判定できます。",
-  "keywords": ["ベビーゲート サイズ 選び方", "ベビーゲート 突っ張り 設置方法", "ベビーゲート 階段 対応"],
+  "keywords": [
+    "ベビーゲート サイズ 選び方",
+    "ベビーゲート 突っ張り 設置方法",
+    "ベビーゲート 階段 対応"
+  ],
   "asOf": "2026-09-07",
   "lead": "ベビーゲートの商品説明にある「最大90cmまで対応」は、90cm以下ならどこでも付くという意味ではありません。対応幅は下限と上限のある範囲で、下限を下回る狭い開口には付かず、上限を超えると拡張パーツが必要です。さらに階段の上に設置できるのは、ネジで壁に固定するタイプだけです。まず開口部を実測してから、このページの表で絞り込んでください。",
   "excludeReaders": [
-    { "who": "屋外・庭用の柵を探している人", "why": "屋内の開口部に突っ張る・ネジ止めする前提の製品なので、屋外設置は想定されていません" },
-    { "who": "置くだけで移動できる柵を探している人", "why": "このページは開口部に固定するタイプだけを扱います。自立式は対応幅ではなく設置面積で選ぶことになります" },
-    { "who": "すでに開口幅を測っていない人", "why": "先に幅を測ってください。測らずに選ぶと、この記事の表は使えません" }
+    {
+      "who": "屋外・庭用の柵を探している人",
+      "why": "屋内の開口部に突っ張る・ネジ止めする前提の製品なので、屋外設置は想定されていません"
+    },
+    {
+      "who": "置くだけで移動できる柵を探している人",
+      "why": "このページは開口部に固定するタイプだけを扱います。自立式は対応幅ではなく設置面積で選ぶことになります"
+    },
+    {
+      "who": "すでに開口幅を測っていない人",
+      "why": "先に幅を測ってください。測らずに選ぶと、この記事の表は使えません"
+    }
   ],
   "conclusion": [
     "階段の上に置くなら、ネジ固定であることを公式が明記している製品だけを選ぶ。突っ張り式は階段上で使わない",
@@ -49,16 +62,51 @@
   "filter": {
     "heading": "開口幅を入れて絞り込む",
     "note": "実測した開口幅（柱の内側から内側まで）と、設置場所を選んでください。判定はこの端末の中だけで行われ、どこにも送信されません。",
-    "widthInput": { "key": "openingWidthCm", "label": "開口幅 (cm)", "default": 80, "min": 40, "max": 200 },
-    "flagInput": { "key": "stairTop", "label": "階段の上に設置する", "default": false }
+    "flagInput": {
+      "key": "stairTop",
+      "label": "階段の上に設置する",
+      "default": false
+    },
+    "numberInput": {
+      "key": "openingWidthCm",
+      "type": "range",
+      "label": "開口幅 (cm)",
+      "unit": "cm",
+      "default": 80,
+      "min": 40,
+      "max": 200,
+      "step": 0.5
+    }
   },
   "columns": [
-    { "key": "mount", "label": "固定方式" },
-    { "key": "openingWidthCm", "label": "対応開口幅", "unit": "cm" },
-    { "key": "stairTop", "label": "階段上" },
-    { "key": "heightCm", "label": "高さ", "unit": "cm" },
-    { "key": "passWidthCm", "label": "通過幅", "unit": "cm" },
-    { "key": "weightKg", "label": "重量", "unit": "kg" }
+    {
+      "key": "mount",
+      "label": "固定方式"
+    },
+    {
+      "key": "openingWidthCm",
+      "label": "対応開口幅",
+      "unit": "cm"
+    },
+    {
+      "key": "stairTop",
+      "label": "階段上"
+    },
+    {
+      "key": "heightCm",
+      "label": "高さ",
+      "unit": "cm"
+    },
+    {
+      "key": "passWidthCm",
+      "label": "通過幅",
+      "unit": "cm"
+    },
+    {
+      "key": "weightKg",
+      "label": "重量",
+      "unit": "kg"
+    }
   ],
   "products": [
     {
@@ -69,7 +117,13 @@
       "source": "メーカー公式 https://www.nihonikuji.co.jp/item/smartgate2_plus （2026-09-07 確認）",
       "specs": {
         "mount": "ネジ固定（階段上専用ソケット）",
-        "openingWidthCm": { "base": [67, 91], "partsNote": "拡張フレーム" },
+        "openingWidthCm": {
+          "base": [
+            67,
+            91
+          ],
+          "partsNote": "拡張フレーム"
+        },
         "stairTop": true,
         "heightCm": 91,
         "passWidthCm": null,
@@ -85,7 +139,10 @@
       "source": "メーカー公式 https://www.richell.co.jp/products/baby/item/?sid=093876 （2026-09-07 確認）",
       "specs": {
         "mount": "ネジ固定",
-        "openingWidthCm": [74, 114],
+        "openingWidthCm": [
+          74,
+          114
+        ],
         "stairTop": true,
         "heightCm": 82.5,
         "passWidthCm": null,
@@ -101,7 +158,17 @@
       "source": "メーカー公式 https://www.nihonikuji.co.jp/item/smartgate2 （2026-09-07 確認）",
       "specs": {
         "mount": "つっぱり式",
-        "openingWidthCm": { "base": [67, 91], "expanded": [91, 187], "partsNote": "ワイドパネル" },
+        "openingWidthCm": {
+          "base": [
+            67,
+            91
+          ],
+          "expanded": [
+            91,
+            187
+          ],
+          "partsNote": "ワイドパネル"
+        },
         "stairTop": null,
         "heightCm": 91,
         "passWidthCm": 62,
@@ -117,7 +184,17 @@
       "source": "メーカー公式 https://www.nihonikuji.co.jp/item/babysgate_w （2026-09-07 確認）",
       "specs": {
         "mount": "ネジ式",
-        "openingWidthCm": { "base": [73, 82], "expanded": [82, 90], "partsNote": "拡張フレーム1本" },
+        "openingWidthCm": {
+          "base": [
+            73,
+            82
+          ],
+          "expanded": [
+            82,
+            90
+          ],
+          "partsNote": "拡張フレーム1本"
+        },
         "stairTop": null,
         "heightCm": 76.5,
         "passWidthCm": null,
@@ -133,7 +210,17 @@
       "source": "メーカー公式 https://www.katoji.co.jp/products-detail_3576.html （2026-09-07 確認）",
       "specs": {
         "mount": "調節ボルト（突っ張り）",
-        "openingWidthCm": { "base": [71, 81], "expanded": [81, 90], "partsNote": "付属の10cm追加フレーム" },
+        "openingWidthCm": {
+          "base": [
+            71,
+            81
+          ],
+          "expanded": [
+            81,
+            90
+          ],
+          "partsNote": "付属の10cm追加フレーム"
+        },
         "stairTop": null,
         "heightCm": 75,
         "passWidthCm": 53.5,
@@ -149,7 +236,10 @@
       "source": "メーカー公式 https://www.nihonikuji.co.jp/item/smartgate_slim （2026-09-07 確認）",
       "specs": {
         "mount": "つっぱり式",
-        "openingWidthCm": [60, 68],
+        "openingWidthCm": [
+          60,
+          68
+        ],
         "stairTop": null,
         "heightCm": 90,
         "passWidthCm": null,
@@ -165,7 +255,17 @@
       "source": "メーカー公式 https://www.nihonikuji.co.jp/item/lowstepgate （2026-09-07 確認）",
       "specs": {
         "mount": null,
-        "openingWidthCm": { "base": [69, 69], "expanded": [69, 129], "partsNote": "拡張フレーム＋ワイドパネル" },
+        "openingWidthCm": {
+          "base": [
+            69,
+            69
+          ],
+          "expanded": [
+            69,
+            129
+          ],
+          "partsNote": "拡張フレーム＋ワイドパネル"
+        },
         "stairTop": null,
         "heightCm": 73.5,
         "passWidthCm": 69,
@@ -181,6 +281,10 @@
     "使わなくなったあとの取り外し跡（ネジ穴・両面テープ跡）の補修"
   ],
   "sources": [
-    { "label": "日本育児 ゲイトの選び方", "url": "https://www.nihonikuji.co.jp/list_cat01_selectgate" }
-  ]
+    {
+      "label": "日本育児 ゲイトの選び方",
+      "url": "https://www.nihonikuji.co.jp/list_cat01_selectgate"
+    }
+  ],
+  "verdictLegend": "○＝本体のみで対応、△＝拡張パーツが必要、×＝対応範囲外、?＝公式に明記なし。"
 }
