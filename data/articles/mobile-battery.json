@@ -1,0 +1,154 @@
+{
+  "slug": "mobile-battery",
+  "genre": "モバイルバッテリー",
+  "genreNumber": 1,
+  "commissionRate": "2.00%",
+  "title": "モバイルバッテリーは機内で使えなくなった｜2個まで・Whの確かめ方",
+  "description": "2026年4月24日から、機内に持ち込めるモバイルバッテリーは2個（160Wh以下）までになり、機内での充電もできなくなりました。同じ10000mAhでもWhは36.5〜38.5Whと違い、Whを製品ページに書いていないメーカーもあります。公式仕様で比較しました。",
+  "keywords": ["モバイルバッテリー 機内持ち込み 2026", "モバイルバッテリー Wh 計算", "モバイルバッテリー 10000mAh 比較"],
+  "asOf": "2026-10-15",
+  "verdictLegend": "○＝重さの条件を満たす、×＝重い、?＝公式に明記なし。",
+  "lead": "国土交通省は、2026年4月24日からモバイルバッテリーの機内持ち込みのルールを変えました。機内に持ち込めるのは2個まで（1個160Wh以下）で、機内でモバイルバッテリーを充電すること、モバイルバッテリーからスマートフォンなどを充電することの両方ができなくなりました。預け荷物に入れられないのは従来どおりです。飛行機の中で使えない以上、旅行用に選ぶ基準は「機内で何回充電できるか」ではなく、着いてから使える容量と、持ち歩く重さになります。",
+  "excludeReaders": [
+    { "who": "ノートパソコンを何度も充電したい人", "why": "このページは10000mAhクラスを扱います。ノートパソコン向けの大容量品はWhが大きく、持ち込み条件の確認がより重要になります" },
+    { "who": "外国の航空会社に乗る人", "why": "空港の案内でも「各航空会社により規定が異なる場合がある」とされています。このページの国内ルールに加えて、搭乗する航空会社の規定を確認してください" },
+    { "who": "機内でスマートフォンを充電したい人", "why": "国土交通省が追加したルールは、モバイルバッテリーへの充電とモバイルバッテリーからの充電を対象にしたものです。座席の電源の使い方は、搭乗する航空会社の案内に従ってください" }
+  ],
+  "conclusion": [
+    "機内に持ち込めるのは2個まで（1個160Wh以下）。10000mAhクラスは約37Whで、160Whには遠く届かない",
+    "機内ではモバイルバッテリーへの充電も、モバイルバッテリーからの充電もできない。預け荷物にも入れられない",
+    "同じ10000mAhでも、電圧の違いでWhは36.5〜38.5Whと変わる。Whは本体のラベルか、公式の仕様で確かめる"
+  ],
+  "sections": [
+    {
+      "heading": "2026年4月24日から変わったこと",
+      "paragraphs": [
+        "国土交通省の発表（2026年4月14日）では、国際民間航空機関（ICAO）の国際基準の緊急改訂を受けて、従来のルールに次の3つが追加されました。機内持ち込みのモバイルバッテリーは2個（160Wh以下に限る）まで。機内でモバイルバッテリーへの充電をしないこと。機内でモバイルバッテリーから他の電子機器への充電をしないこと。適用は4月24日からです。",
+        "預け荷物（受託手荷物）にモバイルバッテリーを入れられないのは、以前からのルールです。羽田空港のターミナル運営会社の案内では、ショート防止のため端子をテープで保護するか、個別のビニール袋に入れることも求めています。",
+        "同じ案内には「各航空会社により規定が異なる場合があります」とあります。特に外国の航空会社を使うときは、搭乗する会社の規定も確認してください。"
+      ]
+    },
+    {
+      "heading": "Whは「定格容量（mAh）×定格電圧（V）÷1000」",
+      "paragraphs": [
+        "持ち込みの上限はWh（ワット時）で決まっています。羽田空港の案内では、本体のラベルに定格量（Wh）の記載がない場合、定格容量(mAh)×定格電圧(V)÷1000で計算できるとしています。",
+        "同じ10000mAhでも、電圧が違えばWhは変わります。掲載したエレコムの4製品は、3.65V（36.5Wh）、3.7V（37.0Wh）、3.85V（38.5Wh）と公式に書き分けています。いずれも160Whの4分の1以下なので、10000mAhクラスを2個持つ分には容量で困ることはありません。",
+        "一方、掲載したAnkerの2製品は、公式の製品ページに容量（10000mAh）は書かれていますが、Whは書かれていませんでした。Whを確かめるときは、本体のラベルを見てください。比較表でも「公式に明記なし」としています。"
+      ]
+    },
+    {
+      "heading": "「最大出力」には条件がつくことがある",
+      "paragraphs": [
+        "最大出力の数字は、つなぐ機器によって出ないことがあります。エレコムのDE-C76-10000WHは「出力22.5WはHUAWEI機器のみに対応」、AnkerのA1257は「22.5W出力はHuawei機器のみ対応。それ以外はUSB-Aが最大18W、USB-Cが最大20W」と公式に書かれています。",
+        "iPhoneなど一般的なスマートフォンで使うなら、22.5W表記の製品も実質は18〜20Wとして比べるのが正確です。比較表の注記に条件を書いています。"
+      ]
+    },
+    {
+      "heading": "旅行では重さとサイズが効く",
+      "paragraphs": [
+        "掲載製品の重さは約180gから約231gまで、50g近い差があります。形も、薄い板状（エレコムのDE-C44は厚さ約17mm）と、小さく厚いもの（AnkerのA1256は約99×52×26mm）に分かれます。ポケットに入れるか、バッグの小物入れに入れるかで選んでください。",
+        "繰り返し使える回数を公開している製品もあります。エレコムの製品はおおむね500回で、DE-C51L-10000BKは1000回です。"
+      ]
+    }
+  ],
+  "filter": {
+    "heading": "持ち歩ける重さで絞り込む",
+    "note": "許容できる重さの上限を入れてください。Whが公式に書かれている製品だけを見たい場合はチェックしてください。",
+    "numberInputs": [
+      { "key": "weightG", "type": "atMost", "label": "重さの上限 (g)", "unit": "g", "default": 210, "min": 100, "max": 400, "step": 5 }
+    ],
+    "flagInput": { "key": "whStated", "label": "Whが公式に書かれているものだけ" }
+  },
+  "columns": [
+    { "key": "capacityText", "label": "容量" },
+    { "key": "whText", "label": "定格量（Wh）" },
+    { "key": "maxOutput", "label": "最大出力" },
+    { "key": "weightG", "label": "重さ", "unit": "g" },
+    { "key": "sizeMm", "label": "サイズ" },
+    { "key": "cycles", "label": "繰り返し使用回数" }
+  ],
+  "products": [
+    {
+      "name": "エレコム DE-C76-10000WH（10000mAh/22.5W）",
+      "brand": "エレコム",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.elecom.co.jp/products/DE-C76-10000WH.html （2026-10-15 確認）",
+      "specs": {
+        "capacityText": "10000mAh", "whText": "3.85V/10000mAh 38.5Wh", "maxOutput": "22.5W（HUAWEI機器のみ）",
+        "weightG": 180, "sizeMm": "約70.4×16.4×113.8mm", "cycles": "500回", "whStated": true
+      },
+      "note": "掲載中で最も軽い約180g。付属品に絶縁シートがある。22.5W出力はHUAWEI機器のみ対応。"
+    },
+    {
+      "name": "エレコム DE-C44-10000WF（10000mAh/20W）",
+      "brand": "エレコム",
+      "asin": "B0CL3Y361Y",
+      "verified": true,
+      "source": "メーカー公式 https://www.elecom.co.jp/products/DE-C44-10000WF.html （2026-10-15 確認）",
+      "specs": {
+        "capacityText": "10000mAh", "whText": "3.85V/10000mAh 38.5Wh", "maxOutput": "20W（USB PD）",
+        "weightG": 184, "sizeMm": "約70×17×114mm", "cycles": "500回", "whStated": true
+      },
+      "note": "厚さ約17mmの薄型。USB-C×1、USB-A×2。"
+    },
+    {
+      "name": "Anker Power Bank (10000mAh, 22.5W)（A1257）",
+      "brand": "Anker",
+      "asin": "B0CQX67KTW",
+      "verified": true,
+      "source": "メーカー公式 https://www.ankerjapan.com/products/a1257 （2026-10-15 確認）",
+      "specs": {
+        "capacityText": "10000mAh", "whText": null, "maxOutput": "22.5W（Huawei機器のみ。他はUSB-C最大20W・USB-A最大18W）",
+        "weightG": 200, "sizeMm": "約114×71×16mm", "cycles": null, "whStated": false
+      },
+      "note": "公式の製品ページにWhの記載がない。USB-C×2、USB-A×1。"
+    },
+    {
+      "name": "エレコム DE-C51L-10000BK（10000mAh/30W）",
+      "brand": "エレコム",
+      "asin": "B0D4YBLD7J",
+      "verified": true,
+      "source": "メーカー公式 https://www.elecom.co.jp/products/DE-C51L-10000BK.html （2026-10-15 確認）",
+      "specs": {
+        "capacityText": "10000mAh", "whText": "3.65V/10000mAh 36.5Wh", "maxOutput": "30W",
+        "weightG": 205, "sizeMm": "約52×28×106mm", "cycles": "1000回", "whStated": true
+      },
+      "note": "繰り返し使用回数1000回と、掲載中のエレコム製品で最も多い。小さく厚い形。"
+    },
+    {
+      "name": "Anker Power Bank (10000mAh, 30W)（A1256）",
+      "brand": "Anker",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.ankerjapan.com/products/a1256 （2026-10-15 確認）",
+      "specs": {
+        "capacityText": "10000mAh", "whText": null, "maxOutput": "30W（USB-C単ポート最大30W）",
+        "weightG": 220, "sizeMm": "約99×52×26mm", "cycles": null, "whStated": false
+      },
+      "note": "公式の製品ページにWhの記載がない。USB-C×2、USB-A×1。"
+    },
+    {
+      "name": "エレコム DE-C38-10000WH（10000mAh/15W）",
+      "brand": "エレコム",
+      "asin": "B0B7J7362D",
+      "verified": true,
+      "source": "メーカー公式 https://www.elecom.co.jp/products/DE-C38-10000WH.html （2026-10-15 確認）",
+      "specs": {
+        "capacityText": "10000mAh", "whText": "3.7V/10000mAh 37.0Wh", "maxOutput": "15W（5V/3A）",
+        "weightG": 231, "sizeMm": "約70×16×143mm", "cycles": "500回", "whStated": true
+      },
+      "note": "掲載中で最も重い約231g。USB-C×1、USB-A×1。"
+    }
+  ],
+  "nextProblems": [
+    { "text": "LCCの機内持ち込みは重さも2個合計で7kg（ラゲッジスケールの選び方）", "href": "./luggage-scale.html" },
+    { "text": "キャリーケースの各辺の上限（LCCで弾かれないキャリーケースの選び方）", "href": "./lcc-carrycase.html" },
+    "端子の絶縁（テープや個別の袋）を出発前に済ませておく",
+    "着いてから充電するための充電器とケーブル（モバイルバッテリー本体の充電にかかる時間）"
+  ],
+  "sources": [
+    { "label": "国土交通省 モバイルバッテリーの機内持込みの新たなルールについて（2026年4月14日）", "url": "https://www.mlit.go.jp/report/press/kouku10_hh_000310.html" },
+    { "label": "羽田空港 モバイルバッテリー等の航空機内持ち込みについて（2026年4月24日以降）", "url": "https://tokyo-haneda.com/information/2026/detail_00022.html" }
+  ]
+}

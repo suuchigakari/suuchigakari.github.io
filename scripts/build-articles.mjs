@@ -55,6 +55,19 @@ function list(items, className = '') {
   return `<ul${className ? ` class="${className}"` : ''}>\n          ${li}\n        </ul>`;
 }
 
+/** 「次に困りそうなこと」。{ text, href } の項目は関連記事へのリンクにする。 */
+function renderNextProblems(items) {
+  if (!items || items.length === 0) return '';
+  const li = items
+    .map((item) =>
+      typeof item === 'string'
+        ? `<li>${escapeHtml(item)}</li>`
+        : `<li><a href="${escapeHtml(item.href)}">${escapeHtml(item.text)}</a></li>`,
+    )
+    .join('\n          ');
+  return `<ul>\n          ${li}\n        </ul>`;
+}
+
 function renderSections(sections) {
   return sections
     .map(
@@ -239,7 +252,7 @@ ${renderSources(products, article.sources)}
 
       <section>
         <h2>次に困りそうなこと</h2>
-        ${list(article.nextProblems)}
+        ${renderNextProblems(article.nextProblems)}
       </section>
 
       <p class="price-note">${escapeHtml(config.priceNote)}</p>
@@ -271,7 +284,6 @@ function renderIndex(entries, config) {
       (entry) => `        <article class="card">
           <p class="meta">
             <span class="badge">${escapeHtml(entry.genre)}</span>
-            <span class="badge">紹介料率 ${escapeHtml(entry.commissionRate)}</span>
             <span class="badge">${escapeHtml(entry.asOf)} 確認</span>
           </p>
           <h2><a href="./articles/${escapeHtml(entry.slug)}.html">${escapeHtml(entry.title)}</a></h2>

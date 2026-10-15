@@ -74,7 +74,7 @@ export function evaluateAtMost(value, spec, unit = '') {
   }
   return spec <= value
     ? { status: FIT.OK, detail: `${spec}${unit}` }
-    : { status: FIT.NG, detail: `${spec}${unit}（${value}${unit} には足りない）` };
+    : { status: FIT.NG, detail: `${spec}${unit}（条件の ${value}${unit} を満たさない）` };
 }
 
 /**
