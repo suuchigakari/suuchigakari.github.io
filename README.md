@@ -87,7 +87,7 @@ ES モジュールを `fetch` で読み込むため、`index.html` を `file://`
 
 ### 3. リンクを作る
 
-`tools/link.html`（サイト右上「リンク作成ツール」）に商品ページ URL か ASIN を貼ると、
+`tools/link.html`（運営者用。トップページからはリンクしていないので、URLを直接開く）に商品ページ URL か ASIN を貼ると、
 
 - `https://www.amazon.co.jp/dp/B0XXXXXXXX?tag=yourname-22`
 - `<a href="..." rel="nofollow sponsored noopener">…</a>`

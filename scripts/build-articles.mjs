@@ -308,7 +308,6 @@ function renderIndex(entries, config) {
       <div class="wrap">
         <p class="brand">${escapeHtml(config.siteName)}</p>
         <p class="tagline">${escapeHtml(config.tagline)}</p>
-        <nav class="nav"><a href="./tools/link.html">リンク作成ツール</a></nav>
       </div>
     </header>
 
