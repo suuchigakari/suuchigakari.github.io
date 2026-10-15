@@ -22,7 +22,7 @@
 - [x] 運営者情報 … `pages/about.html`
 - [ ] **運営者名・連絡先の記入**（両ページの「（未設定）」を埋める。連絡先がないまま申請しない）
 - [x] 記事を10本以上（Tier S 1本・Tier A 5本・Tier B 6本・Tier C 1本＝13本）
-- [ ] 独自ドメインまたは GitHub Pages の URL を確定させる
+- [x] サイトのURLを確定させる → https://suuchigakari.github.io/ （リポジトリ suuchigakari/suuchigakari.github.io、GitHub Pages）
 
 ## 掲載中の記事（2026-10-15 時点）
 

@@ -39,7 +39,7 @@ npm test           # 判定ロジックのテスト
 
 ## 公開する（Amazonアソシエイト申請の前提）
 
-アソシエイトの申請には、**誰でも閲覧できる状態のサイト**が必要です。GitHub Pages で公開する場合：
+アソシエイトの申請には、**誰でも閲覧できる状態のサイト**が必要です。公開URLは **https://suuchigakari.github.io/** です（GitHub Pages）。初回だけ次の設定が必要です：
 
 1. リポジトリの Settings → Pages → Source を **GitHub Actions** に変更する
 2. `main` に push すると `.github/workflows/pages.yml` がテストを実行し、静的ファイルをそのまま公開する
