@@ -35,6 +35,7 @@
         <h2>結論</h2>
         <div class="verdict-box">
           <p>商品名の「/0.1g」は最小表示であって、全域の刻みではない。公式仕様の区間表記を見る</p>
+          <p>表示の刻みと正確さは別。1g刻みの製品でも計量精度は±2g、0.1g表示でも±0.2gと公開しているメーカーがある</p>
           <p>0.1gが必要なのは300g以下の少量計量。それを超える重さでは、どの製品も0.5g〜1g刻みになる</p>
           <p>最大計量は載せるものの総重量で決める。容器やボウルの重さも計量範囲に含まれる</p>
         </div>
@@ -49,6 +50,14 @@
       </section>
 
       <section>
+        <h2>表示の刻みと、正確さは別</h2>
+        <p>最小表示は「画面に何g単位で出るか」で、計量精度は「その値がどこまで正しいか」です。タニタは両方を公開しており、1g刻みのKJ-216でも精度は0〜500gで±2g、500〜2000gで±3gです。表示が1g単位でも、2gずれることはありうるという意味です。</p>
+        <p>0.1g刻みの微量モードを持つKJ-303も、精度は0〜75gで±0.2g、75〜300gで±0.3gです。0.1g単位で表示されても、0.1gまで正しいとは限りません。イーストや塩を0.1g単位で合わせたいなら、表示の細かさではなく精度の数字を見てください。</p>
+        <p>掲載したドリテックの製品ページには、計量精度の記載がありませんでした。比較表では「公式に明記なし」としています。</p>
+        
+      </section>
+
+      <section>
         <h2>測れる下限もある</h2>
         <p>0.1g対応の製品は、計量範囲が「0.3〜3000g」のように下限つきで書かれています。0.3g未満は測れません。ごく少量のスパイスや、ふりかけ程度の重さは表示されないことがあります。</p>
         <p>一方1g刻みの製品は「0〜3000g」と下限がありません。表示単位が粗いぶん、下限の制約が書かれていない形です。少量を扱うかどうかで、この違いが効いてきます。</p>
@@ -57,8 +66,8 @@
 
       <section>
         <h2>サイズ・電源・付加機能</h2>
-        <p>掲載製品はいずれも単4形乾電池2個で動きます。KS-825は「1日1回・1回6分の使用で電池寿命約1年」と公式に明記されています。オートパワーオフはどれも約4分です。</p>
-        <p>本体サイズは、0.1g対応モデルが約130×183×30mm・約340g、1g刻みのモデルが約110×176×32mm・約240gです。引き出しにしまうなら、この差が効きます。シリコーンカバー付きのモデルは、カバーの耐熱230℃・耐寒-50℃まで公開されています。</p>
+        <p>掲載製品はいずれも乾電池2本で動きます（単4形が中心で、タニタのKJ-303は単3形）。KS-825は「1日1回・1回6分の使用で電池寿命約1年」と公式に明記されています。オートパワーオフはドリテックの製品が約4分、タニタのKJ-216が約6分です。</p>
+        <p>本体サイズは、ドリテックの0.1g対応モデルが約130×183×30mm・約340g、1g刻みのKS-825が約110×176×32mm・約240g、タニタのKJ-216は厚さ27mm・約313gです。引き出しにしまうなら、この差が効きます。シリコーンカバー付きのモデルは、カバーの耐熱230℃・耐寒-50℃まで公開されています。</p>
         <p>付加機能では、塩分の目安（0.7%・0.8%・0.9%の3段階）を表示するモデルもあります。計量そのものの精度は同じ区間表記なので、機能で選ぶか、シンプルさで選ぶかの違いになります。</p>
         
       </section>
@@ -79,35 +88,47 @@
 
       <section>
         <h2>比較表</h2>
-        <p class="small">メーカー公式の仕様表で確認できた 4 件を掲載しています（2026-09-07 確認）。</p>
+        <p class="small">メーカー公式の仕様表で確認できた 6 件を掲載しています（2026-09-07 確認）。</p>
       <div class="table-scroll">
         <table id="products-table">
-          <thead><tr><th scope="col">商品</th><th scope="col">判定</th><th scope="col">計量範囲</th><th scope="col">最小表示（区間ごと）</th><th scope="col">電源</th><th scope="col">サイズ</th><th scope="col">本体重量</th><th scope="col">その他</th></tr></thead>
+          <thead><tr><th scope="col">商品</th><th scope="col">判定</th><th scope="col">計量範囲</th><th scope="col">最小表示（区間ごと）</th><th scope="col">計量精度</th><th scope="col">電源</th><th scope="col">サイズ</th><th scope="col">本体重量</th><th scope="col">その他</th></tr></thead>
           <tbody>
           <tr data-product="ドリテック ブランジェ KS-829（3kg/0.1g）">
             <th scope="row">ドリテック ブランジェ KS-829（3kg/0.1g）</th>
             <td class="verdict ok">○<span class="reason">3000g</span></td>
-            <td class="num">0.3〜3000g</td><td class="num">〜300g：0.1g／〜1500g：0.5g／〜3000g：1g</td><td class="num">単4形乾電池×2</td><td class="num">130×183×30mm</td><td class="num">340g</td><td class="num">シリコーンカバー（耐熱230℃）、オートパワーオフ約4分</td>
+            <td class="num">0.3〜3000g</td><td class="num">〜300g：0.1g／〜1500g：0.5g／〜3000g：1g</td><td class="unknown">公式に明記なし</td><td class="num">単4形乾電池×2</td><td class="num">130×183×30mm</td><td class="num">340g</td><td class="num">シリコーンカバー（耐熱230℃）、オートパワーオフ約4分</td>
           </tr>
-          <tr class="note-row"><td class="row-note" colspan="8">0.1g刻みは300gまで。3000gまで量れるが、1500gを超えると1g刻みになる。0表示（風袋引き）あり。</td></tr>
+          <tr class="note-row"><td class="row-note" colspan="9">0.1g刻みは300gまで。3000gまで量れるが、1500gを超えると1g刻みになる。0表示（風袋引き）あり。</td></tr>
           <tr data-product="ドリテック ブランジェ KS-729（2kg/0.1g）">
             <th scope="row">ドリテック ブランジェ KS-729（2kg/0.1g）</th>
             <td class="verdict ok">○<span class="reason">2000g</span></td>
-            <td class="num">0.3〜2000g</td><td class="num">〜300g：0.1g／〜1000g：0.5g／〜2000g：1g</td><td class="num">単4形乾電池×2</td><td class="num">130×183×30mm</td><td class="num">340g</td><td class="num">シリコーンカバー、地域重量調整、オートパワーオフ約4分</td>
+            <td class="num">0.3〜2000g</td><td class="num">〜300g：0.1g／〜1000g：0.5g／〜2000g：1g</td><td class="unknown">公式に明記なし</td><td class="num">単4形乾電池×2</td><td class="num">130×183×30mm</td><td class="num">340g</td><td class="num">シリコーンカバー、地域重量調整、オートパワーオフ約4分</td>
           </tr>
-          <tr class="note-row"><td class="row-note" colspan="8">KS-829と本体サイズは同じで、最大計量と区間の切り替え位置が違う（0.5g刻みは1000gまで）。</td></tr>
+          <tr class="note-row"><td class="row-note" colspan="9">KS-829と本体サイズは同じで、最大計量と区間の切り替え位置が違う（0.5g刻みは1000gまで）。</td></tr>
           <tr data-product="ドリテック 味付けの目安がわかるスケール KS-834（3kg/0.1g）">
             <th scope="row">ドリテック 味付けの目安がわかるスケール KS-834（3kg/0.1g）</th>
             <td class="verdict ok">○<span class="reason">3000g</span></td>
-            <td class="num">0.3〜3000g</td><td class="num">〜300g：0.1g／〜1500g：0.5g／〜3000g：1g</td><td class="num">単4形乾電池×2</td><td class="num">130×183×30mm</td><td class="num">340g</td><td class="num">塩分目安ボタン（0.7%/0.8%/0.9%）、壁掛け用フック穴</td>
+            <td class="num">0.3〜3000g</td><td class="num">〜300g：0.1g／〜1500g：0.5g／〜3000g：1g</td><td class="unknown">公式に明記なし</td><td class="num">単4形乾電池×2</td><td class="num">130×183×30mm</td><td class="num">340g</td><td class="num">塩分目安ボタン（0.7%/0.8%/0.9%）、壁掛け用フック穴</td>
           </tr>
-          <tr class="note-row"><td class="row-note" colspan="8">計量の仕様はKS-829と同じ。違いは塩分の目安表示と壁掛け穴。シリコーンカバーは耐熱230℃・耐寒-50℃。</td></tr>
+          <tr class="note-row"><td class="row-note" colspan="9">計量の仕様はKS-829と同じ。違いは塩分の目安表示と壁掛け穴。シリコーンカバーは耐熱230℃・耐寒-50℃。</td></tr>
           <tr data-product="ドリテック ブロート KS-825（3kg/1g）">
             <th scope="row">ドリテック ブロート KS-825（3kg/1g）</th>
             <td class="verdict ok">○<span class="reason">3000g</span></td>
-            <td class="num">0〜3000g</td><td class="num">全域 1g（区間で変わらない）</td><td class="num">単4形乾電池×2</td><td class="num">110×176×32mm</td><td class="num">240g</td><td class="num">電池寿命約1年（1日1回6分使用時）、起動約1.5秒</td>
+            <td class="num">0〜3000g</td><td class="num">全域 1g（区間で変わらない）</td><td class="unknown">公式に明記なし</td><td class="num">単4形乾電池×2</td><td class="num">110×176×32mm</td><td class="num">240g</td><td class="num">電池寿命約1年（1日1回6分使用時）、起動約1.5秒</td>
           </tr>
-          <tr class="note-row"><td class="row-note" colspan="8">全域1g刻みで区間の切り替えがない。本体240gと軽く、サイズも一回り小さい。計量範囲の下限が0gと書かれている点も0.1g機と異なる。</td></tr>
+          <tr class="note-row"><td class="row-note" colspan="9">全域1g刻みで区間の切り替えがない。本体240gと軽く、サイズも一回り小さい。計量範囲の下限が0gと書かれている点も0.1g機と異なる。</td></tr>
+          <tr data-product="タニタ デジタルクッキングスケール KJ-303（3kg/微量モード0.1g）">
+            <th scope="row">タニタ デジタルクッキングスケール KJ-303（3kg/微量モード0.1g）</th>
+            <td class="verdict ok">○<span class="reason">3000g</span></td>
+            <td class="num">0〜3000g</td><td class="num">通常 1g／微量モード 〜300g：0.1g・〜1500g：0.5g</td><td class="num">通常 〜750g ±2g・〜3000g ±3g／微量0.1g 〜75g ±0.2g・〜300g ±0.3g</td><td class="num">単3形乾電池×2</td><td class="num">150×210×34mm</td><td class="num">428g</td><td class="num">mLモード、HOLDモード</td>
+          </tr>
+          <tr class="note-row"><td class="row-note" colspan="9">0.1g刻みは「微量モード」に切り替えたときだけ。精度は0.1g表示でも0〜75gで±0.2g、75〜300gで±0.3gと公式に明記されている。本体質量は乾電池込み。</td></tr>
+          <tr data-product="タニタ デジタルクッキングスケール KJ-216（2kg/1g）">
+            <th scope="row">タニタ デジタルクッキングスケール KJ-216（2kg/1g）</th>
+            <td class="verdict ok">○<span class="reason">2000g</span></td>
+            <td class="num">0〜2000g</td><td class="num">全域 1g</td><td class="num">〜500g ±2g・〜2000g ±3g</td><td class="num">単4形乾電池×2</td><td class="num">140×198×27mm</td><td class="num">313g</td><td class="num">表示文字高28mm、オートパワーオフ約6分</td>
+          </tr>
+          <tr class="note-row"><td class="row-note" colspan="9">1g刻みの表示でも、精度は0〜500gで±2g。表示の細かさと正確さが別物であることが分かる。厚さ27mmの薄型。</td></tr>
           </tbody>
         </table>
       </div>
@@ -121,6 +142,8 @@
           <li>ドリテック ブランジェ KS-729（2kg/0.1g）：メーカー公式 https://www.dretec.co.jp/kitchen_goods/scale/ks-729/lang-ja （2026-09-07 確認）</li>
           <li>ドリテック 味付けの目安がわかるスケール KS-834（3kg/0.1g）：メーカー公式 https://www.dretec.co.jp/kitchen_goods/scale/ks-834/lang-ja （2026-09-07 確認）</li>
           <li>ドリテック ブロート KS-825（3kg/1g）：メーカー公式 https://www.dretec.co.jp/kitchen_goods/scale/ks-825/lang-ja （2026-09-07 確認）</li>
+          <li>タニタ デジタルクッキングスケール KJ-303（3kg/微量モード0.1g）：メーカー公式 https://www.tanita.co.jp/product/scaleforkitchen/3437/ （2026-10-15 確認）</li>
+          <li>タニタ デジタルクッキングスケール KJ-216（2kg/1g）：メーカー公式 https://www.tanita.co.jp/product/scaleforkitchen/3456/ （2026-10-15 確認）</li>
         </ul>
       </section>
 
@@ -241,6 +264,44 @@
         "fine": false
       },
       "note": "全域1g刻みで区間の切り替えがない。本体240gと軽く、サイズも一回り小さい。計量範囲の下限が0gと書かれている点も0.1g機と異なる。"
+    },
+    {
+      "name": "タニタ デジタルクッキングスケール KJ-303（3kg/微量モード0.1g）",
+      "brand": "タニタ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.tanita.co.jp/product/scaleforkitchen/3437/ （2026-10-15 確認）",
+      "specs": {
+        "maxG": 3000,
+        "rangeText": "0〜3000g",
+        "stepText": "通常 1g／微量モード 〜300g：0.1g・〜1500g：0.5g",
+        "accuracy": "通常 〜750g ±2g・〜3000g ±3g／微量0.1g 〜75g ±0.2g・〜300g ±0.3g",
+        "power": "単3形乾電池×2",
+        "sizeMm": "150×210×34mm",
+        "weightG": 428,
+        "extra": "mLモード、HOLDモード",
+        "fine": true
+      },
+      "note": "0.1g刻みは「微量モード」に切り替えたときだけ。精度は0.1g表示でも0〜75gで±0.2g、75〜300gで±0.3gと公式に明記されている。本体質量は乾電池込み。"
+    },
+    {
+      "name": "タニタ デジタルクッキングスケール KJ-216（2kg/1g）",
+      "brand": "タニタ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.tanita.co.jp/product/scaleforkitchen/3456/ （2026-10-15 確認）",
+      "specs": {
+        "maxG": 2000,
+        "rangeText": "0〜2000g",
+        "stepText": "全域 1g",
+        "accuracy": "〜500g ±2g・〜2000g ±3g",
+        "power": "単4形乾電池×2",
+        "sizeMm": "140×198×27mm",
+        "weightG": 313,
+        "extra": "表示文字高28mm、オートパワーオフ約6分",
+        "fine": false
+      },
+      "note": "1g刻みの表示でも、精度は0〜500gで±2g。表示の細かさと正確さが別物であることが分かる。厚さ27mmの薄型。"
     }
   ]
 }

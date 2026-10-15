@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-09-06",
+  "asOf": "2026-09-06〜2026-10-15",
   "note": "外寸(キャスター・ハンドル・ポケットを含む全体)を一次情報で確認できた商品だけを dimensionsVerified: true にすること。false のものは比較表に出さず、未掲載として件数だけ表示する。",
   "sourcePolicy": "サイズは各メーカー公式サイトの製品仕様表に記載された「全体サイズ（キャスター・ハンドルを含む）」のみを採用する。通販サイトの「本体サイズ」表記や検索結果の要約は根拠にしない。",
   "todo": [
     "ASIN が空の商品はアフィリエイトリンクが張られない。Amazon の商品ページで型番一致を確認してから asin を入れる。",
-    "現在の掲載はレジェンドウォーカー(T&S)1ブランドに偏っている。サンコー鞄・無印良品・アジアラゲージは自動取得が拒否されたため、手動で外寸を確認して追加する。",
+    "掲載はレジェンドウォーカー(T&S)とシフレの2ブランド。サンコー鞄（Cloudflareで拒否）・無印良品は自動取得できないため、手動で外寸を確認して追加する。",
     "マスターリストの価格帯条件(3,000〜15,000円)を外れる商品は、記事に載せる前に価格帯を確認する。ハードケースは超えることがある。"
   ],
   "products": [
@@ -119,6 +119,38 @@
       "bodySizeCm": "46×34×24(+5)",
       "dimensionSource": "メーカー公式 https://legend-walker.com/products/5109-46 （2026-09-06 確認）",
       "note": "3辺合計115cmでANA・JAL向け。幅38cm・奥行24cmでLCC2社はいずれも不可。"
+    },
+    {
+      "asin": "",
+      "name": "シフレ ZERO GRA ZER2088-46",
+      "type": "ハード",
+      "heightCm": 50,
+      "widthCm": 40,
+      "depthCm": 25,
+      "weightKg": 2.3,
+      "capacityL": 42,
+      "priceRange": "",
+      "dimensionsVerified": true,
+      "sizeBasis": "外寸（取っ手・キャスター等含む）",
+      "bodySizeCm": null,
+      "dimensionSource": "メーカー公式 https://www.siffler-store.com/c/luggage/ZER2088-46 （2026-10-15 確認）",
+      "note": "外寸がピーチの各辺規定50×40×25cmちょうど。そのため幅40cmでジェットスター系（36cm）は不可。内寸は約46×39×24cm。"
+    },
+    {
+      "asin": "",
+      "name": "シフレ GREEN WORKS B5891T-39",
+      "type": "ハード",
+      "heightCm": 45,
+      "widthCm": 35,
+      "depthCm": 20,
+      "weightKg": 2.4,
+      "capacityL": 22,
+      "priceRange": "",
+      "dimensionsVerified": true,
+      "sizeBasis": "外寸（取っ手・キャスター等含む）",
+      "bodySizeCm": null,
+      "dimensionSource": "メーカー公式 https://www.siffler-store.com/c/luggage/B5891T-39 （2026-10-15 確認）",
+      "note": "奥行20cmで、韓国系LCCの奥行20cm規定まで含めて本文の9社すべてを満たす。容量は22Lと小さく、日帰り〜1泊向け。内寸は約39×34×19cm。"
     }
   ]
 }
