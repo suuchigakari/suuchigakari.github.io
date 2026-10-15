@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LCCで弾かれないキャリーケースの選び方｜ピーチとジェットスターは同じ1台で両立しない</title>
+    <meta
+      name="description"
+      content="機内持ち込みキャリーケースは「3辺合計115cm以内」だけでは足りません。ピーチ・ジェットスターなど主要LCCの各辺規定を数値で比較し、手持ちのケースが通るか判定できます。"
+    />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <link rel="stylesheet" href="../assets/article.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <p class="brand"><a href="../index.html">{{siteName}}</a></p>
+        <p class="tagline">キャリーケース</p>
+      </div>
+    </header>
+
+    <p class="disclosure">{{disclosure}}</p>
+
+    <main class="wrap article">
+      <h1>LCCで弾かれないキャリーケースの選び方<br /><small>ピーチとジェットスターは、同じ1台では両立しません</small></h1>
+
+      <p class="lead">「3辺合計115cm以内」を満たしていても、LCCでは各辺の上限で弾かれます。しかもピーチとジェットスターの規定は、1台では両立しません。手持ちのケースが何社で通るかをこのページで判定できます。</p>
+
+      <section class="callout" aria-label="この記事の対象外">
+        <h2>この記事が向かない人</h2>
+        <ul>
+          <li><strong>JAL・ANAしか使わない人</strong> — 3辺合計115cm以内の一般的なモデルで足ります。</li>
+          <li><strong>預け荷物前提で旅行する人</strong> — サイズより容量で選んだほうが快適です。</li>
+          <li><strong>Mサイズ以上の大型スーツケースを探している人</strong> — 機内持ち込みの話は関係ありません。</li>
+        </ul>
+        <p class="small">この記事は「LCCの機内持ち込みだけで完結させたい人」向けです。預ける前提なら、選択肢はもっと広がります。</p>
+      </section>
+
+      <section>
+        <h2>結論</h2>
+        <div id="conclusion">{{conclusion}}</div>
+      </section>
+
+      <section>
+        <h2>なぜ「機内持ち込み可」表記が当てにならないのか</h2>
+        <ul>
+          <li><strong>合計値の規定と各辺の規定は別物。</strong>「3辺合計115cm以内」を満たしても、1辺でも上限を超えれば弾かれます。</li>
+          <li><strong>通販の「本体サイズ」は外寸ではないことがある。</strong>キャスター・ハンドル・前面ポケットを除いた数値が載っている場合があります。</li>
+          <li><strong>空港の測定ゲージは突起部を含めた全体で判定します。</strong>本体サイズがぎりぎりだと、実際には入りません。</li>
+        </ul>
+        <p class="small" id="body-gap">{{bodyGap}}</p>
+        <p class="small">
+          このページの判定は、キャスター・ハンドルを<strong>含んだ外寸</strong>を入力する前提です。向きの入れ替え（縦横を回す）は許容して判定しています。
+        </p>
+      </section>
+
+      <section>
+        <h2>ピーチとジェットスターは1台で両立しない</h2>
+        <div id="conflict">{{conflict}}</div>
+      </section>
+
+      <section>
+        <h2>手持ち・候補のケースを判定する</h2>
+        <p class="small">外寸（キャスター・ハンドル込み）と本体重量を入れると、全社の可否と余裕を計算します。数値はこの端末の中だけで処理され、どこにも送信されません。</p>
+        <form class="checker" id="checker">
+          <label>高さ (cm)<input type="number" id="height" step="0.1" min="1" value="50" /></label>
+          <label>幅 (cm)<input type="number" id="width" step="0.1" min="1" value="36" /></label>
+          <label>奥行 (cm)<input type="number" id="depth" step="0.1" min="1" value="23" /></label>
+          <label>本体重量 (kg)<input type="number" id="weight" step="0.1" min="0" value="2.4" /></label>
+          <label>身の回り品の重量 (kg)<input type="number" id="personal" step="0.1" min="0" value="1.0" /></label>
+        </form>
+        <p class="small" id="checker-summary" aria-live="polite">{{checkerSummary}}</p>
+        <div class="table-scroll"><table id="checker-table">{{checkerTable}}</table></div>
+      </section>
+
+      <section>
+        <h2>航空会社別 規定早見表</h2>
+        <p class="small" id="airlines-asof">{{airlinesAsOf}}</p>
+        <div class="table-scroll"><table id="airlines-table">{{airlinesTable}}</table></div>
+        <div id="airline-notes" class="notes">{{airlineNotes}}</div>
+      </section>
+
+      <section>
+        <h2>サイズより先に重量で詰む</h2>
+        <ul>
+          <li>7kgは<strong>キャリーケース単体ではなく、身の回り品との2個合計</strong>です。</li>
+          <li>本体2.5kgのケースにリュック1kgを足すと、中身に使えるのは3.5kg程度しか残りません。</li>
+          <li>ハードケースは本体が重く、7kgに収めるのが難しくなります。</li>
+          <li>帰りのお土産で超過する例が多く、お土産の紙袋も個数・重量に含まれます。</li>
+        </ul>
+        <p><strong>本体重量が、実質的な容量を決めます。</strong>上の判定ツールの「中身に使える重量」列で確認してください。</p>
+      </section>
+
+      <section>
+        <h2>商品比較表</h2>
+        <p class="small" id="products-status">{{productsStatus}}</p>
+        <div class="table-scroll"><table id="products-table">{{productsTable}}</table></div>
+        <div id="products-pending" class="notes">{{productsNotes}}</div>
+      </section>
+
+      <section>
+        <h2>次に困りそうなこと</h2>
+        <ul>
+          <li>ラゲッジスケール（手荷物用はかり）の選び方</li>
+          <li>圧縮袋・パッキングキューブで中身をどこまで詰められるか</li>
+          <li>機内持ち込みできないもの（モバイルバッテリーのWh制限、ヘアアイロンなど）</li>
+          <li>超過したときの追加料金と、事前オプション購入の損益分岐</li>
+        </ul>
+      </section>
+
+      <p class="price-note">{{priceNote}}</p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>{{disclosure}}</p>
+        <p class="small">
+          <a href="../pages/about.html">運営者情報</a> ・ <a href="../pages/privacy.html">プライバシーポリシー</a>
+        </p>
+        <p class="small">&copy; {{year}} {{siteName}}</p>
+      </div>
+    </footer>
+
+    <script type="application/json" id="lcc-data">
+{{data}}
+    </script>
+    <script type="module" src="../assets/lcc-carrycase.js"></script>
+  </body>
+</html>

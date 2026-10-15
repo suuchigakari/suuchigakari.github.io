@@ -10,6 +10,16 @@ import { fileURLToPath } from 'node:url';
 
 import { buildAffiliateUrl, escapeHtml } from '../src/affiliate.js';
 import {
+  CHECKER_DEFAULTS,
+  renderAirlines,
+  renderBodyGap,
+  renderChecker,
+  renderConclusion,
+  renderConflict,
+  renderProducts,
+  verifiedLuggage,
+} from '../src/lcc-render.js';
+import {
   FIT,
   applyTransform,
   bulkRatio,
@@ -323,6 +333,37 @@ ${cards}
 `;
 }
 
+/** LCC記事のテンプレートの {{名前}} を埋める。 */
+function renderLccPage(template, airlineData, luggageData, config) {
+  const airlines = airlineData.airlines;
+  const airlineParts = renderAirlines(airlineData);
+  const productParts = renderProducts(luggageData, airlines, config);
+  const checker = renderChecker(airlines, CHECKER_DEFAULTS);
+  const values = {
+    siteName: escapeHtml(config.siteName),
+    disclosure: escapeHtml(config.disclosure),
+    priceNote: escapeHtml(config.priceNote),
+    year: String(new Date().getFullYear()),
+    conclusion: renderConclusion(airlines),
+    conflict: renderConflict(airlines),
+    bodyGap: renderBodyGap(verifiedLuggage(luggageData.products)),
+    checkerSummary: checker.summary,
+    checkerTable: checker.table,
+    airlinesAsOf: airlineParts.asOf,
+    airlinesTable: airlineParts.table,
+    airlineNotes: airlineParts.notes,
+    productsStatus: escapeHtml(productParts.status),
+    productsTable: productParts.table,
+    productsNotes: productParts.notes,
+    // </script> を含めないよう < をエスケープして埋め込む
+    data: JSON.stringify({ airlines }).replaceAll('<', '\\u003c'),
+  };
+  return template.replace(/\{\{(\w+)\}\}/g, (match, key) => {
+    if (!(key in values)) throw new Error(`テンプレートの未定義の値: ${key}`);
+    return values[key];
+  });
+}
+
 const configPath = fileURLToPath(new URL('site.config.json', root));
 const config = JSON.parse(await readFile(configPath, 'utf8'));
 
@@ -348,12 +389,28 @@ for (const file of files) {
   console.log(`生成: articles/${article.slug}.html （掲載 ${products.length} 件）`);
 }
 
-// 手書き記事（ビルダーの対象外）も一覧に混ぜる
-const manual = JSON.parse(
-  await readFile(fileURLToPath(new URL('data/article-list.json', root)), 'utf8'),
+// LCCキャリーケース記事はテンプレート＋航空会社規定データから生成する
+const readJson = async (path) =>
+  JSON.parse(await readFile(fileURLToPath(new URL(path, root)), 'utf8'));
+const airlineData = await readJson('data/airlines.json');
+const luggageData = await readJson('data/luggage-products.json');
+const luggageListed = verifiedLuggage(luggageData.products);
+await writeFile(
+  fileURLToPath(new URL('articles/lcc-carrycase.html', root)),
+  renderLccPage(
+    await readFile(fileURLToPath(new URL('templates/lcc-carrycase.html', root)), 'utf8'),
+    airlineData,
+    luggageData,
+    config,
+  ),
 );
+console.log(`生成: articles/lcc-carrycase.html （掲載 ${luggageListed.length} 件）`);
+
+// テンプレート記事の一覧情報（タイトル・説明）は data/article-list.json から読む
+const manual = await readJson('data/article-list.json');
 for (const entry of manual.articles) {
-  entries.push({ ...entry, productCount: entry.productCount ?? 7 });
+  const productCount = entry.slug === 'lcc-carrycase' ? luggageListed.length : entry.productCount;
+  entries.push({ ...entry, productCount });
 }
 
 entries.sort((a, b) => Number.parseFloat(b.commissionRate) - Number.parseFloat(a.commissionRate));

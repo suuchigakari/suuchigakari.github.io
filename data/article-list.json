@@ -1,5 +1,5 @@
 {
-  "note": "ビルダーが生成しない手書き記事（articles/*.html を直接編集しているもの）をトップページに載せるための一覧。 productCount は手動更新（data/luggage-products.json の verified 件数に合わせる）。",
+  "note": "テンプレートから生成する記事（templates/*.html）をトップページの一覧に載せるためのタイトル・説明。掲載件数はビルド時にデータから数える。",
   "articles": [
     {
       "slug": "lcc-carrycase",
@@ -7,8 +7,7 @@
       "commissionRate": "8.00%",
       "title": "LCCで弾かれないキャリーケースの選び方",
       "description": "「3辺合計115cm以内」を満たしてもLCCでは各辺の上限で弾かれます。ピーチとジェットスターの規定は1台で両立しません。",
-      "asOf": "2026-09-06",
-      "productCount": 7
+      "asOf": "2026-09-06"
     }
   ]
 }
