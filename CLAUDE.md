@@ -47,6 +47,7 @@ Amazonアソシエイト向けの商品比較サイトです。ジャンル選�
 - 依存パッケージなし。`npm run build` で記事HTMLを生成し、`npm start` で生成してから配信、`npm test` でテスト。
 - **記事は `data/articles/<slug>.json` に書き、`npm run build` で `articles/<slug>.html` と `index.html` を生成する。** 生成物もコミットする（GitHub Pages がそのまま配信するため）。生成された HTML を手で編集しない。
 - 本文・比較表とも静的HTMLとして出力する。JavaScript は絞り込みなどの付加機能だけに使う（検索エンジンと審査で中身が見える状態を保つ）。
-- `articles/lcc-carrycase.html` は例外で、生成対象ではなく手書き。トップページの一覧には `data/article-list.json` から載せる。
+- LCCキャリーケース記事だけは構成が違うため、本文を `templates/lcc-carrycase.html` に書き、結論・表は `src/lcc-render.js` がビルド時に埋める（生成物の `articles/lcc-carrycase.html` は手で編集しない）。一覧のタイトル・説明は `data/article-list.json`。
+- **表示に書いてよいのは事実だけ。** 使っていない商品を「使った」「使ってみて」と書かない。このサイトはメーカー公式の仕様を比べるサイトであり、実使用レビューではない。
 - 判定ロジックの置き場所：リンク生成は `src/affiliate.js`、航空会社規定は `src/luggage.js`、記事共通の適合判定（レンジ・フラグ）は `src/fit.js`。HTML 側に散らさない。
 - 変更したら `npm test` を通し、`npm run build` の差分もコミットする。

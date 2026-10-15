@@ -105,7 +105,7 @@ ES モジュールを `fetch` で読み込むため、`index.html` を `file://`
 | `docs/` | ジャンル選定の調査結果と記事構成案 |
 | `src/affiliate.js` | ASIN 抽出・リンク生成のライブラリ（ブラウザ / Node 共用） |
 | `src/luggage.js` | 機内持ち込み規定の適合判定（各辺・3辺合計・重量） |
-| `articles/lcc-carrycase.html` | LCC 対応キャリーケースの記事 |
+| `templates/lcc-carrycase.html` / `src/lcc-render.js` | LCC 対応キャリーケース記事の本文テンプレートと、結論・表の描画（ビルドで `articles/lcc-carrycase.html` を生成） |
 | `data/airlines.json` | 航空会社別の機内持ち込み規定（確認日・根拠つき） |
 | `data/luggage-products.json` | 記事用の商品データ（外寸を裏取りしたものだけ掲載される） |
 | `scripts/build-articles.mjs` | 記事HTML・トップページの生成 |
