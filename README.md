@@ -100,7 +100,7 @@ ES モジュールを `fetch` で読み込むため、`index.html` を `file://`
 | パス | 役割 |
 | --- | --- |
 | `CLAUDE.md` | 運用ルール（料率の扱い、数値の裏取り、開示表記、リライト期限） |
-| `pages/about.html` / `pages/privacy.html` | 運営者情報・プライバシーポリシー（申請前に連絡先の記入が必要） |
+| `pages/about.html` / `pages/privacy.html` | 運営者情報・プライバシーポリシー（運営者：すうち係、連絡先はサイト専用Gmail） |
 | `docs/associate_application_checklist.md` | アソシエイト申請の要件と手順 |
 | `docs/` | ジャンル選定の調査結果と記事構成案 |
 | `src/affiliate.js` | ASIN 抽出・リンク生成のライブラリ（ブラウザ / Node 共用） |
