@@ -3,22 +3,37 @@
   "genre": "ウォータージャグ・ウォータータンク",
   "genreNumber": 34,
   "commissionRate": "4.00%",
-  "derivedSpecs": ["filledWeightKg"],
-  "title": "ウォータージャグは満水で何kgになるか｜3L〜20Lの8製品を容量と本体重量で比較",
-  "description": "18Lのウォータージャグは、水を満タンにすると約20.8kgになります。耐荷重10kgのアウトドアテーブルに載せられるのは6Lクラスまでです。メーカー公式の容量と本体重量から、満水時の重さを並べました。",
-  "keywords": ["ウォータージャグ 容量 選び方", "ウォータージャグ 満水 重さ", "ウォータージャグ テーブル 耐荷重"],
+  "derivedSpecs": [
+    "filledWeightKg"
+  ],
+  "title": "ウォータージャグは満水で何kgになるか｜1.8L〜20Lの13製品を容量と本体重量で比較（サーモス・YETI・キャプテンスタッグ・DOD）",
+  "description": "18Lのウォータージャグは、水を満タンにすると約20.8kgになります。耐荷重10kgのアウトドアテーブルに載せられるのは6Lクラスまでです。サーモス・YETI・キャプテンスタッグ・DODの13製品を、メーカー公式の容量と本体重量から満水時の重さで比べました。",
+  "keywords": [
+    "ウォータージャグ 容量 選び方",
+    "ウォータージャグ 満水 重さ",
+    "ウォータージャグ テーブル 耐荷重"
+  ],
   "asOf": "2026-10-19",
   "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝本体重量が公式に明記なし（満水時の重さを出せない）。満水時の重さは、水1Lを1kgとして本体重量に足した目安。",
   "lead": "ウォータージャグを容量だけで選ぶと、満水にしたときの重さで困ります。水は1Lで約1kgなので、18Lのジャグは本体と合わせて約20.8kgになります。耐荷重10kgのテーブルには載せられず、片手で持ち運ぶのも難しい重さです。メーカー公式の容量と本体重量から、満水時の重さを計算して並べました。",
   "excludeReaders": [
-    { "who": "飲み物を何時間冷たく保てるかで選びたい人", "why": "このページの製品は、保冷時間を公式に公開していません。断熱材が入っているかどうかだけを比べています" },
-    { "who": "災害用に水を長期保存したい人", "why": "長期保存は、容器の材質や保存期間の目安で選ぶものです。このページはキャンプで使う前提の容量と重さで比べています" },
-    { "who": "水道のない場所で何日も過ごす人", "why": "20Lを超える大容量タンクや、折りたたみ式の給水袋のほうが向いています" }
+    {
+      "who": "飲み物を何時間冷たく保てるかで選びたい人",
+      "why": "保冷効力を公式に数値で出しているのは、このページではサーモスだけです。ほかの製品は断熱構造があるかどうかしか比べられません"
+    },
+    {
+      "who": "災害用に水を長期保存したい人",
+      "why": "長期保存は、容器の材質や保存期間の目安で選ぶものです。このページはキャンプで使う前提の容量と重さで比べています"
+    },
+    {
+      "who": "水道のない場所で何日も過ごす人",
+      "why": "20Lを超える大容量タンクや、折りたたみ式の給水袋のほうが向いています"
+    }
   ],
   "conclusion": [
-    "満水時の重さは「容量＋本体重量」。6Lクラスで約7.7kg、13Lで約15.2kg、18Lで約20.8kgになる",
+    "満水時の重さは「容量＋本体重量」。2Lクラスで約3〜4kg、6Lクラスで約7.7kg、13Lで約15.2kg、18Lで約20.8kgになる",
     "テーブルに載せるなら、テーブルの耐荷重から逆算する。耐荷重10kgなら6Lクラスまで、15kgでも13Lは超える",
-    "断熱材入りのジャグは、同じ容量のタンクより重い。冷たい飲み物を入れるのか、手洗い用の水を入れるのかで選び分ける"
+    "同じ2L前後でも本体重量は0.9kg（サーモス）から1.7kg（YETI）まで約2倍違う。保冷効力を数値で公開しているのはサーモスだけ"
   ],
   "sections": [
     {
@@ -38,10 +53,17 @@
       ]
     },
     {
-      "heading": "断熱材入りのジャグは、同じ容量のタンクより重い",
+      "heading": "断熱構造のあるジャグは、同じ容量のタンクより重い",
       "paragraphs": [
-        "キャプテンスタッグのクールヒッツ・最後まで注げる！・リガードの各ジャグは、公式の材質欄に断熱材（ウレタンフォーム）の記載があります。一方、ボルディウォータータンクとDODのジミニータンクは、材質がポリエチレンだけです。",
-        "断熱材のぶん、ジャグは重くなります。DODのジミニータンクは10Lで本体約0.85kg、キャプテンスタッグのリガード 13Lは本体約2.2kgです。冷たい飲み物を入れるなら断熱材入り、手洗いや調理に使う水を入れるならタンク、と使い分けると、運ぶ重さを減らせます。"
+        "キャプテンスタッグのクールヒッツ・最後まで注げる！・リガードの各ジャグは公式の材質欄に断熱材（ウレタンフォーム）の記載があり、サーモスとYETIのジャグは真空断熱です。一方、ボルディウォータータンクとDODのジミニータンクは、材質がポリエチレンだけです。",
+        "断熱材のぶん、ジャグは重くなります。DODのジミニータンクは10Lで本体約0.85kg、キャプテンスタッグのリガード 13Lは本体約2.2kgです。冷たい飲み物を入れるなら断熱構造のあるジャグ、手洗いや調理に使う水を入れるならタンク、と使い分けると、運ぶ重さを減らせます。"
+      ]
+    },
+    {
+      "heading": "同じ2L前後でも、本体重量は2倍違う",
+      "paragraphs": [
+        "2L前後の真空断熱ジャグで比べると、サーモスの真空断熱スポーツジャグ2.0Lは本体約0.9kg、YETIのランブラー ハーフガロン（1.8L）ジャグは本体約1.7kgです。容量はほぼ同じで、本体重量は約2倍違います。満水時はサーモスが約2.9kg、YETIが約3.5kgです。",
+        "保冷の数値を公式に出しているのは、このページではサーモスだけです。サーモスは3機種とも「保冷効力（6時間）9℃以下」と公開しています。YETIは公式ページで保温・保冷できることは書いていますが、時間や温度の数値はありません。数値のない製品どうしの保冷性能は比べられないので、比較表では「公式に明記なし」としています。"
       ]
     },
     {
@@ -54,29 +76,140 @@
   ],
   "filter": {
     "heading": "テーブルの耐荷重と容量で絞り込む",
-    "note": "ジャグを載せるテーブルや台の耐荷重と、必要な容量を入れてください。冷たい飲み物を入れる場合は、断熱材入りだけに絞れます。",
+    "note": "ジャグを載せるテーブルや台の耐荷重と、必要な容量を入れてください。冷たい飲み物を入れる場合は、断熱構造のあるものだけに絞れます。",
     "numberInputs": [
-      { "key": "filledWeightKg", "type": "atMost", "label": "載せるテーブルの耐荷重 (kg)", "unit": "kg", "default": 10, "min": 1, "max": 50, "step": 1 },
-      { "key": "capacityL", "type": "atLeast", "label": "必要な容量 (L)", "unit": "L", "default": 2, "min": 1, "max": 30, "step": 1 }
+      {
+        "key": "filledWeightKg",
+        "type": "atMost",
+        "label": "載せるテーブルの耐荷重 (kg)",
+        "unit": "kg",
+        "default": 10,
+        "min": 1,
+        "max": 50,
+        "step": 1
+      },
+      {
+        "key": "capacityL",
+        "type": "atLeast",
+        "label": "必要な容量 (L)",
+        "unit": "L",
+        "default": 1,
+        "min": 1,
+        "max": 30,
+        "step": 1
+      }
     ],
-    "flagInput": { "key": "insulated", "label": "断熱材入りだけ（公式の材質欄にウレタンフォームの記載があるもの）", "okDetail": "断熱材入り", "ngDetail": "材質欄に断熱材の記載なし" }
+    "flagInput": {
+      "key": "insulated",
+      "label": "断熱構造ありだけ（公式に断熱材・真空断熱の記載があるもの）",
+      "okDetail": "断熱構造あり",
+      "ngDetail": "公式に断熱の記載なし"
+    }
   },
   "columns": [
-    { "key": "capacityL", "label": "容量", "unit": "L" },
-    { "key": "weightKg", "label": "本体重量", "unit": "kg" },
-    { "key": "filledWeightKg", "label": "満水時の重さ（目安）", "unit": "kg" },
-    { "key": "sizeCm", "label": "本体サイズ" },
-    { "key": "insulated", "label": "断熱材" }
+    {
+      "key": "capacityL",
+      "label": "容量",
+      "unit": "L"
+    },
+    {
+      "key": "weightKg",
+      "label": "本体重量",
+      "unit": "kg"
+    },
+    {
+      "key": "filledWeightKg",
+      "label": "満水時の重さ（目安）",
+      "unit": "kg"
+    },
+    {
+      "key": "sizeCm",
+      "label": "本体サイズ"
+    },
+    {
+      "key": "insulated",
+      "label": "断熱"
+    },
+    {
+      "key": "coolingSpec",
+      "label": "保冷効力（公式値）"
+    }
   ],
   "products": [
+    {
+      "name": "YETI ランブラー ハーフガロン（1.8L）ジャグ",
+      "brand": "YETI",
+      "asin": "B07MGZD4ZP",
+      "verified": true,
+      "source": "メーカー公式 https://yeti.co.jp/products/rambler-1-2-jug-black （2026-10-19 確認）",
+      "specs": {
+        "capacityL": 1.8,
+        "weightKg": 1.7,
+        "sizeCm": "幅14.9×高さ25.7cm",
+        "insulated": true,
+        "coolingSpec": null
+      },
+      "note": "ステンレスのダブルウォール真空断熱。容量1.8Lに対して本体が1.7kgあり、同じくらいの容量のサーモス 2.0L（0.9kg）の約2倍重い。保冷時間は公式に数値の記載がない。"
+    },
+    {
+      "name": "サーモス 真空断熱スポーツジャグ 2.0L（FJQ-2001）",
+      "brand": "サーモス",
+      "asin": "B0GL4VT9RW",
+      "verified": true,
+      "source": "メーカー公式 https://www.thermos.jp/product/detail/fjq-2001.html （2026-10-19 確認）",
+      "specs": {
+        "capacityL": 2,
+        "weightKg": 0.9,
+        "sizeCm": "約16×13×高さ30cm",
+        "insulated": true,
+        "coolingSpec": "6時間後 9℃以下"
+      },
+      "note": "保冷効力（6時間で9℃以下）を公式に公開している。満水でも約2.9kg。Amazonの出品カテゴリは「ホーム＆キッチン」。"
+    },
+    {
+      "name": "サーモス 真空断熱スポーツジャグ 2.5L（FJQ-2501）",
+      "brand": "サーモス",
+      "asin": "B0GL5T4MFG",
+      "verified": true,
+      "source": "メーカー公式 https://www.thermos.jp/product/detail/fjq-2501.html （2026-10-19 確認）",
+      "specs": {
+        "capacityL": 2.5,
+        "weightKg": 1,
+        "sizeCm": "約16×13×高さ35.5cm",
+        "insulated": true,
+        "coolingSpec": "6時間後 9℃以下"
+      },
+      "note": "2.0Lと底面のサイズは同じで、高さが5.5cm高い。"
+    },
     {
       "name": "キャプテンスタッグ クールヒッツ ウォータージャグ3L（M-5085）",
       "brand": "キャプテンスタッグ",
       "asin": "B00B43CRTE",
       "verified": true,
       "source": "メーカー公式 https://www.captainstag.net/products/M-5085.html （2026-10-19 確認）",
-      "specs": { "capacityL": 2.9, "weightKg": 0.86, "sizeCm": "約18×22×高さ28cm", "insulated": true },
+      "specs": {
+        "capacityL": 2.9,
+        "weightKg": 0.86,
+        "sizeCm": "約18×22×高さ28cm",
+        "insulated": true,
+        "coolingSpec": null
+      },
       "note": "掲載中で最も小さく軽い。満水でも約3.8kgで、耐荷重10kgのテーブルに余裕を持って載せられる。"
+    },
+    {
+      "name": "サーモス 真空断熱スポーツジャグ 3.0L（FJQ-3001）",
+      "brand": "サーモス",
+      "asin": "B0GL53J23J",
+      "verified": true,
+      "source": "メーカー公式 https://www.thermos.jp/product/detail/fjq-3001.html （2026-10-19 確認）",
+      "specs": {
+        "capacityL": 3,
+        "weightKg": 1.2,
+        "sizeCm": "約17.5×14.5×高さ35.5cm",
+        "insulated": true,
+        "coolingSpec": "6時間後 9℃以下"
+      },
+      "note": "同じ3Lクラスのキャプテンスタッグ 最後まで注げる！ウォータージャグ3と本体重量は同じ1.2kg。"
     },
     {
       "name": "キャプテンスタッグ 最後まで注げる！ウォータージャグ3（UE-2053）",
@@ -84,8 +217,44 @@
       "asin": "B0F3HT3VDW",
       "verified": true,
       "source": "メーカー公式 https://www.captainstag.net/products/UE-2053.html （2026-10-19 確認）",
-      "specs": { "capacityL": 3, "weightKg": 1.2, "sizeCm": "約18×21×高さ31.5cm", "insulated": true },
+      "specs": {
+        "capacityL": 3,
+        "weightKg": 1.2,
+        "sizeCm": "約18×21×高さ31.5cm",
+        "insulated": true,
+        "coolingSpec": null
+      },
       "note": "同じ3Lクラスのクールヒッツより本体が約0.3kg重い。コップ（大160ml・小110ml）付き。"
+    },
+    {
+      "name": "YETI ランブラー ガロン（3.7L）ジャグ",
+      "brand": "YETI",
+      "asin": "B07M62GNMG",
+      "verified": true,
+      "source": "メーカー公式 https://yeti.co.jp/products/rambler-1-jug-rescue-red （2026-10-19 確認）",
+      "specs": {
+        "capacityL": 3.7,
+        "weightKg": 2,
+        "sizeCm": "幅16.3×高さ31.5cm",
+        "insulated": true,
+        "coolingSpec": null
+      },
+      "note": "満水で約5.7kg。保冷時間は公式に数値の記載がない。Amazonの出品カテゴリは「ホーム＆キッチン」で、商品ページの寸法欄は公式と異なる値になっているため、公式の値を載せている。"
+    },
+    {
+      "name": "キャプテンスタッグ 抗菌ボルディウォータータンク5L（UE-2052）",
+      "brand": "キャプテンスタッグ",
+      "asin": "B0F4XH173M",
+      "verified": true,
+      "source": "メーカー公式 https://www.captainstag.net/products/UE-2052.html （2026-10-19 確認）",
+      "specs": {
+        "capacityL": 5,
+        "weightKg": null,
+        "sizeCm": "約24×13×高さ26cm",
+        "insulated": false,
+        "coolingSpec": null
+      },
+      "note": "奥行13cmと薄い。公式の仕様表に本体重量の記載がないため、満水時の重さは出していない（水だけで約5kg）。"
     },
     {
       "name": "キャプテンスタッグ 最後まで注げる！ウォータージャグ6（UE-2054）",
@@ -93,8 +262,29 @@
       "asin": "B0FC2HNDZG",
       "verified": true,
       "source": "メーカー公式 https://www.captainstag.net/products/UE-2054.html （2026-10-19 確認）",
-      "specs": { "capacityL": 6.2, "weightKg": 1.5, "sizeCm": "約26×29.5×高さ37cm", "insulated": true },
+      "specs": {
+        "capacityL": 6.2,
+        "weightKg": 1.5,
+        "sizeCm": "約26×29.5×高さ37cm",
+        "insulated": true,
+        "coolingSpec": null
+      },
       "note": "満水で約7.7kg。耐荷重10kgのテーブルに満水で載せられるのは、このページではこのクラスまで。"
+    },
+    {
+      "name": "DOD ジミニータンク 10L（WT3-863-BG）",
+      "brand": "DOD",
+      "asin": "B09GK7J77R",
+      "verified": true,
+      "source": "メーカー公式 https://www.dod.camp/product/wt3_863/ （2026-10-19 確認）",
+      "specs": {
+        "capacityL": 10,
+        "weightKg": 0.85,
+        "sizeCm": "約13×31×高さ34cm",
+        "insulated": false,
+        "coolingSpec": null
+      },
+      "note": "10Lで本体約0.85kgと、容量のわりに軽い。幅13cmの薄型。断熱材はない。"
     },
     {
       "name": "キャプテンスタッグ リガード ウォータージャグ&クーラー13L（UE-2019）",
@@ -102,7 +292,13 @@
       "asin": "B01N59XSAS",
       "verified": true,
       "source": "メーカー公式 https://www.captainstag.net/products/UE-2019.html （2026-10-19 確認）",
-      "specs": { "capacityL": 13, "weightKg": 2.2, "sizeCm": "約37×34×高さ37cm", "insulated": true },
+      "specs": {
+        "capacityL": 13,
+        "weightKg": 2.2,
+        "sizeCm": "約37×34×高さ37cm",
+        "insulated": true,
+        "coolingSpec": null
+      },
       "note": "満水で約15.2kg。耐荷重15kgのテーブルもわずかに超える。"
     },
     {
@@ -111,17 +307,14 @@
       "asin": "B01N7CSNNQ",
       "verified": true,
       "source": "メーカー公式 https://www.captainstag.net/products/UE-2020.html （2026-10-19 確認）",
-      "specs": { "capacityL": 18, "weightKg": 2.8, "sizeCm": "約37×34×高さ47cm", "insulated": true },
+      "specs": {
+        "capacityL": 18,
+        "weightKg": 2.8,
+        "sizeCm": "約37×34×高さ47cm",
+        "insulated": true,
+        "coolingSpec": null
+      },
       "note": "満水で約20.8kg。13Lと底面のサイズは同じで、高さが10cm高い。テーブルに載せるなら耐荷重30kgの製品が必要。"
-    },
-    {
-      "name": "キャプテンスタッグ 抗菌ボルディウォータータンク5L（UE-2052）",
-      "brand": "キャプテンスタッグ",
-      "asin": "B0F4XH173M",
-      "verified": true,
-      "source": "メーカー公式 https://www.captainstag.net/products/UE-2052.html （2026-10-19 確認）",
-      "specs": { "capacityL": 5, "weightKg": null, "sizeCm": "約24×13×高さ26cm", "insulated": false },
-      "note": "奥行13cmと薄い。公式の仕様表に本体重量の記載がないため、満水時の重さは出していない（水だけで約5kg）。"
     },
     {
       "name": "キャプテンスタッグ NEWボルディウォータータンク20L（UE-2051）",
@@ -129,22 +322,25 @@
       "asin": "B0F8VJVK5C",
       "verified": true,
       "source": "メーカー公式 https://www.captainstag.net/products/UE-2051.html （2026-10-19 確認）",
-      "specs": { "capacityL": 20, "weightKg": null, "sizeCm": "約40×19×高さ36.5cm", "insulated": false },
+      "specs": {
+        "capacityL": 20,
+        "weightKg": null,
+        "sizeCm": "約40×19×高さ36.5cm",
+        "insulated": false,
+        "coolingSpec": null
+      },
       "note": "掲載中で最も容量が大きい。公式の仕様表に本体重量の記載がないため、満水時の重さは出していない（水だけで約20kg）。"
-    },
-    {
-      "name": "DOD ジミニータンク 10L（WT3-863-BG）",
-      "brand": "DOD",
-      "asin": "B09GK7J77R",
-      "verified": true,
-      "source": "メーカー公式 https://www.dod.camp/product/wt3_863/ （2026-10-19 確認）",
-      "specs": { "capacityL": 10, "weightKg": 0.85, "sizeCm": "約13×31×高さ34cm", "insulated": false },
-      "note": "10Lで本体約0.85kgと、容量のわりに軽い。幅13cmの薄型。断熱材はない。"
     }
   ],
   "nextProblems": [
-    { "text": "ジャグを載せるテーブルの耐荷重（10kg・15kg・30kgで差がある）", "href": "./outdoor-table.html" },
-    { "text": "ジャグと一緒に冷やす飲み物を入れるクーラーボックスの容量", "href": "./cooler-box.html" },
+    {
+      "text": "ジャグを載せるテーブルの耐荷重（10kg・15kg・30kgで差がある）",
+      "href": "./outdoor-table.html"
+    },
+    {
+      "text": "ジャグと一緒に冷やす飲み物を入れるクーラーボックスの容量",
+      "href": "./cooler-box.html"
+    },
     "蛇口の位置と高さ（テーブルの端に置かないとコップが入らない）",
     "使ったあとの乾かし方（口が狭いと中まで乾きにくい）"
   ],
