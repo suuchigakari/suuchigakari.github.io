@@ -25,6 +25,7 @@ import {
   applyTransform,
   bulkRatio,
   evaluateProduct,
+  filledWeightKg,
   formatSpec,
   verifiedProducts,
 } from '../src/fit.js';
@@ -33,6 +34,27 @@ import {
 const COMPUTED = {
   bulkRatio: (product) => bulkRatio(product.specs?.outerCm, product.specs?.capacityL),
 };
+
+/**
+ * 仕様から計算して specs に足す値。記事 JSON の derivedSpecs に名前を書くと有効になる。
+ * 絞り込み（ブラウザ側）でも使えるよう、表示用の列ではなく specs に入れる。
+ */
+const DERIVED_SPECS = {
+  filledWeightKg: (specs) => filledWeightKg(specs.capacityL, specs.weightKg),
+};
+
+function withDerivedSpecs(article) {
+  if (!article.derivedSpecs) return article;
+  const products = article.products.map((product) => {
+    const specs = { ...product.specs };
+    for (const key of article.derivedSpecs) {
+      if (!DERIVED_SPECS[key]) throw new Error(`未定義の derivedSpecs: ${key}`);
+      specs[key] = DERIVED_SPECS[key](specs);
+    }
+    return { ...product, specs };
+  });
+  return { ...article, products };
+}
 
 /**
  * airlineFit を持つ記事（リュックなど）は、外寸 specs.outerCm（高さ・幅・奥行）と重量から
@@ -417,9 +439,11 @@ const files = (await readdir(fileURLToPath(articlesDir))).filter((file) => file.
 const entries = [];
 
 for (const file of files) {
-  const article = withAirlineFit(
-    JSON.parse(await readFile(fileURLToPath(new URL(file, articlesDir)), 'utf8')),
-    airlineData.airlines,
+  const article = withDerivedSpecs(
+    withAirlineFit(
+      JSON.parse(await readFile(fileURLToPath(new URL(file, articlesDir)), 'utf8')),
+      airlineData.airlines,
+    ),
   );
   const products = verifiedProducts(article.products);
   await writeFile(

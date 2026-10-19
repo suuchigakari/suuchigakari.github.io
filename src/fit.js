@@ -176,3 +176,12 @@ export function bulkRatio(sidesCm, capacityL) {
   if (outer === null || typeof capacityL !== 'number' || capacityL <= 0) return null;
   return Number((outer / capacityL).toFixed(2));
 }
+
+/**
+ * 水を満タンにしたときの重さ(kg)。水 1L = 1kg として本体重量に足す。
+ * どちらかが公式に明記なしなら null（推定しない）。
+ */
+export function filledWeightKg(capacityL, emptyKg) {
+  if (typeof capacityL !== 'number' || typeof emptyKg !== 'number') return null;
+  return Number((capacityL + emptyKg).toFixed(1));
+}

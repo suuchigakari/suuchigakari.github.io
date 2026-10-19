@@ -9,6 +9,7 @@ import {
   evaluateAtMost,
   outerVolumeL,
   evaluateFlag,
+  filledWeightKg,
   evaluateProduct,
   evaluateRange,
   formatSpec,
@@ -151,4 +152,11 @@ test('evaluateFlag: 数値から導いたフラグは記事側の文言で理由
   assert.equal(evaluateFlag(null, options).status, FIT.UNKNOWN);
   // 文言を渡さなければ従来どおり
   assert.equal(evaluateFlag(false).detail, '公式に非対応と明記');
+});
+
+test('filledWeightKg: 満水時の重さは容量(L)を kg として本体重量に足す', () => {
+  assert.equal(filledWeightKg(6.2, 1.5), 7.7);
+  assert.equal(filledWeightKg(18, 2.8), 20.8);
+  // 本体重量が公式に明記なしなら推定しない
+  assert.equal(filledWeightKg(20, null), null);
 });

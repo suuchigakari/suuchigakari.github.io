@@ -52,4 +52,5 @@ Amazonアソシエイト向けの商品比較サイトです。ジャンル選�
 - **表示に書いてよいのは事実だけ。** 使っていない商品を「使った」「使ってみて」と書かない。このサイトはメーカー公式の仕様を比べるサイトであり、実使用レビューではない。
 - 判定ロジックの置き場所：リンク生成は `src/affiliate.js`、航空会社規定は `src/luggage.js`、記事共通の適合判定（レンジ・フラグ）は `src/fit.js`。HTML 側に散らさない。
 - キャリーケース以外で航空会社の規定を判定する記事（例：`lcc-backpack`）は、記事 JSON に `"airlineFit": { "group": "LCC" }` を書き、商品の `specs.outerCm`（高さ・幅・奥行）と `weightKg` を入れる。ビルド時に `src/luggage.js` の `fittingAirlines` で「収まる会社」を計算する。航空会社の規定を記事 JSON に書き写さない。
+- 仕様から計算できる値（例：ウォータージャグの満水時の重さ＝容量＋本体重量）は、記事 JSON の `"derivedSpecs": ["filledWeightKg"]` で指定し、計算は `src/fit.js` に置く。元の値が「公式に明記なし」なら計算結果も null にする（推定しない）。
 - 変更したら `npm test` を通し、`npm run build` の差分もコミットする。
