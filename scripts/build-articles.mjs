@@ -19,6 +19,7 @@ import {
   renderProducts,
   verifiedLuggage,
 } from '../src/lcc-render.js';
+import { fittingAirlines, totalCm } from '../src/luggage.js';
 import {
   FIT,
   applyTransform,
@@ -32,6 +33,36 @@ import {
 const COMPUTED = {
   bulkRatio: (product) => bulkRatio(product.specs?.outerCm, product.specs?.capacityL),
 };
+
+/**
+ * airlineFit を持つ記事（リュックなど）は、外寸 specs.outerCm（高さ・幅・奥行）と重量から
+ * 各社の機内持ち込み規定に収まるかを計算して specs に足す。判定は src/luggage.js に任せる。
+ */
+function withAirlineFit(article, airlines) {
+  if (!article.airlineFit) return article;
+  const targets = airlines.filter((airline) => airline.group === article.airlineFit.group);
+  const products = article.products.map((product) => {
+    const [heightCm, widthCm, depthCm] = product.specs?.outerCm ?? [];
+    const item = { heightCm, widthCm, depthCm, weightKg: product.specs?.weightKg };
+    const ok = fittingAirlines(item, targets);
+    const fitAirlines =
+      ok.length === targets.length
+        ? `全${targets.length}社`
+        : ok.length === 0
+          ? 'なし'
+          : ok.map((airline) => airline.name).join('・');
+    return {
+      ...product,
+      specs: {
+        ...product.specs,
+        totalCm: totalCm(item),
+        fitAirlines,
+        fitAllAirlines: ok.length === targets.length,
+      },
+    };
+  });
+  return { ...article, products };
+}
 
 const root = new URL('..', import.meta.url);
 const articlesDir = new URL('data/articles/', root);
@@ -378,11 +409,18 @@ function renderLccPage(template, airlineData, luggageData, config) {
 const configPath = fileURLToPath(new URL('site.config.json', root));
 const config = JSON.parse(await readFile(configPath, 'utf8'));
 
+const readJson = async (path) =>
+  JSON.parse(await readFile(fileURLToPath(new URL(path, root)), 'utf8'));
+const airlineData = await readJson('data/airlines.json');
+
 const files = (await readdir(fileURLToPath(articlesDir))).filter((file) => file.endsWith('.json'));
 const entries = [];
 
 for (const file of files) {
-  const article = JSON.parse(await readFile(fileURLToPath(new URL(file, articlesDir)), 'utf8'));
+  const article = withAirlineFit(
+    JSON.parse(await readFile(fileURLToPath(new URL(file, articlesDir)), 'utf8')),
+    airlineData.airlines,
+  );
   const products = verifiedProducts(article.products);
   await writeFile(
     fileURLToPath(new URL(`articles/${article.slug}.html`, root)),
@@ -401,9 +439,6 @@ for (const file of files) {
 }
 
 // LCCキャリーケース記事はテンプレート＋航空会社規定データから生成する
-const readJson = async (path) =>
-  JSON.parse(await readFile(fileURLToPath(new URL(path, root)), 'utf8'));
-const airlineData = await readJson('data/airlines.json');
 const luggageData = await readJson('data/luggage-products.json');
 const luggageListed = verifiedLuggage(luggageData.products);
 await writeFile(

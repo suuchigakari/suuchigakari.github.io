@@ -51,4 +51,5 @@ Amazonアソシエイト向けの商品比較サイトです。ジャンル選�
 - LCCキャリーケース記事だけは構成が違うため、本文を `templates/lcc-carrycase.html` に書き、結論・表は `src/lcc-render.js` がビルド時に埋める（生成物の `articles/lcc-carrycase.html` は手で編集しない）。一覧のタイトル・説明は `data/article-list.json`。
 - **表示に書いてよいのは事実だけ。** 使っていない商品を「使った」「使ってみて」と書かない。このサイトはメーカー公式の仕様を比べるサイトであり、実使用レビューではない。
 - 判定ロジックの置き場所：リンク生成は `src/affiliate.js`、航空会社規定は `src/luggage.js`、記事共通の適合判定（レンジ・フラグ）は `src/fit.js`。HTML 側に散らさない。
+- キャリーケース以外で航空会社の規定を判定する記事（例：`lcc-backpack`）は、記事 JSON に `"airlineFit": { "group": "LCC" }` を書き、商品の `specs.outerCm`（高さ・幅・奥行）と `weightKg` を入れる。ビルド時に `src/luggage.js` の `fittingAirlines` で「収まる会社」を計算する。航空会社の規定を記事 JSON に書き写さない。
 - 変更したら `npm test` を通し、`npm run build` の差分もコミットする。

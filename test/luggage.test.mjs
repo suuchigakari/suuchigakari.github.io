@@ -7,6 +7,7 @@ import {
   evaluateAirline,
   evaluateAll,
   fitsSides,
+  fittingAirlines,
   strictestBox,
   totalCm,
 } from '../src/luggage.js';
@@ -114,4 +115,17 @@ test('主要LCC全社の共通サイズを求められる', () => {
   assert.deepEqual(box.sidesCm, [50, 36, 20]);
   assert.equal(box.weightLimitKg, 7);
   assert.equal(box.maxTotalCm, 115);
+});
+
+test('fittingAirlines: 寸法・重量の規定に収まる会社だけを返す', () => {
+  const airlines = [
+    { id: 'a', name: 'A', maxSidesCm: [50, 40, 25], maxTotalCm: 115, weightLimitKg: 7, weightScope: 'combined2' },
+    { id: 'b', name: 'B', maxSidesCm: [56, 36, 23], maxTotalCm: null, weightLimitKg: 7, weightScope: 'combined2' },
+  ];
+  // 幅40cmのリュックは、各辺36cm上限の B には入らない（容量が小さくても形で決まる）
+  const wide = { heightCm: 45, widthCm: 40, depthCm: 16, weightKg: 0.76 };
+  assert.deepEqual(fittingAirlines(wide, airlines).map((a) => a.id), ['a']);
+  // 高さ51cmは A の50cm上限を超えるが、B には入る
+  const tall = { heightCm: 51, widthCm: 36, depthCm: 18, weightKg: 0.76 };
+  assert.deepEqual(fittingAirlines(tall, airlines).map((a) => a.id), ['b']);
 });

@@ -129,6 +129,15 @@ export function evaluateAll(item, airlines, options = {}) {
 }
 
 /**
+ * 寸法・重量の規定に収まる航空会社だけを返す（判定は evaluateAirline と同じ）。
+ * リュックなど、キャリーケース以外の記事で「どの会社なら持ち込めるか」を出すのに使う。
+ * @returns {object[]} airlines のうち verdict が ok のもの（並び順は airlines のまま）
+ */
+export function fittingAirlines(item, airlines, options = {}) {
+  return airlines.filter((airline) => evaluateAirline(item, airline, options).verdict === VERDICT.OK);
+}
+
+/**
  * 指定した航空会社すべてに持ち込める「最も厳しい寸法」を求める。
  * 各辺を降順に並べたうえで、位置ごとの最小値を取る。
  *
