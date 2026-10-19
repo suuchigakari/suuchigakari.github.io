@@ -142,3 +142,13 @@ test('入力値の変換（身長→必要な鏡面高さ）', () => {
   assert.equal(applyTransform(165, 'half'), 82.5);
   assert.equal(applyTransform(170, undefined), 170);
 });
+
+test('evaluateFlag: 数値から導いたフラグは記事側の文言で理由を出す', () => {
+  const options = { okDetail: '60cm以上に設定できる', ngDetail: '最も高くしても60cm未満' };
+  assert.deepEqual(evaluateFlag(true, options), { status: FIT.OK, detail: '60cm以上に設定できる' });
+  assert.deepEqual(evaluateFlag(false, options), { status: FIT.NG, detail: '最も高くしても60cm未満' });
+  // 明記なしは文言を渡しても unknown のまま
+  assert.equal(evaluateFlag(null, options).status, FIT.UNKNOWN);
+  // 文言を渡さなければ従来どおり
+  assert.equal(evaluateFlag(false).detail, '公式に非対応と明記');
+});

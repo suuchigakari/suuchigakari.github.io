@@ -41,6 +41,8 @@ if (dataNode && form) {
         key: filter.flagInput.key,
         type: 'flag',
         required: true,
+        okDetail: filter.flagInput.okDetail,
+        ngDetail: filter.flagInput.ngDetail,
         label: filter.flagInput.label,
       });
     }

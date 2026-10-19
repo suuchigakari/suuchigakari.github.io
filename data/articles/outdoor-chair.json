@@ -47,7 +47,7 @@
     "heading": "体重で絞り込む",
     "note": "座る人の体重を入れてください（着ているものや持ち込む荷物のぶんの余裕を見ています）。ロースタイルだけを見たい場合はチェックしてください。",
     "numberInput": { "key": "capacityKg", "type": "atLeast", "label": "体重＋荷物 (kg)", "unit": "kg", "default": 70, "min": 30, "max": 120, "step": 1 },
-    "flagInput": { "key": "lowStyle", "label": "ロースタイル（座面高30cm以下）だけ" }
+    "flagInput": { "key": "lowStyle", "label": "ロースタイル（座面高30cm以下）だけ", "okDetail": "座面高30cm以下", "ngDetail": "座面高が30cmを超える" }
   },
   "columns": [
     { "key": "seatHeightCm", "label": "座面高", "unit": "cm" },
@@ -145,7 +145,7 @@
     }
   ],
   "nextProblems": [
-    "合わせるテーブルの高さ（座面高との差でテーブルが高すぎる・低すぎるが決まる）",
+    { "text": "合わせるテーブルの高さ（天板の高さは12〜70cmまで開く）", "href": "./outdoor-table.html" },
     "地面が柔らかい場所での脚の沈み込み対策（脚のカバーやプレート）",
     "収納袋が破れたときの代替と、フレームの砂の落とし方",
     "焚き火の火の粉に対する生地の耐性（ポリエステル製は穴が開く）"

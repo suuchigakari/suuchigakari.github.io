@@ -81,22 +81,23 @@ export function evaluateAtMost(value, spec, unit = '') {
  * 真偽値の仕様。null は「公式に明記なし」として unknown を返す。
  * 安全に関わる項目（階段上に設置できるか等）は、明記がないものを ok にしない。
  */
-export function evaluateFlag(spec, { required = true } = {}) {
+export function evaluateFlag(spec, { required = true, okDetail, ngDetail } = {}) {
   if (spec === null || spec === undefined) {
     return { status: FIT.UNKNOWN, detail: '公式に明記なし' };
   }
   if (!required) {
     return { status: FIT.OK, detail: spec ? '対応' : '非対応' };
   }
+  // 公式の数値から導いたフラグ（例: 座面高30cm以下）は、記事側で理由の文言を渡す
   return spec
-    ? { status: FIT.OK, detail: '公式に対応と明記' }
-    : { status: FIT.NG, detail: '公式に非対応と明記' };
+    ? { status: FIT.OK, detail: okDetail ?? '公式に対応と明記' }
+    : { status: FIT.NG, detail: ngDetail ?? '公式に非対応と明記' };
 }
 
 /**
  * 1商品を、記事が定義する要件すべてで判定する。
  * @param {object} product products[] の1件（specs を持つ）
- * @param {Array<{key:string,type:'range'|'flag',value?:number,required?:boolean,label:string}>} requirements
+ * @param {Array<{key:string,type:'range'|'atLeast'|'atMost'|'flag',value?:number,required?:boolean,okDetail?:string,ngDetail?:string,label:string}>} requirements
  */
 export function evaluateProduct(product, requirements) {
   const results = requirements.map((requirement) => {
@@ -109,7 +110,11 @@ export function evaluateProduct(product, requirements) {
     } else if (requirement.type === 'atMost') {
       result = evaluateAtMost(requirement.value, spec, requirement.unit ?? '');
     } else {
-      result = evaluateFlag(spec, { required: requirement.required });
+      result = evaluateFlag(spec, {
+        required: requirement.required,
+        okDetail: requirement.okDetail,
+        ngDetail: requirement.ngDetail,
+      });
     }
     return { ...requirement, ...result };
   });
