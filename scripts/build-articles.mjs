@@ -352,7 +352,11 @@ function renderIndex(entries, config) {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>${escapeHtml(config.siteName)}</title>
-    <meta name="description" content="${escapeHtml(config.tagline)}" />
+    <meta name="description" content="${escapeHtml(config.tagline)}" />${
+      config.googleSiteVerification
+        ? `\n    <meta name="google-site-verification" content="${escapeHtml(config.googleSiteVerification)}" />`
+        : ''
+    }
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="stylesheet" href="./assets/article.css" />
   </head>
@@ -483,6 +487,40 @@ for (const entry of manual.articles) {
   entries.push({ ...entry, productCount });
 }
 
+/**
+ * 検索エンジン向けの sitemap.xml。記事・トップ・固定ページを載せる。
+ * 運営者用の tools/ は載せない（robots.txt でもクロール対象外にしている）。
+ */
+function renderSitemap(entries, siteUrl) {
+  const base = siteUrl.endsWith('/') ? siteUrl : `${siteUrl}/`;
+  const urls = [
+    { loc: base },
+    ...entries.map((entry) => ({
+      loc: `${base}articles/${entry.slug}.html`,
+      // 確認日が日付まで分かる記事だけ lastmod を付ける（月単位の値は付けない）
+      lastmod: /^\d{4}-\d{2}-\d{2}$/.test(entry.asOf ?? '') ? entry.asOf : null,
+    })),
+    { loc: `${base}pages/about.html` },
+    { loc: `${base}pages/privacy.html` },
+  ];
+  const body = urls
+    .map(
+      (url) =>
+        `  <url>\n    <loc>${escapeHtml(url.loc)}</loc>${url.lastmod ? `\n    <lastmod>${url.lastmod}</lastmod>` : ''}\n  </url>`,
+    )
+    .join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
+}
+
+function renderRobots(siteUrl) {
+  const base = siteUrl.endsWith('/') ? siteUrl : `${siteUrl}/`;
+  return `User-agent: *\nDisallow: /tools/\n\nSitemap: ${base}sitemap.xml\n`;
+}
+
 entries.sort((a, b) => Number.parseFloat(b.commissionRate) - Number.parseFloat(a.commissionRate));
 await writeFile(fileURLToPath(new URL('index.html', root)), renderIndex(entries, config));
 console.log(`生成: index.html （記事 ${entries.length} 件）`);
+
+await writeFile(fileURLToPath(new URL('sitemap.xml', root)), renderSitemap(entries, config.siteUrl));
+await writeFile(fileURLToPath(new URL('robots.txt', root)), renderRobots(config.siteUrl));
+console.log(`生成: sitemap.xml （${entries.length + 3} URL）・robots.txt`);
