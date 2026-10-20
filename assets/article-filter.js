@@ -59,8 +59,10 @@ if (dataNode && form) {
       cell.textContent = STATUS_LABEL[status];
       const reason = document.createElement('span');
       reason.className = 'reason';
-      // 通らない理由を優先して見せる。すべて通っていれば幅の判定を出す。
-      const failed = results.find((result) => result.status !== FIT.OK);
+      // ×の理由を最優先で見せ、次に?などの理由。すべて通っていれば最初の条件の判定を出す。
+      const failed =
+        results.find((result) => result.status === FIT.NG) ??
+        results.find((result) => result.status !== FIT.OK);
       reason.textContent = (failed ?? results[0])?.detail ?? '';
       cell.append(reason);
     }

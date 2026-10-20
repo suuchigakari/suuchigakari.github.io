@@ -176,7 +176,10 @@ function renderProductRow(product, columns, config, verdict) {
       )}</td></tr>`
     : '';
 
-  const failed = verdict.results.find((result) => result.status !== FIT.OK);
+  // ×の理由を最優先で見せ、次に?などの理由。すべて通っていれば最初の条件の判定を出す。
+  const failed =
+    verdict.results.find((result) => result.status === FIT.NG) ??
+    verdict.results.find((result) => result.status !== FIT.OK);
   const detail = (failed ?? verdict.results[0])?.detail ?? '';
   return `          <tr data-product="${escapeHtml(product.name)}">
             <th scope="row">${name}</th>
