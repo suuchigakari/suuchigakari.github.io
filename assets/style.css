@@ -138,6 +138,8 @@ main { padding: 24px 0 48px; }
   text-decoration: underline;
 }
 .table-scroll { overflow-x: auto; margin-bottom: 32px; }
+/* 出典の長いURLがスマホ幅で横にはみ出さないよう、どこでも折り返す */
+.notes li { overflow-wrap: anywhere; }
 table { border-collapse: collapse; min-width: 100%; background: var(--surface); font-size: 0.88rem; }
 th, td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; vertical-align: top; }
 thead th { background: color-mix(in srgb, var(--accent) 10%, var(--surface)); }
