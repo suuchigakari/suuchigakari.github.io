@@ -27,6 +27,7 @@ import {
   evaluateProduct,
   filledWeightKg,
   formatSpec,
+  pairWeightG,
   verifiedProducts,
 } from '../src/fit.js';
 
@@ -41,6 +42,7 @@ const COMPUTED = {
  */
 const DERIVED_SPECS = {
   filledWeightKg: (specs) => filledWeightKg(specs.capacityL, specs.weightKg),
+  pairWeightG: (specs) => pairWeightG(specs.weightG, specs.weightBasis),
 };
 
 function withDerivedSpecs(article) {

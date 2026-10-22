@@ -185,3 +185,14 @@ export function filledWeightKg(capacityL, emptyKg) {
   if (typeof capacityL !== 'number' || typeof emptyKg !== 'number') return null;
   return Number((capacityL + emptyKg).toFixed(1));
 }
+
+/**
+ * 靴の重さを両足ぶん(g)にそろえる。メーカーによって公式の表記が片足・両足で違うため。
+ * 片足か両足かが公式に明記されていない値は null（推定しない）。
+ */
+export function pairWeightG(weightG, basis) {
+  if (typeof weightG !== 'number') return null;
+  if (basis === '両足') return weightG;
+  if (basis === '片足') return weightG * 2;
+  return null;
+}

@@ -14,6 +14,7 @@ import {
   evaluateRange,
   formatSpec,
   inRange,
+  pairWeightG,
   verifiedProducts,
 } from '../src/fit.js';
 
@@ -159,4 +160,11 @@ test('filledWeightKg: 満水時の重さは容量(L)を kg として本体重量
   assert.equal(filledWeightKg(18, 2.8), 20.8);
   // 本体重量が公式に明記なしなら推定しない
   assert.equal(filledWeightKg(20, null), null);
+});
+
+test('靴の重さは両足ぶんにそろえ、片足か両足か明記がなければ null', () => {
+  assert.equal(pairWeightG(780, '両足'), 780);
+  assert.equal(pairWeightG(380, '片足'), 760);
+  assert.equal(pairWeightG(430, null), null);
+  assert.equal(pairWeightG(null, '両足'), null);
 });

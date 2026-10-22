@@ -12,7 +12,7 @@
 - 型番で見つからないときは、メーカー公式に載っている JAN コード（13桁）で検索する。量販店の出品はタイトルや型番欄に自社の管理番号を入れていることがあり、JAN でしか当たらない（例：KS-825 はコジマの出品で型番欄が B8115538）
 - 最後に人の目でタイトル全文を確認する。型番が一致しても旧型・別バリエーションのことがある（例：バロウバッグ #5 の旧型）
 
-## 未設定（14件）
+## 未設定（19件）
 
 バイク用ETC（3件）は記事ごと削除した（2026-10-19）。
 
@@ -32,6 +32,11 @@
 | pressure-cooker | ワンダーシェフ フルーム 片手圧力鍋 3.0L（YCSA30F） | 出たのは別シリーズ（エリユム YCSA30E） |
 | pressure-cooker | ワンダーシェフ フルーム 片手圧力鍋 4.0L（YCSA40F） | 型番・ブランドが一致する出品が検索結果に見つからない |
 | sleeping-bag | モンベル シームレス バロウバッグ #5 | 出たのは #0（1121423）と旧型 #5（非シームレス、1121274）。品番 1121427 では0件 |
+| safety-sneaker | ニューバランス ポートランド PL-331 | Amazon の出品をまだ確認していない（仕様は国内販売元ドンケルのカタログで確認、2026-10-23） |
+| safety-sneaker | ニューバランス ボストン BS-118 | Amazon の出品をまだ確認していない（仕様は国内販売元ドンケルのカタログで確認、2026-10-23） |
+| safety-sneaker | ニューバランス ニューヨーク NY-282 | Amazon の出品をまだ確認していない（仕様は国内販売元ドンケルのカタログで確認、2026-10-23） |
+| safety-sneaker | ニューバランス ポーツマス PO-221 | Amazon の出品をまだ確認していない（仕様は国内販売元ドンケルのカタログで確認、2026-10-23） |
+| safety-sneaker | ニューバランス ハリスバーグ HB-114 | Amazon の出品をまだ確認していない（仕様は国内販売元ドンケルのカタログで確認、2026-10-23） |
 
 ## 2026-10-19 に追加した13件
 
@@ -60,6 +65,47 @@
 | pressure-cooker | ワンダーシェフ フルーム 両手 5.5L | B0H5JW7XLZ | 公式の JAN 4970840630667 で検索してヒット。品番 YCDA55F、幅36cm が公式（360mm）と一致。容量欄の「3.6L」は出品側の誤記とみられる（記事は公式の数値を使う） |
 
 2回目は、残っていた17件をメーカー公式の JAN コードと別の検索語でも探した。上の3件以外は見つからなかった。
+
+## 2026-10-23 安全靴・セーフティスニーカー（safety-sneaker）に設定した28件
+
+運営者が Claude in Chrome で確認（お届け先＝日本）。全件の記録は `docs/sources/safety_shoes_amazon_2026-10-23.csv`。
+
+- 採用した28件は、すべてカテゴリが「ファッション › メンズ › シューズ › 安全靴・作業靴」（紹介料率 8%）
+- 同じ型番でも、カテゴリが「ファッション › … › スポーツ › ゴルフ」（アシックス CP306 BOA の B0BN62B8YY）や「アウトドア › ハイキング・トレッキングシューズ」（タルテックス AZ-51649 の B07QVNDZV8、AZ-51651 の B07R22BJCM）の子 ASIN がある。採用しない
+- アシックスは同じ製品名で品番違いの出品がある（CP306 BOA：公式 1273A029 のほか 1273A087・MAGMA 1273A060、CP304 BOA：MARBLE 1273A053）。公式で仕様を確認した品番の出品を採用
+- 静電タイプ（G4690 静電・8918 静電など）は別品番のため採用しない。タルテックス AZ-51622 は製品自体が「耐油・静電」
+- シモン NS911・SC217T（厨房向け）は掲載しない（NS911 は出品なし）
+
+| 記事 | 商品 | ASIN | 確認した点 |
+|---|---|---|---|
+| safety-sneaker | アシックス CP229 BOA | B0F6MXLPZP | 型番 1273A123 |
+| safety-sneaker | アシックス CP306 BOA | B081JRB4LS | 型番 1273A029 |
+| safety-sneaker | アシックス CP304 BOA | B0957NN86Y | 型番・メーカー型番 1271A030 |
+| safety-sneaker | アシックス CP221 | B0DPWRXWPX | 型番 1273A118 |
+| safety-sneaker | アシックス CP112 | B0957N8HC5 | 型番 1273A056 |
+| safety-sneaker | アシックス CP120 | B0BN61LWCG | 型番・メーカー型番 1273A062 |
+| safety-sneaker | ミズノ オールマイティ LSⅡ 11L | B08NPNNH7T | 型番 F1GA2100 |
+| safety-sneaker | ミズノ オールマイティ LSⅢ 11L | B0G76XH8N7 | 型番 F1GA2600 |
+| safety-sneaker | ミズノ オールマイティ LSⅢ 53L BOA | B0G772CSHM | 型番 F1GA2602 |
+| safety-sneaker | ミズノ オールマイティ LC 11L | B0H65LJT8Y | 型番 f1ga261014。タイトルに「SOLVステッカー付」 |
+| safety-sneaker | ミドリ安全 G3690 | B003XDWRFC | 型番・メーカー型番 G3690 |
+| safety-sneaker | ミドリ安全 G4690 | B0DDK1DH31 | 型番 G4690 |
+| safety-sneaker | ミドリ安全 G4695 | B0DDK138CW | 型番 G4695 |
+| safety-sneaker | ミドリ安全 G4590 | B0DNM6L3KJ | 型番 G4590 |
+| safety-sneaker | ミドリ安全 G4550 | B0DNM5RWXN | 型番 G4550 |
+| safety-sneaker | ミドリ安全 PF-110 | B00CR4EHS8 | メーカー型番 PF-110-BK-27.0 |
+| safety-sneaker | ミドリ安全 PF-117Boa | B07SVGXDBY | 型番 PF-117 Boa |
+| safety-sneaker | シモン KN717 | B0D8PNV5TS | メーカー型番 KN717、型番欄 2313930（公式の製品コードと一致） |
+| safety-sneaker | シモン KN117 | B0CGDGCRCW | 型番 KN117 ブラック |
+| safety-sneaker | シモン KN111 | B0CGDCNRYW | 型番 KN111 ブラック |
+| safety-sneaker | シモン KN118 | B0CGDBW62H | 型番 KN118 ブラック |
+| safety-sneaker | シモン LA12 | B0G38HFZB3 | 型番欄 1190000（公式の製品コードと一致）、タイトルに LA12 |
+| safety-sneaker | シモン 8911 | B096FLYJL4 | 型番 8911 |
+| safety-sneaker | シモン 8918 | B096FLT2FP | 型番 8918 |
+| safety-sneaker | シモン SL12RE | B0DZ5KLL76 | 型番欄 1709361（公式の製品コードと一致）、タイトルに SL12RE |
+| safety-sneaker | タルテックス AZ-51622 | B004OCQI92 | 型番 AZ-51622 |
+| safety-sneaker | タルテックス AZ-51649 | B073GZ7TS7 | 型番 AZ51649-010-24.5 |
+| safety-sneaker | タルテックス AZ-51651 | B07873TBKL | 型番 51651 |
 
 ## 点検の記録
 
