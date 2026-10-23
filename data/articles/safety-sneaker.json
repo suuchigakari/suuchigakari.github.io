@@ -886,7 +886,12 @@
       }
     }
   ],
-  "nextProblems": [],
+  "nextProblems": [
+    {
+      "text": "頭を守る作業用ヘルメット（墜落時保護用かどうか）",
+      "href": "./work-helmet.html"
+    }
+  ],
   "sources": [
     {
       "label": "JIS T8101・JSAA 規格の区分と基準値（シモン「安全靴・プロスニーカーの規格について」、2026-10-23 確認）",
