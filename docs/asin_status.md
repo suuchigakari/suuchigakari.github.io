@@ -12,7 +12,7 @@
 - 型番で見つからないときは、メーカー公式に載っている JAN コード（13桁）で検索する。量販店の出品はタイトルや型番欄に自社の管理番号を入れていることがあり、JAN でしか当たらない（例：KS-825 はコジマの出品で型番欄が B8115538）
 - 最後に人の目でタイトル全文を確認する。型番が一致しても旧型・別バリエーションのことがある（例：バロウバッグ #5 の旧型）
 
-## 未設定（15件）
+## 未設定（16件）
 
 バイク用ETC（3件）は記事ごと削除した（2026-10-19）。
 
@@ -32,6 +32,7 @@
 | pressure-cooker | ワンダーシェフ フルーム 片手圧力鍋 3.0L（YCSA30F） | 出たのは別シリーズ（エリユム YCSA30E） |
 | pressure-cooker | ワンダーシェフ フルーム 片手圧力鍋 4.0L（YCSA40F） | 型番・ブランドが一致する出品が検索結果に見つからない |
 | sleeping-bag | モンベル シームレス バロウバッグ #5 | 出たのは #0（1121423）と旧型 #5（非シームレス、1121274）。品番 1121427 では0件 |
+| safety-glasses | 山本光学 SN-900 | 本体の出品が見つからない。出たのはスペアレンズ（B08WRQDFMT）だけ（2026-10-24） |
 | work-helmet | 谷沢製作所 ST#1830-JZⅡ | 見つかった出品（B09QHRHV4F）はブランド欄が「ノーブランド品」で、谷沢製作所はメーカー名だけ。ブランドが一致しないため採用しない（2026-10-23） |
 
 ## 2026-10-19 に追加した13件
@@ -148,6 +149,34 @@
 | work-helmet | 谷沢 ST#144-EPA | B009L2Z2YC | 型番 144-EPA |
 | work-helmet | ミドリ安全 SC-11BV RA | B002SOLK64 | 型番 SC11BV、タイトル「SC11BV RA KPなし」 |
 | work-helmet | ミドリ安全 SC-11BV RA KP | B002SOP8NK | 型番 SC11BV、タイトル「SC11BV RA KP付」 |
+
+## 2026-10-24 保護メガネ（safety-glasses）に設定した16件
+
+運営者が Claude in Chrome で確認（お届け先＝日本）。記録は `docs/sources/safety_glasses_amazon_2026-10-24.csv`。
+
+- 15件はカテゴリが「産業・研究開発用品 › 安全・保護用品 › 保護メガネ・防災面 › 保護メガネ」（4.00%）。山本光学 SN-711（B000UYPVKK）だけ「ホーム＆キッチン › 生活雑貨」（3.00%）
+- 山本光学は、同じ品番でレンズのコート違い（PET／PET-AF）や色違いが同じ親の出品にまとまっている。型番欄にコートの種類が入らないことが多く、PET-AF・PAF はタイトルかバリエーション名で確認した
+- ブランド欄が販売店（アズワン）や GENERIC の出品、「(× 3)」「(× 5)」などの複数個入り、スペアレンズは採用しない
+- 山本光学 YS-210（B0874LJCMY）とトーヨー No.1340-S（B0047MFJHQ）は「すべての出品を見るのみ」
+
+| 記事 | 商品 | ASIN | 確認した点 |
+|---|---|---|---|
+| safety-glasses | 山本光学 LF-101 | B007628JA8 | メーカー型番 LF-101 |
+| safety-glasses | 山本光学 LF-103 | B007628JOO | メーカー型番 LF-103 |
+| safety-glasses | 山本光学 SN-610 PAF | B0D5YGFY1J | メーカー型番 SN-610、タイトルに【PAF(パフ)】 |
+| safety-glasses | 山本光学 SN-610 SMK PAF | B0GSZ4DKMP | メーカー型番 SN-610 SMK |
+| safety-glasses | 山本光学 SN-711 | B000UYPVKK | メーカー型番 SN711。カテゴリはホーム＆キッチン（3%） |
+| safety-glasses | 山本光学 SN-730 | B002P98IHQ | 型番 SN-730（クリア） |
+| safety-glasses | 山本光学 YS-210 | B0874LJCMY | メーカー型番 YS-210 |
+| safety-glasses | 山本光学 YS-390 | B00Q4T7YSC | メーカー型番 YS390PETAFBLK |
+| safety-glasses | 山本光学 YS-390G | B09SZ9V4HX | メーカー型番 YS-390G |
+| safety-glasses | 山本光学 NO.337 PET-AF | B00IK8EOV0 | 型番 NO.337、バリエーション名に PET-AF |
+| safety-glasses | 山本光学 NO.338（ノンコート） | B000TGFHQM | 型番欄なし、タイトルに「NO.338 … クリア ノンコート」 |
+| safety-glasses | 山本光学 NO.340 PET-AF | B005GDX9FE | 型番 NO.340、タイトルに PET-AF |
+| safety-glasses | 山本光学 NO.360 PET-AF | B00IK8ESDO | 型番 NO.360、タイトルに PET-AF |
+| safety-glasses | 山本光学 SN-737 | B00IK8ESDY | 型番 SN-737 |
+| safety-glasses | トーヨー No.1340-C | B0016V69MA | メーカー型番 NO.1340-C |
+| safety-glasses | トーヨー No.1340-S | B0047MFJHQ | メーカー型番 NO.1340-S |
 
 ## 点検の記録
 
