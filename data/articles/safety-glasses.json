@@ -1,0 +1,440 @@
+{
+  "slug": "safety-glasses",
+  "genre": "保護メガネ（DIY・軽作業）",
+  "genreNumber": 40,
+  "commissionRate": "0.00%",
+  "title": "保護メガネは「JIS 適合」と「メガネの上から掛けられるか」で選ぶ｜DIYで使える17本を重さ・レンズで比較",
+  "description": "保護メガネは、JIS T8147 に適合した製品と、同じ形でもレンズの色やコートが違って JIS の記載がない製品があります。メガネの上から掛けるオーバーグラスもあります。山本光学・トーヨーセーフティーの17本を、メーカー公式の重さ・レンズ・JIS の記載で比べました。",
+  "keywords": [
+    "保護メガネ 比較",
+    "保護メガネ メガネの上から",
+    "保護メガネ DIY"
+  ],
+  "asOf": "2026-10-24",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "電動工具で木を切る、草刈りをする、壁をはがすといった DIY では、木くずや破片から目を守る保護メガネを使います。保護メガネには JIS T8147 という規格があり、同じ形でもレンズの色やコートの違いで「JIS 規格品」と「そうでない製品」に分かれていることがあります。メガネをかけている人は、メガネの上から掛けるオーバーグラスかどうかも大事です。メーカー公式の仕様で並べました。",
+  "excludeReaders": [
+    {
+      "who": "溶接やレーザーの光から目を守るメガネを探している人",
+      "why": "このページは透明・スモークのレンズの保護メガネを比べています。溶接用のしゃ光メガネやレーザー用のメガネは別の規格・製品です"
+    },
+    {
+      "who": "度付きの保護メガネを作りたい人",
+      "why": "このページは度なしの既製品だけを比べています"
+    }
+  ],
+  "conclusion": [
+    "まず JIS T8147 の記載を見る。17本のうち13本が JIS 適合。同じ形でもスモークのレンズやノンコートの製品（山本光学 LF-103・SN-610 SMK PAF・NO.338、トーヨー No.1340-S）は JIS の記載がない",
+    "メガネをかけている人は、オーバーグラス（山本光学 NO.337・NO.340・NO.360・SN-737・SN-900 など）。大きいメガネなら「大型眼鏡併用可」の SN-737、小さいメガネなら「小型眼鏡専用」の NO.340",
+    "軽さなら、一眼形の山本光学 LF-101・トーヨー No.1340-C（24g）と、二眼形の山本光学 YS-210（25g）。オーバーグラスは40〜52g",
+    "くもりやすい作業なら、レンズに「くもり止め」とある製品を選ぶ。SN-900 と NO.338 はくもり止めの記載がない"
+  ],
+  "sections": [
+    {
+      "heading": "JIS T8147 の保護メガネは何を試験しているか",
+      "paragraphs": [
+        "保護メガネには JIS T8147 という規格があります。山本光学の公式の解説によると、JIS ではレンズの品質（光がずれない・ゆがまない・透明度）と安全性を定めています。安全性の試験では、直径約22mm・質量約44gの鋼球を1.27〜1.30mの高さからレンズに落とし、レンズが割れたりひびが入ったりせず、フレームから外れないことが求められます。",
+        "透明度は「視感透過率85%以上」と定められています。このページでは、同じ形の製品でも、ライトスモーク・スモークのレンズのもの（山本光学 LF-103・SN-610 SMK PAF、トーヨー No.1340-S）には JIS の記載がありませんでした。ノンコートのレンズの山本光学 NO.338 も記載がありません。",
+        "比較表の「JIS」の列は、メーカー公式の仕様欄に JIS T8147 の記載があるかどうかです。記載がない製品が規格の試験に落ちたという意味ではありません。"
+      ]
+    },
+    {
+      "heading": "メガネの上から掛けるなら「オーバーグラス」",
+      "paragraphs": [
+        "山本光学は、メガネの上から掛けられる保護メガネを「オーバーグラス（眼鏡併用）」として分けています。このページでは NO.337・NO.338・NO.340・NO.360・SN-737・SN-900 の6本です。",
+        "メガネの大きさで選び分ける製品もあります。SN-737 は製品名に「大型眼鏡併用可」とあり、公式のレンズ内寸は幅145mm・高さ54mm（最大）です。NO.340 は「小型眼鏡専用」です。",
+        "トーヨーセーフティーの No.1340-C・No.1340-S は、公式の仕様にメガネの上から掛けられるかの記載がないため「?」としています。"
+      ]
+    },
+    {
+      "heading": "重さは24〜52g。一眼形・二眼形は軽く、オーバーグラスは重い",
+      "paragraphs": [
+        "最も軽いのは、一眼形の山本光学 LF-101・LF-103、トーヨー No.1340-C・No.1340-S（24g）と、二眼形の山本光学 YS-210（25g）です。",
+        "オーバーグラスはメガネを覆うぶん大きく、40〜52gでした。最も軽いのは「小型眼鏡専用」の NO.340（40g）です。",
+        "二眼形でも、顔との隙間をふさぐガスケットが付いた YS-390G は45gで、付いていない YS-390（31g）より重くなります。"
+      ]
+    }
+  ],
+  "filter": {
+    "heading": "重さとメガネの併用で絞り込む",
+    "note": "「メガネの上から掛けられるものだけ」にチェックすると、オーバーグラスだけが○になります。メガネの上から掛けられるかの記載がない製品は「?」です。",
+    "numberInputs": [
+      {
+        "key": "weightG",
+        "type": "atMost",
+        "label": "重さの上限 (g)",
+        "unit": "g",
+        "default": 60,
+        "min": 20,
+        "max": 60,
+        "step": 1
+      }
+    ],
+    "flagInput": {
+      "key": "overGlasses",
+      "label": "メガネの上から掛けられるものだけ",
+      "okDetail": "オーバーグラス",
+      "ngDetail": "オーバーグラスではない"
+    }
+  },
+  "columns": [
+    {
+      "key": "form",
+      "label": "形"
+    },
+    {
+      "key": "jisText",
+      "label": "JIS"
+    },
+    {
+      "key": "weightG",
+      "label": "重さ",
+      "unit": "g"
+    },
+    {
+      "key": "lensColor",
+      "label": "レンズの色"
+    },
+    {
+      "key": "antiFogText",
+      "label": "くもり止め"
+    },
+    {
+      "key": "lens",
+      "label": "レンズ（公式の表記）"
+    }
+  ],
+  "products": [
+    {
+      "name": "山本光学 LF-101（L-fit）",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/1/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形",
+        "overGlasses": false,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 24,
+        "lens": "PET-AF（両面ハードコート・くもり止め）",
+        "antiFog": true,
+        "lensColor": "クリア",
+        "antiFogText": "あり"
+      }
+    },
+    {
+      "name": "山本光学 LF-103（L-fit・ライトスモーク）",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/3/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形",
+        "overGlasses": false,
+        "jis": false,
+        "jisText": "記載なし",
+        "weightG": 24,
+        "lens": "PET-AF（両面ハードコート・くもり止め）",
+        "antiFog": true,
+        "lensColor": "ライトスモーク",
+        "antiFogText": "あり"
+      },
+      "note": "LF-101 と同じ形でレンズの色だけ違い、JIS 規格品のシリーズに入っていない。"
+    },
+    {
+      "name": "山本光学 SN-610 PAF",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/1073/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形",
+        "overGlasses": false,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 31,
+        "lens": "PAF（両面プレミアムくもり止め＆ハードコート）",
+        "antiFog": true,
+        "lensColor": "クリア",
+        "antiFogText": "あり"
+      }
+    },
+    {
+      "name": "山本光学 SN-610 SMK PAF",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/1173/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形",
+        "overGlasses": false,
+        "jis": false,
+        "jisText": "記載なし",
+        "weightG": 31,
+        "lens": "PAF（両面プレミアムくもり止め＆ハードコート）",
+        "antiFog": true,
+        "lensColor": "スモーク",
+        "antiFogText": "あり"
+      },
+      "note": "SN-610 PAF と同じ形でレンズの色だけ違い、JIS 規格品のシリーズに入っていない。"
+    },
+    {
+      "name": "山本光学 SN-711",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/20/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形",
+        "overGlasses": false,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 35,
+        "lens": "PET-AF（両面ハードコート・くもり止め）",
+        "antiFog": true,
+        "lensColor": "クリア",
+        "antiFogText": "あり"
+      }
+    },
+    {
+      "name": "山本光学 SN-730",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/14/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形",
+        "overGlasses": false,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 43,
+        "lens": "PET-AF（両面ハードコート・くもり止め）",
+        "antiFog": true,
+        "lensColor": "クリア",
+        "antiFogText": "あり"
+      }
+    },
+    {
+      "name": "山本光学 YS-210（軽量ラウンドフィット）",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/62/ （2026-10-24 確認）",
+      "specs": {
+        "form": "二眼形",
+        "overGlasses": false,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 25,
+        "lens": "PET-AF（両面ハードコート・くもり止め）",
+        "antiFog": true,
+        "lensColor": "クリア",
+        "antiFogText": "あり"
+      }
+    },
+    {
+      "name": "山本光学 YS-390",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/43/ （2026-10-24 確認）",
+      "specs": {
+        "form": "二眼形",
+        "overGlasses": false,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 31,
+        "lens": "PET-AF（両面ハードコート・くもり止め）",
+        "antiFog": true,
+        "lensColor": "クリア",
+        "antiFogText": "あり"
+      }
+    },
+    {
+      "name": "山本光学 YS-390G（ガスケット付）",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/65/ （2026-10-24 確認）",
+      "specs": {
+        "form": "二眼形（ガスケット付）",
+        "overGlasses": false,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 45,
+        "lens": "PET-AF（両面ハードコート・くもり止め）",
+        "antiFog": true,
+        "lensColor": "クリア",
+        "antiFogText": "あり"
+      },
+      "note": "顔との隙間をふさぐガスケット付き（製品名の表記）。"
+    },
+    {
+      "name": "山本光学 NO.337 PET-AF",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/32/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形（オーバーグラス）",
+        "overGlasses": true,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 43,
+        "lens": "PET-AF（両面ハードコート・くもり止め）",
+        "antiFog": true,
+        "lensColor": "クリア",
+        "antiFogText": "あり"
+      }
+    },
+    {
+      "name": "山本光学 NO.338（ノンコート）",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/35/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形（オーバーグラス）",
+        "overGlasses": true,
+        "jis": false,
+        "jisText": "記載なし",
+        "weightG": 43,
+        "lens": "ポリカーボネート（ノンコート）",
+        "antiFog": false,
+        "lensColor": "クリア",
+        "antiFogText": "なし"
+      },
+      "note": "NO.337 と同じ寸法で、レンズにコートがなく、JIS 規格品のシリーズに入っていない。"
+    },
+    {
+      "name": "山本光学 NO.340 PET-AF（小型眼鏡専用）",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/39/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形（オーバーグラス）",
+        "overGlasses": true,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 40,
+        "lens": "PET-AF（両面ハードコート・くもり止め）",
+        "antiFog": true,
+        "lensColor": "クリア",
+        "antiFogText": "あり"
+      },
+      "note": "製品名に「小型眼鏡専用」。"
+    },
+    {
+      "name": "山本光学 NO.360 PET-AF",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/30/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形（オーバーグラス）",
+        "overGlasses": true,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 52,
+        "lens": "PET-AF（両面ハードコート・くもり止め）",
+        "antiFog": true,
+        "lensColor": "クリア",
+        "antiFogText": "あり"
+      }
+    },
+    {
+      "name": "山本光学 SN-737（大型眼鏡併用可）",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/25/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形（オーバーグラス）",
+        "overGlasses": true,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 49,
+        "lens": "PET-AF（両面ハードコート・くもり止め）",
+        "antiFog": true,
+        "lensColor": "クリア",
+        "antiFogText": "あり"
+      },
+      "note": "公式のレンズ内寸 幅145×高さ54（最大）〜37（最小）mm。"
+    },
+    {
+      "name": "山本光学 SN-900",
+      "brand": "山本光学",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/40/ （2026-10-24 確認）",
+      "specs": {
+        "form": "一眼形（オーバーグラス）",
+        "overGlasses": true,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 43,
+        "lens": "PET（両面ハードコート）",
+        "antiFog": false,
+        "lensColor": "クリア",
+        "antiFogText": "なし"
+      },
+      "note": "レンズはハードコートのみで、くもり止めの記載はない。"
+    },
+    {
+      "name": "トーヨーセーフティー No.1340-C",
+      "brand": "トーヨーセーフティー",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.toyo-safety.co.jp/products/1340c/ （2026-10-24 確認）",
+      "specs": {
+        "form": "公式に明記なし（防じんメガネ）",
+        "overGlasses": null,
+        "jis": true,
+        "jisText": "JIS T8147 適合",
+        "weightG": 24,
+        "lens": "ポリカーボネート（特殊ハードコーティング）",
+        "antiFog": null,
+        "lensColor": "クリア",
+        "antiFogText": "公式に明記なし"
+      },
+      "note": "公式の仕様に「JIS規格品 UVカット クリアレンズ」。"
+    },
+    {
+      "name": "トーヨーセーフティー No.1340-S",
+      "brand": "トーヨーセーフティー",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.toyo-safety.co.jp/products/1340s/ （2026-10-24 確認）",
+      "specs": {
+        "form": "公式に明記なし（防じんメガネ）",
+        "overGlasses": null,
+        "jis": false,
+        "jisText": "記載なし",
+        "weightG": 24,
+        "lens": "ポリカーボネート（特殊ハードコーティング）",
+        "antiFog": null,
+        "lensColor": "スモーク",
+        "antiFogText": "公式に明記なし"
+      },
+      "note": "公式の仕様は「UVカット スモークレンズ」で、No.1340-C にある「JIS規格品」の表記がない。"
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "頭を守る作業用ヘルメット（墜落時保護用かどうか）",
+      "href": "./work-helmet.html"
+    },
+    {
+      "text": "足元の安全靴・セーフティスニーカー",
+      "href": "./safety-sneaker.html"
+    }
+  ],
+  "sources": [
+    {
+      "label": "JIS T8147 の保護めがねのレンズの品質と安全性（山本光学「保護めがねとは」、2026-10-24 確認）",
+      "url": "https://yk-yamamoto.co.jp/userguide/detail/0/6/"
+    }
+  ]
+}
