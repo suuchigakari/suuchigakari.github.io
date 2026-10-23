@@ -238,11 +238,11 @@
       "note": "公式に「排気弁付き・活性炭入り」。 リンク先は20枚入りの No.1733-A。"
     },
     {
-      "name": "山本光学 3200-A",
+      "name": "山本光学 3200-CF",
       "brand": "山本光学",
-      "asin": null,
+      "asin": "B0BHKD8MN1",
       "verified": true,
-      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/672/ （2026-10-24 確認）",
+      "source": "メーカー公式 https://yk-yamamoto.co.jp/product/detail/674/ （2026-10-24 確認）",
       "specs": {
         "class": "DS2",
         "certified": true,
@@ -253,9 +253,9 @@
         "weightText": "記載なし",
         "valve": "記載なし",
         "count": "20枚入り",
-        "form": "使い捨て式（カップ型・ヘッドバンド）"
+        "form": "使い捨て式（カップ型・クロスフィット）"
       },
-      "note": "検定合格番号 第TM684号（公式の表記）。"
+      "note": "検定合格番号 第TM790号（公式の表記）。同じシリーズのヘッドバンドタイプ 3200-A は Amazon に出品がない。"
     },
     {
       "name": "山本光学 3200V-A",
