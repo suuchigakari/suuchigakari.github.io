@@ -1,0 +1,456 @@
+{
+  "slug": "work-helmet",
+  "genre": "作業用ヘルメット（DIY・軽作業）",
+  "genreNumber": 39,
+  "commissionRate": "0.00%",
+  "title": "作業用ヘルメットは「墜落時保護用」かどうかで選ぶ｜DIYで使える17個を検定の区分・重さ・頭囲で比較",
+  "description": "作業用ヘルメットは、国家検定の区分（飛来・落下物用／墜落時保護用／電気用）が製品ごとに違い、検定の対象外の「軽作業帽」もあります。トーヨーセーフティー・谷沢製作所・ミドリ安全の17個を、メーカー公式の区分・重さ・頭囲で比べました。",
+  "keywords": [
+    "作業用ヘルメット 比較",
+    "ヘルメット 墜落時保護用 軽量",
+    "ヘルメット DIY"
+  ],
+  "asOf": "2026-10-23",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "作業用ヘルメット（保護帽）は、厚生労働省の「保護帽の規格」で、物が落ちてくるときの「飛来・落下物用」と、転落・転倒したときの「墜落時保護用」などに分かれています。見た目が同じでも、衝撃吸収ライナーの有無などで合格している区分が違い、規格の対象外の「軽作業帽」もあります。脚立や屋根に上る DIY で選ぶときに見るべき、区分・重さ・頭囲を、メーカー公式の仕様で並べました。",
+  "excludeReaders": [
+    {
+      "who": "自転車・バイク用のヘルメットを探している人",
+      "why": "このページは作業用の保護帽を比べています。乗車用のヘルメットは別の規格です"
+    },
+    {
+      "who": "折りたたみ式の防災用ヘルメットを探している人",
+      "why": "このページは作業で使う通常の形のヘルメットだけを比べています"
+    }
+  ],
+  "conclusion": [
+    "脚立や屋根で使うなら「墜落時保護用」の区分があるものを選ぶ。17個のうち13個が墜落時保護用にも合格。トーヨー No.170 とミドリ安全 SC-11BV RA は飛来・落下物用だけ",
+    "墜落時保護用で最も軽いのは谷沢製作所 ST#103B-JPZ（280g・FRP）。次が ST#0123-JZ・ST#01230-JZ（335g・ABS）、トーヨー No.260F（348g・FRP）",
+    "トーヨー No.80（165g）と谷沢 ST#144-EPA（205g）は「軽作業帽」で、保護帽の規格の対象外とメーカーが明記している",
+    "頭が大きい人は 56〜65cm のトーヨー No.170LF-OT・谷沢 ST#0169L-FZ、小さい人は 51〜57cm のトーヨー No.170SF-OT"
+  ],
+  "sections": [
+    {
+      "heading": "保護帽の区分は3つ。脚立・屋根なら「墜落時保護用」",
+      "paragraphs": [
+        "作業用ヘルメットは「保護帽の規格」（昭和50年労働省告示第66号）で構造や性能が定められ、型式検定に合格したものに区分が表示されます。物が落ちてくる危険に対する「飛来・落下物用」、転落・転倒したときの「墜落時保護用」、感電を防ぐ「電気用」です。",
+        "試験の中身も違います。飛来・落下物用は、重さ5kgの半球形のおもりを1mの高さから頭頂部に落とし、頭の模型にかかる衝撃が4.90kN以下であることが求められます。墜落時保護用は、5kgの平面のおもりを1mから前頭部と後頭部に落とし、衝撃が9.81kN以下であることなどが求められます。",
+        "このページの17個のうち、墜落時保護用にも合格しているのは13個です。トーヨーセーフティーの No.170 とミドリ安全の SC-11BV RA は飛来・落下物用だけで、同じ形にスチロールライナーを入れた No.170F-OT・SC-11BV RA KP は墜落時保護用にも合格しています。"
+      ]
+    },
+    {
+      "heading": "「軽作業帽」は保護帽の規格の対象外",
+      "paragraphs": [
+        "トーヨーセーフティーの No.80（ケーボー）は約165g、谷沢製作所の ST#144-EPA は205gと、検定品より軽い帽子です。ただし、トーヨーは公式に「厚生労働省『保護帽の規格』合格対象品ではありません」、谷沢は「国家検定規格品を使用すべき環境では使えません」と書いています。",
+        "比較表では、この2つの区分を「検定なし（軽作業帽）」とし、絞り込みの「墜落時保護用の区分があるものだけ」では×になります。"
+      ]
+    },
+    {
+      "heading": "重さは280〜445g。軽いのは FRP と谷沢の「エアライト」",
+      "paragraphs": [
+        "検定品の重さは280〜445gでした。最も軽い谷沢製作所の ST#103B-JPZ（280g）は帽体が FRP、次の ST#0123-JZ・ST#01230-JZ（335g）は ABS です。谷沢は、発泡スチロールのライナーを使わない内装「エアライトS」で墜落時保護用の検定を取ったと説明しています。",
+        "同じ製品でも、ライナーを入れると重くなります。トーヨーの No.170 は342g、ライナー入りの No.170F-OT は380gです。",
+        "シールド面や大きいサイズの製品は重くなる傾向があり、このページでは56〜65cm 対応の2つが415g・445gでした。"
+      ]
+    },
+    {
+      "heading": "頭囲：多くは53〜62cm前後",
+      "paragraphs": [
+        "多くの製品の頭囲は53〜62cm前後です。それより大きい人には、56〜65cm のトーヨー No.170LF-OT・谷沢 ST#0169L-FZ、53〜64cm のトーヨー No.110F があります。小さい人には、51〜57cm のトーヨー No.170SF-OT があります。",
+        "ミドリ安全の SC-11BV は55〜62cmで、このページの中では下限が大きめです。"
+      ]
+    }
+  ],
+  "filter": {
+    "heading": "頭囲と重さで絞り込む",
+    "note": "頭囲は、各製品の対応サイズの最小〜最大に入るかで判定します。「墜落時保護用の区分があるものだけ」にチェックすると、飛来・落下物用だけの製品と軽作業帽は×になります。",
+    "numberInputs": [
+      {
+        "key": "headCm",
+        "type": "range",
+        "label": "頭囲 (cm)",
+        "unit": "cm",
+        "default": 57,
+        "min": 48,
+        "max": 66,
+        "step": 0.5
+      },
+      {
+        "key": "weightG",
+        "type": "atMost",
+        "label": "重さの上限 (g)",
+        "unit": "g",
+        "default": 450,
+        "min": 150,
+        "max": 450,
+        "step": 5
+      }
+    ],
+    "flagInput": {
+      "key": "fallProtection",
+      "label": "墜落時保護用の区分があるものだけ",
+      "okDetail": "墜落時保護用",
+      "ngDetail": "墜落時保護用の区分なし"
+    }
+  },
+  "columns": [
+    {
+      "key": "usage",
+      "label": "検定の区分"
+    },
+    {
+      "key": "weightG",
+      "label": "重さ",
+      "unit": "g"
+    },
+    {
+      "key": "headCm",
+      "label": "頭囲",
+      "unit": "cm"
+    },
+    {
+      "key": "shellMaterial",
+      "label": "帽体の材質"
+    }
+  ],
+  "products": [
+    {
+      "name": "トーヨーセーフティー No.170",
+      "brand": "トーヨーセーフティー",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.toyo-safety.co.jp/products/170/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・電気用",
+        "fallProtection": false,
+        "certified": true,
+        "weightG": 342,
+        "headCm": [
+          53,
+          61
+        ],
+        "shellMaterial": "ABS"
+      },
+      "note": "同じページの No.170F・No.170F-OT（スチロールライナー入り）は墜落時保護用も合格。"
+    },
+    {
+      "name": "トーヨーセーフティー No.170F-OT",
+      "brand": "トーヨーセーフティー",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.toyo-safety.co.jp/products/170/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用・電気用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 380,
+        "headCm": [
+          53,
+          61
+        ],
+        "shellMaterial": "ABS"
+      },
+      "note": "スチロールライナー入り。"
+    },
+    {
+      "name": "トーヨーセーフティー No.110F",
+      "brand": "トーヨーセーフティー",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.toyo-safety.co.jp/products/110/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用・電気用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 381,
+        "headCm": [
+          53,
+          64
+        ],
+        "shellMaterial": "ABS"
+      },
+      "note": "スチロールライナー入り。"
+    },
+    {
+      "name": "トーヨーセーフティー No.170LF-OT",
+      "brand": "トーヨーセーフティー",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.toyo-safety.co.jp/products/170lfot/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用・電気用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 445,
+        "headCm": [
+          56,
+          65
+        ],
+        "shellMaterial": "ABS"
+      },
+      "note": "スチロールライナー入り。"
+    },
+    {
+      "name": "トーヨーセーフティー No.170SF-OT",
+      "brand": "トーヨーセーフティー",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.toyo-safety.co.jp/products/170sfot/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用・電気用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 399,
+        "headCm": [
+          51,
+          57
+        ],
+        "shellMaterial": "ABS"
+      },
+      "note": "公式の仕様に「小型・Sサイズ」。スチロールライナー入り。"
+    },
+    {
+      "name": "トーヨーセーフティー No.390F-OT",
+      "brand": "トーヨーセーフティー",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.toyo-safety.co.jp/products/390fot/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 440,
+        "headCm": [
+          53,
+          62
+        ],
+        "shellMaterial": "ABS（ひさし・通気孔カバーはポリカーボネート）"
+      },
+      "note": "スチロールライナー入り。"
+    },
+    {
+      "name": "トーヨーセーフティー No.260F",
+      "brand": "トーヨーセーフティー",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.toyo-safety.co.jp/products/260/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 348,
+        "headCm": [
+          53,
+          62
+        ],
+        "shellMaterial": "FRP"
+      },
+      "note": "スチロールライナー入り。"
+    },
+    {
+      "name": "トーヨーセーフティー No.80（ケーボー）",
+      "brand": "トーヨーセーフティー",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.toyo-safety.co.jp/products/80/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "検定なし（軽作業帽）",
+        "fallProtection": false,
+        "certified": false,
+        "weightG": 165,
+        "headCm": [
+          53,
+          60
+        ],
+        "shellMaterial": "熱可塑性ABS樹脂"
+      },
+      "note": "公式に「厚生労働省『保護帽の規格』合格対象品ではありません」「保護帽着用を義務付けられた作業場では絶対に使用しないでください」。"
+    },
+    {
+      "name": "谷沢製作所 ST#0169-EZ",
+      "brand": "谷沢製作所",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.tanizawa.co.jp/products/helmet/helmet-variation/st0169-ez/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用・電気用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 365,
+        "headCm": [
+          52.5,
+          62
+        ],
+        "shellMaterial": "ABS"
+      }
+    },
+    {
+      "name": "谷沢製作所 ST#0123-JZ（エアライトS）",
+      "brand": "谷沢製作所",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.tanizawa.co.jp/products/helmet/helmet-airlight-s/st0123-jzepa/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用・電気用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 335,
+        "headCm": [
+          53,
+          63
+        ],
+        "shellMaterial": "ABS"
+      },
+      "note": "発泡スチロールのライナーがない内装「エアライトS」で墜落時保護用に合格（公式の説明）。"
+    },
+    {
+      "name": "谷沢製作所 ST#01230-JZ（エアライトS・通気孔付き）",
+      "brand": "谷沢製作所",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.tanizawa.co.jp/products/helmet/helmet-airlight-s/st01230-jzepa/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 335,
+        "headCm": [
+          53,
+          63
+        ],
+        "shellMaterial": "ABS"
+      },
+      "note": "公式の付加機能に「通気孔付き」。ST#0123-JZ と違い電気用ではない。"
+    },
+    {
+      "name": "谷沢製作所 ST#103B-JPZ（エアライトS）",
+      "brand": "谷沢製作所",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.tanizawa.co.jp/products/helmet/helmet-airlight-s/st103b-jpz-epa/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 280,
+        "headCm": [
+          53,
+          63
+        ],
+        "shellMaterial": "FRP"
+      },
+      "note": "公式の付加機能に「超軽量」。"
+    },
+    {
+      "name": "谷沢製作所 ST#1830-JZⅡ（エアライト）",
+      "brand": "谷沢製作所",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.tanizawa.co.jp/products/helmet/helmet-airlight/st1830-jz2-epa/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 425,
+        "headCm": [
+          53,
+          63
+        ],
+        "shellMaterial": "ABS（ひさしはPC）"
+      },
+      "note": "公式の付加機能に「二層構造」「透明ひさし」「通気孔付き」。"
+    },
+    {
+      "name": "谷沢製作所 ST#0169L-FZ",
+      "brand": "谷沢製作所",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.tanizawa.co.jp/products/helmet/helmet-variation/st0169l-fz-epa-l/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用・電気用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 415,
+        "headCm": [
+          56,
+          65
+        ],
+        "shellMaterial": "ABS"
+      },
+      "note": "公式の付加機能に「大きいサイズ」。"
+    },
+    {
+      "name": "谷沢製作所 ST#144-EPA（軽作業帽）",
+      "brand": "谷沢製作所",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.tanizawa.co.jp/products/helmet/helmet-light/st144-epa/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "検定なし（軽作業帽）",
+        "fallProtection": false,
+        "certified": false,
+        "weightG": 205,
+        "headCm": [
+          53,
+          62
+        ],
+        "shellMaterial": "PE"
+      },
+      "note": "公式に「国家検定規格品を使用すべき環境では使えません」。"
+    },
+    {
+      "name": "ミドリ安全 SC-11BV RA",
+      "brand": "ミドリ安全",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式通販 https://ec.midori-anzen.com/shop/g/g4001201201/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用",
+        "fallProtection": false,
+        "certified": true,
+        "weightG": 380,
+        "headCm": [
+          55,
+          62
+        ],
+        "shellMaterial": "ABS"
+      },
+      "note": "公式の規格欄に「国家検定合格品」。区分は公式ページのアイコン（飛来/落下物用）で確認。"
+    },
+    {
+      "name": "ミドリ安全 SC-11BV RA KP",
+      "brand": "ミドリ安全",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式通販 https://ec.midori-anzen.com/shop/g/g4001201301/ （2026-10-23 確認）",
+      "specs": {
+        "usage": "飛来・落下物用・墜落時保護用",
+        "fallProtection": true,
+        "certified": true,
+        "weightG": 400,
+        "headCm": [
+          55,
+          62
+        ],
+        "shellMaterial": "ABS"
+      },
+      "note": "KP は衝撃吸収ライナー（公式の説明）。区分は公式ページのアイコン（飛来/落下物用・墜落時保護用）で確認。"
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "足元の安全靴・セーフティスニーカー",
+      "href": "./safety-sneaker.html"
+    }
+  ],
+  "sources": [
+    {
+      "label": "保護帽の区分と型式検定（厚生労働省 職場のあんぜんサイト「保護帽」、2026-10-23 確認）",
+      "url": "https://anzeninfo.mhlw.go.jp/yougo/yougo27_1.html"
+    },
+    {
+      "label": "保護帽の規格（昭和50年労働省告示第66号）の衝撃吸収性能の試験方法と基準（厚生労働省 職場のあんぜんサイト、2026-10-23 確認）",
+      "url": "https://anzeninfo.mhlw.go.jp/horei/hor1-11/hor1-11-21-1-10.html"
+    }
+  ]
+}
