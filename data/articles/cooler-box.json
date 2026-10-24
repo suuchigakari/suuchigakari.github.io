@@ -67,6 +67,14 @@
         "カインズの自社ブランドのクーラーボックスも比較表に載せました。容量・外寸・断熱材は公式の仕様欄にありますが、保冷効力（JIS）や保冷日数の数値はどの製品にもありません。ハード クーラーボックス 15.8Lタイプは「保冷力20%UP（当社持ちやすいクーラーボックス14L比）」と書いていますが、自社製品どうしの比較で、ほかのメーカーの数値とは比べられません。",
         "外寸と容量は分かるので、嵩張り率（外寸の体積÷容量）は計算できます。カインズの製品は Amazon で売っていないため、リンクはありません。"
       ]
+    },
+    {
+      "heading": "ホームセンターの自社ブランド（コメリ・DCM・コーナン）のクーラーボックス",
+      "paragraphs": [
+        "コメリのハードクーラーボックス 25L は、ホームセンターの自社ブランドで唯一、JIS（S2048）に準じた試験の保冷能力（6.4℃・8時間）を公表しています。キャプテンスタッグのグランドフリーズ 25（5.1度以下）と同じ容量で、外寸はより横長です。",
+        "コメリの真空パネル キャリークーラーボックス 36L は「約103時間」という時間の表記ですが、公式に試験条件（氷の量・室温40℃・水温が10℃に達するまで）が書かれた自社基準です。コールマンの日数表記と同じく、他社の数値とは比べられません。",
+        "DCM のクーラーボックス 14L・25L は、外寸がカインズの持ちやすいクーラーボックスと同じ数値です。3社の製品は Amazon で売っていないため、リンクはありません。"
+      ]
     }
   ],
   "filter": {
@@ -435,6 +443,195 @@
         "jisRated": false
       },
       "note": "外寸は公式の「本体サイズ」。カインズの自社ブランド品で、Amazon へのリンクはない（カインズの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "コメリ ナチュラルシーズン 保冷剤付きクーラーボックス 13L",
+      "brand": "コメリ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コメリ公式オンラインショップ https://www.komeri.com/shop/g/g2363820/ （自社ブランドの表示 商品名の先頭に「コメリ」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "380mLの保冷剤1個付き（重さは本体のみ）。 コメリの自社ブランド品で、Amazon へのリンクはない（コメリの店舗・公式通販で販売）。",
+      "specs": {
+        "capacityL": 13,
+        "coolingJis": null,
+        "coolingDays": null,
+        "insulation": "ポリウレタン発泡充填（本体5面）",
+        "outerCm": [
+          34,
+          26.8,
+          31
+        ],
+        "weightKg": 1.9,
+        "jisRated": false
+      }
+    },
+    {
+      "name": "コメリ ナチュラルシーズン ハードクーラーボックス 25L（KW-26QT）",
+      "brand": "コメリ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コメリ公式オンラインショップ https://www.komeri.com/shop/g/g2065016/ （自社ブランドの表示 商品名の先頭に「コメリ」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "公式の保冷能力は「6.4℃ 8時間継続（JIS S2048:2006規格に準じた試験結果による）」。 コメリの自社ブランド品で、Amazon へのリンクはない（コメリの店舗・公式通販で販売）。",
+      "specs": {
+        "capacityL": 25,
+        "coolingJis": "6.4℃（8時間、JIS S2048:2006 に準じた試験）",
+        "coolingDays": null,
+        "insulation": "ポリウレタン（最大4.5cm、公式の説明文）",
+        "outerCm": [
+          63.3,
+          35,
+          33.6
+        ],
+        "weightKg": 8,
+        "jisRated": true
+      }
+    },
+    {
+      "name": "コメリ ナチュラルシーズン 真空パネル キャリークーラーボックス 36L",
+      "brand": "コメリ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コメリ公式オンラインショップ https://www.komeri.com/shop/g/g2461998/ （自社ブランドの表示 商品名の先頭に「コメリ」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "公式の保冷性能は「約103時間（自社基準調べ）」。条件は表示容量の約40%の氷・室温40℃±2℃で、水温が10℃に達するまでの時間。キャリー付き。 コメリの自社ブランド品で、Amazon へのリンクはない（コメリの店舗・公式通販で販売）。",
+      "specs": {
+        "capacityL": 36,
+        "coolingJis": null,
+        "coolingDays": "約103時間（自社基準）",
+        "insulation": "真空断熱パネル（5面）＋発泡ウレタン",
+        "outerCm": [
+          47,
+          39,
+          46
+        ],
+        "weightKg": 6.35,
+        "jisRated": false
+      }
+    },
+    {
+      "name": "DCM クーラーボックス 14L",
+      "brand": "DCM（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "DCM公式オンラインショップ https://www.dcm-ekurashi.com/goods/812201 （自社ブランドの表示 「メーカー：DCM株式会社」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "外寸はカインズの「持ちやすいクーラーボックス 14L」と同じ数値。 DCMの自社ブランド品で、Amazon へのリンクはない（DCMの店舗・公式通販で販売）。",
+      "specs": {
+        "capacityL": 14,
+        "coolingJis": null,
+        "coolingDays": null,
+        "insulation": "発泡スチロール",
+        "outerCm": [
+          36,
+          28.9,
+          27.3
+        ],
+        "weightKg": null,
+        "jisRated": false
+      }
+    },
+    {
+      "name": "DCM クーラーボックス 25L",
+      "brand": "DCM（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "DCM公式オンラインショップ https://www.dcm-ekurashi.com/goods/812202 （自社ブランドの表示 「メーカー：DCM株式会社」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "外寸はカインズの「持ちやすいクーラーボックス 25L」と同じ数値。 DCMの自社ブランド品で、Amazon へのリンクはない（DCMの店舗・公式通販で販売）。",
+      "specs": {
+        "capacityL": 25,
+        "coolingJis": null,
+        "coolingDays": null,
+        "insulation": "発泡スチロール",
+        "outerCm": [
+          44.5,
+          29.9,
+          36.3
+        ],
+        "weightKg": null,
+        "jisRated": false
+      }
+    },
+    {
+      "name": "DCM よくばりクーラー 13L",
+      "brand": "DCM（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "DCM公式オンラインショップ https://www.dcm-ekurashi.com/goods/1061451 （自社ブランドの表示 「メーカー：DCM株式会社」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "内寸は幅44.8×奥行22.6×高さ11cmと低く、350mL缶17本（公式の表記）。 DCMの自社ブランド品で、Amazon へのリンクはない（DCMの店舗・公式通販で販売）。",
+      "specs": {
+        "capacityL": 13,
+        "coolingJis": null,
+        "coolingDays": null,
+        "insulation": "ウレタン（公式の説明文）",
+        "outerCm": [
+          57,
+          30,
+          20.7
+        ],
+        "weightKg": 3,
+        "jisRated": false
+      }
+    },
+    {
+      "name": "コーナン SOUTHERNPORT 強保冷クーラーボックス 9L",
+      "brand": "コーナン（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コーナン公式オンラインショップ https://www.kohnan-eshop.com/shop/g/g4548927046085/ （自社ブランドの表示 「コーナンオリジナル」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "公式の説明文は「保冷力が強いクーラーボックス」だが、保冷の数値はない。 コーナンの自社ブランド品で、Amazon へのリンクはない（コーナンの店舗・公式通販で販売）。",
+      "specs": {
+        "capacityL": 9,
+        "coolingJis": null,
+        "coolingDays": null,
+        "insulation": "発泡スチロール",
+        "outerCm": [
+          37.5,
+          27,
+          29
+        ],
+        "weightKg": null,
+        "jisRated": false
+      }
+    },
+    {
+      "name": "コーナン SOUTHERNPORT 強保冷クーラーボックス 17L",
+      "brand": "コーナン（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コーナン公式オンラインショップ https://www.kohnan-eshop.com/shop/g/g4548927046092/ （自社ブランドの表示 「コーナンオリジナル」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "公式の説明文は「保冷力が強いクーラーボックス」だが、保冷の数値はない。 コーナンの自社ブランド品で、Amazon へのリンクはない（コーナンの店舗・公式通販で販売）。",
+      "specs": {
+        "capacityL": 17,
+        "coolingJis": null,
+        "coolingDays": null,
+        "insulation": "発泡スチロール",
+        "outerCm": [
+          48,
+          30,
+          32.5
+        ],
+        "weightKg": null,
+        "jisRated": false
+      }
+    },
+    {
+      "name": "コーナン SOUTHERNPORT クーラーボックス 36L",
+      "brand": "コーナン（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コーナン公式オンラインショップ https://www.kohnan-eshop.com/shop/g/g4548927046078/ （自社ブランドの表示 「コーナンオリジナル」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "コーナンの自社ブランド品で、Amazon へのリンクはない（コーナンの店舗・公式通販で販売）。",
+      "specs": {
+        "capacityL": 36,
+        "coolingJis": null,
+        "coolingDays": null,
+        "insulation": "発泡スチロール",
+        "outerCm": [
+          59,
+          29.4,
+          37
+        ],
+        "weightKg": null,
+        "jisRated": false
+      }
     }
   ],
   "nextProblems": [

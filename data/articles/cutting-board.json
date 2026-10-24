@@ -63,6 +63,13 @@
         "5製品とも、公式に家庭用の食器洗い乾燥機に対応とあります（大理石調まな板は「業務用食器洗い乾燥機には使用できません」とも書かれています）。耐熱温度は、抗菌まな板が100℃、大理石調まな板がポリプロピレン部分90℃です。",
         "大理石調まな板 35cm は、公式の重量欄が梱包重量なので、本体の重さは「公式に明記なし」としています。Amazon では売っていないため、リンクはありません。"
       ]
+    },
+    {
+      "heading": "ホームセンターの自社ブランド（コメリ・DCM・コーナン）のまな板",
+      "paragraphs": [
+        "コメリ・DCM・コーナンの自社ブランドのまな板も比較表に載せました。食洗機に対応と公式に書かれているのは、DCM の滑りにくい抗菌まな板と軽いまな板の2つです。コーナンの国産檜・アカシアのまな板とコメリの抗菌まな板は、食洗機の可否が書かれていません。",
+        "コーナンのシートまな板は厚さ2mm・耐熱温度約70℃のシート状で、ほかのまな板とは使い方が違います。3社の製品は Amazon で売っていないため、リンクはありません。"
+      ]
     }
   ],
   "filter": {
@@ -293,6 +300,114 @@
         "dishwasher": true
       },
       "note": "厚さはラバー部を含むと10mm。 カインズの自社ブランド品で、Amazon へのリンクはない（カインズの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "コメリセレクト 抗菌まな板 Mサイズ 8mm厚",
+      "brand": "コメリ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コメリ公式オンラインショップ https://www.komeri.com/shop/g/g1404652/ （自社ブランドの表示 商品名の先頭に「コメリ」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "コメリの自社ブランド品で、Amazon へのリンクはない（コメリの店舗・公式通販で販売）。",
+      "specs": {
+        "lengthCm": 32,
+        "sizeMm": "320×200mm",
+        "thicknessMm": 8,
+        "weightG": 490,
+        "material": "公式に明記なし",
+        "heatC": "公式に明記なし",
+        "dishwasherText": "公式に明記なし",
+        "dishwasher": null
+      }
+    },
+    {
+      "name": "DCM 滑りにくい抗菌まな板 L",
+      "brand": "DCM（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "DCM公式オンラインショップ https://www.dcm-ekurashi.com/goods/1045350 （自社ブランドの表示 「メーカー：DCM株式会社」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "ラバー（脚部）を含む厚さは9mm。重さは公式に記載がない。 DCMの自社ブランド品で、Amazon へのリンクはない（DCMの店舗・公式通販で販売）。",
+      "specs": {
+        "lengthCm": 37,
+        "sizeMm": "370×225mm",
+        "thicknessMm": 8,
+        "weightG": null,
+        "material": "ポリプロピレン・熱可塑性エラストマー",
+        "heatC": "100℃",
+        "dishwasherText": "対応",
+        "dishwasher": true
+      }
+    },
+    {
+      "name": "DCM 軽いまな板 L",
+      "brand": "DCM（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "DCM公式オンラインショップ https://www.dcm-ekurashi.com/goods/1062701 （自社ブランドの表示 「メーカー：DCM株式会社」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "DCMの自社ブランド品で、Amazon へのリンクはない（DCMの店舗・公式通販で販売）。",
+      "specs": {
+        "lengthCm": 35,
+        "sizeMm": "350×220mm",
+        "thicknessMm": 9,
+        "weightG": 295,
+        "material": "公式に明記なし",
+        "heatC": "公式に明記なし",
+        "dishwasherText": "対応（公式の表記は「OK」）",
+        "dishwasher": true
+      }
+    },
+    {
+      "name": "コーナン LIFELEX ひのきまな板 小（KHK05-4009）",
+      "brand": "コーナン（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コーナン公式オンラインショップ https://www.kohnan-eshop.com/shop/g/g4522831044009/ （自社ブランドの表示 「コーナンオリジナル」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "コーナンの自社ブランド品で、Amazon へのリンクはない（コーナンの店舗・公式通販で販売）。",
+      "specs": {
+        "lengthCm": 36,
+        "sizeMm": "360×200mm",
+        "thicknessMm": 15,
+        "weightG": null,
+        "material": "天然木（国産檜）",
+        "heatC": "公式に明記なし",
+        "dishwasherText": "公式に明記なし",
+        "dishwasher": null
+      }
+    },
+    {
+      "name": "コーナン LIFELEX アカシアまな板 レギュラー",
+      "brand": "コーナン（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コーナン公式オンラインショップ https://www.kohnan-eshop.com/shop/g/g4522831793259/ （自社ブランドの表示 「コーナンオリジナル」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "コーナンの自社ブランド品で、Amazon へのリンクはない（コーナンの店舗・公式通販で販売）。",
+      "specs": {
+        "lengthCm": 36,
+        "sizeMm": "360×190mm",
+        "thicknessMm": 15,
+        "weightG": null,
+        "material": "アカシア原木（ワニス塗装）",
+        "heatC": "公式に明記なし",
+        "dishwasherText": "公式に明記なし",
+        "dishwasher": null
+      }
+    },
+    {
+      "name": "コーナン LIFELEX シートまな板",
+      "brand": "コーナン（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コーナン公式オンラインショップ https://www.kohnan-eshop.com/shop/g/g4522831270545/ （自社ブランドの表示 「コーナンオリジナル」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "厚さ2mmのシート状。 コーナンの自社ブランド品で、Amazon へのリンクはない（コーナンの店舗・公式通販で販売）。",
+      "specs": {
+        "lengthCm": 34,
+        "sizeMm": "340×230mm",
+        "thicknessMm": 2,
+        "weightG": null,
+        "material": "ポリエチレン",
+        "heatC": "約70℃",
+        "dishwasherText": "公式に明記なし",
+        "dishwasher": null
+      }
     }
   ],
   "nextProblems": [

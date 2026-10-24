@@ -62,6 +62,13 @@
         "耐荷重は70kg（コンパクトチェア）・80kg・100kg（アームチェア L）で、ほかのメーカーと同じ範囲です。重さは0.34kg（アルミミニチェア）から3.25kg（アームチェア L）までです。",
         "カインズの公式の仕様欄には収納時のサイズが書かれていないため、比較表では「公式に明記なし」としています。Amazon では売っていないため、リンクはありません。"
       ]
+    },
+    {
+      "heading": "ホームセンターの自社ブランド（コメリ・DCM・コーナン）のチェア",
+      "paragraphs": [
+        "コメリ・DCM・コーナンの自社ブランドのチェアも比較表に載せました。座面の高さは、DCM のコンパクトチェアの25cmから、コーナンのディレクターチェアの46cmまでです。",
+        "耐荷重はコーナンのディレクターチェアが120kgと、このページで最も大きい値です。ただしコーナンは「測定値であり、保証値ではありません」と書いています。DCM のアーム付きミニチェアとコーナンのムーンチェアは、公式に座面の高さが書かれていません。3社の製品は Amazon で売っていないため、リンクはありません。"
+      ]
     }
   ],
   "filter": {
@@ -317,6 +324,159 @@
         "lowStyle": false
       },
       "note": "座面の高さは62・70・79cmの3段階（表は最も低い62cm）。両足とポールで支える三脚構造。 カインズの自社ブランド品で、Amazon へのリンクはない（カインズの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "コメリ ナチュラルシーズン ポータブルチェア",
+      "brand": "コメリ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コメリ公式オンラインショップ https://www.komeri.com/shop/g/g2166511/ （自社ブランドの表示 商品名の先頭に「コメリ」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "コメリの自社ブランド品で、Amazon へのリンクはない（コメリの店舗・公式通販で販売）。",
+      "specs": {
+        "seatHeightCm": 28.5,
+        "capacityKg": 80,
+        "weightKg": 2.1,
+        "packSize": "13×15×37cm",
+        "packShape": null,
+        "frame": "鋼",
+        "lowStyle": true
+      }
+    },
+    {
+      "name": "コメリ ナチュラルシーズン 折畳みロースタイルチェア",
+      "brand": "コメリ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コメリ公式オンラインショップ https://www.komeri.com/shop/g/g2458136/ （自社ブランドの表示 商品名の先頭に「コメリ」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "コメリの自社ブランド品で、Amazon へのリンクはない（コメリの店舗・公式通販で販売）。",
+      "specs": {
+        "seatHeightCm": 29.5,
+        "capacityKg": 80,
+        "weightKg": 2.75,
+        "packSize": "公式に明記なし（収納袋付き）",
+        "packShape": null,
+        "frame": null,
+        "lowStyle": true
+      }
+    },
+    {
+      "name": "コメリ ナチュラルシーズン アウトドアアームチェア",
+      "brand": "コメリ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コメリ公式オンラインショップ https://www.komeri.com/shop/g/g2159732/ （自社ブランドの表示 商品名の先頭に「コメリ」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "コメリの自社ブランド品で、Amazon へのリンクはない（コメリの店舗・公式通販で販売）。",
+      "specs": {
+        "seatHeightCm": 44,
+        "capacityKg": 80,
+        "weightKg": 2.24,
+        "packSize": "約11×11×82cm",
+        "packShape": "棒状",
+        "frame": null,
+        "lowStyle": false
+      }
+    },
+    {
+      "name": "DCM コンパクトチェア",
+      "brand": "DCM（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "DCM公式オンラインショップ https://www.dcm-ekurashi.com/goods/1223606 （自社ブランドの表示 「メーカー：DCM株式会社」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "DCMの自社ブランド品で、Amazon へのリンクはない（DCMの店舗・公式通販で販売）。",
+      "specs": {
+        "seatHeightCm": 25,
+        "capacityKg": 70,
+        "weightKg": 1.1,
+        "packSize": "約13×13×50cm",
+        "packShape": "棒状",
+        "frame": "金属",
+        "lowStyle": true
+      }
+    },
+    {
+      "name": "DCM アーム付きミニチェア（数量限定）",
+      "brand": "DCM（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "DCM公式オンラインショップ https://www.dcm-ekurashi.com/goods/1227304 （自社ブランドの表示 「メーカー：DCM株式会社」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "座面の高さは公式に記載がない。 DCMの自社ブランド品で、Amazon へのリンクはない（DCMの店舗・公式通販で販売）。",
+      "specs": {
+        "seatHeightCm": null,
+        "capacityKg": 70,
+        "weightKg": 1.4,
+        "packSize": "約13×13×60cm",
+        "packShape": "棒状",
+        "frame": "鋼",
+        "lowStyle": null
+      }
+    },
+    {
+      "name": "DCM アーム付きスリムチェア",
+      "brand": "DCM（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "DCM公式オンラインショップ https://www.dcm-ekurashi.com/goods/1204084 （自社ブランドの表示 「メーカー：DCM株式会社」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "DCMの自社ブランド品で、Amazon へのリンクはない（DCMの店舗・公式通販で販売）。",
+      "specs": {
+        "seatHeightCm": 40,
+        "capacityKg": 80,
+        "weightKg": 2.4,
+        "packSize": "公式に明記なし（収納袋付き）",
+        "packShape": null,
+        "frame": null,
+        "lowStyle": false
+      }
+    },
+    {
+      "name": "コーナン SOUTHERNPORT 折りたたみローチェア",
+      "brand": "コーナン（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コーナン公式オンラインショップ https://www.kohnan-eshop.com/shop/g/g4522831209286/ （自社ブランドの表示 「コーナンオリジナル」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "耐荷重は公式に「測定値であり、保証値ではありません」。 コーナンの自社ブランド品で、Amazon へのリンクはない（コーナンの店舗・公式通販で販売）。",
+      "specs": {
+        "seatHeightCm": 30,
+        "capacityKg": 80,
+        "weightKg": 3.8,
+        "packSize": "幅55×奥行64.5×厚さ8cm",
+        "packShape": "板状",
+        "frame": null,
+        "lowStyle": true
+      }
+    },
+    {
+      "name": "コーナン SOUTHERNPORT アルミ素材で軽いディレクターチェア",
+      "brand": "コーナン（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コーナン公式オンラインショップ https://www.kohnan-eshop.com/shop/g/g4522831429455/ （自社ブランドの表示 「コーナンオリジナル」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "耐荷重は公式に「測定値であり、保証値ではありません」。重さは公式に記載がない。 コーナンの自社ブランド品で、Amazon へのリンクはない（コーナンの店舗・公式通販で販売）。",
+      "specs": {
+        "seatHeightCm": 46,
+        "capacityKg": 120,
+        "weightKg": null,
+        "packSize": "幅48.4×奥行80×高さ15.5cm",
+        "packShape": "板状",
+        "frame": "アルミニウム",
+        "lowStyle": false
+      }
+    },
+    {
+      "name": "コーナン SOUTHERNPORT ムーンチェア",
+      "brand": "コーナン（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コーナン公式オンラインショップ https://www.kohnan-eshop.com/shop/g/g4522831209187/ （自社ブランドの表示 「コーナンオリジナル」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "座面の高さ・耐荷重は公式に記載がない。 コーナンの自社ブランド品で、Amazon へのリンクはない（コーナンの店舗・公式通販で販売）。",
+      "specs": {
+        "seatHeightCm": null,
+        "capacityKg": null,
+        "weightKg": 4.2,
+        "packSize": "公式に明記なし",
+        "packShape": null,
+        "frame": null,
+        "lowStyle": null
+      }
     }
   ],
   "nextProblems": [

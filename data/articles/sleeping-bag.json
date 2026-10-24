@@ -61,6 +61,13 @@
         "カインズの自社ブランドの寝袋も比較表に載せました。着られるシュラフと連結できるクッションシュラフは、公式に「使用時温度目安 15℃以上」とあります。ISO 23537 の快適温度・下限温度ではなく、メーカー独自の目安です。連結できるシュラフは、公式の仕様に温度の記載がありません。",
         "3製品とも ISO 23537 の温度表記がないため、「ISO23537の快適温度があるものだけ」の絞り込みでは×になります。Amazon では売っていないため、リンクはありません。"
       ]
+    },
+    {
+      "heading": "ホームセンターの自社ブランド（コメリ・コーナン）の寝袋",
+      "paragraphs": [
+        "コメリとコーナンの自社ブランドの寝袋も比較表に載せました。コメリの連結できる寝袋は「快適温度 10℃〜」「限界温度 5℃」のように2つの温度を書いていますが、ISO 23537 の記載はなく、メーカー独自の表記です。ISO の快適温度・使用可能温度と同じ列には入れていません。",
+        "DCM の自社ブランドの寝袋（400g・600g）と、コーナンのスタンダードシュラフ 600 は、公式に温度・重さの記載がなかったため載せていません。Amazon では売っていないため、リンクはありません。"
+      ]
     }
   ],
   "filter": {
@@ -214,8 +221,8 @@
       "specs": {
         "comfortC": null,
         "limitC": null,
-        "makerTempC": 15,
-        "tempStandard": "メーカー独自（「使用時温度目安」）",
+        "makerTempC": "使用時温度目安 15℃以上",
+        "tempStandard": "記載なし",
         "shape": "公式に明記なし",
         "weightG": 1000,
         "packSize": "20×20×40cm",
@@ -232,14 +239,86 @@
       "specs": {
         "comfortC": null,
         "limitC": null,
-        "makerTempC": 15,
-        "tempStandard": "メーカー独自（「使用時温度目安」）",
+        "makerTempC": "使用時温度目安 約15℃以上",
+        "tempStandard": "記載なし",
         "shape": "公式に明記なし",
         "weightG": 1300,
         "packSize": "約45×40cm（たたむとクッション）",
         "isoRated": false
       },
       "note": "本体サイズ 約75×185cm。公式の使用時温度目安は「約15℃以上」。 カインズの自社ブランド品で、Amazon へのリンクはない（カインズの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "コメリ ナチュラルシーズン 連結できる寝袋 12℃（KWA600）",
+      "brand": "コメリ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コメリ公式オンラインショップ https://www.komeri.com/shop/g/g2065017/ （自社ブランドの表示 商品名の先頭に「コメリ」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "本体 約75×185cm。 コメリの自社ブランド品で、Amazon へのリンクはない（コメリの店舗・公式通販で販売）。",
+      "specs": {
+        "comfortC": null,
+        "limitC": null,
+        "makerTempC": "快適温度 12℃〜／限界温度 8℃",
+        "tempStandard": "記載なし",
+        "shape": "公式に明記なし",
+        "weightG": 970,
+        "packSize": "Φ19×36cm",
+        "isoRated": false
+      }
+    },
+    {
+      "name": "コメリ ナチュラルシーズン 連結できる寝袋 10℃（KWB1000）",
+      "brand": "コメリ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コメリ公式オンラインショップ https://www.komeri.com/shop/g/g2065018/ （自社ブランドの表示 商品名の先頭に「コメリ」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "本体 約80×190cm。 コメリの自社ブランド品で、Amazon へのリンクはない（コメリの店舗・公式通販で販売）。",
+      "specs": {
+        "comfortC": null,
+        "limitC": null,
+        "makerTempC": "快適温度 10℃〜／限界温度 5℃",
+        "tempStandard": "記載なし",
+        "shape": "公式に明記なし",
+        "weightG": 1250,
+        "packSize": "Φ22×38cm",
+        "isoRated": false
+      }
+    },
+    {
+      "name": "コメリ ナチュラルシーズン フード付き 連結できる寝袋 5℃（KWC1100）",
+      "brand": "コメリ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コメリ公式オンラインショップ https://www.komeri.com/shop/g/g2143182/ （自社ブランドの表示 商品名の先頭に「コメリ」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "本体 約75×190cm、中綿600g。 コメリの自社ブランド品で、Amazon へのリンクはない（コメリの店舗・公式通販で販売）。",
+      "specs": {
+        "comfortC": null,
+        "limitC": null,
+        "makerTempC": "快適温度目安 5℃／下限温度 3℃",
+        "tempStandard": "記載なし",
+        "shape": "公式に明記なし",
+        "weightG": 1250,
+        "packSize": "40×40×17cm",
+        "isoRated": false
+      }
+    },
+    {
+      "name": "コーナン スタンダードシュラフ 800",
+      "brand": "コーナン（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "コーナン公式オンラインショップ https://www.kohnan-eshop.com/shop/g/g4522831021581/ （自社ブランドの表示 「コーナンオリジナル」 を確認、2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "本体 幅75×200cm。公式の適応シーズンは「夏〜初秋」。 コーナンの自社ブランド品で、Amazon へのリンクはない（コーナンの店舗・公式通販で販売）。",
+      "specs": {
+        "comfortC": null,
+        "limitC": null,
+        "makerTempC": "快適使用温度 11℃以上",
+        "tempStandard": "記載なし",
+        "shape": "公式に明記なし",
+        "weightG": 1300,
+        "packSize": "径20×高さ37cm",
+        "isoRated": false
+      }
     }
   ],
   "nextProblems": [
