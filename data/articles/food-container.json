@@ -70,6 +70,14 @@
         "コメリと DCM の自社ブランドの保存容器も比較表に載せました。コメリのサークルポット保存容器は、電子レンジはフタを外せば使えますが、食器洗い乾燥機は公式に「ご使用しないでください」です。DCM の角型 300ml は、耐熱温度やレンジ・食洗機の可否が公式に書かれていません。",
         "コーナンの LIFELEX 連結保存容器は、仕様欄にサイズなどの記載がなかったため載せていません。Amazon では売っていないため、リンクはありません。"
       ]
+    },
+    {
+      "heading": "無印良品・ケユカ・スタンダードプロダクツ・3COINS の保存容器",
+      "paragraphs": [
+        "店が自社で企画して売っている保存容器も、各社の公式通販の仕様欄で確認して載せました。3COINS の耐熱ガラス保存容器M は、フタまで含めて食洗機に対応すると公式に書かれています。ケユカのレンジパックと 3COINS の KITINTO 耐熱保存容器は、フタをしたまま電子レンジに入れられると説明文にあります。",
+        "スタンダードプロダクツの耐熱ガラス容器は、どれも「加熱時はフタを外す」と注意書きがあり、食洗機の可否は書かれていません。ラウンド型は容量の記載もありません。無印良品のホーロー保存容器は本体だけの販売で、フタは別売です。",
+        "Amazon で売っているのは無印良品の粉もの保存容器だけで、それ以外はリンクがありません（各社の店舗・公式通販で販売）。"
+      ]
     }
   ],
   "filter": {
@@ -340,6 +348,210 @@
         "ovenText": "公式に明記なし",
         "dishwasherAll": null
       }
+    },
+    {
+      "name": "無印良品 耐熱ガラス丸型保存容器 約320ml",
+      "brand": "無印良品",
+      "asin": null,
+      "verified": true,
+      "source": "無印良品 公式ネットストア https://www.muji.com/jp/ja/store/cmdty/detail/4550182932539 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 320,
+        "sizeMm": "直径75×高さ110mm",
+        "bodyMaterial": "耐熱ガラス（フタはポリプロピレン・シリコーンゴム）",
+        "heatBody": "ガラスは耐熱温度差120℃／フタはポリプロピレン120℃・シリコーンゴム200℃",
+        "lidNote": "電子レンジ可（本体・フタ別の記載なし）",
+        "ovenText": "不可",
+        "dishwasherAll": false
+      },
+      "note": "公式に「耐熱ガラス：食洗機可、フタ：食洗機不可」。 無印良品の自社企画品で、Amazon へのリンクはない（無印良品の店舗・公式通販で販売）。"
+    },
+    {
+      "name": "無印良品 蓋が選べる ホーロー保存容器 小 約270ml",
+      "brand": "無印良品",
+      "asin": null,
+      "verified": true,
+      "source": "無印良品 公式ネットストア https://www.muji.com/jp/ja/store/cmdty/detail/4550344402009 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 270,
+        "sizeMm": "95×115×50mm",
+        "bodyMaterial": "ほうろう用鋼板",
+        "heatBody": "公式に明記なし",
+        "lidNote": "フタは別売（シール蓋など）。本体は電子レンジ不可",
+        "ovenText": "可",
+        "dishwasherAll": null
+      },
+      "note": "本体は食洗機可。フタは別売のため、フタの対応は選ぶフタによる。同シリーズの深型 中・大は Amazon に出品があるが、小は見つからなかった。 無印良品の自社企画品で、Amazon へのリンクはない（無印良品の店舗・公式通販で販売）。"
+    },
+    {
+      "name": "無印良品 粉もの保存容器 1.5L",
+      "brand": "無印良品",
+      "asin": "B08N6JZSDG",
+      "verified": true,
+      "source": "無印良品 公式ネットストア https://www.muji.com/jp/ja/store/cmdty/detail/4550002526825 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 1500,
+        "sizeMm": "155×95×150mm",
+        "bodyMaterial": "ポリプロピレン（フタはポリプロピレン・熱可塑性エラストマー）",
+        "heatBody": "公式に明記なし",
+        "lidNote": "電子レンジ不可",
+        "ovenText": "不可",
+        "dishwasherAll": false
+      },
+      "note": "粉もの用で、加熱はできない。 Amazon の出品（ブランド欄 無印良品）は商品名と容量（Amazon のタイトルの型番 MDB69A8A と公式の JAN の対応は確認できていない）で照合した。"
+    },
+    {
+      "name": "ケユカ 楽に洗えてフタごとレンジパック 400ml（4個セット）",
+      "brand": "ケユカ（KEYUCA）",
+      "asin": null,
+      "verified": true,
+      "source": "ケユカ 公式オンラインショップ https://www.keyuca.com/Form/Product/ProductDetail.aspx?shop=0&pid=s3300976 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 400,
+        "sizeMm": "111×164×51mm",
+        "bodyMaterial": "ポリプロピレン",
+        "heatBody": "耐熱140℃／耐冷-20℃",
+        "lidNote": "フタをしたまま電子レンジ可（公式の説明文）",
+        "ovenText": "不可（公式の取扱い上の注意）",
+        "dishwasherAll": false
+      },
+      "note": "ケユカの自社企画品で、Amazon へのリンクはない（ケユカの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "ケユカ 楽に洗えてフタごとレンジパック 600ml（4個セット）",
+      "brand": "ケユカ（KEYUCA）",
+      "asin": null,
+      "verified": true,
+      "source": "ケユカ 公式オンラインショップ https://www.keyuca.com/Form/Product/ProductDetail.aspx?shop=0&pid=s3300977 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 600,
+        "sizeMm": "125×185×57mm",
+        "bodyMaterial": "ポリプロピレン",
+        "heatBody": "耐熱140℃／耐冷-20℃",
+        "lidNote": "電子レンジ可",
+        "ovenText": "公式に明記なし",
+        "dishwasherAll": false
+      },
+      "note": "ケユカの自社企画品で、Amazon へのリンクはない（ケユカの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "ケユカ 紫外線をカットする密閉キャニスター 980ml",
+      "brand": "ケユカ（KEYUCA）",
+      "asin": null,
+      "verified": true,
+      "source": "ケユカ 公式オンラインショップ https://www.keyuca.com/Form/Product/ProductDetail.aspx?shop=0&pid=s10000245 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 980,
+        "sizeMm": "104×100×177mm",
+        "bodyMaterial": "MS樹脂（本体・フタ）",
+        "heatBody": "本体・フタ 耐熱100℃／耐冷-30℃（パッキンはシリコン180℃）",
+        "lidNote": "公式に明記なし",
+        "ovenText": "公式に明記なし",
+        "dishwasherAll": null
+      },
+      "note": "電子レンジ・食洗機の可否は公式に記載がない。容量は商品名の表記。 ケユカの自社企画品で、Amazon へのリンクはない（ケユカの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "スタンダードプロダクツ レンジOK耐熱ガラス密閉容器（レクタングル型）370mL",
+      "brand": "スタンダードプロダクツ（ダイソーの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "Standard Products ネットストア（ダイソーネットストア内） https://jp.daisonet.com/products/4550480429014 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 370,
+        "sizeMm": "150×113×60mm",
+        "bodyMaterial": "ホウケイ酸ガラス（フタはポリプロピレン、パッキンはシリコーンゴム）",
+        "heatBody": "公式に明記なし",
+        "lidNote": "電子レンジ可（フタは外す、公式の注意書き）",
+        "ovenText": "公式に明記なし",
+        "dishwasherAll": null
+      },
+      "note": "容量は商品名の表記。食洗機の可否は公式に記載がない。 スタンダードプロダクツの自社企画品で、Amazon へのリンクはない（スタンダードプロダクツの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "スタンダードプロダクツ レンジOK耐熱ガラス密閉容器（ラウンド型）",
+      "brand": "スタンダードプロダクツ（ダイソーの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "Standard Products ネットストア（ダイソーネットストア内） https://jp.daisonet.com/products/4550480429021 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": null,
+        "sizeMm": "155×155×70mm",
+        "bodyMaterial": "ホウケイ酸ガラス（フタはポリプロピレン、パッキンはシリコーンゴム）",
+        "heatBody": "公式に明記なし",
+        "lidNote": "電子レンジ可（商品名）",
+        "ovenText": "公式に明記なし",
+        "dishwasherAll": null
+      },
+      "note": "容量は公式に記載がないため、容量での絞り込みでは「?」になる。 スタンダードプロダクツの自社企画品で、Amazon へのリンクはない（スタンダードプロダクツの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "スタンダードプロダクツ 耐熱ガラス保存容器 720mL",
+      "brand": "スタンダードプロダクツ（ダイソーの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "Standard Products ネットストア（ダイソーネットストア内） https://jp.daisonet.com/products/4550480675220 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 720,
+        "sizeMm": "171×123×77mm",
+        "bodyMaterial": "ホウケイ酸ガラス（フタはAS樹脂、パッキン・空気弁はシリコーンゴム）",
+        "heatBody": "耐熱温度差120℃",
+        "lidNote": "電子レンジ可（フタは外す、公式の注意書き）",
+        "ovenText": "可（公式の使用区分）",
+        "dishwasherAll": null
+      },
+      "note": "食洗機の可否は公式に記載がない。 スタンダードプロダクツの自社企画品で、Amazon へのリンクはない（スタンダードプロダクツの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "3COINS KITINTO 耐熱保存容器 1000ml（2個セット）",
+      "brand": "3COINS（パルの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "3COINS 公式通販（PAL CLOSET） https://www.palcloset.jp/display/item/2514-THY1000-00/ （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 1000,
+        "sizeMm": "200×133×63mm",
+        "bodyMaterial": "ポリプロピレン",
+        "heatBody": "耐熱140℃／耐冷-20℃",
+        "lidNote": "フタをしたまま電子レンジ可（公式の説明文）",
+        "ovenText": "不可",
+        "dishwasherAll": false
+      },
+      "note": "公式に食器洗浄機・食器乾燥機は使用不可。 3COINSの自社企画品で、Amazon へのリンクはない（3COINSの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "3COINS 耐熱ガラス保存容器M 500ml",
+      "brand": "3COINS（パルの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "3COINS 公式通販（PAL CLOSET） https://www.palcloset.jp/display/item/2621-EC-BYCGRM-/ （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 500,
+        "sizeMm": "136×100×63mm（フタ含む）",
+        "bodyMaterial": "耐熱ガラス（フタはシリコーンゴム）",
+        "heatBody": "本体は耐熱温度差120℃／フタは200℃",
+        "lidNote": "電子レンジ可",
+        "ovenText": "可",
+        "dishwasherAll": true
+      },
+      "note": "公式の使用可能欄に電子レンジ・オーブン・食洗機。 3COINSの自社企画品で、Amazon へのリンクはない（3COINSの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "3COINS スーパーロック保存容器 600ml",
+      "brand": "3COINS（パルの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "3COINS 公式通販（PAL CLOSET） https://www.palcloset.jp/display/item/2621-PALTHAI02-/ （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 600,
+        "sizeMm": "170×125×62mm",
+        "bodyMaterial": "ポリプロピレン",
+        "heatBody": "本体140℃・フタ120℃／耐冷-20℃",
+        "lidNote": "電子レンジは本体のみ（公式の表記）",
+        "ovenText": "不可",
+        "dishwasherAll": false
+      },
+      "note": "3COINSの自社企画品で、Amazon へのリンクはない（3COINSの店舗・公式通販で販売）。"
     }
   ],
   "nextProblems": [

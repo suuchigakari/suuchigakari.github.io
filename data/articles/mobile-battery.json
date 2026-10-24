@@ -5,14 +5,27 @@
   "commissionRate": "2.00%",
   "title": "モバイルバッテリーは機内で使えなくなった｜2個まで・Whの確かめ方",
   "description": "2026年4月24日から、機内に持ち込めるモバイルバッテリーは2個（160Wh以下）までになり、機内での充電もできなくなりました。同じ10000mAhでもWhは36.5〜38.5Whと違い、Whを製品ページに書いていないメーカーもあります。公式仕様で比較しました。",
-  "keywords": ["モバイルバッテリー 機内持ち込み 2026", "モバイルバッテリー Wh 計算", "モバイルバッテリー 10000mAh 比較"],
+  "keywords": [
+    "モバイルバッテリー 機内持ち込み 2026",
+    "モバイルバッテリー Wh 計算",
+    "モバイルバッテリー 10000mAh 比較"
+  ],
   "asOf": "2026-10-15",
   "verdictLegend": "○＝重さの条件を満たす、×＝重い、?＝公式に明記なし。",
   "lead": "国土交通省は、2026年4月24日からモバイルバッテリーの機内持ち込みのルールを変えました。機内に持ち込めるのは2個まで（1個160Wh以下）で、機内でモバイルバッテリーを充電すること、モバイルバッテリーからスマートフォンなどを充電することの両方ができなくなりました。預け荷物に入れられないのは従来どおりです。飛行機の中で使えない以上、旅行用に選ぶ基準は「機内で何回充電できるか」ではなく、着いてから使える容量と、持ち歩く重さになります。",
   "excludeReaders": [
-    { "who": "ノートパソコンを何度も充電したい人", "why": "このページは10000mAhクラスを扱います。ノートパソコン向けの大容量品はWhが大きく、持ち込み条件の確認がより重要になります" },
-    { "who": "外国の航空会社に乗る人", "why": "空港の案内でも「各航空会社により規定が異なる場合がある」とされています。このページの国内ルールに加えて、搭乗する航空会社の規定を確認してください" },
-    { "who": "機内でスマートフォンを充電したい人", "why": "国土交通省が追加したルールは、モバイルバッテリーへの充電とモバイルバッテリーからの充電を対象にしたものです。座席の電源の使い方は、搭乗する航空会社の案内に従ってください" }
+    {
+      "who": "ノートパソコンを何度も充電したい人",
+      "why": "このページは10000mAhクラスを扱います。ノートパソコン向けの大容量品はWhが大きく、持ち込み条件の確認がより重要になります"
+    },
+    {
+      "who": "外国の航空会社に乗る人",
+      "why": "空港の案内でも「各航空会社により規定が異なる場合がある」とされています。このページの国内ルールに加えて、搭乗する航空会社の規定を確認してください"
+    },
+    {
+      "who": "機内でスマートフォンを充電したい人",
+      "why": "国土交通省が追加したルールは、モバイルバッテリーへの充電とモバイルバッテリーからの充電を対象にしたものです。座席の電源の使い方は、搭乗する航空会社の案内に従ってください"
+    }
   ],
   "conclusion": [
     "機内に持ち込めるのは2個まで（1個160Wh以下）。10000mAhクラスは約37Whで、160Whには遠く届かない",
@@ -46,8 +59,16 @@
     {
       "heading": "旅行では重さとサイズが効く",
       "paragraphs": [
-        "掲載製品の重さは約180gから約231gまで、50g近い差があります。形も、薄い板状（エレコムのDE-C44は厚さ約17mm）と、小さく厚いもの（AnkerのA1256は約99×52×26mm）に分かれます。ポケットに入れるか、バッグの小物入れに入れるかで選んでください。",
+        "10000mAhの製品の重さは約180gから約260gまで、80gの差があります（5000mAhの製品は約122g・約176g）。形も、薄い板状（エレコムのDE-C44は厚さ約17mm）と、小さく厚いもの（AnkerのA1256は約99×52×26mm）に分かれます。ポケットに入れるか、バッグの小物入れに入れるかで選んでください。",
         "繰り返し使える回数を公開している製品もあります。エレコムの製品はおおむね500回で、DE-C51L-10000BKは1000回です。"
+      ]
+    },
+    {
+      "heading": "無印良品・3COINS のモバイルバッテリー",
+      "paragraphs": [
+        "店が自社で企画して売っているモバイルバッテリーも、各社の公式通販の仕様欄で確認して載せました。6製品とも、公式の商品ページに Wh（定格量）の記載がありません。mAh だけでは Wh は決まらないため（電圧が製品ごとに違う）、機内に持ち込む前に本体のラベルで Wh を確かめてください。",
+        "無印良品の MJ-PSMB100・MJ-PSMB50 は、コンセントに挿す充電器にバッテリーが付いた形です。Amazon で売っているのはこの2製品で、MJ-MS11 と 3COINS の製品はリンクがありません（各社の店舗・公式通販で販売）。",
+        "スタンダードプロダクツの名前で売られている LED残量表示機能付きモバイルバッテリーは、JAN の事業者コードがほかのスタンダードプロダクツ商品と違い、自社企画品か確かめられないため載せていません。"
       ]
     }
   ],
@@ -55,17 +76,48 @@
     "heading": "持ち歩ける重さで絞り込む",
     "note": "許容できる重さの上限を入れてください。Whが公式に書かれている製品だけを見たい場合はチェックしてください。",
     "numberInputs": [
-      { "key": "weightG", "type": "atMost", "label": "重さの上限 (g)", "unit": "g", "default": 210, "min": 100, "max": 400, "step": 5 }
+      {
+        "key": "weightG",
+        "type": "atMost",
+        "label": "重さの上限 (g)",
+        "unit": "g",
+        "default": 210,
+        "min": 100,
+        "max": 400,
+        "step": 5
+      }
     ],
-    "flagInput": { "key": "whStated", "label": "Whが公式に書かれているものだけ" }
+    "flagInput": {
+      "key": "whStated",
+      "label": "Whが公式に書かれているものだけ"
+    }
   },
   "columns": [
-    { "key": "capacityText", "label": "容量" },
-    { "key": "whText", "label": "定格量（Wh）" },
-    { "key": "maxOutput", "label": "最大出力" },
-    { "key": "weightG", "label": "重さ", "unit": "g" },
-    { "key": "sizeMm", "label": "サイズ" },
-    { "key": "cycles", "label": "繰り返し使用回数" }
+    {
+      "key": "capacityText",
+      "label": "容量"
+    },
+    {
+      "key": "whText",
+      "label": "定格量（Wh）"
+    },
+    {
+      "key": "maxOutput",
+      "label": "最大出力"
+    },
+    {
+      "key": "weightG",
+      "label": "重さ",
+      "unit": "g"
+    },
+    {
+      "key": "sizeMm",
+      "label": "サイズ"
+    },
+    {
+      "key": "cycles",
+      "label": "繰り返し使用回数"
+    }
   ],
   "products": [
     {
@@ -75,10 +127,15 @@
       "verified": true,
       "source": "メーカー公式 https://www.elecom.co.jp/products/DE-C76-10000WH.html （2026-10-15 確認）",
       "specs": {
-        "capacityText": "10000mAh", "whText": "3.85V/10000mAh 38.5Wh", "maxOutput": "22.5W（HUAWEI機器のみ）",
-        "weightG": 180, "sizeMm": "約70.4×16.4×113.8mm", "cycles": "500回", "whStated": true
+        "capacityText": "10000mAh",
+        "whText": "3.85V/10000mAh 38.5Wh",
+        "maxOutput": "22.5W（HUAWEI機器のみ）",
+        "weightG": 180,
+        "sizeMm": "約70.4×16.4×113.8mm",
+        "cycles": "500回",
+        "whStated": true
       },
-      "note": "掲載中で最も軽い約180g。付属品に絶縁シートがある。22.5W出力はHUAWEI機器のみ対応。"
+      "note": "10000mAhの製品で最も軽い約180g。付属品に絶縁シートがある。22.5W出力はHUAWEI機器のみ対応。"
     },
     {
       "name": "エレコム DE-C44-10000WF（10000mAh/20W）",
@@ -87,8 +144,13 @@
       "verified": true,
       "source": "メーカー公式 https://www.elecom.co.jp/products/DE-C44-10000WF.html （2026-10-15 確認）",
       "specs": {
-        "capacityText": "10000mAh", "whText": "3.85V/10000mAh 38.5Wh", "maxOutput": "20W（USB PD）",
-        "weightG": 184, "sizeMm": "約70×17×114mm", "cycles": "500回", "whStated": true
+        "capacityText": "10000mAh",
+        "whText": "3.85V/10000mAh 38.5Wh",
+        "maxOutput": "20W（USB PD）",
+        "weightG": 184,
+        "sizeMm": "約70×17×114mm",
+        "cycles": "500回",
+        "whStated": true
       },
       "note": "厚さ約17mmの薄型。USB-C×1、USB-A×2。"
     },
@@ -99,8 +161,13 @@
       "verified": true,
       "source": "メーカー公式 https://www.ankerjapan.com/products/a1257 （2026-10-15 確認）",
       "specs": {
-        "capacityText": "10000mAh", "whText": null, "maxOutput": "22.5W（Huawei機器のみ。他はUSB-C最大20W・USB-A最大18W）",
-        "weightG": 200, "sizeMm": "約114×71×16mm", "cycles": null, "whStated": false
+        "capacityText": "10000mAh",
+        "whText": null,
+        "maxOutput": "22.5W（Huawei機器のみ。他はUSB-C最大20W・USB-A最大18W）",
+        "weightG": 200,
+        "sizeMm": "約114×71×16mm",
+        "cycles": null,
+        "whStated": false
       },
       "note": "公式の製品ページにWhの記載がない。USB-C×2、USB-A×1。"
     },
@@ -111,8 +178,13 @@
       "verified": true,
       "source": "メーカー公式 https://www.elecom.co.jp/products/DE-C51L-10000BK.html （2026-10-15 確認）",
       "specs": {
-        "capacityText": "10000mAh", "whText": "3.65V/10000mAh 36.5Wh", "maxOutput": "30W",
-        "weightG": 205, "sizeMm": "約52×28×106mm", "cycles": "1000回", "whStated": true
+        "capacityText": "10000mAh",
+        "whText": "3.65V/10000mAh 36.5Wh",
+        "maxOutput": "30W",
+        "weightG": 205,
+        "sizeMm": "約52×28×106mm",
+        "cycles": "1000回",
+        "whStated": true
       },
       "note": "繰り返し使用回数1000回と、掲載中のエレコム製品で最も多い。小さく厚い形。"
     },
@@ -123,8 +195,13 @@
       "verified": true,
       "source": "メーカー公式 https://www.ankerjapan.com/products/a1256 （2026-10-15 確認）",
       "specs": {
-        "capacityText": "10000mAh", "whText": null, "maxOutput": "30W（USB-C単ポート最大30W）",
-        "weightG": 220, "sizeMm": "約99×52×26mm", "cycles": null, "whStated": false
+        "capacityText": "10000mAh",
+        "whText": null,
+        "maxOutput": "30W（USB-C単ポート最大30W）",
+        "weightG": 220,
+        "sizeMm": "約99×52×26mm",
+        "cycles": null,
+        "whStated": false
       },
       "note": "公式の製品ページにWhの記載がない。USB-C×2、USB-A×1。"
     },
@@ -135,20 +212,139 @@
       "verified": true,
       "source": "メーカー公式 https://www.elecom.co.jp/products/DE-C38-10000WH.html （2026-10-15 確認）",
       "specs": {
-        "capacityText": "10000mAh", "whText": "3.7V/10000mAh 37.0Wh", "maxOutput": "15W（5V/3A）",
-        "weightG": 231, "sizeMm": "約70×16×143mm", "cycles": "500回", "whStated": true
+        "capacityText": "10000mAh",
+        "whText": "3.7V/10000mAh 37.0Wh",
+        "maxOutput": "15W（5V/3A）",
+        "weightG": 231,
+        "sizeMm": "約70×16×143mm",
+        "cycles": "500回",
+        "whStated": true
       },
-      "note": "掲載中で最も重い約231g。USB-C×1、USB-A×1。"
+      "note": "約231g。USB-C×1、USB-A×1。"
+    },
+    {
+      "name": "無印良品 急速充電ができるモバイルバッテリー付充電器 10000mAh MJ-PSMB100",
+      "brand": "無印良品",
+      "asin": "B0D5CW31WL",
+      "verified": true,
+      "source": "無印良品 公式ネットストア https://www.muji.com/jp/ja/store/cmdty/detail/4550583825003 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityText": "10000mAh",
+        "whText": "公式に明記なし",
+        "maxOutput": "20W（USB-C単独・PD）",
+        "weightG": 260,
+        "sizeMm": "約78.3×33.2×87.0mm",
+        "cycles": "公式に明記なし",
+        "whStated": false
+      },
+      "note": "コンセントに挿す充電器と一体の形。USB-A単独はQC18W、2ポート同時は合計15W。 Amazon の出品（ブランド欄 無印良品）は型番（MJ-PSMB100）で照合した。"
+    },
+    {
+      "name": "無印良品 急速充電ができるモバイルバッテリー付充電器 5000mAh MJ-PSMB50",
+      "brand": "無印良品",
+      "asin": "B0D5CW7XLN",
+      "verified": true,
+      "source": "無印良品 公式ネットストア https://www.muji.com/jp/ja/store/cmdty/detail/4550583824990 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityText": "5000mAh",
+        "whText": "公式に明記なし",
+        "maxOutput": "20W（USB-C単独・PD）",
+        "weightG": 176,
+        "sizeMm": "約71.0×33.2×78.3mm",
+        "cycles": "公式に明記なし",
+        "whStated": false
+      },
+      "note": "コンセントに挿す充電器と一体の形。USB-A単独はQC18W、2ポート同時は合計15W。 Amazon の出品（ブランド欄 無印良品）は型番（MJ-PSMB50）で照合した。"
+    },
+    {
+      "name": "無印良品 スマホスタンドにもなるモバイルバッテリー 10000mAh MJ-MS11",
+      "brand": "無印良品",
+      "asin": null,
+      "verified": true,
+      "source": "無印良品 公式ネットストア https://www.muji.com/jp/ja/store/cmdty/detail/4550584865374 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityText": "10000mAh",
+        "whText": "公式に明記なし",
+        "maxOutput": "公式に明記なし",
+        "weightG": 238,
+        "sizeMm": "約70×22×105mm",
+        "cycles": "公式に明記なし",
+        "whStated": false
+      },
+      "note": "マグネット式充電対応。仕様欄の「消費電力」は20W。 無印良品の自社企画品で、Amazon へのリンクはない（無印良品の店舗・公式通販で販売）。"
+    },
+    {
+      "name": "3COINS リン酸鉄モバイルバッテリー 10000mAh",
+      "brand": "3COINS（パルの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "3COINS 公式通販（PAL CLOSET） https://www.palcloset.jp/display/item/2616-GHBTR02-00/ （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityText": "10000mAh（リン酸鉄）",
+        "whText": "公式に明記なし",
+        "maxOutput": "5V/2.1A（USB-C・USB-A）",
+        "weightG": 221,
+        "sizeMm": "約70×17×143mm",
+        "cycles": "公式に明記なし",
+        "whStated": false
+      },
+      "note": "パススルー充電対応。公式に PSE 適合。 3COINSの自社企画品で、Amazon へのリンクはない（3COINSの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "3COINS 準固体モバイルバッテリー 10000mAh",
+      "brand": "3COINS（パルの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "3COINS 公式通販（PAL CLOSET） https://www.palcloset.jp/display/item/2616-GHBTR04-00/ （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityText": "10000mAh（準固体）",
+        "whText": "公式に明記なし",
+        "maxOutput": "20W（PD、複数ポート同時は15W）",
+        "weightG": 230,
+        "sizeMm": "約68×17×140mm",
+        "cycles": "公式に明記なし",
+        "whStated": false
+      },
+      "note": "公式に PSE 適合。 3COINSの自社企画品で、Amazon へのリンクはない（3COINSの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "3COINS リン酸鉄モバイルバッテリー 5000mAh",
+      "brand": "3COINS（パルの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "3COINS 公式通販（PAL CLOSET） https://www.palcloset.jp/display/item/2616-GHBTR01-00/ （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityText": "5000mAh（リン酸鉄）",
+        "whText": "公式に明記なし",
+        "maxOutput": "5V/2.1A（USB-C・USB-A）",
+        "weightG": 122,
+        "sizeMm": "約64×16×101mm",
+        "cycles": "公式に明記なし",
+        "whStated": false
+      },
+      "note": "公式に PSE 適合。 3COINSの自社企画品で、Amazon へのリンクはない（3COINSの店舗・公式通販で販売）。"
     }
   ],
   "nextProblems": [
-    { "text": "LCCの機内持ち込みは重さも2個合計で7kg（ラゲッジスケールの選び方）", "href": "./luggage-scale.html" },
-    { "text": "キャリーケースの各辺の上限（LCCで弾かれないキャリーケースの選び方）", "href": "./lcc-carrycase.html" },
+    {
+      "text": "LCCの機内持ち込みは重さも2個合計で7kg（ラゲッジスケールの選び方）",
+      "href": "./luggage-scale.html"
+    },
+    {
+      "text": "キャリーケースの各辺の上限（LCCで弾かれないキャリーケースの選び方）",
+      "href": "./lcc-carrycase.html"
+    },
     "端子の絶縁（テープや個別の袋）を出発前に済ませておく",
     "着いてから充電するための充電器とケーブル（モバイルバッテリー本体の充電にかかる時間）"
   ],
   "sources": [
-    { "label": "国土交通省 モバイルバッテリーの機内持込みの新たなルールについて（2026年4月14日）", "url": "https://www.mlit.go.jp/report/press/kouku10_hh_000310.html" },
-    { "label": "羽田空港 モバイルバッテリー等の航空機内持ち込みについて（2026年4月24日以降）", "url": "https://tokyo-haneda.com/information/2026/detail_00022.html" }
+    {
+      "label": "国土交通省 モバイルバッテリーの機内持込みの新たなルールについて（2026年4月14日）",
+      "url": "https://www.mlit.go.jp/report/press/kouku10_hh_000310.html"
+    },
+    {
+      "label": "羽田空港 モバイルバッテリー等の航空機内持ち込みについて（2026年4月24日以降）",
+      "url": "https://tokyo-haneda.com/information/2026/detail_00022.html"
+    }
   ]
 }

@@ -199,6 +199,54 @@
       "bodySizeCm": "53×36×23",
       "dimensionSource": "カインズ公式オンラインショップ https://www.cainz.com/g/4550596092645.html （カインズの自社ブランド「カインズオリジナル」の表示を確認、2026-10-24 確認）",
       "note": "公式に「機内持ち込み可否：可」「3辺合計サイズ 112cm」とあるが、本体サイズにキャスター・ハンドルを含むかが書かれていないため、比較表には載せず判定もしない。 カインズの自社ブランド品で、Amazon へのリンクはない（カインズの店舗・公式通販で販売）。"
+    },
+    {
+      "asin": "",
+      "name": "無印良品 バーを自由に調節できる ハードキャリーケース 20L（2026年仕様）",
+      "type": "ハード",
+      "heightCm": 47,
+      "widthCm": 32,
+      "depthCm": 20.5,
+      "weightKg": 2.7,
+      "capacityL": 20,
+      "priceRange": "",
+      "dimensionsVerified": false,
+      "sizeBasis": "公式の商品名・サイズ欄の表記（キャスター・ハンドルを含むか公式に明記なし）",
+      "bodySizeCm": "47×32×20.5",
+      "dimensionSource": "無印良品 公式ネットストア https://www.muji.com/jp/ja/store/cmdty/detail/4550723184182 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "公式に「機内持ち込み適用サイズ」とあるが、タテ47×ヨコ32×マチ20.5cm（商品名の表記）にキャスター・ハンドルを含むかが書かれていないため、比較表には載せず判定もしない。耐荷重約8kg。Amazon では見つからなかった。"
+    },
+    {
+      "asin": "B0GHYDM1P7",
+      "name": "無印良品 バーを自由に調節できる ハードキャリーケース 36L（2026年仕様）",
+      "type": "ハード",
+      "heightCm": 54,
+      "widthCm": 37,
+      "depthCm": 24,
+      "weightKg": 2.9,
+      "capacityL": 36,
+      "priceRange": "",
+      "dimensionsVerified": false,
+      "sizeBasis": "公式の商品名・サイズ欄の表記（キャスター・ハンドルを含むか公式に明記なし）",
+      "bodySizeCm": "54×37×24",
+      "dimensionSource": "無印良品 公式ネットストア https://www.muji.com/jp/ja/store/cmdty/detail/4548076431312 （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "公式に「機内持ち込み適用サイズ」とあるが、タテ54×ヨコ37×マチ24cm（商品名の表記）にキャスター・ハンドルを含むかが書かれていないため、比較表には載せず判定もしない。耐荷重約12kg。Amazon の出品（ブランド欄 無印良品）が2026年仕様と同じかは確認できていない。"
+    },
+    {
+      "asin": "",
+      "name": "3COINS 機内持ち込みサイズスーツケース 39L",
+      "type": "ハード",
+      "heightCm": 55,
+      "widthCm": 34.5,
+      "depthCm": 23.5,
+      "weightKg": 2.7,
+      "capacityL": 39,
+      "priceRange": "",
+      "dimensionsVerified": false,
+      "sizeBasis": "公式の商品名・サイズ欄の表記（キャスター・ハンドルを含むか公式に明記なし）",
+      "bodySizeCm": "55×34.5×23.5",
+      "dimensionSource": "3COINS 公式通販（PAL CLOSET） https://www.palcloset.jp/display/item/2523-HFA205-000/ （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "note": "商品名は「機内持ち込みサイズ」だが、約縦55×横34.5×奥行き23.5cm にキャスター・ハンドルを含むかが書かれていないため、比較表には載せず判定もしない。耐荷重12kg。3COINS の自社企画品で、Amazon へのリンクはない。"
     }
   ]
 }
