@@ -3,17 +3,32 @@
   "genre": "機内持ち込みリュック（LCC）",
   "genreNumber": 33,
   "commissionRate": "8.00%",
-  "airlineFit": { "group": "LCC" },
-  "title": "LCCに持ち込めるリュックは容量ではなく形で決まる｜26L〜44Lの6製品をLCC8社の規定で判定",
+  "airlineFit": {
+    "group": "LCC"
+  },
+  "title": "LCCに持ち込めるリュックは容量ではなく形で決まる｜8製品をLCC8社の規定で判定",
   "description": "26Lのリュックがジェットスターの規定に入らず、44Lのリュックが入ることがあります。LCCの機内持ち込み規定は「幅36cm」と「高さ50cm」のどちらが厳しいかが会社で違うためです。メーカー公式の外寸で、LCC8社に持ち込めるかを判定しました。",
-  "keywords": ["LCC 機内持ち込み リュック サイズ", "ピーチ 機内持ち込み リュック", "ジェットスター 機内持ち込み リュック 何リットル"],
+  "keywords": [
+    "LCC 機内持ち込み リュック サイズ",
+    "ピーチ 機内持ち込み リュック",
+    "ジェットスター 機内持ち込み リュック 何リットル"
+  ],
   "asOf": "2026-10-19",
   "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝容量が公式に明記なし。各社の規定は2026年8月に確認したもの（出典はLCCキャリーケース記事）。",
   "lead": "機内持ち込みのリュックを「何リットルまでなら大丈夫か」で探すと、外れることがあります。このページの6製品では、26Lのリュックがジェットスターなど4社の規定に入らない一方、44Lのリュックは入りました。LCCの規定は会社によって「幅36cmまで」が厳しかったり「高さ50cmまで」が厳しかったりするため、容量ではなく外寸の形で決まります。メーカー公式の外寸と重量から、LCC8社それぞれに持ち込めるかを判定しました。",
   "excludeReaders": [
-    { "who": "ANA・JALなど大手航空会社だけに乗る人", "why": "大手は各辺55×40×25cm・10kgまでとLCCより緩く、このページの判定は厳しすぎます。キャリーケースの記事でANA・JALの規定も比べています" },
-    { "who": "リュックを預け荷物にする人", "why": "外寸の上限を気にする必要がないので、容量と背負いやすさで選べます" },
-    { "who": "通勤用のビジネスリュックを探している人", "why": "このページは機内持ち込みの寸法で判定しています。PCの収納サイズや自立するかどうかは比べていません" }
+    {
+      "who": "ANA・JALなど大手航空会社だけに乗る人",
+      "why": "大手は各辺55×40×25cm・10kgまでとLCCより緩く、このページの判定は厳しすぎます。キャリーケースの記事でANA・JALの規定も比べています"
+    },
+    {
+      "who": "リュックを預け荷物にする人",
+      "why": "外寸の上限を気にする必要がないので、容量と背負いやすさで選べます"
+    },
+    {
+      "who": "通勤用のビジネスリュックを探している人",
+      "why": "このページは機内持ち込みの寸法で判定しています。PCの収納サイズや自立するかどうかは比べていません"
+    }
   ],
   "conclusion": [
     "容量では決まらない。幅40cmの26Lはジェットスターなど「幅36cmまで」の4社に入らず、高さ51cmの44Lはピーチの「高さ50cmまで」に入らない",
@@ -49,22 +64,62 @@
         "リュックは生地が柔らかいため、荷物を詰めると膨らみます。特に奥行は、詰め方しだいで公式の寸法を超えます。規定ぎりぎりの製品を選ぶ場合は、出発前に詰めた状態で測ってください。",
         "重量も確認が必要です。LCCの多くは機内持ち込みが「手荷物2個の合計7kgまで」（チェジュ航空・ティーウェイ航空は10kg）で、リュック本体の重さも含まれます。このページの製品は0.6kgから1.2kgです。キャリーケースとリュックを2個持ち込むなら、2個の合計で計算してください。"
       ]
+    },
+    {
+      "heading": "ホームセンターの自社ブランド（カインズ TRADDY）のリュック",
+      "paragraphs": [
+        "カインズのトラベル用品ブランド TRADDY のリュック2製品も比較表に載せました。サイドベルトリュックは幅32×奥行14.5×高さ42.5cm・566g、折りたたみできるリュックは幅30×奥行12×高さ40.5cm・186gで、公式の本体サイズで判定しています。",
+        "どちらも容量（L）は公式に記載がありません。Amazon では売っていないため、リンクはありません。"
+      ]
     }
   ],
   "filter": {
     "heading": "容量とLCC全社対応で絞り込む",
     "note": "必要な容量を入れてください。乗る会社を決めていない場合は、LCC8社すべてに入るものだけを表示できます。",
     "numberInputs": [
-      { "key": "capacityL", "type": "atLeast", "label": "必要な容量 (L)", "unit": "L", "default": 25, "min": 10, "max": 50, "step": 1 }
+      {
+        "key": "capacityL",
+        "type": "atLeast",
+        "label": "必要な容量 (L)",
+        "unit": "L",
+        "default": 25,
+        "min": 10,
+        "max": 50,
+        "step": 1
+      }
     ],
-    "flagInput": { "key": "fitAllAirlines", "label": "LCC8社すべての寸法・重量に収まるものだけ", "okDetail": "8社すべてに収まる", "ngDetail": "収まらない会社がある" }
+    "flagInput": {
+      "key": "fitAllAirlines",
+      "label": "LCC8社すべての寸法・重量に収まるものだけ",
+      "okDetail": "8社すべてに収まる",
+      "ngDetail": "収まらない会社がある"
+    }
   },
   "columns": [
-    { "key": "outerCm", "label": "外寸（高さ×幅×奥行）", "unit": "cm" },
-    { "key": "totalCm", "label": "3辺合計", "unit": "cm" },
-    { "key": "capacityL", "label": "容量", "unit": "L" },
-    { "key": "weightKg", "label": "重量", "unit": "kg" },
-    { "key": "fitAirlines", "label": "寸法・重量が収まるLCC" }
+    {
+      "key": "outerCm",
+      "label": "外寸（高さ×幅×奥行）",
+      "unit": "cm"
+    },
+    {
+      "key": "totalCm",
+      "label": "3辺合計",
+      "unit": "cm"
+    },
+    {
+      "key": "capacityL",
+      "label": "容量",
+      "unit": "L"
+    },
+    {
+      "key": "weightKg",
+      "label": "重量",
+      "unit": "kg"
+    },
+    {
+      "key": "fitAirlines",
+      "label": "寸法・重量が収まるLCC"
+    }
   ],
   "products": [
     {
@@ -73,7 +128,15 @@
       "asin": "B01G5UO5EK",
       "verified": true,
       "source": "メーカー公式 https://cabinzero.com/products/classic-cabin-backpack-28l （2026-10-19 確認）",
-      "specs": { "outerCm": [39, 29.5, 20], "capacityL": 28, "weightKg": 0.6 },
+      "specs": {
+        "outerCm": [
+          39,
+          29.5,
+          20
+        ],
+        "capacityL": 28,
+        "weightKg": 0.6
+      },
       "note": "掲載中で最も小さく軽い。LCC8社すべての寸法に収まり、奥行20cmはチェジュ航空・ティーウェイ航空の上限ちょうど。"
     },
     {
@@ -82,7 +145,15 @@
       "asin": "B0CM9F1R4B",
       "verified": true,
       "source": "メーカー公式 https://cabinzero.com/products/classic-cabin-backpack-36l （2026-10-19 確認）",
-      "specs": { "outerCm": [45, 31, 20], "capacityL": 36, "weightKg": 0.7 },
+      "specs": {
+        "outerCm": [
+          45,
+          31,
+          20
+        ],
+        "capacityL": 36,
+        "weightKg": 0.7
+      },
       "note": "LCC8社すべての寸法に収まる中では、掲載中で容量が最も大きい。"
     },
     {
@@ -91,7 +162,15 @@
       "asin": "",
       "verified": true,
       "source": "メーカー公式 https://cabinzero.com/products/classic-cabin-backpack-44l （2026-10-19 確認）",
-      "specs": { "outerCm": [51, 36, 18], "capacityL": 44, "weightKg": 0.76 },
+      "specs": {
+        "outerCm": [
+          51,
+          36,
+          18
+        ],
+        "capacityL": 44,
+        "weightKg": 0.76
+      },
       "note": "幅36cmで細長い4社には収まるが、高さ51cmがピーチの50cmを超える。Amazonの44Lの出品は外寸が「55×40×20cm」と書かれており、公式の現行仕様と一致しないため、商品リンクは置いていない。"
     },
     {
@@ -100,7 +179,15 @@
       "asin": "B0FBLX2P9X",
       "verified": true,
       "source": "メーカー公式 https://www.gregory.jp/classic-day/day-pc/gr-65169-1888.html （2026-10-19 確認）",
-      "specs": { "outerCm": [45, 40, 16], "capacityL": 26, "weightKg": 0.76 },
+      "specs": {
+        "outerCm": [
+          45,
+          40,
+          16
+        ],
+        "capacityL": 26,
+        "weightKg": 0.76
+      },
       "note": "容量26Lと小さめだが、幅40cmが「幅36cmまで」の4社（ジェットスター・スプリング・ジャパン・エアアジア・香港エクスプレス）を超える。奥行16cmと薄いので、ピーチ・ZIPAIR・チェジュ航空・ティーウェイ航空には収まる。"
     },
     {
@@ -109,7 +196,15 @@
       "asin": "B0B2WFXV19",
       "verified": true,
       "source": "メーカー公式 https://www.samsonite.co.jp/samsonite-business/flyz-lite2/2room_backpack_exp/navy/ss-145248-1596.html （2026-10-19 確認）",
-      "specs": { "outerCm": [42, 30, 19], "capacityL": null, "weightKg": 1 },
+      "specs": {
+        "outerCm": [
+          42,
+          30,
+          19
+        ],
+        "capacityL": null,
+        "weightKg": 1
+      },
       "note": "表の判定は拡張しない状態（奥行19cm）。拡張すると奥行24cmになり、収まるのはピーチとZIPAIRだけになる。容量（L）は公式に記載がない。Amazonの商品ページのサイズ欄は公式と異なる値になっているため、公式の値を載せている。"
     },
     {
@@ -118,17 +213,71 @@
       "asin": "",
       "verified": true,
       "source": "メーカー公式 https://www.tomtoc.com/products/40l-travel-backpack-carry-on （2026-10-19 確認）",
-      "specs": { "outerCm": [52, 34, 23], "capacityL": 40, "weightKg": 1.2 },
+      "specs": {
+        "outerCm": [
+          52,
+          34,
+          23
+        ],
+        "capacityL": 40,
+        "weightKg": 1.2
+      },
       "note": "高さ52cmがピーチの50cmを、奥行23cmがチェジュ航空・ティーウェイ航空の20cmを超える。Amazonで単品で出ているのは軽量版（Liteway、T66M1D2）で、公式に外寸・重量の記載がないため、商品リンクは置いていない。"
+    },
+    {
+      "name": "カインズ TRADDY サイドベルトリュック",
+      "brand": "カインズ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "カインズ公式オンラインショップ https://www.cainz.com/g/4549509980315.html （カインズの自社ブランド「カインズオリジナル」の表示を確認、2026-10-24 確認）",
+      "specs": {
+        "outerCm": [
+          42.5,
+          32,
+          14.5
+        ],
+        "capacityL": null,
+        "weightKg": 0.566
+      },
+      "note": "外寸は公式の本体サイズ（幅32×奥行14.5×高さ42.5cm）。容量（L）は公式に記載がない。 カインズの自社ブランド品で、Amazon へのリンクはない（カインズの店舗・公式通販で販売）。"
+    },
+    {
+      "name": "カインズ TRADDY 折りたたみできるリュック",
+      "brand": "カインズ（ホームセンターの自社ブランド）",
+      "asin": null,
+      "verified": true,
+      "source": "カインズ公式オンラインショップ https://www.cainz.com/g/4549509980452.html （カインズの自社ブランド「カインズオリジナル」の表示を確認、2026-10-24 確認）",
+      "specs": {
+        "outerCm": [
+          40.5,
+          30,
+          12
+        ],
+        "capacityL": null,
+        "weightKg": 0.186
+      },
+      "note": "外寸は公式の本体サイズ（幅30×奥行12×高さ40.5cm）。容量（L）は公式に記載がない。 カインズの自社ブランド品で、Amazon へのリンクはない（カインズの店舗・公式通販で販売）。"
     }
   ],
   "nextProblems": [
-    { "text": "キャリーケースと2個持ちにするときの寸法と合計7kg", "href": "./lcc-carrycase.html" },
-    { "text": "出発前に荷物の重さを量る（7kgを超えていないか）", "href": "./luggage-scale.html" },
-    { "text": "リュックに入れるモバイルバッテリーの機内ルール（2026年4月から2個まで）", "href": "./mobile-battery.html" },
+    {
+      "text": "キャリーケースと2個持ちにするときの寸法と合計7kg",
+      "href": "./lcc-carrycase.html"
+    },
+    {
+      "text": "出発前に荷物の重さを量る（7kgを超えていないか）",
+      "href": "./luggage-scale.html"
+    },
+    {
+      "text": "リュックに入れるモバイルバッテリーの機内ルール（2026年4月から2個まで）",
+      "href": "./mobile-battery.html"
+    },
     "身の回り品（ハンドバッグ・PCバッグ）を別に持ち込めるかは会社ごとに違う"
   ],
   "sources": [
-    { "label": "LCC各社の機内持ち込み規定（2026年8月確認、各社の出典はLCCキャリーケース記事に記載）", "url": "./lcc-carrycase.html" }
+    {
+      "label": "LCC各社の機内持ち込み規定（2026年8月確認、各社の出典はLCCキャリーケース記事に記載）",
+      "url": "./lcc-carrycase.html"
+    }
   ]
 }

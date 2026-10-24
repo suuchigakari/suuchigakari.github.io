@@ -151,6 +151,54 @@
       "bodySizeCm": null,
       "dimensionSource": "メーカー公式 https://www.siffler-store.com/c/luggage/B5891T-39 （2026-10-15 確認）",
       "note": "奥行20cmで、韓国系LCCの奥行20cm規定まで含めて本文の9社すべてを満たす。容量は22Lと小さく、日帰り〜1泊向け。内寸は約39×34×19cm。"
+    },
+    {
+      "asin": "",
+      "name": "カインズ TRADDY すぅーと転がるキャスター付きキャリー 30L",
+      "type": "ハード",
+      "heightCm": 53,
+      "widthCm": 36,
+      "depthCm": 23,
+      "weightKg": 2.9,
+      "capacityL": 30,
+      "priceRange": "",
+      "dimensionsVerified": false,
+      "sizeBasis": "公式の「本体サイズ」（キャスター・ハンドルを含むか公式に明記なし）",
+      "bodySizeCm": "53×36×23",
+      "dimensionSource": "カインズ公式オンラインショップ https://www.cainz.com/g/4549509932338.html （カインズの自社ブランド「カインズオリジナル」の表示を確認、2026-10-24 確認）",
+      "note": "公式に「機内持ち込み可否：可」「3辺合計サイズ 112cm」とあるが、本体サイズにキャスター・ハンドルを含むかが書かれていないため、比較表には載せず判定もしない。 カインズの自社ブランド品で、Amazon へのリンクはない（カインズの店舗・公式通販で販売）。"
+    },
+    {
+      "asin": "",
+      "name": "カインズ TRADDY すぅーと転がるキャスター付きキャリー 横型 21L",
+      "type": "ハード",
+      "heightCm": 40,
+      "widthCm": 41,
+      "depthCm": 23,
+      "weightKg": 3.0,
+      "capacityL": 21,
+      "priceRange": "",
+      "dimensionsVerified": false,
+      "sizeBasis": "公式の「本体サイズ」（キャスター・ハンドルを含むか公式に明記なし）",
+      "bodySizeCm": "40×41×23",
+      "dimensionSource": "カインズ公式オンラインショップ https://www.cainz.com/g/4549509932390.html （カインズの自社ブランド「カインズオリジナル」の表示を確認、2026-10-24 確認）",
+      "note": "公式に「機内持ち込み可否：可」「3辺合計サイズ 104cm」とあるが、本体サイズにキャスター・ハンドルを含むかが書かれていないため、比較表には載せず判定もしない。 カインズの自社ブランド品で、Amazon へのリンクはない（カインズの店舗・公式通販で販売）。"
+    },
+    {
+      "asin": "",
+      "name": "カインズ TRADDY ロックができるすぅーと転がるキャスター 30L",
+      "type": "ハード",
+      "heightCm": 53,
+      "widthCm": 36,
+      "depthCm": 23,
+      "weightKg": 3.2,
+      "capacityL": 30,
+      "priceRange": "",
+      "dimensionsVerified": false,
+      "sizeBasis": "公式の「本体サイズ」（キャスター・ハンドルを含むか公式に明記なし）",
+      "bodySizeCm": "53×36×23",
+      "dimensionSource": "カインズ公式オンラインショップ https://www.cainz.com/g/4550596092645.html （カインズの自社ブランド「カインズオリジナル」の表示を確認、2026-10-24 確認）",
+      "note": "公式に「機内持ち込み可否：可」「3辺合計サイズ 112cm」とあるが、本体サイズにキャスター・ハンドルを含むかが書かれていないため、比較表には載せず判定もしない。 カインズの自社ブランド品で、Amazon へのリンクはない（カインズの店舗・公式通販で販売）。"
     }
   ]
 }
