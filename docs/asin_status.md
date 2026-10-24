@@ -201,7 +201,7 @@
 | dust-mask | 山本光学 7700 | B077SCCQC5 | 型番 7700（20枚入り、排気弁なし） |
 | dust-mask | 山本光学 3200-CF | B0BHKD8MN1 | 型番・メーカー型番 3200-CF、20枚入り。出品がない 3200-A の代わりに掲載（2026-10-24 追加確認、`docs/sources/dust_mask_amazon_3200-CF_2026-10-24.csv`） |
 
-## 2026-10-24 脚立（stepladder）に設定した16件
+## 2026-10-24 脚立（stepladder）に設定した20件
 
 運営者が Claude in Chrome で確認（お届け先＝日本）。記録は `docs/sources/stepladder_amazon_2026-10-24.csv`。16件ともカテゴリは「産業・研究開発用品 › 物流・保管用品 › はしご・脚立 › …」（4.00%）。末尾は「脚立」「はしご兼用脚立」「踏み台」と出品ごとに違う。
 
@@ -226,6 +226,10 @@
 | stepladder | アルインコ MSS120FX | B014K5FN02 | 型番 MSS120FX。確認時「すべての出品を見るのみ」 |
 | stepladder | アルインコ KUR90 | B0CHM7QWPS | メーカー型番 KUR90 |
 | stepladder | アルインコ KUR120 | B0CHMC56TJ | 型番 KUR120 |
+| stepladder | アルインコ BS90FX | B01N3TGRIZ | 型番 BS90FX（「BS-90FX」表記でブランド欄「CS(シーエス)」の出品は採用しない） |
+| stepladder | アルインコ BS120FX | B01N3L6FUH | 型番 BS120FX。確認時「すべての出品を見るのみ」 |
+| stepladder | アルインコ MXA-90W | B01IUS5QLQ | 型番 MXA90W（公式は MXA-90W、ハイフンの有無だけ違う） |
+| stepladder | アルインコ MXA-120W | B01IUS5T2C | 型番 MXA120W（同上） |
 
 ## 点検の記録
 

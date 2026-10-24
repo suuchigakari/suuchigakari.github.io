@@ -3,8 +3,8 @@
   "genre": "脚立（DIY・家庭用）",
   "genreNumber": 42,
   "commissionRate": "4.00%",
-  "title": "脚立は「天板の高さ」ではなく「使用最大高さ」で選ぶ｜長谷川工業・アルインコの16台を比較",
-  "description": "脚立のカタログにある「天板の高さ」と、実際に足を乗せてよい「使用最大高さ」は、製品によって30cm違います。長谷川工業・アルインコの家庭向け脚立16台を、メーカー公式の天板高さ・使用最大高さ・最大使用質量・重さで比べました。",
+  "title": "脚立は「天板の高さ」ではなく「使用最大高さ」で選ぶ｜長谷川工業・アルインコの20台を比較",
+  "description": "脚立のカタログにある「天板の高さ」と、実際に足を乗せてよい「使用最大高さ」は、製品によって30cm違います。長谷川工業・アルインコの家庭向け脚立20台を、メーカー公式の天板高さ・使用最大高さ・最大使用質量・重さで比べました。",
   "keywords": [
     "脚立 比較",
     "脚立 使用最大高さ",
@@ -24,10 +24,10 @@
     }
   ],
   "conclusion": [
-    "「天板の高さ」ではなく「使用最大高さ」で選ぶ。はしご兼用脚立（アルインコ MR60W を除く）と、アルインコの専用脚立シエロ、長谷川工業の脚軽 RZ-12c は、使用最大高さが天板より30〜31cm低い",
+    "「天板の高さ」ではなく「使用最大高さ」で選ぶ。はしご兼用脚立（アルインコ MR60W を除く）と、アルインコの専用脚立シエロ（MSS-FX・BS-FX）、長谷川工業の脚軽 RZ-12c は、使用最大高さが天板より30〜31cm低い",
     "天板まで立てるのは、長谷川工業の脚軽（RZ-06c・RZ-09c）と強力ミニ脚立（RM-50a・RM-75a）、アルインコ MR60W。脚軽の RZ-12c は天板1.09mに対して使用最大高さ0.79m",
     "最大使用質量は長谷川工業の脚軽・強力ミニ脚立が130kg、ほかは100kg",
-    "はしごとしても使いたいなら、はしご兼用脚立（長谷川工業 RS・RD、アルインコ MR-W・KUR）。0.9m級で、はしごにしたときの長さは1.71〜1.75m"
+    "はしごとしても使いたいなら、はしご兼用脚立（長谷川工業 RS・RD、アルインコ MR-W・KUR・MXA-W）。0.9m級で、はしごにしたときの長さは1.71〜1.75m"
   ],
   "sections": [
     {
@@ -48,8 +48,8 @@
     {
       "heading": "重さと収納時のサイズ",
       "paragraphs": [
-        "0.8m級（天板）の重さは、アルインコのシエロ MSS90FX と長谷川工業の強力ミニ脚立 RM-75a が2.7kg、アルインコ MR90W・KUR90 が3.1kg、長谷川工業の脚軽 RZ-09c が3.4kg、RD-09c が3.6kg、RS-09c が3.8kgです。",
-        "収納時の奥行（たたんだ厚さ）は、アルインコのシエロが12.6cmと最も薄く、ほかは16〜17cmでした。"
+        "0.8m級（天板）の重さは、アルインコのシエロ MSS90FX・BS90FX と長谷川工業の強力ミニ脚立 RM-75a が2.7kg、アルインコ MR90W・KUR90 が3.1kg、長谷川工業の脚軽 RZ-09c とアルインコ MXA-90W が3.4kg、RD-09c が3.6kg、RS-09c が3.8kgです。",
+        "収納時の奥行（たたんだ厚さ）は、アルインコのシエロ（MSS-FX・BS-FX）が12.6cmと最も薄く、ほかは16〜17cmでした。アルインコの MXA-W は、踏ざんの幅が60mmの幅広です（片面のみ）。"
       ]
     },
     {
@@ -461,6 +461,90 @@
         "standards": "公式に記載なし",
         "standOnTopText": "天板より30cm低い段まで"
       }
+    },
+    {
+      "name": "アルインコ BS90FX（シエロブラック）",
+      "brand": "アルインコ",
+      "asin": "B01N3TGRIZ",
+      "verified": true,
+      "source": "メーカー公式 https://alinco.co.jp/housing/product/detail/BS-FX/ （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "専用脚立",
+        "topM": 0.82,
+        "standM": 0.52,
+        "standOnTop": false,
+        "ladderM": null,
+        "footprintCm": "幅46.8×奥行61.3cm",
+        "foldedCm": "幅46.8×奥行12.6×高さ87cm",
+        "weightKg": 2.7,
+        "maxLoadKg": 100,
+        "standards": "公式に記載なし",
+        "standOnTopText": "天板より30cm低い段まで"
+      },
+      "note": "MSS90FX と同じ寸法のブラック版。"
+    },
+    {
+      "name": "アルインコ BS120FX（シエロブラック）",
+      "brand": "アルインコ",
+      "asin": "B01N3L6FUH",
+      "verified": true,
+      "source": "メーカー公式 https://alinco.co.jp/housing/product/detail/BS-FX/ （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "専用脚立",
+        "topM": 1.12,
+        "standM": 0.82,
+        "standOnTop": false,
+        "ladderM": null,
+        "footprintCm": "幅52.2×奥行79.3cm",
+        "foldedCm": "幅52.2×奥行12.6×高さ117.9cm",
+        "weightKg": 3.4,
+        "maxLoadKg": 100,
+        "standards": "公式に記載なし",
+        "standOnTopText": "天板より30cm低い段まで"
+      },
+      "note": "MSS120FX と同じ寸法のブラック版。確認時、Amazon は「すべての出品を見るのみ」。"
+    },
+    {
+      "name": "アルインコ MXA-90W（ワイドステップ）",
+      "brand": "アルインコ",
+      "asin": "B01IUS5QLQ",
+      "verified": true,
+      "source": "メーカー公式 https://alinco.co.jp/housing/product/detail/MXA-W/ （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "はしご兼用脚立",
+        "topM": 0.82,
+        "standM": 0.52,
+        "standOnTop": false,
+        "ladderM": 1.75,
+        "footprintCm": "幅46.8×奥行66.9cm",
+        "foldedCm": "幅46.8×奥行16.3×高さ88.9cm",
+        "weightKg": 3.4,
+        "maxLoadKg": 100,
+        "standards": "公式に記載なし",
+        "standOnTopText": "天板より30cm低い段まで"
+      },
+      "note": "踏ざんの幅が60mmの幅広（片面のみ、公式の表記）。使用最大高さは公式の「有効高さ」。"
+    },
+    {
+      "name": "アルインコ MXA-120W（ワイドステップ）",
+      "brand": "アルインコ",
+      "asin": "B01IUS5T2C",
+      "verified": true,
+      "source": "メーカー公式 https://alinco.co.jp/housing/product/detail/MXA-W/ （2026-10-24 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "はしご兼用脚立",
+        "topM": 1.11,
+        "standM": 0.81,
+        "standOnTop": false,
+        "ladderM": 2.37,
+        "footprintCm": "幅52.2×奥行84.9cm",
+        "foldedCm": "幅52.2×奥行16.3×高さ119.8cm",
+        "weightKg": 4.2,
+        "maxLoadKg": 100,
+        "standards": "公式に記載なし",
+        "standOnTopText": "天板より30cm低い段まで"
+      },
+      "note": "踏ざんの幅が60mmの幅広（片面のみ、公式の表記）。使用最大高さは公式の「有効高さ」。"
     }
   ],
   "nextProblems": [
