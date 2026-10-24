@@ -201,6 +201,32 @@
 | dust-mask | 山本光学 7700 | B077SCCQC5 | 型番 7700（20枚入り、排気弁なし） |
 | dust-mask | 山本光学 3200-CF | B0BHKD8MN1 | 型番・メーカー型番 3200-CF、20枚入り。出品がない 3200-A の代わりに掲載（2026-10-24 追加確認、`docs/sources/dust_mask_amazon_3200-CF_2026-10-24.csv`） |
 
+## 2026-10-24 脚立（stepladder）に設定した16件
+
+運営者が Claude in Chrome で確認（お届け先＝日本）。記録は `docs/sources/stepladder_amazon_2026-10-24.csv`。16件ともカテゴリは「産業・研究開発用品 › 物流・保管用品 › はしご・脚立 › …」（4.00%）。末尾は「脚立」「はしご兼用脚立」「踏み台」と出品ごとに違う。
+
+- 同じ型式の「（法人限定）」出品は、ブランド欄が「ノーブランド品」なので採用しない
+- アルインコの MR-W・MSS-FX・KUR はカインズでも売られているが、アルインコ公式に載っていることを確認した（ホームセンター限定の型番ではない）
+
+| 記事 | 商品 | ASIN | 確認した点 |
+|---|---|---|---|
+| stepladder | 長谷川工業 RM-50a | B0DZN3DJBZ | メーカー型番 RM-50a |
+| stepladder | 長谷川工業 RM-75a | B0DZNH4B9F | メーカー型番 RM-75a |
+| stepladder | 長谷川工業 RZ-06c | B085J1WJR6 | 型番 RZ-06c（カテゴリ「脚立」の出品。「踏み台」の B07Z5SPXQZ は採用しない） |
+| stepladder | 長谷川工業 RZ-09c | B085J2GLDP | 型番 RZ-09c |
+| stepladder | 長谷川工業 RZ-12c | B085J2LY8S | 型番 RZ-12c |
+| stepladder | 長谷川工業 RS-09c | B09TSZGBCK | 型番 RS-09c |
+| stepladder | 長谷川工業 RS-12c | B09TSZ8ZDB | 型番 RS-12c |
+| stepladder | 長谷川工業 RD-09c | B09Q5MX279 | 型番 RD-09c |
+| stepladder | 長谷川工業 RD-12c | B09Q5W7GV8 | 型番 RD-12c |
+| stepladder | アルインコ MR60W | B07DRDMM1S | メーカー型番 MR-60W（公式は MR60W、ハイフンの有無だけ違う） |
+| stepladder | アルインコ MR90W | B00ME6MIQC | 型番 MR90W |
+| stepladder | アルインコ MR120W | B00ME6PT9K | 型番 MR120W |
+| stepladder | アルインコ MSS90FX | B014K5FNY8 | 型番 MSS90FX |
+| stepladder | アルインコ MSS120FX | B014K5FN02 | 型番 MSS120FX。確認時「すべての出品を見るのみ」 |
+| stepladder | アルインコ KUR90 | B0CHM7QWPS | メーカー型番 KUR90 |
+| stepladder | アルインコ KUR120 | B0CHMC56TJ | 型番 KUR120 |
+
 ## 点検の記録
 
 | 日付 | 内容 |
