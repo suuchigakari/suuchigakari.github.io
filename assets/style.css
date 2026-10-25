@@ -329,3 +329,19 @@ a.next-card:hover { background: var(--cat-soft); }
   .hero-ill { padding: 6px; }
   .hero-ill .ill { width: 72px; height: 72px; }
 }
+.quick-table { margin: 14px 0 6px; }
+.quick-table table { font-size: 0.86rem; }
+.quick-table thead th { background: var(--cat-soft); white-space: nowrap; }
+.quick-table tbody th { color: var(--text); white-space: normal; min-width: 9em; }
+.quick-table td { min-width: 10em; }
+@media (max-width: 720px) {
+  .quick-table { overflow: visible; }
+  .quick-table table, .quick-table tbody, .quick-table tr, .quick-table th, .quick-table td { display: block; width: 100%; }
+  .quick-table table { background: transparent; }
+  .quick-table thead { display: none; }
+  .quick-table tr { margin-top: 12px; background: var(--surface); border: 1px solid var(--border); border-left: 5px solid var(--cat); border-radius: var(--radius); overflow: hidden; }
+  .quick-table th, .quick-table td { border: 0; min-width: 0; }
+  .quick-table tbody th { padding: 12px 14px 6px; font-size: 0.98rem; background: var(--cat-soft); }
+  .quick-table td { display: grid; grid-template-columns: 7.5em 1fr; gap: 8px; padding: 7px 14px; border-top: 1px solid var(--border); }
+  .quick-table td::before { content: attr(data-label); color: var(--muted); font-size: 0.76rem; font-weight: 700; }
+}

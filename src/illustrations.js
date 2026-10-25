@@ -121,7 +121,7 @@ const BY_ARTICLE = {
   adhesive: (specs) => {
     const type = specs?.type ?? '';
     if (/2液/.test(type)) return 'twin-tube';
-    if (/瞬間/.test(type)) return 'bottle';
+    if (/瞬間|難接着/.test(type)) return 'bottle';
     return 'tube';
   },
   'pressure-cooker': () => 'pressure-cooker',

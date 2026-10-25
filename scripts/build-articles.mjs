@@ -131,6 +131,23 @@ function sectionId(index) {
   return `s${index + 1}`;
 }
 
+/** 本文の表（早見表など）。{ head: [...], rows: [[...], ...], note } */
+function renderSectionTable(table) {
+  if (!table) return '';
+  const head = table.head.map((label) => `<th scope="col">${escapeHtml(label)}</th>`).join('');
+  const rows = table.rows
+    .map((row) => `<tr>${row.map((cell, index) => (index === 0 ? `<th scope="row">${escapeHtml(cell)}</th>` : `<td data-label="${escapeHtml(table.head[index])}">${escapeHtml(cell)}</td>`)).join('')}</tr>`)
+    .join('\n            ');
+  return `<div class="table-scroll quick-table">
+          <table>
+            <thead><tr>${head}</tr></thead>
+            <tbody>
+            ${rows}
+            </tbody>
+          </table>
+        </div>${table.note ? `\n        <p class="small">${escapeHtml(table.note)}</p>` : ''}`;
+}
+
 function renderSections(sections) {
   return sections
     .map(
@@ -138,6 +155,7 @@ function renderSections(sections) {
         <h2 class="numbered"><span class="no" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>${escapeHtml(section.heading)}</h2>
         ${(section.paragraphs ?? []).map((text) => `<p>${highlightNumbers(text)}</p>`).join('\n        ')}
         ${list(section.list)}
+        ${renderSectionTable(section.table)}
       </section>`,
     )
     .join('\n\n');
