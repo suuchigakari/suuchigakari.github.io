@@ -23,6 +23,7 @@ import { fittingAirlines, totalCm } from '../src/luggage.js';
 import { renderSaleNotice, todayIso } from '../src/sale.js';
 import { categoryIcon, categoryOf, highlightNumbers, CATEGORIES } from '../src/theme.js';
 import { chartRows, chartSpec } from '../src/chart.js';
+import { illustration, illustrationKey } from '../src/illustrations.js';
 import {
   FIT,
   applyTransform,
@@ -189,7 +190,8 @@ function renderToc(article, hasChart) {
 
 function renderHero(article, category, count) {
   return `    <div class="hero">
-      <div class="wrap article-wrap">
+      <div class="wrap article-wrap hero-inner">
+        <span class="hero-ill">${illustration(illustrationKey(article.slug, article.products[0]?.specs), 120)}</span>
         <p class="hero-genre">${categoryIcon(category.key, 22)}<span>${escapeHtml(category.label)}</span><span class="sep">／</span><span>${escapeHtml(article.genre)}</span></p>
         <h1>${escapeHtml(article.title)}</h1>
         <ul class="hero-facts">
@@ -238,7 +240,7 @@ function brandChip(product) {
   return `<span class="brand-chip">${escapeHtml(brand)}</span>`;
 }
 
-function renderProductRow(product, columns, config, verdict) {
+function renderProductRow(product, columns, config, verdict, slug) {
   const url = product.asin
     ? buildAffiliateUrl({ asin: product.asin, tag: config.associateTag, domain: config.marketplace })
     : null;
@@ -270,7 +272,7 @@ function renderProductRow(product, columns, config, verdict) {
     verdict.results.find((result) => result.status !== FIT.OK);
   const detail = (failed ?? verdict.results[0])?.detail ?? '';
   return `          <tr data-product="${escapeHtml(product.name)}"${note ? ' class="has-note"' : ''}>
-            <th scope="row">${brandChip(product)}${name}</th>
+            <th scope="row"><span class="product-cell">${illustration(illustrationKey(slug, product.specs), 48)}<span>${brandChip(product)}${name}</span></span></th>
             <td class="verdict ${verdict.status}" data-label="判定">${STATUS_LABEL[verdict.status]}<span class="reason">${escapeHtml(
               detail,
             )}</span></td>
@@ -278,12 +280,12 @@ function renderProductRow(product, columns, config, verdict) {
           </tr>${note}`;
 }
 
-function renderTable(products, columns, config, verdicts) {
+function renderTable(products, columns, config, verdicts, slug) {
   const head = ['商品', '判定', ...columns.map((column) => column.label)]
     .map((label) => `<th scope="col">${escapeHtml(label)}</th>`)
     .join('');
   const rows = products
-    .map((product, index) => renderProductRow(product, columns, config, verdicts[index]))
+    .map((product, index) => renderProductRow(product, columns, config, verdicts[index], slug))
     .join('\n');
 
   return `      <div class="table-scroll">
@@ -388,7 +390,8 @@ ${renderFilter(article.filter)}
           article.asOf,
         )} 確認）。${pending > 0 ? `仕様を確認できなかった ${pending} 件は掲載していません。` : ''}</p>
         <p class="legend"><span class="badge-verdict ok">○</span>条件を満たす <span class="badge-verdict ng">×</span>満たさない <span class="badge-verdict unknown">?</span>公式に明記なし</p>
-${renderTable(products, article.columns, config, initial)}
+        <p class="ill-note">※商品の図は種類を表すイラストです。実物の形・色・デザインとは異なります。</p>
+${renderTable(products, article.columns, config, initial, article.slug)}
         <p class="small">判定は「${escapeHtml(
           inputs.map((input) => `${input.label} ${input.default}`).join('』『'),
         )}」に対する結果です。${escapeHtml(article.verdictLegend ?? '○＝条件を満たす、△＝拡張パーツが必要、×＝満たさない、?＝公式に明記なし。')}</p>
@@ -427,7 +430,7 @@ ${JSON.stringify({ filter: article.filter, products }, null, 2)}
 function renderIndex(entries, config) {
   const card = (entry, key) => `          <article class="card cat-${key}">
             <a class="card-link" href="./articles/${escapeHtml(entry.slug)}.html">
-              <span class="card-icon">${categoryIcon(key, 22)}</span>
+              <span class="card-icon">${illustration(illustrationKey(entry.slug), 52)}</span>
               <span class="card-genre">${escapeHtml(entry.genre)}</span>
               <h3>${escapeHtml(entry.title)}</h3>
               <p class="summary">${escapeHtml(entry.description)}</p>
@@ -524,6 +527,7 @@ function renderLccPage(template, airlineData, luggageData, config) {
     priceNote: escapeHtml(config.priceNote),
     saleNotice: renderSaleNotice(config.saleNotice, todayIso(), '../assets/sale-notice.js'),
     categoryIcon: categoryIcon('travel', 22),
+    heroIllustration: illustration('suitcase', 120),
     year: String(new Date().getFullYear()),
     conclusion: renderConclusion(airlines),
     conflict: renderConflict(airlines),

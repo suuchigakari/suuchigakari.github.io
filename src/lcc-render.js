@@ -4,6 +4,7 @@
  * ビルド時（Node）に静的HTMLとして書き出し、ブラウザでは判定ツールの
  * 再計算にだけ同じ関数を使う。描画ロジックを1か所にまとめるため、DOM は使わない。
  */
+import { illustration } from './illustrations.js';
 import { buildAffiliateUrl, escapeHtml as e } from './affiliate.js';
 import {
   DEFAULT_PERSONAL_ITEM_KG,
@@ -132,7 +133,7 @@ export function renderProducts(productData, airlines, config) {
       ? `<a href="${e(buildAffiliateUrl({ asin: product.asin, tag: config.associateTag, domain: config.marketplace }))}" target="_blank" rel="nofollow sponsored noopener">${e(product.name)}</a>`
       : e(product.name);
     const cells = [
-      `<th scope="row">${name}</th>`,
+      `<th scope="row"><span class="product-cell">${illustration('suitcase', 44)}<span>${name}</span></span></th>`,
       `<td>${e(product.type ?? '—')}</td>`,
       `<td class="num">${product.heightCm} × ${product.widthCm} × ${product.depthCm}</td>`,
       `<td class="num">${e(product.bodySizeCm ?? '—')}</td>`,

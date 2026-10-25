@@ -43,3 +43,18 @@ test('棒グラフは数値のある商品だけを並べ、向きは入力の�
   assert.equal(missing, 1);
   assert.equal(chartSpec({ ...article, chart: false }), null);
 });
+
+test('すべての記事・商品に種類のイラストがある', async () => {
+  const { illustration, illustrationKey } = await import('../src/illustrations.js');
+  const dir = new URL('../data/articles/', import.meta.url);
+  for (const file of readdirSync(dir).filter((name) => name.endsWith('.json'))) {
+    const article = JSON.parse(readFileSync(new URL(file, dir), 'utf8'));
+    for (const product of article.products) {
+      assert.match(illustration(illustrationKey(article.slug, product.specs)), /^<svg/, `${article.slug} ${product.name}`);
+    }
+  }
+  assert.equal(illustrationKey('caulking', { volume: '50mL・100mL（チューブ）、333mL（カートリッジ）' }), 'tube');
+  assert.equal(illustrationKey('caulking', { volume: '330mL（カートリッジ）' }), 'cartridge');
+  assert.equal(illustrationKey('adhesive', { type: 'エポキシ系（2液混合）' }), 'twin-tube');
+  assert.equal(illustrationKey('stepladder', { type: 'はしご兼用脚立' }), 'ladder-combo');
+});
