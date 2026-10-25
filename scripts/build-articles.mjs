@@ -20,6 +20,7 @@ import {
   verifiedLuggage,
 } from '../src/lcc-render.js';
 import { fittingAirlines, totalCm } from '../src/luggage.js';
+import { renderSaleNotice, todayIso } from '../src/sale.js';
 import {
   FIT,
   applyTransform,
@@ -276,7 +277,7 @@ function renderArticle(article, config) {
       </div>
     </header>
 
-    <p class="disclosure">${escapeHtml(config.disclosure)}</p>
+    <p class="disclosure">${escapeHtml(config.disclosure)}</p>${renderSaleNotice(config.saleNotice, todayIso(), '../assets/sale-notice.js')}
 
     <main class="wrap article">
       <h1>${escapeHtml(article.title)}</h1>
@@ -373,7 +374,7 @@ function renderIndex(entries, config) {
       </div>
     </header>
 
-    <p class="disclosure">${escapeHtml(config.disclosure)}</p>
+    <p class="disclosure">${escapeHtml(config.disclosure)}</p>${renderSaleNotice(config.saleNotice, todayIso(), './assets/sale-notice.js')}
 
     <main class="wrap">
       <section class="callout" aria-label="このサイトの方針">
@@ -416,6 +417,7 @@ function renderLccPage(template, airlineData, luggageData, config) {
     siteName: escapeHtml(config.siteName),
     disclosure: escapeHtml(config.disclosure),
     priceNote: escapeHtml(config.priceNote),
+    saleNotice: renderSaleNotice(config.saleNotice, todayIso(), '../assets/sale-notice.js'),
     year: String(new Date().getFullYear()),
     conclusion: renderConclusion(airlines),
     conflict: renderConflict(airlines),

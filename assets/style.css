@@ -146,6 +146,8 @@ thead th { background: color-mix(in srgb, var(--accent) 10%, var(--surface)); }
 tbody th { white-space: nowrap; color: var(--muted); font-weight: 600; }
 
 .empty, .price-note { color: var(--muted); font-size: 0.85rem; }
+.sale-notice { margin: 0; padding: 10px 20px; font-size: 0.85rem; background: var(--surface); border-bottom: 1px solid var(--border); }
+.sale-notice[hidden] { display: none; }
 .price-note { margin-top: 28px; }
 
 .site-footer { border-top: 1px solid var(--border); background: var(--surface); padding: 20px 0 40px; font-size: 0.8rem; color: var(--muted); }
