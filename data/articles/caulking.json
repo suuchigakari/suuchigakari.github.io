@@ -1,0 +1,695 @@
+{
+  "slug": "caulking",
+  "genre": "コーキング（シーリング材・DIY）",
+  "genreNumber": 43,
+  "commissionRate": "4.00%",
+  "title": "コーキングは「上から塗れるか」で選ぶ｜シリコーン系は塗装できない。セメダイン・コニシの25本を比較",
+  "description": "シリコーン系のコーキングは、上から塗料が付きません。変成シリコーン・ウレタン・アクリル系は塗れますが、塗る時期の指定があります。セメダイン・コニシの25本を、塗装の可否・表面が乾く時間・JIS区分で比べました。",
+  "keywords": [
+    "コーキング 塗装できる",
+    "シリコン 変成シリコン 違い",
+    "コーキング 乾燥時間",
+    "バスコーク",
+    "変成シリコンコーク"
+  ],
+  "asOf": "2026-10-25",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "ホームセンターのコーキング売り場には、浴室用・外壁用・内装用のチューブとカートリッジが並びます。見た目は同じでも、シリコーン系は固まったあと上から塗料が付かず、変成シリコーン系・ウレタン系・アクリル系は塗装できます。表面が乾くまでの時間も、6分の製品から10時間の製品まであります。メーカー公式の製品ページと技術資料の数値だけで、25本を並べました。",
+  "excludeReaders": [
+    {
+      "who": "外壁の打ち替えを業者に頼む予定の人",
+      "why": "このページはDIYで使う1成分形のチューブ・カートリッジが対象です。業者が使う2成分形（缶入り）は載せていません"
+    },
+    {
+      "who": "浴槽の中や水槽の補修をしたい人",
+      "why": "多くの製品が浴槽内・飼育水槽への使用を公式に禁止しています。専用品をメーカーの指定で選んでください"
+    },
+    {
+      "who": "色を細かく合わせたい人",
+      "why": "色の数は製品ごとに違い、このページでは比べていません。各メーカーの色見本で確認してください"
+    }
+  ],
+  "conclusion": [
+    "塗装するならシリコーン系は選ばない。コニシの技術資料は「本品の表面に、塗料は付着しません」と明記している",
+    "塗れる製品にも時期の指定がある。セメダインのスーパーシールは「24時間〜7日（23℃）後」、目地シールは「24時間後（20℃）」",
+    "表面が乾く時間は6分から10時間まで。シリコーン系は6分、変成シリコーン系は20分〜10時間と製品で大きく違う"
+  ],
+  "sections": [
+    {
+      "heading": "シリコーン系は、上から塗装できない",
+      "paragraphs": [
+        "コニシのシリコンコークの技術資料には「本品の表面に、塗料は付着しません」と書かれています。浴室用のバスボンドQも、製品ページで「塗装不可」としています。セメダインの一般用カタログも、塗装する場所では「あらかじめ〈後から塗装のできる〉シーリング材を選択する必要があります」と書いています。",
+        "一方、変成シリコーン系・ポリウレタン系・アクリル系の製品は、掲載したもののほとんどが製品ページか技術資料で「塗装可」としています。比較表の「上から塗装」の列は、公式に書かれている内容だけを載せています。セメダインの8060プロ・8070プロ、コニシのシリコンシーラントのように、製品ページに塗装の可否が書かれていないものは「公式に明記なし」としました。",
+        "セメダインのバスコークNと、すきまキレイ・コニシの木部シールは、製品ページに系統（シリコーン系など）も塗装の可否も書かれていません。"
+      ]
+    },
+    {
+      "heading": "塗れる製品にも「いつ塗るか」の指定がある",
+      "paragraphs": [
+        "セメダインのスーパーシールは「シール部分に塗布する場合は24時間〜7日（23℃）後の間に行ってください」とし、水性塗料を勧めています。油性（フタル酸系・アルキッド樹脂系）の塗料は、乾燥が極端に遅くなったりベタつきが残ったりするため適さないと書かれています。",
+        "セメダインの目地シール（アクリル系）は「塗料を塗るときは、24時間後（20℃）に行ってください」。コニシのウレタンコークは逆に塗装が前提で、技術資料に「露出目地（塗装しない目地）には使用できません」とあります。"
+      ]
+    },
+    {
+      "heading": "表面が乾く時間は、6分から10時間まで",
+      "paragraphs": [
+        "指触乾燥時間（タックフリー）は、表面を触ってもくっつかなくなるまでの時間です。セメダインの8060プロ・8070プロとコニシのシリコンコークは6分（23℃）。変成シリコーン系はセメダインの POSシールスピードが20分、コニシの変成シリコンコークNBクイックが約30分と速く、POSシールLM は6〜10時間かかります。",
+        "中まで固まる時間は別です。コニシのシリコンコークは5mm厚の完全硬化に3日（23℃）、ウレタンコークは7日（23℃）かかると技術資料に書かれています。5℃では、シリコンコークが7日、ウレタンコークが18日です。"
+      ]
+    },
+    {
+      "heading": "JIS A 5758 の区分は、書いている製品と書いていない製品がある",
+      "paragraphs": [
+        "建築用シーリング材の規格 JIS A 5758 の区分を公式に書いているのは、セメダインの8060プロ・POSシール・POSシールLM・S700NB、コニシのシリコンコーク（2種）・ウレタンコークです。区分の記号はメーカーの表記のまま載せています。",
+        "浴室用・家庭用のチューブ（バスコークN、バスボンドQ、スーパーシールのチューブなど）は、製品ページに JIS の区分がありません。"
+      ]
+    },
+    {
+      "heading": "1本で打てる長さ",
+      "paragraphs": [
+        "カートリッジ（320〜333mL）は、幅5mm×深さ5mmの目地で約12m（コニシは12〜13m）、幅10mm×深さ10mmで約3mと公式に書かれています。目地の幅と深さが2倍になると、打てる長さは4分の1になります。",
+        "チューブ（50〜100mL）は打てる長さの記載がありません。浴槽まわり1周などの長い目地では、容量で比べてください。"
+      ]
+    }
+  ],
+  "filter": {
+    "heading": "塗装と乾く時間で絞り込む",
+    "note": "上から塗装する予定ならチェックしてください。表面が乾くまで待てる時間（分）を入れると、公式の指触乾燥時間（幅がある製品は長いほう、23℃の値）と比べます。",
+    "numberInputs": [
+      {
+        "key": "tackFreeMin",
+        "type": "atMost",
+        "label": "表面が乾くまで待てる時間 (分)",
+        "unit": "分",
+        "default": 120,
+        "min": 5,
+        "max": 720,
+        "step": 5
+      }
+    ],
+    "flagInput": {
+      "key": "paintable",
+      "label": "上から塗装できるものだけ",
+      "okDetail": "塗装できる",
+      "ngDetail": "塗装できない"
+    }
+  },
+  "columns": [
+    {
+      "key": "type",
+      "label": "系統"
+    },
+    {
+      "key": "paintShort",
+      "label": "上から塗装"
+    },
+    {
+      "key": "tackFreeText",
+      "label": "表面が乾く時間"
+    },
+    {
+      "key": "jisClass",
+      "label": "JIS A 5758 区分"
+    },
+    {
+      "key": "mold",
+      "label": "防カビ剤"
+    },
+    {
+      "key": "volume",
+      "label": "容量"
+    }
+  ],
+  "products": [
+    {
+      "name": "セメダイン バスコークN",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/home/products/bathcalk/bathcalk_n.html（2026-10-25 確認）",
+      "specs": {
+        "type": "公式に明記なし",
+        "paintText": "公式に明記なし",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": null,
+        "tackFreeText": "公式に明記なし",
+        "cureText": "24時間以上放置（公式の使い方）。透明の完全硬化は1〜2日",
+        "tempRange": "公式に明記なし",
+        "mold": "防カビ剤入り（透明・黒は含まない）",
+        "volume": "50mL・100mL（チューブ）",
+        "coverage": "公式に明記なし",
+        "paintable": null,
+        "paintShort": "公式に明記なし"
+      },
+      "note": "硬化・放置：24時間以上放置（公式の使い方）。透明の完全硬化は1〜2日。 マスキングテープ・ヘラ・ノズル・絞り器付き。系統（シリコーン系など）は製品ページに書かれていない。"
+    },
+    {
+      "name": "セメダイン スーパーシール",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/home/products/exterior/superseal.html ・ https://www.cemedine.co.jp/architecture/products/superseal.html（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン系",
+        "paintText": "可（24時間〜7日後に。水性塗料を推奨、油性は不可）",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": 45,
+        "tackFreeText": "45分（23℃）",
+        "cureText": "約24時間放置（公式の使い方）",
+        "tempRange": "公式に明記なし",
+        "mold": "抗菌・防カビ剤配合",
+        "volume": "50mL・100mL（チューブ）、135mL、333mL（カートリッジ）",
+        "coverage": "5×5mm目地で約12m（カートリッジ）",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "塗装：24時間〜7日後に。水性塗料を推奨、油性は不可。 硬化・放置：約24時間放置（公式の使い方）。 1本で打てる長さ：5×5mm目地で約12m（カートリッジ）。 公式に「接着剤としても使える程の接着性」。"
+    },
+    {
+      "name": "セメダイン 目地シール",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/home/products/wallpaper/acrylicsealant.html ・ https://www.cemedine.co.jp/architecture/products/mejiseal.html（2026-10-25 確認）",
+      "specs": {
+        "type": "アクリル樹脂エマルション系",
+        "paintText": "可（24時間後〈20℃〉、水性塗料）",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": 180,
+        "tackFreeText": "3時間（20℃）",
+        "cureText": "24時間（20℃、幅10mm×深さ5mmの目地）",
+        "tempRange": "公式に明記なし",
+        "mold": "公式に明記なし",
+        "volume": "100g（チューブ）、333mL（カートリッジ）、500mL",
+        "coverage": "5×5mm目地で約12m（カートリッジ）",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "塗装：24時間後〈20℃〉、水性塗料。 硬化・放置：24時間（20℃、幅10mm×深さ5mmの目地）。 1本で打てる長さ：5×5mm目地で約12m（カートリッジ）。 公式に「常に水のかかる所や、耐水性を必要とする箇所には使用しない」。"
+    },
+    {
+      "name": "セメダイン すきまキレイ",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/home/products/repairable-seal/sukimakirei.html（2026-10-25 確認）",
+      "specs": {
+        "type": "公式に明記なし",
+        "paintText": "公式に明記なし",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": 60,
+        "tackFreeText": "20〜60分で表面のベタつきがなくなる",
+        "cureText": "24時間以上静置（23℃・湿度50%）",
+        "tempRange": "公式に明記なし",
+        "mold": "防カビ剤入り",
+        "volume": "100mL（チューブ）",
+        "coverage": "公式に明記なし",
+        "paintable": null,
+        "paintShort": "公式に明記なし"
+      },
+      "note": "硬化・放置：24時間以上静置（23℃・湿度50%）。 後ではがせる充てん材。公式に「完全防水を目的とした用途」には使えないとある。"
+    },
+    {
+      "name": "セメダイン 8060プロ",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/architecture/products/8060pro.html（2026-10-25 確認）",
+      "specs": {
+        "type": "シリコーン系",
+        "paintText": "公式に明記なし",
+        "jisClass": "G-30SLM-9030G、G-20LM-9030G（SR-1）",
+        "tackFreeMin": 6,
+        "tackFreeText": "6分（23℃）",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "公式に明記なし",
+        "volume": "330mL（カートリッジ）",
+        "coverage": "5×5mm目地で約12m、10×10mm目地で約3m",
+        "paintable": null,
+        "paintShort": "公式に明記なし"
+      },
+      "note": "1本で打てる長さ：5×5mm目地で約12m、10×10mm目地で約3m。 公式に「シリコーンシーラントの標準品」。"
+    },
+    {
+      "name": "セメダイン 8070プロ",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/architecture/products/8070pro.html（2026-10-25 確認）",
+      "specs": {
+        "type": "シリコーン系",
+        "paintText": "公式に明記なし",
+        "jisClass": "JIS A 5758（区分は公式ページに記載なし）",
+        "tackFreeMin": 6,
+        "tackFreeText": "6分（23℃）",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "防カビ性",
+        "volume": "330mL（カートリッジ）",
+        "coverage": "5×5mm目地で約12m、10×10mm目地で約3m",
+        "paintable": null,
+        "paintShort": "公式に明記なし"
+      },
+      "note": "1本で打てる長さ：5×5mm目地で約12m、10×10mm目地で約3m。 用途はキッチン・システムバス・洗面台まわり（公式）。"
+    },
+    {
+      "name": "セメダイン POSシール",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/architecture/products/posseal.html（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン系",
+        "paintText": "可",
+        "jisClass": "F-20HM-8020（MS-1）",
+        "tackFreeMin": 120,
+        "tackFreeText": "1〜2時間（23℃）",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "防カビ",
+        "volume": "333mL（カートリッジ）",
+        "coverage": "10×10mm目地で約3m",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "1本で打てる長さ：10×10mm目地で約3m。"
+    },
+    {
+      "name": "セメダイン POSシールマルチ",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/architecture/products/possealmulti.html（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン系",
+        "paintText": "可（ノンブリードタイプ）",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": 120,
+        "tackFreeText": "2時間（23℃）",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "防カビ",
+        "volume": "333mL（カートリッジ）",
+        "coverage": "10×10mm目地で約3m",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "塗装：ノンブリードタイプ。 1本で打てる長さ：10×10mm目地で約3m。"
+    },
+    {
+      "name": "セメダイン POSシールクリア",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/architecture/products/possealclear.html（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン系",
+        "paintText": "可",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": 300,
+        "tackFreeText": "約5時間（23℃）",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "公式に明記なし",
+        "volume": "333mL（カートリッジ）",
+        "coverage": "8×8mm目地で約4〜5m",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "1本で打てる長さ：8×8mm目地で約4〜5m。 透明。公式の用途に「直射日光が当たらない屋内のガラス目地」。"
+    },
+    {
+      "name": "セメダイン POSシールLM",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/architecture/products/posseallm.html（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン系",
+        "paintText": "可",
+        "jisClass": "F-20LM-8020（MS-1）",
+        "tackFreeMin": 600,
+        "tackFreeText": "6〜10時間（23℃）",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "防カビ",
+        "volume": "333mL（カートリッジ）",
+        "coverage": "10×10mm目地で約3m",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "1本で打てる長さ：10×10mm目地で約3m。 低モジュラス。"
+    },
+    {
+      "name": "セメダイン POSシールスピード",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/architecture/products/possealspeed.html（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン系",
+        "paintText": "可（ノンブリードタイプ）",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": 20,
+        "tackFreeText": "20分（23℃）",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "防カビ",
+        "volume": "333mL（カートリッジ）",
+        "coverage": "10×10mm目地で約3m",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "塗装：ノンブリードタイプ。 1本で打てる長さ：10×10mm目地で約3m。 速硬化タイプ。"
+    },
+    {
+      "name": "セメダイン S700NB",
+      "brand": "セメダイン",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.cemedine.co.jp/architecture/products/s700nb.html（2026-10-25 確認）",
+      "specs": {
+        "type": "ポリウレタン系",
+        "paintText": "可（ノンブリードタイプ）",
+        "jisClass": "F-25LM-8020（PU-1）",
+        "tackFreeMin": 420,
+        "tackFreeText": "7時間（23℃）",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "公式に明記なし",
+        "volume": "320mL（カートリッジ）",
+        "coverage": "10×10mm目地で約3m",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "塗装：ノンブリードタイプ。 1本で打てる長さ：10×10mm目地で約3m。"
+    },
+    {
+      "name": "コニシ ボンド バスボンドQ",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20054（2026-10-25 確認）",
+      "specs": {
+        "type": "シリコーン樹脂系",
+        "paintText": "不可（公式に「塗装不可」）",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": null,
+        "tackFreeText": "公式に明記なし",
+        "cureText": "公式に明記なし",
+        "tempRange": "-40〜150℃",
+        "mold": "公式に明記なし",
+        "volume": "20mL・50mL・100mL（チューブ）",
+        "coverage": "公式に明記なし",
+        "paintable": false,
+        "paintShort": "不可"
+      },
+      "note": "塗装：公式に「塗装不可」。 使用温度：-40〜150℃。 50mL・100mLはヘラ・マスキングテープ付き。"
+    },
+    {
+      "name": "コニシ ボンド シリコンコーク",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/6/productcd/20067 ・ 技術資料 https://www.bond.co.jp/bond/catalog/search/pdf/download/80（2026-10-25 確認）",
+      "specs": {
+        "type": "シリコーン系",
+        "paintText": "不可（技術資料に「本品の表面に、塗料は付着しません」）",
+        "jisClass": "G-20LM-9030G、G-30SLM-9030G（SR-1）",
+        "tackFreeMin": 6,
+        "tackFreeText": "6分（23℃）・60分（5℃）",
+        "cureText": "3日（23℃、5mm厚）・7日（5℃）",
+        "tempRange": "-40〜150℃",
+        "mold": "入っていない（防カビ剤入りは別製品）",
+        "volume": "330mL（カートリッジ）",
+        "coverage": "5×5mm目地で12〜13m",
+        "paintable": false,
+        "paintShort": "不可"
+      },
+      "note": "塗装：技術資料に「本品の表面に、塗料は付着しません」。 硬化・放置：3日（23℃、5mm厚）・7日（5℃）。 使用温度：-40〜150℃。 1本で打てる長さ：5×5mm目地で12〜13m。 技術資料に「動きの大きな目地には適しません」。"
+    },
+    {
+      "name": "コニシ ボンド シリコンコーク 防カビ剤入り",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/6/productcd/20068 ・ 技術資料 https://www.bond.co.jp/bond/catalog/search/pdf/download/43（2026-10-25 確認）",
+      "specs": {
+        "type": "シリコーン系",
+        "paintText": "不可（技術資料に「本品の表面に、塗料は付着しません」）",
+        "jisClass": "G-20LM-9030G、G-30SLM-9030G（SR-1）",
+        "tackFreeMin": 6,
+        "tackFreeText": "0.1時間（23℃）・1時間（5℃）",
+        "cureText": "3日（23℃、5mm厚）・7日（5℃）",
+        "tempRange": "-40〜150℃",
+        "mold": "防カビ剤入り",
+        "volume": "330mL（カートリッジ）",
+        "coverage": "5×5mm目地で11〜13m",
+        "paintable": false,
+        "paintShort": "不可"
+      },
+      "note": "塗装：技術資料に「本品の表面に、塗料は付着しません」。 硬化・放置：3日（23℃、5mm厚）・7日（5℃）。 使用温度：-40〜150℃。 1本で打てる長さ：5×5mm目地で11〜13m。 防カビ剤入りのため、魚などの飼育用水槽・飲料用水槽には使えない（技術資料）。"
+    },
+    {
+      "name": "コニシ ボンド シリコンシーラント",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20075（2026-10-25 確認）",
+      "specs": {
+        "type": "シリコーン樹脂系",
+        "paintText": "公式に明記なし",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": null,
+        "tackFreeText": "公式に明記なし",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "公式に明記なし",
+        "volume": "330mL（カートリッジ）",
+        "coverage": "5×5mm目地で12〜13m",
+        "paintable": null,
+        "paintShort": "公式に明記なし"
+      },
+      "note": "1本で打てる長さ：5×5mm目地で12〜13m。 用途は内外装・ガラスまわりの目地（公式）。"
+    },
+    {
+      "name": "コニシ ボンド 変成シリコンコーク",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/6/productcd/20070 ・ 技術資料 https://www.bond.co.jp/bond/catalog/search/pdf/download/30（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン系",
+        "paintText": "可（技術資料に「施工後に塗装ができる」）",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": 420,
+        "tackFreeText": "2〜7時間（23℃）・48時間以内（5℃）",
+        "cureText": "公式に明記なし",
+        "tempRange": "-30〜90℃",
+        "mold": "防カビ剤入り",
+        "volume": "333mL（カートリッジ）",
+        "coverage": "5×5mm目地で12〜13m",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "塗装：技術資料に「施工後に塗装ができる」。 使用温度：-30〜90℃。 1本で打てる長さ：5×5mm目地で12〜13m。 技術資料に「透明ガラスや透明プラスチックなど、接着面に日光が当たる部分には使用しないでください」。"
+    },
+    {
+      "name": "コニシ ボンド 変成シリコンコークQ",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20071（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン樹脂系",
+        "paintText": "可",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": null,
+        "tackFreeText": "公式に明記なし",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "防カビ剤入り",
+        "volume": "120mL（箱）、333mL（カートリッジ）",
+        "coverage": "公式に明記なし",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "公式に「速硬化タイプ」（時間の記載はない）。"
+    },
+    {
+      "name": "コニシ ボンド 変成シリコンコークNBクイック",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/6/productcd/20072 ・ 技術資料 https://www.bond.co.jp/bond/catalog/search/pdf/download/52（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン系",
+        "paintText": "可（ノンブリードタイプ）",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": 30,
+        "tackFreeText": "約30分（23℃）・約2時間（5℃）",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "防カビ剤配合",
+        "volume": "333mL（カートリッジ）",
+        "coverage": "5×5mm目地で12〜13m",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "塗装：ノンブリードタイプ。 1本で打てる長さ：5×5mm目地で12〜13m。"
+    },
+    {
+      "name": "コニシ ボンド 変成シリコンコーク クリヤー",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/6/productcd/20069（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン樹脂系",
+        "paintText": "可（公式に「施工後に塗装ができる」）",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": null,
+        "tackFreeText": "公式に明記なし",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "公式に明記なし",
+        "volume": "120mL（箱）、333mL（カートリッジ）",
+        "coverage": "公式に明記なし",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "塗装：公式に「施工後に塗装ができる」。 公式に「表面硬化が速い」（時間の記載はない）。"
+    },
+    {
+      "name": "コニシ ボンド 変成シリコンコーク ノンブリードLM",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/6/productcd/20074（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン樹脂系",
+        "paintText": "可（ノンブリードタイプ）",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": null,
+        "tackFreeText": "公式に明記なし",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "公式に明記なし",
+        "volume": "320mL（カートリッジ）",
+        "coverage": "5×5mm目地で12〜13m",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "塗装：ノンブリードタイプ。 1本で打てる長さ：5×5mm目地で12〜13m。 低モジュラス。公式に「専用プライマーの使用により」広範囲の下地に密着するとある。"
+    },
+    {
+      "name": "コニシ ボンド 変成シリコンシーラント",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20076（2026-10-25 確認）",
+      "specs": {
+        "type": "変成シリコーン樹脂系",
+        "paintText": "可",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": null,
+        "tackFreeText": "公式に明記なし",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "防カビ剤入り",
+        "volume": "333mL（カートリッジ）",
+        "coverage": "5×5mm目地で12〜13m",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "1本で打てる長さ：5×5mm目地で12〜13m。"
+    },
+    {
+      "name": "コニシ ボンド ウレタンコーク",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/6/productcd/20082 ・ 技術資料 https://www.bond.co.jp/bond/catalog/search/pdf/download/167（2026-10-25 確認）",
+      "specs": {
+        "type": "ポリウレタン系",
+        "paintText": "可（塗装前提。技術資料に「露出目地（塗装しない目地）には使用できません」）",
+        "jisClass": "F-12.5E-9030（PU-1）",
+        "tackFreeMin": 360,
+        "tackFreeText": "6時間（23℃）・72時間以内（5℃）",
+        "cureText": "7日（23℃、5mm厚）・18日（5℃）",
+        "tempRange": "公式に明記なし",
+        "mold": "公式に明記なし",
+        "volume": "320mL（カートリッジ）",
+        "coverage": "5×5mm目地で12〜13m",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "塗装：塗装前提。技術資料に「露出目地（塗装しない目地）には使用できません」。 硬化・放置：7日（23℃、5mm厚）・18日（5℃）。 1本で打てる長さ：5×5mm目地で12〜13m。"
+    },
+    {
+      "name": "コニシ ボンド 多用途シール",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20062（2026-10-25 確認）",
+      "specs": {
+        "type": "アクリル樹脂系エマルジョン形",
+        "paintText": "可（公式に「硬化後塗装できる」）",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": null,
+        "tackFreeText": "公式に明記なし",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "防カビ剤入り",
+        "volume": "65mL（チューブ）",
+        "coverage": "公式に明記なし",
+        "paintable": true,
+        "paintShort": "可"
+      },
+      "note": "塗装：公式に「硬化後塗装できる」。 水性。硬化前なら水で落とせる（公式）。"
+    },
+    {
+      "name": "コニシ ボンド 木部シール",
+      "brand": "コニシ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20059（2026-10-25 確認）",
+      "specs": {
+        "type": "アクリル樹脂系エマルジョン形",
+        "paintText": "公式に明記なし",
+        "jisClass": "公式に明記なし",
+        "tackFreeMin": null,
+        "tackFreeText": "公式に明記なし",
+        "cureText": "公式に明記なし",
+        "tempRange": "公式に明記なし",
+        "mold": "公式に明記なし",
+        "volume": "100g（チューブ）",
+        "coverage": "公式に明記なし",
+        "paintable": null,
+        "paintShort": "公式に明記なし"
+      },
+      "note": "水性。ブラウン・ダークブラウン・ライトブラウンの3色。"
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "コーキングを打つときの保護メガネ",
+      "href": "./safety-glasses.html"
+    },
+    {
+      "text": "高いところの目地に届く脚立",
+      "href": "./stepladder.html"
+    },
+    {
+      "text": "接着剤の選び方（PP・PEにつくか、固まるまでの時間）",
+      "href": "./adhesive.html"
+    }
+  ],
+  "sources": [
+    {
+      "label": "セメダイン 一般用総合カタログ（塗装のできるシーリング材の説明）",
+      "url": "https://www.cemedine.co.jp/sds/bef5j30000000ivz-att/LF0386-0.pdf"
+    }
+  ]
+}
