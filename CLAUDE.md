@@ -61,4 +61,5 @@ Amazonアソシエイト向けの商品比較サイトです。ジャンル選�
 - 判定ロジックの置き場所：リンク生成は `src/affiliate.js`、航空会社規定は `src/luggage.js`、記事共通の適合判定（レンジ・フラグ）は `src/fit.js`。HTML 側に散らさない。
 - キャリーケース以外で航空会社の規定を判定する記事（例：`lcc-backpack`）は、記事 JSON に `"airlineFit": { "group": "LCC" }` を書き、商品の `specs.outerCm`（高さ・幅・奥行）と `weightKg` を入れる。ビルド時に `src/luggage.js` の `fittingAirlines` で「収まる会社」を計算する。航空会社の規定を記事 JSON に書き写さない。
 - 仕様から計算できる値（例：ウォータージャグの満水時の重さ＝容量＋本体重量）は、記事 JSON の `"derivedSpecs": ["filledWeightKg"]` で指定し、計算は `src/fit.js` に置く。元の値が「公式に明記なし」なら計算結果も null にする（推定しない）。
+- **見た目**：記事はカテゴリごとの色と線画アイコンで見分ける（`src/theme.js`）。新しい記事を足したら `ARTICLE_CATEGORY` に slug を追加する（未設定だとビルドとテストが止まる）。商品画像の代わりに、自前の SVG アイコンと「数字で見る」棒グラフ（`src/chart.js`）を使う。棒グラフは絞り込みの最初の数値入力の仕様を並べ、合わないときは記事 JSON の `"chart"`（`key`・`label`・`unit`・`order`・`note`、出さないなら `false`）で上書きする。本文・結論の「数字＋単位」は自動で太字の色付きになる。スマホでは比較表が1商品1カードに切り替わる（CSS のみ）。
 - 変更したら `npm test` を通し、`npm run build` の差分もコミットする。

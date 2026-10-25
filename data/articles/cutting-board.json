@@ -100,6 +100,9 @@
       "label": "食洗機に対応するものだけ"
     }
   },
+  "chart": {
+    "label": "長辺の長さ"
+  },
   "columns": [
     {
       "key": "sizeMm",

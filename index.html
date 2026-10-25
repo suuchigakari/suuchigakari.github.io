@@ -9,270 +9,314 @@
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="stylesheet" href="./assets/article.css" />
   </head>
-  <body>
+  <body class="home-page">
     <header class="site-header">
       <div class="wrap">
         <p class="brand">数値で選ぶ比較ノート</p>
-        <p class="tagline">メーカー公式の仕様だけを使って、迷いやすい道具を数値で比べます。</p>
       </div>
     </header>
 
     <p class="disclosure">【PR】本サイトはプロモーション（広告）を含みます。Amazonのアソシエイトとして、数値で選ぶ比較ノートは適格販売により収入を得ています。記事内の商品リンクはアフィリエイトリンクです。</p>
 
-    <main class="wrap">
-      <section class="callout" aria-label="このサイトの方針">
-        <h2>数値で比べられるものだけを扱います</h2>
-        <ul>
-          <li>スペックはメーカー公式または航空会社公式で確認した数値のみを掲載し、確認日と出典を残しています。</li>
-          <li>確認できなかった商品は掲載しません（件数だけ表示します）。</li>
-          <li>価格は掲載していません。変動するため、リンク先の Amazon.co.jp でご確認ください。</li>
+    <div class="hero home-hero">
+      <div class="wrap">
+        <h1>迷いやすい道具を、<br />メーカー公式の数字で比べる</h1>
+        <p class="hero-lead">メーカー公式の仕様だけを使って、迷いやすい道具を数値で比べます。</p>
+        <ul class="policy">
+          <li><strong>公式の数値だけ</strong>メーカー・航空会社の公式で確認し、確認日と出典を残しています</li>
+          <li><strong>分からないものは載せない</strong>確認できなかった商品は件数だけ表示します</li>
+          <li><strong>価格は載せない</strong>変動するため、リンク先の Amazon.co.jp で確認してください</li>
         </ul>
+      </div>
+    </div>
+
+    <main class="wrap">
+      <nav class="chips" aria-label="カテゴリ">
+          <a class="chip cat-diy" href="#cat-diy"><svg class="cat-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 5.5a4 4 0 0 0-5 5L3.5 16.5a1.8 1.8 0 0 0 2.5 2.5l6-6a4 4 0 0 0 5-5l-2.4 2.4-2.1-.5-.5-2.1z"/></svg>DIY・作業</a>
+          <a class="chip cat-kitchen" href="#cat-kitchen"><svg class="cat-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M2 10h2M20 10h2M9 7c0-1 1-1.5 1-2.5M14 7c0-1 1-1.5 1-2.5"/></svg>キッチン</a>
+          <a class="chip cat-outdoor" href="#cat-outdoor"><svg class="cat-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20 12 4l9 16z"/><path d="M12 4v16M9.5 20 12 15l2.5 5"/></svg>アウトドア</a>
+          <a class="chip cat-kids" href="#cat-kids"><svg class="cat-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M9 10.5h.01M15 10.5h.01M9.5 14.5a3.5 3.5 0 0 0 5 0M12 4c1 1 1 2.2 0 3"/></svg>ベビー・キッズ</a>
+          <a class="chip cat-travel" href="#cat-travel"><svg class="cat-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="7" width="14" height="12" rx="2"/><path d="M9 7V4.5h6V7M9 11v4M15 11v4M8 19v1.5M16 19v1.5"/></svg>旅行・持ち歩き</a>
+          <a class="chip cat-home" href="#cat-home"><svg class="cat-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11 12 4l8 7"/><path d="M6 9.5V20h12V9.5M10 20v-5h4v5"/></svg>住まい・デスク</a>
+      </nav>
+
+      <section class="cat-group cat-diy" id="cat-diy" aria-label="DIY・作業">
+        <h2 class="cat-heading"><svg class="cat-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 5.5a4 4 0 0 0-5 5L3.5 16.5a1.8 1.8 0 0 0 2.5 2.5l6-6a4 4 0 0 0 5-5l-2.4 2.4-2.1-.5-.5-2.1z"/></svg>DIY・作業<span class="cat-count">7記事</span></h2>
+        <div class="grid">
+          <article class="card cat-diy">
+            <a class="card-link" href="./articles/safety-sneaker.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 5.5a4 4 0 0 0-5 5L3.5 16.5a1.8 1.8 0 0 0 2.5 2.5l6-6a4 4 0 0 0 5-5l-2.4 2.4-2.1-.5-.5-2.1z"/></svg></span>
+              <span class="card-genre">安全靴・セーフティスニーカー（DIY・軽作業）</span>
+              <h3>安全靴・セーフティスニーカーは「規格」と「両足の重さ」で選ぶ｜DIYで使える39足をメーカー公式の仕様で比較</h3>
+              <p class="summary">先芯入りのスニーカーは、JSAA（プロスニーカー）・JIS（安全靴）のどちらの規格か、規格の記載がないかで分かれます。重さもメーカーによって片足・両足と表記が違います。アシックス・ニューバランス・ミズノ・ミドリ安全・シモン・タルテックスと、カインズなどホームセンターの自社ブランドの39足を、メーカー公式の規格・重さ・締め方・サイズで比べました。</p>
+              <span class="card-meta"><strong>39</strong>件を比較 ・ 2026-10-23 確認</span>
+            </a>
+          </article>
+          <article class="card cat-diy">
+            <a class="card-link" href="./articles/adhesive.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 5.5a4 4 0 0 0-5 5L3.5 16.5a1.8 1.8 0 0 0 2.5 2.5l6-6a4 4 0 0 0 5-5l-2.4 2.4-2.1-.5-.5-2.1z"/></svg></span>
+              <span class="card-genre">接着剤（エポキシ・多用途・DIY）</span>
+              <h3>接着剤は「固まり始める時間」と「PP・PEにつくか」で選ぶ｜セメダイン・コニシの23本を比較</h3>
+              <p class="summary">2液のエポキシ接着剤は、混ぜてから固まり始めるまでが1分の製品から90分の製品まであります。多用途接着剤のほとんどはポリプロピレン・ポリエチレンにつきません。セメダイン・コニシの23本を公式の数値で比べました。</p>
+              <span class="card-meta"><strong>23</strong>件を比較 ・ 2026-10-25 確認</span>
+            </a>
+          </article>
+          <article class="card cat-diy">
+            <a class="card-link" href="./articles/caulking.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 5.5a4 4 0 0 0-5 5L3.5 16.5a1.8 1.8 0 0 0 2.5 2.5l6-6a4 4 0 0 0 5-5l-2.4 2.4-2.1-.5-.5-2.1z"/></svg></span>
+              <span class="card-genre">コーキング（シーリング材・DIY）</span>
+              <h3>コーキングは「上から塗れるか」で選ぶ｜シリコーン系は塗装できない。セメダイン・コニシの25本を比較</h3>
+              <p class="summary">シリコーン系のコーキングは、上から塗料が付きません。変成シリコーン・ウレタン・アクリル系は塗れますが、塗る時期の指定があります。セメダイン・コニシの25本を、塗装の可否・表面が乾く時間・JIS区分で比べました。</p>
+              <span class="card-meta"><strong>25</strong>件を比較 ・ 2026-10-25 確認</span>
+            </a>
+          </article>
+          <article class="card cat-diy">
+            <a class="card-link" href="./articles/dust-mask.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 5.5a4 4 0 0 0-5 5L3.5 16.5a1.8 1.8 0 0 0 2.5 2.5l6-6a4 4 0 0 0 5-5l-2.4 2.4-2.1-.5-.5-2.1z"/></svg></span>
+              <span class="card-genre">防じんマスク（DIY・軽作業）</span>
+              <h3>防じんマスクは「国家検定の区分」で選ぶ｜DS1・DS2と検定なしのマスク14種を捕集効率・吸気抵抗で比較</h3>
+              <p class="summary">防じんマスクは国家検定で DS1・DS2 などの区分に分かれ、検定のない「塵埃用」マスクや米国規格の N95 マスクもあります。トーヨーセーフティー・山本光学・コメリの14種を、メーカー公式の区分・捕集効率・吸気抵抗・排気弁で比べました。</p>
+              <span class="card-meta"><strong>14</strong>件を比較 ・ 2026-10-24 確認</span>
+            </a>
+          </article>
+          <article class="card cat-diy">
+            <a class="card-link" href="./articles/safety-glasses.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 5.5a4 4 0 0 0-5 5L3.5 16.5a1.8 1.8 0 0 0 2.5 2.5l6-6a4 4 0 0 0 5-5l-2.4 2.4-2.1-.5-.5-2.1z"/></svg></span>
+              <span class="card-genre">保護メガネ（DIY・軽作業）</span>
+              <h3>保護メガネは「JIS 適合」と「メガネの上から掛けられるか」で選ぶ｜DIYで使える25本を重さ・レンズで比較</h3>
+              <p class="summary">保護メガネは、JIS T8147 に適合した製品と、同じ形でもレンズの色やコートが違って JIS の記載がない製品があります。メガネの上から掛けるオーバーグラスもあります。山本光学・トーヨーセーフティーと、カインズなどホームセンターの自社ブランドの25本を、メーカー公式の重さ・レンズ・JIS の記載で比べました。</p>
+              <span class="card-meta"><strong>25</strong>件を比較 ・ 2026-10-24 確認</span>
+            </a>
+          </article>
+          <article class="card cat-diy">
+            <a class="card-link" href="./articles/stepladder.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 5.5a4 4 0 0 0-5 5L3.5 16.5a1.8 1.8 0 0 0 2.5 2.5l6-6a4 4 0 0 0 5-5l-2.4 2.4-2.1-.5-.5-2.1z"/></svg></span>
+              <span class="card-genre">脚立（DIY・家庭用）</span>
+              <h3>脚立は「天板の高さ」ではなく「使用最大高さ」で選ぶ｜長谷川工業・アルインコ・ホームセンター3社の25台を比較</h3>
+              <p class="summary">脚立のカタログにある「天板の高さ」と、実際に足を乗せてよい「使用最大高さ」は、製品によって30cm違います。長谷川工業・アルインコと、コメリ・DCM・コーナンの自社ブランドの家庭向け脚立25台を、メーカー公式の天板高さ・使用最大高さ・最大使用質量・重さで比べました。</p>
+              <span class="card-meta"><strong>25</strong>件を比較 ・ 2026-10-24 確認</span>
+            </a>
+          </article>
+          <article class="card cat-diy">
+            <a class="card-link" href="./articles/work-helmet.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 5.5a4 4 0 0 0-5 5L3.5 16.5a1.8 1.8 0 0 0 2.5 2.5l6-6a4 4 0 0 0 5-5l-2.4 2.4-2.1-.5-.5-2.1z"/></svg></span>
+              <span class="card-genre">作業用ヘルメット（DIY・軽作業）</span>
+              <h3>作業用ヘルメットは「墜落時保護用」かどうかで選ぶ｜DIYで使える18個を検定の区分・重さ・頭囲で比較</h3>
+              <p class="summary">作業用ヘルメットは、国家検定の区分（飛来・落下物用／墜落時保護用／電気用）が製品ごとに違い、検定の対象外の「軽作業帽」もあります。トーヨーセーフティー・谷沢製作所・ミドリ安全・コーナンの18個を、メーカー公式の区分・重さ・頭囲で比べました。</p>
+              <span class="card-meta"><strong>18</strong>件を比較 ・ 2026-10-23 確認</span>
+            </a>
+          </article>
+        </div>
       </section>
 
-      <section class="grid" aria-label="記事一覧">
-        <article class="card">
-          <p class="meta">
-            <span class="badge">機内持ち込みリュック（LCC）</span>
-            <span class="badge">2026-10-19 確認</span>
-          </p>
-          <h2><a href="./articles/lcc-backpack.html">LCCに持ち込めるリュックは容量ではなく形で決まる｜8製品をLCC8社の規定で判定</a></h2>
-          <p class="summary">26Lのリュックがジェットスターの規定に入らず、44Lのリュックが入ることがあります。LCCの機内持ち込み規定は「幅36cm」と「高さ50cm」のどちらが厳しいかが会社で違うためです。メーカー公式の外寸で、LCC8社に持ち込めるかを判定しました。</p>
-          <p class="small">掲載 8 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">安全靴・セーフティスニーカー（DIY・軽作業）</span>
-            <span class="badge">2026-10-23 確認</span>
-          </p>
-          <h2><a href="./articles/safety-sneaker.html">安全靴・セーフティスニーカーは「規格」と「両足の重さ」で選ぶ｜DIYで使える39足をメーカー公式の仕様で比較</a></h2>
-          <p class="summary">先芯入りのスニーカーは、JSAA（プロスニーカー）・JIS（安全靴）のどちらの規格か、規格の記載がないかで分かれます。重さもメーカーによって片足・両足と表記が違います。アシックス・ニューバランス・ミズノ・ミドリ安全・シモン・タルテックスと、カインズなどホームセンターの自社ブランドの39足を、メーカー公式の規格・重さ・締め方・サイズで比べました。</p>
-          <p class="small">掲載 39 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">キャリーケース</span>
-            <span class="badge">2026-09-06 確認</span>
-          </p>
-          <h2><a href="./articles/lcc-carrycase.html">LCCで弾かれないキャリーケースの選び方</a></h2>
-          <p class="summary">「3辺合計115cm以内」を満たしてもLCCでは各辺の上限で弾かれます。ピーチとジェットスターの規定は1台で両立しません。</p>
-          <p class="small">掲載 9 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">接着剤（エポキシ・多用途・DIY）</span>
-            <span class="badge">2026-10-25 確認</span>
-          </p>
-          <h2><a href="./articles/adhesive.html">接着剤は「固まり始める時間」と「PP・PEにつくか」で選ぶ｜セメダイン・コニシの23本を比較</a></h2>
-          <p class="summary">2液のエポキシ接着剤は、混ぜてから固まり始めるまでが1分の製品から90分の製品まであります。多用途接着剤のほとんどはポリプロピレン・ポリエチレンにつきません。セメダイン・コニシの23本を公式の数値で比べました。</p>
-          <p class="small">掲載 23 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">ベビーゲート</span>
-            <span class="badge">2026-09-07 確認</span>
-          </p>
-          <h2><a href="./articles/baby-gate.html">ベビーゲートは「最大◯cm」で選ぶと付かない｜開口幅と固定方式で選ぶ</a></h2>
-          <p class="summary">ベビーゲートの対応幅は範囲で決まっていて、実測した開口幅が範囲外だと拡張パーツが要るか、そもそも付きません。階段上に置けるのはネジ固定を公式に明記した製品だけです。開口幅を入れて対応製品を判定できます。</p>
-          <p class="small">掲載 7 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">ベビーチェア（ハイチェア）</span>
-            <span class="badge">2026-10-21 確認</span>
-          </p>
-          <h2><a href="./articles/baby-high-chair.html">ベビーハイチェアは「いつまで使えるか」で4倍違う｜対象年齢・幅・高さ調整を公式スペックで比較</a></h2>
-          <p class="summary">ベビーハイチェアの使える期間は、3才頃までの製品から大人（136kg）まで座れる製品まで開きます。ストッケ・大和屋・カトージ・日本育児の7製品を、メーカー公式の対象年齢・幅・高さ調整・折りたたみで比べました。</p>
-          <p class="small">掲載 7 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">コーキング（シーリング材・DIY）</span>
-            <span class="badge">2026-10-25 確認</span>
-          </p>
-          <h2><a href="./articles/caulking.html">コーキングは「上から塗れるか」で選ぶ｜シリコーン系は塗装できない。セメダイン・コニシの25本を比較</a></h2>
-          <p class="summary">シリコーン系のコーキングは、上から塗料が付きません。変成シリコーン・ウレタン・アクリル系は塗れますが、塗る時期の指定があります。セメダイン・コニシの25本を、塗装の可否・表面が乾く時間・JIS区分で比べました。</p>
-          <p class="small">掲載 25 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">クーラーボックス</span>
-            <span class="badge">2026-10-19 確認</span>
-          </p>
-          <h2><a href="./articles/cooler-box.html">クーラーボックスの「保冷力◯日」と「保冷効力◯度以下」は比べられない</a></h2>
-          <p class="summary">クーラーボックスの保冷性能の表記はメーカーごとに基準が違い、そのままでは横並びにできません。JIS表記の有無、断熱材、外寸と容量の比から、同じ土俵で比べる方法をまとめました。</p>
-          <p class="small">掲載 24 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">防じんマスク（DIY・軽作業）</span>
-            <span class="badge">2026-10-24 確認</span>
-          </p>
-          <h2><a href="./articles/dust-mask.html">防じんマスクは「国家検定の区分」で選ぶ｜DS1・DS2と検定なしのマスク14種を捕集効率・吸気抵抗で比較</a></h2>
-          <p class="summary">防じんマスクは国家検定で DS1・DS2 などの区分に分かれ、検定のない「塵埃用」マスクや米国規格の N95 マスクもあります。トーヨーセーフティー・山本光学・コメリの14種を、メーカー公式の区分・捕集効率・吸気抵抗・排気弁で比べました。</p>
-          <p class="small">掲載 14 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">LEDランタン</span>
-            <span class="badge">2026-10-20 確認</span>
-          </p>
-          <h2><a href="./articles/led-lantern.html">LEDランタンの「800ルーメン・250時間」は同時に成立しない</a></h2>
-          <p class="summary">LEDランタンのルーメンは最大モード、点灯時間は最小モードの値です。同じ800ルーメンでも、乾電池式は最大光量で20時間、充電式は2.5時間。公式スペックをモードごとに並べて比較しました。</p>
-          <p class="small">掲載 15 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">アウトドアチェア</span>
-            <span class="badge">2026-09-07 確認</span>
-          </p>
-          <h2><a href="./articles/outdoor-chair.html">アウトドアチェアは重量が同じでも別物｜座面高と耐荷重で選ぶ</a></h2>
-          <p class="summary">同じ約2.5kgのアウトドアチェアでも、座面高は18.5cmから41cmまで、耐荷重は70kgから100kgまで開きます。公式スペックだけで、座面高・耐荷重・収納形状を並べて比較しました。</p>
-          <p class="small">掲載 21 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">アウトドアテーブル</span>
-            <span class="badge">2026-10-20 確認</span>
-          </p>
-          <h2><a href="./articles/outdoor-table.html">アウトドアテーブルは高さで3種類に分かれる｜天板高12〜71.5cm・耐荷重・収納サイズを公式スペックで比較</a></h2>
-          <p class="summary">アウトドアテーブルの天板の高さは、掲載27製品だけで12cmから71.5cmまで開きます。耐荷重は10kgから50kgまでで、公式に書いていない製品もあります。メーカー公式の仕様だけで、高さ・耐荷重・収納サイズを並べました。</p>
-          <p class="small">掲載 27 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">保護メガネ（DIY・軽作業）</span>
-            <span class="badge">2026-10-24 確認</span>
-          </p>
-          <h2><a href="./articles/safety-glasses.html">保護メガネは「JIS 適合」と「メガネの上から掛けられるか」で選ぶ｜DIYで使える25本を重さ・レンズで比較</a></h2>
-          <p class="summary">保護メガネは、JIS T8147 に適合した製品と、同じ形でもレンズの色やコートが違って JIS の記載がない製品があります。メガネの上から掛けるオーバーグラスもあります。山本光学・トーヨーセーフティーと、カインズなどホームセンターの自社ブランドの25本を、メーカー公式の重さ・レンズ・JIS の記載で比べました。</p>
-          <p class="small">掲載 25 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">寝袋（シュラフ）</span>
-            <span class="badge">2026-09-07 確認</span>
-          </p>
-          <h2><a href="./articles/sleeping-bag.html">寝袋の「5℃対応」は3種類ある｜快適温度と最低使用温度は別物</a></h2>
-          <p class="summary">寝袋の対応温度は、ISO23537の快適温度、同じ規格の使用可能温度、メーカー独自の最低使用温度が混在しています。同じ「5℃」でも意味が違うので、揃えて比べる方法をまとめました。</p>
-          <p class="small">掲載 11 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">脚立（DIY・家庭用）</span>
-            <span class="badge">2026-10-24 確認</span>
-          </p>
-          <h2><a href="./articles/stepladder.html">脚立は「天板の高さ」ではなく「使用最大高さ」で選ぶ｜長谷川工業・アルインコ・ホームセンター3社の25台を比較</a></h2>
-          <p class="summary">脚立のカタログにある「天板の高さ」と、実際に足を乗せてよい「使用最大高さ」は、製品によって30cm違います。長谷川工業・アルインコと、コメリ・DCM・コーナンの自社ブランドの家庭向け脚立25台を、メーカー公式の天板高さ・使用最大高さ・最大使用質量・重さで比べました。</p>
-          <p class="small">掲載 25 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">ウォータージャグ・ウォータータンク</span>
-            <span class="badge">2026-10-19 確認</span>
-          </p>
-          <h2><a href="./articles/water-jug.html">ウォータージャグは満水で何kgになるか｜1.8L〜20Lの15製品を容量と本体重量で比較（サーモス・YETI・キャプテンスタッグ・DOD・カインズ）</a></h2>
-          <p class="summary">18Lのウォータージャグは、水を満タンにすると約20.8kgになります。耐荷重10kgのアウトドアテーブルに載せられるのは6Lクラスまでです。サーモス・YETI・キャプテンスタッグ・DOD・カインズの15製品を、メーカー公式の容量と本体重量から満水時の重さで比べました。</p>
-          <p class="small">掲載 15 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">作業用ヘルメット（DIY・軽作業）</span>
-            <span class="badge">2026-10-23 確認</span>
-          </p>
-          <h2><a href="./articles/work-helmet.html">作業用ヘルメットは「墜落時保護用」かどうかで選ぶ｜DIYで使える18個を検定の区分・重さ・頭囲で比較</a></h2>
-          <p class="summary">作業用ヘルメットは、国家検定の区分（飛来・落下物用／墜落時保護用／電気用）が製品ごとに違い、検定の対象外の「軽作業帽」もあります。トーヨーセーフティー・谷沢製作所・ミドリ安全・コーナンの18個を、メーカー公式の区分・重さ・頭囲で比べました。</p>
-          <p class="small">掲載 18 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">まな板</span>
-            <span class="badge">2026-09-07 確認</span>
-          </p>
-          <h2><a href="./articles/cutting-board.html">まな板は素材名では選べない｜同じ桧でも食洗機対応と非対応がある</a></h2>
-          <p class="summary">同じメーカーの同じ桧のまな板でも、食洗機に対応するものとしないものがあります。サイズ・厚み・重量・食洗機対応を公式仕様で並べ、シンクに収まるかで絞り込めるようにしました。</p>
-          <p class="small">掲載 25 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">保存容器</span>
-            <span class="badge">2026-09-07 確認</span>
-          </p>
-          <h2><a href="./articles/food-container.html">保存容器の「レンジ・食洗機対応」は本体とフタで別｜色で変わる製品もある</a></h2>
-          <p class="summary">保存容器の耐熱は本体とフタで別々に決まります。iwakiのパック＆レンジはフタの色（材質）で食洗機対応が変わり、ジップロックコンテナーは油分の多い食品で耐熱140℃を超えることがあります。公式仕様で比較しました。</p>
-          <p class="small">掲載 25 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">姿見（全身鏡）</span>
-            <span class="badge">2026-09-07 確認</span>
-          </p>
-          <h2><a href="./articles/full-length-mirror.html">姿見は本体サイズでは選べない｜全身が映るのは鏡面の高さで決まる</a></h2>
-          <p class="summary">高さ157cmの姿見でも、鏡が映る面は108.5cmということがあります。平面鏡は身長の半分の鏡面高さがあれば全身が映るので、本体サイズではなく鏡面サイズで選びます。身長を入れて判定できます。</p>
-          <p class="small">掲載 14 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">子ども用収納（本・おもちゃ・服）</span>
-            <span class="badge">2026-10-22 確認</span>
-          </p>
-          <h2><a href="./articles/kids-storage.html">子ども用の収納棚は「何をしまうか」で形が違う｜本・おもちゃ・服の24製品を耐荷重とサイズで比較</a></h2>
-          <p class="summary">子ども用の収納棚は、絵本・おもちゃ・服のどれをしまうかで形も耐荷重の書き方も変わります。大和屋・アイリスオーヤマ・ニトリ・ベルメゾン・IKEA・LOWYAの24製品を、メーカー公式の幅・重さ・耐荷重で比べました。</p>
-          <p class="small">掲載 24 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">子ども用テーブル・イス（1人用・2人用）</span>
-            <span class="badge">2026-10-22 確認</span>
-          </p>
-          <h2><a href="./articles/kids-table-chair.html">子ども用テーブルとイスは「何人で」「何才から」で選ぶ｜1人用・2人用の8組を天板と座面の高さで比較</a></h2>
-          <p class="summary">子ども用のテーブルとイスは、1人で使うデスクと2人で使うテーブルで大きさが違い、対象年齢も6か月から・1才6か月から・3才からと分かれます。大和屋・ニトリ・ベルメゾン・IKEAの8組を、メーカー公式の天板・座面の高さと幅で比べました。</p>
-          <p class="small">掲載 8 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">キッチンスケール</span>
-            <span class="badge">2026-09-07 確認</span>
-          </p>
-          <h2><a href="./articles/kitchen-scale.html">「3kg/0.1g」のスケールは3kgまで0.1gで測れない｜刻みは区間で変わる</a></h2>
-          <p class="summary">キッチンスケールの「0.1g」は全域ではありません。ある製品では300gまで0.1g、1500gまで0.5g、それ以上は1gと区間で刻みが変わります。公式仕様の区間表記を並べて比較しました。</p>
-          <p class="small">掲載 10 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">圧力鍋</span>
-            <span class="badge">2026-09-07 確認</span>
-          </p>
-          <h2><a href="./articles/pressure-cooker.html">圧力鍋の3Lは3L作れない｜満水容量と最高水位線、kPaと気圧を揃えて比べる</a></h2>
-          <p class="summary">圧力鍋の「3.0L」は満水容量で、実際に入れられるのは最高水位線まで（ある製品では約2L、豆類は約1L）。作動圧力もkPaと気圧の表記が混在します。公式スペックを揃えて比較しました。</p>
-          <p class="small">掲載 7 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">ラゲッジスケール</span>
-            <span class="badge">2026-10-15 確認</span>
-          </p>
-          <h2><a href="./articles/luggage-scale.html">ラゲッジスケールは「量れる下限」で選ぶ｜LCCの7kgは2個合計</a></h2>
-          <p class="summary">LCCの機内持ち込み7kgは、キャリーケースと身の回り品の2個合計です。軽いほうのバッグも量れないと意味がありませんが、ラゲッジスケールの計量範囲の下限は製品によって0.05kgから1kgまで違います。公式仕様で比較しました。</p>
-          <p class="small">掲載 6 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">モバイルバッテリー</span>
-            <span class="badge">2026-10-15 確認</span>
-          </p>
-          <h2><a href="./articles/mobile-battery.html">モバイルバッテリーは機内で使えなくなった｜2個まで・Whの確かめ方</a></h2>
-          <p class="summary">2026年4月24日から、機内に持ち込めるモバイルバッテリーは2個（160Wh以下）までになり、機内での充電もできなくなりました。同じ10000mAhでもWhは36.5〜38.5Whと違い、Whを製品ページに書いていないメーカーもあります。公式仕様で比較しました。</p>
-          <p class="small">掲載 12 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
-        <article class="card">
-          <p class="meta">
-            <span class="badge">モニターアーム</span>
-            <span class="badge">2026-09-07 確認</span>
-          </p>
-          <h2><a href="./articles/monitor-arm.html">モニターアームは耐荷重より先に天板厚で落ちる｜3つの数値を先に測る</a></h2>
-          <p class="summary">モニターアームは耐荷重・VESA規格・対応天板厚の3つが合って初めて付きます。耐荷重に下限がある製品もあり、軽いモニターでは固定できません。モニター重量と天板厚を入れて判定できます。</p>
-          <p class="small">掲載 6 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>
+      <section class="cat-group cat-kitchen" id="cat-kitchen" aria-label="キッチン">
+        <h2 class="cat-heading"><svg class="cat-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M2 10h2M20 10h2M9 7c0-1 1-1.5 1-2.5M14 7c0-1 1-1.5 1-2.5"/></svg>キッチン<span class="cat-count">4記事</span></h2>
+        <div class="grid">
+          <article class="card cat-kitchen">
+            <a class="card-link" href="./articles/cutting-board.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M2 10h2M20 10h2M9 7c0-1 1-1.5 1-2.5M14 7c0-1 1-1.5 1-2.5"/></svg></span>
+              <span class="card-genre">まな板</span>
+              <h3>まな板は素材名では選べない｜同じ桧でも食洗機対応と非対応がある</h3>
+              <p class="summary">同じメーカーの同じ桧のまな板でも、食洗機に対応するものとしないものがあります。サイズ・厚み・重量・食洗機対応を公式仕様で並べ、シンクに収まるかで絞り込めるようにしました。</p>
+              <span class="card-meta"><strong>25</strong>件を比較 ・ 2026-09-07 確認</span>
+            </a>
+          </article>
+          <article class="card cat-kitchen">
+            <a class="card-link" href="./articles/food-container.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M2 10h2M20 10h2M9 7c0-1 1-1.5 1-2.5M14 7c0-1 1-1.5 1-2.5"/></svg></span>
+              <span class="card-genre">保存容器</span>
+              <h3>保存容器の「レンジ・食洗機対応」は本体とフタで別｜色で変わる製品もある</h3>
+              <p class="summary">保存容器の耐熱は本体とフタで別々に決まります。iwakiのパック＆レンジはフタの色（材質）で食洗機対応が変わり、ジップロックコンテナーは油分の多い食品で耐熱140℃を超えることがあります。公式仕様で比較しました。</p>
+              <span class="card-meta"><strong>25</strong>件を比較 ・ 2026-09-07 確認</span>
+            </a>
+          </article>
+          <article class="card cat-kitchen">
+            <a class="card-link" href="./articles/kitchen-scale.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M2 10h2M20 10h2M9 7c0-1 1-1.5 1-2.5M14 7c0-1 1-1.5 1-2.5"/></svg></span>
+              <span class="card-genre">キッチンスケール</span>
+              <h3>「3kg/0.1g」のスケールは3kgまで0.1gで測れない｜刻みは区間で変わる</h3>
+              <p class="summary">キッチンスケールの「0.1g」は全域ではありません。ある製品では300gまで0.1g、1500gまで0.5g、それ以上は1gと区間で刻みが変わります。公式仕様の区間表記を並べて比較しました。</p>
+              <span class="card-meta"><strong>10</strong>件を比較 ・ 2026-09-07 確認</span>
+            </a>
+          </article>
+          <article class="card cat-kitchen">
+            <a class="card-link" href="./articles/pressure-cooker.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M2 10h2M20 10h2M9 7c0-1 1-1.5 1-2.5M14 7c0-1 1-1.5 1-2.5"/></svg></span>
+              <span class="card-genre">圧力鍋</span>
+              <h3>圧力鍋の3Lは3L作れない｜満水容量と最高水位線、kPaと気圧を揃えて比べる</h3>
+              <p class="summary">圧力鍋の「3.0L」は満水容量で、実際に入れられるのは最高水位線まで（ある製品では約2L、豆類は約1L）。作動圧力もkPaと気圧の表記が混在します。公式スペックを揃えて比較しました。</p>
+              <span class="card-meta"><strong>7</strong>件を比較 ・ 2026-09-07 確認</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="cat-group cat-outdoor" id="cat-outdoor" aria-label="アウトドア">
+        <h2 class="cat-heading"><svg class="cat-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20 12 4l9 16z"/><path d="M12 4v16M9.5 20 12 15l2.5 5"/></svg>アウトドア<span class="cat-count">6記事</span></h2>
+        <div class="grid">
+          <article class="card cat-outdoor">
+            <a class="card-link" href="./articles/cooler-box.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20 12 4l9 16z"/><path d="M12 4v16M9.5 20 12 15l2.5 5"/></svg></span>
+              <span class="card-genre">クーラーボックス</span>
+              <h3>クーラーボックスの「保冷力◯日」と「保冷効力◯度以下」は比べられない</h3>
+              <p class="summary">クーラーボックスの保冷性能の表記はメーカーごとに基準が違い、そのままでは横並びにできません。JIS表記の有無、断熱材、外寸と容量の比から、同じ土俵で比べる方法をまとめました。</p>
+              <span class="card-meta"><strong>24</strong>件を比較 ・ 2026-10-19 確認</span>
+            </a>
+          </article>
+          <article class="card cat-outdoor">
+            <a class="card-link" href="./articles/led-lantern.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20 12 4l9 16z"/><path d="M12 4v16M9.5 20 12 15l2.5 5"/></svg></span>
+              <span class="card-genre">LEDランタン</span>
+              <h3>LEDランタンの「800ルーメン・250時間」は同時に成立しない</h3>
+              <p class="summary">LEDランタンのルーメンは最大モード、点灯時間は最小モードの値です。同じ800ルーメンでも、乾電池式は最大光量で20時間、充電式は2.5時間。公式スペックをモードごとに並べて比較しました。</p>
+              <span class="card-meta"><strong>15</strong>件を比較 ・ 2026-10-20 確認</span>
+            </a>
+          </article>
+          <article class="card cat-outdoor">
+            <a class="card-link" href="./articles/outdoor-chair.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20 12 4l9 16z"/><path d="M12 4v16M9.5 20 12 15l2.5 5"/></svg></span>
+              <span class="card-genre">アウトドアチェア</span>
+              <h3>アウトドアチェアは重量が同じでも別物｜座面高と耐荷重で選ぶ</h3>
+              <p class="summary">同じ約2.5kgのアウトドアチェアでも、座面高は18.5cmから41cmまで、耐荷重は70kgから100kgまで開きます。公式スペックだけで、座面高・耐荷重・収納形状を並べて比較しました。</p>
+              <span class="card-meta"><strong>21</strong>件を比較 ・ 2026-09-07 確認</span>
+            </a>
+          </article>
+          <article class="card cat-outdoor">
+            <a class="card-link" href="./articles/outdoor-table.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20 12 4l9 16z"/><path d="M12 4v16M9.5 20 12 15l2.5 5"/></svg></span>
+              <span class="card-genre">アウトドアテーブル</span>
+              <h3>アウトドアテーブルは高さで3種類に分かれる｜天板高12〜71.5cm・耐荷重・収納サイズを公式スペックで比較</h3>
+              <p class="summary">アウトドアテーブルの天板の高さは、掲載27製品だけで12cmから71.5cmまで開きます。耐荷重は10kgから50kgまでで、公式に書いていない製品もあります。メーカー公式の仕様だけで、高さ・耐荷重・収納サイズを並べました。</p>
+              <span class="card-meta"><strong>27</strong>件を比較 ・ 2026-10-20 確認</span>
+            </a>
+          </article>
+          <article class="card cat-outdoor">
+            <a class="card-link" href="./articles/sleeping-bag.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20 12 4l9 16z"/><path d="M12 4v16M9.5 20 12 15l2.5 5"/></svg></span>
+              <span class="card-genre">寝袋（シュラフ）</span>
+              <h3>寝袋の「5℃対応」は3種類ある｜快適温度と最低使用温度は別物</h3>
+              <p class="summary">寝袋の対応温度は、ISO23537の快適温度、同じ規格の使用可能温度、メーカー独自の最低使用温度が混在しています。同じ「5℃」でも意味が違うので、揃えて比べる方法をまとめました。</p>
+              <span class="card-meta"><strong>11</strong>件を比較 ・ 2026-09-07 確認</span>
+            </a>
+          </article>
+          <article class="card cat-outdoor">
+            <a class="card-link" href="./articles/water-jug.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20 12 4l9 16z"/><path d="M12 4v16M9.5 20 12 15l2.5 5"/></svg></span>
+              <span class="card-genre">ウォータージャグ・ウォータータンク</span>
+              <h3>ウォータージャグは満水で何kgになるか｜1.8L〜20Lの15製品を容量と本体重量で比較（サーモス・YETI・キャプテンスタッグ・DOD・カインズ）</h3>
+              <p class="summary">18Lのウォータージャグは、水を満タンにすると約20.8kgになります。耐荷重10kgのアウトドアテーブルに載せられるのは6Lクラスまでです。サーモス・YETI・キャプテンスタッグ・DOD・カインズの15製品を、メーカー公式の容量と本体重量から満水時の重さで比べました。</p>
+              <span class="card-meta"><strong>15</strong>件を比較 ・ 2026-10-19 確認</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="cat-group cat-kids" id="cat-kids" aria-label="ベビー・キッズ">
+        <h2 class="cat-heading"><svg class="cat-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M9 10.5h.01M15 10.5h.01M9.5 14.5a3.5 3.5 0 0 0 5 0M12 4c1 1 1 2.2 0 3"/></svg>ベビー・キッズ<span class="cat-count">4記事</span></h2>
+        <div class="grid">
+          <article class="card cat-kids">
+            <a class="card-link" href="./articles/baby-gate.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M9 10.5h.01M15 10.5h.01M9.5 14.5a3.5 3.5 0 0 0 5 0M12 4c1 1 1 2.2 0 3"/></svg></span>
+              <span class="card-genre">ベビーゲート</span>
+              <h3>ベビーゲートは「最大◯cm」で選ぶと付かない｜開口幅と固定方式で選ぶ</h3>
+              <p class="summary">ベビーゲートの対応幅は範囲で決まっていて、実測した開口幅が範囲外だと拡張パーツが要るか、そもそも付きません。階段上に置けるのはネジ固定を公式に明記した製品だけです。開口幅を入れて対応製品を判定できます。</p>
+              <span class="card-meta"><strong>7</strong>件を比較 ・ 2026-09-07 確認</span>
+            </a>
+          </article>
+          <article class="card cat-kids">
+            <a class="card-link" href="./articles/baby-high-chair.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M9 10.5h.01M15 10.5h.01M9.5 14.5a3.5 3.5 0 0 0 5 0M12 4c1 1 1 2.2 0 3"/></svg></span>
+              <span class="card-genre">ベビーチェア（ハイチェア）</span>
+              <h3>ベビーハイチェアは「いつまで使えるか」で4倍違う｜対象年齢・幅・高さ調整を公式スペックで比較</h3>
+              <p class="summary">ベビーハイチェアの使える期間は、3才頃までの製品から大人（136kg）まで座れる製品まで開きます。ストッケ・大和屋・カトージ・日本育児の7製品を、メーカー公式の対象年齢・幅・高さ調整・折りたたみで比べました。</p>
+              <span class="card-meta"><strong>7</strong>件を比較 ・ 2026-10-21 確認</span>
+            </a>
+          </article>
+          <article class="card cat-kids">
+            <a class="card-link" href="./articles/kids-storage.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M9 10.5h.01M15 10.5h.01M9.5 14.5a3.5 3.5 0 0 0 5 0M12 4c1 1 1 2.2 0 3"/></svg></span>
+              <span class="card-genre">子ども用収納（本・おもちゃ・服）</span>
+              <h3>子ども用の収納棚は「何をしまうか」で形が違う｜本・おもちゃ・服の24製品を耐荷重とサイズで比較</h3>
+              <p class="summary">子ども用の収納棚は、絵本・おもちゃ・服のどれをしまうかで形も耐荷重の書き方も変わります。大和屋・アイリスオーヤマ・ニトリ・ベルメゾン・IKEA・LOWYAの24製品を、メーカー公式の幅・重さ・耐荷重で比べました。</p>
+              <span class="card-meta"><strong>24</strong>件を比較 ・ 2026-10-22 確認</span>
+            </a>
+          </article>
+          <article class="card cat-kids">
+            <a class="card-link" href="./articles/kids-table-chair.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M9 10.5h.01M15 10.5h.01M9.5 14.5a3.5 3.5 0 0 0 5 0M12 4c1 1 1 2.2 0 3"/></svg></span>
+              <span class="card-genre">子ども用テーブル・イス（1人用・2人用）</span>
+              <h3>子ども用テーブルとイスは「何人で」「何才から」で選ぶ｜1人用・2人用の8組を天板と座面の高さで比較</h3>
+              <p class="summary">子ども用のテーブルとイスは、1人で使うデスクと2人で使うテーブルで大きさが違い、対象年齢も6か月から・1才6か月から・3才からと分かれます。大和屋・ニトリ・ベルメゾン・IKEAの8組を、メーカー公式の天板・座面の高さと幅で比べました。</p>
+              <span class="card-meta"><strong>8</strong>件を比較 ・ 2026-10-22 確認</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="cat-group cat-travel" id="cat-travel" aria-label="旅行・持ち歩き">
+        <h2 class="cat-heading"><svg class="cat-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="7" width="14" height="12" rx="2"/><path d="M9 7V4.5h6V7M9 11v4M15 11v4M8 19v1.5M16 19v1.5"/></svg>旅行・持ち歩き<span class="cat-count">4記事</span></h2>
+        <div class="grid">
+          <article class="card cat-travel">
+            <a class="card-link" href="./articles/lcc-backpack.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="7" width="14" height="12" rx="2"/><path d="M9 7V4.5h6V7M9 11v4M15 11v4M8 19v1.5M16 19v1.5"/></svg></span>
+              <span class="card-genre">機内持ち込みリュック（LCC）</span>
+              <h3>LCCに持ち込めるリュックは容量ではなく形で決まる｜8製品をLCC8社の規定で判定</h3>
+              <p class="summary">26Lのリュックがジェットスターの規定に入らず、44Lのリュックが入ることがあります。LCCの機内持ち込み規定は「幅36cm」と「高さ50cm」のどちらが厳しいかが会社で違うためです。メーカー公式の外寸で、LCC8社に持ち込めるかを判定しました。</p>
+              <span class="card-meta"><strong>8</strong>件を比較 ・ 2026-10-19 確認</span>
+            </a>
+          </article>
+          <article class="card cat-travel">
+            <a class="card-link" href="./articles/lcc-carrycase.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="7" width="14" height="12" rx="2"/><path d="M9 7V4.5h6V7M9 11v4M15 11v4M8 19v1.5M16 19v1.5"/></svg></span>
+              <span class="card-genre">キャリーケース</span>
+              <h3>LCCで弾かれないキャリーケースの選び方</h3>
+              <p class="summary">「3辺合計115cm以内」を満たしてもLCCでは各辺の上限で弾かれます。ピーチとジェットスターの規定は1台で両立しません。</p>
+              <span class="card-meta"><strong>9</strong>件を比較 ・ 2026-09-06 確認</span>
+            </a>
+          </article>
+          <article class="card cat-travel">
+            <a class="card-link" href="./articles/luggage-scale.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="7" width="14" height="12" rx="2"/><path d="M9 7V4.5h6V7M9 11v4M15 11v4M8 19v1.5M16 19v1.5"/></svg></span>
+              <span class="card-genre">ラゲッジスケール</span>
+              <h3>ラゲッジスケールは「量れる下限」で選ぶ｜LCCの7kgは2個合計</h3>
+              <p class="summary">LCCの機内持ち込み7kgは、キャリーケースと身の回り品の2個合計です。軽いほうのバッグも量れないと意味がありませんが、ラゲッジスケールの計量範囲の下限は製品によって0.05kgから1kgまで違います。公式仕様で比較しました。</p>
+              <span class="card-meta"><strong>6</strong>件を比較 ・ 2026-10-15 確認</span>
+            </a>
+          </article>
+          <article class="card cat-travel">
+            <a class="card-link" href="./articles/mobile-battery.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="7" width="14" height="12" rx="2"/><path d="M9 7V4.5h6V7M9 11v4M15 11v4M8 19v1.5M16 19v1.5"/></svg></span>
+              <span class="card-genre">モバイルバッテリー</span>
+              <h3>モバイルバッテリーは機内で使えなくなった｜2個まで・Whの確かめ方</h3>
+              <p class="summary">2026年4月24日から、機内に持ち込めるモバイルバッテリーは2個（160Wh以下）までになり、機内での充電もできなくなりました。同じ10000mAhでもWhは36.5〜38.5Whと違い、Whを製品ページに書いていないメーカーもあります。公式仕様で比較しました。</p>
+              <span class="card-meta"><strong>12</strong>件を比較 ・ 2026-10-15 確認</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="cat-group cat-home" id="cat-home" aria-label="住まい・デスク">
+        <h2 class="cat-heading"><svg class="cat-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11 12 4l8 7"/><path d="M6 9.5V20h12V9.5M10 20v-5h4v5"/></svg>住まい・デスク<span class="cat-count">2記事</span></h2>
+        <div class="grid">
+          <article class="card cat-home">
+            <a class="card-link" href="./articles/full-length-mirror.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11 12 4l8 7"/><path d="M6 9.5V20h12V9.5M10 20v-5h4v5"/></svg></span>
+              <span class="card-genre">姿見（全身鏡）</span>
+              <h3>姿見は本体サイズでは選べない｜全身が映るのは鏡面の高さで決まる</h3>
+              <p class="summary">高さ157cmの姿見でも、鏡が映る面は108.5cmということがあります。平面鏡は身長の半分の鏡面高さがあれば全身が映るので、本体サイズではなく鏡面サイズで選びます。身長を入れて判定できます。</p>
+              <span class="card-meta"><strong>14</strong>件を比較 ・ 2026-09-07 確認</span>
+            </a>
+          </article>
+          <article class="card cat-home">
+            <a class="card-link" href="./articles/monitor-arm.html">
+              <span class="card-icon"><svg class="cat-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11 12 4l8 7"/><path d="M6 9.5V20h12V9.5M10 20v-5h4v5"/></svg></span>
+              <span class="card-genre">モニターアーム</span>
+              <h3>モニターアームは耐荷重より先に天板厚で落ちる｜3つの数値を先に測る</h3>
+              <p class="summary">モニターアームは耐荷重・VESA規格・対応天板厚の3つが合って初めて付きます。耐荷重に下限がある製品もあり、軽いモニターでは固定できません。モニター重量と天板厚を入れて判定できます。</p>
+              <span class="card-meta"><strong>6</strong>件を比較 ・ 2026-09-07 確認</span>
+            </a>
+          </article>
+        </div>
       </section>
 
       <p class="price-note">価格・在庫は変動し、セール期間中は価格が変わることがあります。購入前に Amazon の商品ページで最新の価格をご確認ください。</p>

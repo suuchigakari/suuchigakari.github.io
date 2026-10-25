@@ -93,6 +93,9 @@
       "label": "0.1g刻みがあるものだけ"
     }
   },
+  "chart": {
+    "label": "最大計量"
+  },
   "columns": [
     {
       "key": "rangeText",

@@ -61,6 +61,7 @@
     ],
     "flagInput": { "key": "batteryFree", "label": "電池が要らないものだけ" }
   },
+  "chart": false,
   "columns": [
     { "key": "rangeText", "label": "計量範囲" },
     { "key": "resolution", "label": "最小表示" },

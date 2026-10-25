@@ -103,6 +103,7 @@
       "ngDetail": "イス1脚"
     }
   },
+  "chart": false,
   "columns": [
     {
       "key": "people",

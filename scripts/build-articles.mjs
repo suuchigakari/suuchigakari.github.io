@@ -21,6 +21,8 @@ import {
 } from '../src/lcc-render.js';
 import { fittingAirlines, totalCm } from '../src/luggage.js';
 import { renderSaleNotice, todayIso } from '../src/sale.js';
+import { categoryIcon, categoryOf, highlightNumbers, CATEGORIES } from '../src/theme.js';
+import { chartRows, chartSpec } from '../src/chart.js';
 import {
   FIT,
   applyTransform,
@@ -111,25 +113,29 @@ function list(items, className = '') {
   return `<ul${className ? ` class="${className}"` : ''}>\n          ${li}\n        </ul>`;
 }
 
-/** 「次に困りそうなこと」。{ text, href } の項目は関連記事へのリンクにする。 */
+/** 「次に困りそうなこと」。{ text, href } の項目は関連記事へのリンクカードにする。 */
 function renderNextProblems(items) {
   if (!items || items.length === 0) return '';
   const li = items
     .map((item) =>
       typeof item === 'string'
-        ? `<li>${escapeHtml(item)}</li>`
-        : `<li><a href="${escapeHtml(item.href)}">${escapeHtml(item.text)}</a></li>`,
+        ? `<li class="next-card">${escapeHtml(item)}</li>`
+        : `<li><a class="next-card" href="${escapeHtml(item.href)}">${escapeHtml(item.text)}<span class="arrow" aria-hidden="true">→</span></a></li>`,
     )
     .join('\n          ');
-  return `<ul>\n          ${li}\n        </ul>`;
+  return `<ul class="next-list">\n          ${li}\n        </ul>`;
+}
+
+function sectionId(index) {
+  return `s${index + 1}`;
 }
 
 function renderSections(sections) {
   return sections
     .map(
-      (section) => `      <section>
-        <h2>${escapeHtml(section.heading)}</h2>
-        ${(section.paragraphs ?? []).map((text) => `<p>${escapeHtml(text)}</p>`).join('\n        ')}
+      (section, index) => `      <section id="${sectionId(index)}">
+        <h2 class="numbered"><span class="no" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>${escapeHtml(section.heading)}</h2>
+        ${(section.paragraphs ?? []).map((text) => `<p>${highlightNumbers(text)}</p>`).join('\n        ')}
         ${list(section.list)}
       </section>`,
     )
@@ -140,27 +146,106 @@ function renderExclusions(excludeReaders) {
   const items = excludeReaders
     .map(
       (reader) =>
-        `<li><strong>${escapeHtml(reader.who)}</strong> — ${escapeHtml(reader.why)}</li>`,
+        `<li><strong>${escapeHtml(reader.who)}</strong><span>${escapeHtml(reader.why)}</span></li>`,
     )
     .join('\n          ');
-  return `      <section class="callout" aria-label="この記事の対象外">
-        <h2>この記事が向かない人</h2>
+  return `      <details class="not-for">
+        <summary>この記事が向かない人（${excludeReaders.length}）</summary>
         <ul>
           ${items}
         </ul>
+      </details>`;
+}
+
+function renderArticleConclusion(conclusion) {
+  const items = conclusion
+    .map((text, index) => `<li><span class="no" aria-hidden="true">${index + 1}</span><p>${highlightNumbers(text)}</p></li>`)
+    .join('\n          ');
+  return `      <section id="conclusion" class="conclusion">
+        <h2>結論</h2>
+        <ol class="conclusion-list">
+          ${items}
+        </ol>
       </section>`;
 }
 
+function renderToc(article, hasChart) {
+  const items = [
+    ['conclusion', '結論'],
+    ...article.sections.map((section, index) => [sectionId(index), section.heading]),
+    ...(hasChart ? [['chart', '数字で見る']] : []),
+    ['filter-section', article.filter?.heading ?? '絞り込み'],
+    ['table', '比較表'],
+  ]
+    .map(([id, label]) => `<li><a href="#${id}">${escapeHtml(label)}</a></li>`)
+    .join('\n            ');
+  return `      <nav class="toc" aria-label="目次">
+        <p class="toc-title">目次</p>
+        <ol>
+            ${items}
+        </ol>
+      </nav>`;
+}
+
+function renderHero(article, category, count) {
+  return `    <div class="hero">
+      <div class="wrap article-wrap">
+        <p class="hero-genre">${categoryIcon(category.key, 22)}<span>${escapeHtml(category.label)}</span><span class="sep">／</span><span>${escapeHtml(article.genre)}</span></p>
+        <h1>${escapeHtml(article.title)}</h1>
+        <ul class="hero-facts">
+          <li><strong>${count}</strong>件を比較</li>
+          <li><strong>${escapeHtml(article.asOf)}</strong>確認</li>
+          <li>数値は<strong>メーカー公式</strong>のみ</li>
+        </ul>
+      </div>
+    </div>`;
+}
+
+function formatChartValue(value, unit) {
+  return `${Number.isInteger(value) ? value : value.toLocaleString('ja-JP', { maximumFractionDigits: 2 })}${unit}`;
+}
+
+function renderChart(article, products) {
+  const spec = chartSpec(article);
+  if (!spec) return '';
+  const { rows, missing } = chartRows(products, spec);
+  if (rows.length < 3) return '';
+  const bar = (row) =>
+    `<li><span class="bar-name">${escapeHtml(row.name)}</span><span class="bar-track"><span class="bar" style="width:${row.percent}%"></span></span><span class="bar-value">${escapeHtml(formatChartValue(row.value, spec.unit))}</span></li>`;
+  const SHOWN = 10;
+  const rest = rows.slice(SHOWN);
+  const bars = `${rows.slice(0, SHOWN).map(bar).join('\n          ')}${
+    rest.length > 0
+      ? `\n          <li class="bars-more"><details><summary>残りの ${rest.length} 件を表示</summary><ol class="bars">${rest.map(bar).join('')}</ol></details></li>`
+      : ''
+  }`;
+  const orderText = spec.order === 'asc' ? '小さい順' : '大きい順';
+  return `      <section id="chart" class="chart">
+        <h2>数字で見る：${escapeHtml(spec.label)}</h2>
+        <p class="small">メーカー公式の値を${orderText}に並べました。${spec.note ? `${escapeHtml(spec.note)}` : ''}${
+          missing > 0 ? `公式に数値がない ${missing} 件は載せていません。` : ''
+        }</p>
+        <ol class="bars">
+          ${bars}
+        </ol>
+      </section>`;
+}
+
+/** 商品名がブランド名で始まらないときだけ、ブランドを小さく添える。 */
+function brandChip(product) {
+  const brand = (product.brand ?? '').split('（')[0];
+  if (!brand || product.name.startsWith(brand)) return '';
+  return `<span class="brand-chip">${escapeHtml(brand)}</span>`;
+}
+
 function renderProductRow(product, columns, config, verdict) {
-  const name = product.asin
-    ? `<a href="${escapeHtml(
-        buildAffiliateUrl({
-          asin: product.asin,
-          tag: config.associateTag,
-          domain: config.marketplace,
-        }),
-      )}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(product.name)}</a>`
-    : escapeHtml(product.name);
+  const url = product.asin
+    ? buildAffiliateUrl({ asin: product.asin, tag: config.associateTag, domain: config.marketplace })
+    : null;
+  const name = url
+    ? `<a class="product-name" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(product.name)}</a>
+              <a class="cta-small" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(config.ctaLabel ?? 'Amazonで見る')}</a>`
+    : `<span class="product-name">${escapeHtml(product.name)}</span>`;
 
   const cells = columns
     .map((column) => {
@@ -169,7 +254,7 @@ function renderProductRow(product, columns, config, verdict) {
         : product.specs?.[column.key];
       const value = formatSpec(raw, column.unit ?? '');
       const className = value === '公式に明記なし' ? 'unknown' : 'num';
-      return `<td class="${className}">${escapeHtml(value)}</td>`;
+      return `<td class="${className}" data-label="${escapeHtml(column.label)}">${escapeHtml(value)}</td>`;
     })
     .join('');
 
@@ -184,9 +269,9 @@ function renderProductRow(product, columns, config, verdict) {
     verdict.results.find((result) => result.status === FIT.NG) ??
     verdict.results.find((result) => result.status !== FIT.OK);
   const detail = (failed ?? verdict.results[0])?.detail ?? '';
-  return `          <tr data-product="${escapeHtml(product.name)}">
-            <th scope="row">${name}</th>
-            <td class="verdict ${verdict.status}">${STATUS_LABEL[verdict.status]}<span class="reason">${escapeHtml(
+  return `          <tr data-product="${escapeHtml(product.name)}"${note ? ' class="has-note"' : ''}>
+            <th scope="row">${brandChip(product)}${name}</th>
+            <td class="verdict ${verdict.status}" data-label="判定">${STATUS_LABEL[verdict.status]}<span class="reason">${escapeHtml(
               detail,
             )}</span></td>
             ${cells}
@@ -202,7 +287,7 @@ function renderTable(products, columns, config, verdicts) {
     .join('\n');
 
   return `      <div class="table-scroll">
-        <table id="products-table">
+        <table id="products-table" class="products">
           <thead><tr>${head}</tr></thead>
           <tbody>
 ${rows}
@@ -217,11 +302,11 @@ function renderFilter(filter) {
   const inputs = numberInputsOf(filter)
     .map(
       (input, index) => `          <label>${escapeHtml(input.label)}
-            <input type="number" id="filter-number-${index}" step="${input.step ?? 0.5}" min="${input.min}" max="${input.max}" value="${input.default}" />
+            <input type="number" inputmode="decimal" id="filter-number-${index}" step="${input.step ?? 0.5}" min="${input.min}" max="${input.max}" value="${input.default}" />
           </label>`,
     )
     .join('\n');
-  return `      <section>
+  return `      <section id="filter-section" class="filter-panel">
         <h2>${escapeHtml(filter.heading)}</h2>
         <p class="small">${escapeHtml(filter.note)}</p>
         <form class="checker" id="filter">
@@ -230,7 +315,7 @@ ${inputs}
             <input type="checkbox" id="filter-flag" />${escapeHtml(flagInput.label)}
           </label>
         </form>
-        <p class="small" id="filter-summary" aria-live="polite"></p>
+        <p class="filter-summary" id="filter-summary" aria-live="polite"></p>
       </section>`;
 }
 
@@ -239,15 +324,16 @@ function renderSources(products, sources) {
     .filter((product) => product.source)
     .map((product) => `${product.name}：${product.source}`)
     .concat((sources ?? []).map((source) => `${source.label}：${source.url}`));
-  return `      <section class="notes">
-        <h3>仕様の出典</h3>
+  return `      <details class="notes">
+        <summary>仕様の出典（${items.length}件）</summary>
         ${list(items)}
-      </section>`;
+      </details>`;
 }
 
 function renderArticle(article, config) {
   const products = verifiedProducts(article.products);
   const pending = article.products.length - products.length;
+  const category = categoryOf(article.slug);
   const inputs = numberInputsOf(article.filter);
   const requirements = inputs.map((input) => ({
     key: input.key,
@@ -258,6 +344,7 @@ function renderArticle(article, config) {
   }));
   // 初期表示の判定は「幅だけ」で行う（チェックボックスは既定でオフのため）。
   const initial = products.map((product) => evaluateProduct(product, requirements));
+  const chart = renderChart(article, products);
 
   return `<!doctype html>
 <html lang="ja">
@@ -269,38 +356,38 @@ function renderArticle(article, config) {
     <link rel="stylesheet" href="../assets/style.css" />
     <link rel="stylesheet" href="../assets/article.css" />
   </head>
-  <body>
+  <body class="cat-${category.key}">
     <header class="site-header">
       <div class="wrap">
         <p class="brand"><a href="../index.html">${escapeHtml(config.siteName)}</a></p>
-        <p class="tagline">${escapeHtml(article.genre)}</p>
       </div>
     </header>
 
     <p class="disclosure">${escapeHtml(config.disclosure)}</p>${renderSaleNotice(config.saleNotice, todayIso(), '../assets/sale-notice.js')}
 
+${renderHero(article, category, products.length)}
+
     <main class="wrap article">
-      <h1>${escapeHtml(article.title)}</h1>
-      <p class="lead">${escapeHtml(article.lead)}</p>
+      <p class="lead">${highlightNumbers(article.lead)}</p>
+
+${renderArticleConclusion(article.conclusion)}
+
+${renderToc(article, Boolean(chart))}
 
 ${renderExclusions(article.excludeReaders)}
 
-      <section>
-        <h2>結論</h2>
-        <div class="verdict-box">
-          ${article.conclusion.map((text) => `<p>${escapeHtml(text)}</p>`).join('\n          ')}
-        </div>
-      </section>
-
 ${renderSections(article.sections)}
+
+${chart}
 
 ${renderFilter(article.filter)}
 
-      <section>
+      <section id="table">
         <h2>比較表</h2>
         <p class="small">メーカー公式の仕様表で確認できた ${products.length} 件を掲載しています（${escapeHtml(
           article.asOf,
         )} 確認）。${pending > 0 ? `仕様を確認できなかった ${pending} 件は掲載していません。` : ''}</p>
+        <p class="legend"><span class="badge-verdict ok">○</span>条件を満たす <span class="badge-verdict ng">×</span>満たさない <span class="badge-verdict unknown">?</span>公式に明記なし</p>
 ${renderTable(products, article.columns, config, initial)}
         <p class="small">判定は「${escapeHtml(
           inputs.map((input) => `${input.label} ${input.default}`).join('』『'),
@@ -309,7 +396,7 @@ ${renderTable(products, article.columns, config, initial)}
 
 ${renderSources(products, article.sources)}
 
-      <section>
+      <section class="next">
         <h2>次に困りそうなこと</h2>
         ${renderNextProblems(article.nextProblems)}
       </section>
@@ -336,21 +423,39 @@ ${JSON.stringify({ filter: article.filter, products }, null, 2)}
 `;
 }
 
-/** トップページ（記事一覧）を生成する。 */
+/** トップページ（記事一覧）を生成する。カテゴリごとに色とアイコンを付けて並べる。 */
 function renderIndex(entries, config) {
-  const cards = entries
-    .map(
-      (entry) => `        <article class="card">
-          <p class="meta">
-            <span class="badge">${escapeHtml(entry.genre)}</span>
-            <span class="badge">${escapeHtml(entry.asOf)} 確認</span>
-          </p>
-          <h2><a href="./articles/${escapeHtml(entry.slug)}.html">${escapeHtml(entry.title)}</a></h2>
-          <p class="summary">${escapeHtml(entry.description)}</p>
-          <p class="small">掲載 ${entry.productCount} 件（メーカー公式の仕様で確認したものだけ）</p>
-        </article>`,
-    )
-    .join('\n');
+  const card = (entry, key) => `          <article class="card cat-${key}">
+            <a class="card-link" href="./articles/${escapeHtml(entry.slug)}.html">
+              <span class="card-icon">${categoryIcon(key, 22)}</span>
+              <span class="card-genre">${escapeHtml(entry.genre)}</span>
+              <h3>${escapeHtml(entry.title)}</h3>
+              <p class="summary">${escapeHtml(entry.description)}</p>
+              <span class="card-meta"><strong>${entry.productCount}</strong>件を比較 ・ ${escapeHtml(entry.asOf)} 確認</span>
+            </a>
+          </article>`;
+  const groups = Object.entries(CATEGORIES)
+    .map(([key, category]) => {
+      const items = entries.filter((entry) => categoryOf(entry.slug).key === key);
+      if (items.length === 0) return '';
+      return `      <section class="cat-group cat-${key}" id="cat-${key}" aria-label="${escapeHtml(category.label)}">
+        <h2 class="cat-heading">${categoryIcon(key, 26)}${escapeHtml(category.label)}<span class="cat-count">${items.length}記事</span></h2>
+        <div class="grid">
+${items.map((entry) => card(entry, key)).join('\n')}
+        </div>
+      </section>`;
+    })
+    .filter(Boolean)
+    .join('\n\n');
+  const jump = Object.entries(CATEGORIES)
+    .filter(([key]) => entries.some((entry) => categoryOf(entry.slug).key === key))
+    .map(([key, category]) => `<a class="chip cat-${key}" href="#cat-${key}">${categoryIcon(key, 18)}${escapeHtml(category.label)}</a>`)
+    .join('\n          ');
+  const cards = `      <nav class="chips" aria-label="カテゴリ">
+          ${jump}
+      </nav>
+
+${groups}`;
 
   return `<!doctype html>
 <html lang="ja">
@@ -366,29 +471,29 @@ function renderIndex(entries, config) {
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="stylesheet" href="./assets/article.css" />
   </head>
-  <body>
+  <body class="home-page">
     <header class="site-header">
       <div class="wrap">
         <p class="brand">${escapeHtml(config.siteName)}</p>
-        <p class="tagline">${escapeHtml(config.tagline)}</p>
       </div>
     </header>
 
     <p class="disclosure">${escapeHtml(config.disclosure)}</p>${renderSaleNotice(config.saleNotice, todayIso(), './assets/sale-notice.js')}
 
-    <main class="wrap">
-      <section class="callout" aria-label="このサイトの方針">
-        <h2>数値で比べられるものだけを扱います</h2>
-        <ul>
-          <li>スペックはメーカー公式または航空会社公式で確認した数値のみを掲載し、確認日と出典を残しています。</li>
-          <li>確認できなかった商品は掲載しません（件数だけ表示します）。</li>
-          <li>価格は掲載していません。変動するため、リンク先の Amazon.co.jp でご確認ください。</li>
+    <div class="hero home-hero">
+      <div class="wrap">
+        <h1>迷いやすい道具を、<br />メーカー公式の数字で比べる</h1>
+        <p class="hero-lead">${escapeHtml(config.tagline)}</p>
+        <ul class="policy">
+          <li><strong>公式の数値だけ</strong>メーカー・航空会社の公式で確認し、確認日と出典を残しています</li>
+          <li><strong>分からないものは載せない</strong>確認できなかった商品は件数だけ表示します</li>
+          <li><strong>価格は載せない</strong>変動するため、リンク先の Amazon.co.jp で確認してください</li>
         </ul>
-      </section>
+      </div>
+    </div>
 
-      <section class="grid" aria-label="記事一覧">
+    <main class="wrap">
 ${cards}
-      </section>
 
       <p class="price-note">${escapeHtml(config.priceNote)}</p>
     </main>
@@ -418,6 +523,7 @@ function renderLccPage(template, airlineData, luggageData, config) {
     disclosure: escapeHtml(config.disclosure),
     priceNote: escapeHtml(config.priceNote),
     saleNotice: renderSaleNotice(config.saleNotice, todayIso(), '../assets/sale-notice.js'),
+    categoryIcon: categoryIcon('travel', 22),
     year: String(new Date().getFullYear()),
     conclusion: renderConclusion(airlines),
     conflict: renderConflict(airlines),

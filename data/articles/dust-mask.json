@@ -84,6 +84,9 @@
       "ngDetail": "国家検定の区分なし"
     }
   },
+  "chart": {
+    "unit": "Pa"
+  },
   "columns": [
     {
       "key": "class",
