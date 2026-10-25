@@ -63,8 +63,8 @@
           [
             "すぐに手を離したい",
             "エポキシ系・弾性接着剤",
-            "コニシ ハイスピードエポ、セメダイン スーパーXゴールド・スーパーXデュオ",
-            "混合して1分で硬化開始（20℃）／約2〜3分で動きづらくなる／約1分で実用強度"
+            "コニシ ハイスピードエポ・ウルトラ多用途SU プレミアムクイック、セメダイン スーパーXゴールド・スーパーXデュオ",
+            "混合して1分で硬化開始（20℃）／固定まで1〜2分（カタログ）／約2〜3分で動きづらくなる／約1分で実用強度"
           ],
           [
             "位置合わせに時間がほしい",
@@ -119,14 +119,15 @@
       "paragraphs": [
         "セメダインの製品ページには「接着できないもの」の欄があり、掲載したエポキシ系とスーパーX・X2・ゴールド・デュオはどれもポリエチレン・ポリプロピレンを挙げています。",
         "公式に PP・PE につくと書いているのは、セメダインのスーパーXハイパーワイド（ただし「PP、PEは充分な接着強さが出ないことがあります」と注記）、ペン型のプライマーを先に塗ってから貼る PPXセット（公式の名称は「難接着材料用接着剤」）、コニシのウルトラ多用途SU プレミアムソフト（「つきづらいプラスチック（PP・PE）も接着可能」）の3本です。",
-        "コニシの製品ページには「接着できないもの」の欄がないため、ハイスピードエポやクイック5などは「公式に明記なし」としています。"
+        "コニシのウルトラ多用途SUシリーズは、カタログの適用素材表でポリプロピレン・ポリエチレンに使えるのがプレミアムソフトだけで、レギュラー・プレミアムクイック・プレミアムハードは×です。コニシのエポキシ系（ハイスピードエポ・クイック5など）は、製品ページに「接着できないもの」の欄がないため「公式に明記なし」としています。"
       ]
     },
     {
       "heading": "「動かなくなる」「実用強度」「完全硬化」は別の時間",
       "paragraphs": [
         "セメダインのスーパーXゴールドは「動きづらくなる時間：約2〜3分」「実用強度に達する時間：約15分（1㎠あたり10kgf）」「完全硬化時間：約24時間」と3つの時間を書き分けています。スーパーX（無印）は「約1〜2時間で動かなくなり、約24〜48時間で実用強度」、スーパーXハイパーワイドは実用強度まで約3時間です。",
-        "セメダインのハイスーパータフは、固まり始めるのが5分、実用強度（70kgf/cm²）まで1時間です。重い物を貼る場合は、実用強度に達するまで固定しておく必要があります。"
+        "セメダインのハイスーパータフは、固まり始めるのが5分、実用強度（70kgf/cm²）まで1時間です。重い物を貼る場合は、実用強度に達するまで固定しておく必要があります。",
+        "コニシのウルトラ多用途SUシリーズは、カタログに「固定」「実用強度」「完全硬化」の目安があります。レギュラーとプレミアムハードは固定2〜3分・実用強度1時間・完全硬化24時間、プレミアムクイックは固定1〜2分・実用強度30分・完全硬化12時間、プレミアムソフトは固定10〜15分・実用強度2〜3時間・完全硬化24時間です（23℃・湿度50%）。"
       ]
     },
     {
@@ -162,7 +163,7 @@
   "chart": {
     "label": "固まり始める時間",
     "unit": "分",
-    "note": "セメダインは23℃、コニシは20℃の値。スーパーXは「動かなくなる」時間の短いほう。"
+    "note": "セメダインは23℃、コニシのエポキシは20℃の値。スーパーXは「動かなくなる」、ウルトラ多用途SUは「固定」までの時間の短いほう（23℃）。"
   },
   "columns": [
     {
@@ -595,84 +596,84 @@
       "brand": "コニシ",
       "asin": null,
       "verified": true,
-      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20006（2026-10-25 確認）",
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20006（2026-10-25 確認） ・ カタログ「ウルトラ多用途SU」（2020年10月版） https://www.bond.co.jp/bond/catalog/search/pdf/download/164（2026-10-25 確認）",
       "specs": {
         "type": "シリル化ウレタン系（1液）",
-        "cureStartMin": null,
-        "cureStartText": "公式に明記なし",
-        "strengthText": "公式に明記なし",
-        "fullCureText": "公式に明記なし",
+        "cureStartMin": 2,
+        "cureStartText": "固定まで2〜3分（カタログ）",
+        "strengthText": "1時間（カタログ）",
+        "fullCureText": "24時間（カタログ）",
         "tempRange": "-30〜80℃",
-        "ppPeText": "公式に明記なし",
-        "ngMaterials": "公式に明記なし",
+        "ppPeText": "使えない（カタログの適用素材表で×）",
+        "ngMaterials": "ポリプロピレン、ポリエチレン、フッ素樹脂（カタログの適用素材表で×）",
         "volume": "10mL・25mL・120mL",
-        "ppPe": null,
+        "ppPe": false,
         "ppPeShort": "公式に明記なし"
       },
-      "note": ""
+      "note": "時間はカタログの「硬化時間の目安」（アクリル同士、約1〜2cm角、23℃・湿度50%）。"
     },
     {
       "name": "コニシ ボンド ウルトラ多用途SU プレミアムクイック",
       "brand": "コニシ",
       "asin": null,
       "verified": true,
-      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20009（2026-10-25 確認）",
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20009（2026-10-25 確認） ・ カタログ「ウルトラ多用途SU」（2020年10月版） https://www.bond.co.jp/bond/catalog/search/pdf/download/164（2026-10-25 確認）",
       "specs": {
         "type": "シリル化ウレタン系（1液）",
-        "cureStartMin": null,
-        "cureStartText": "公式に「接着スピードが速い」（時間の記載なし）",
-        "strengthText": "公式に明記なし",
-        "fullCureText": "公式に明記なし",
+        "cureStartMin": 1,
+        "cureStartText": "固定まで1〜2分（カタログ）",
+        "strengthText": "30分（カタログ）",
+        "fullCureText": "12時間（カタログ）",
         "tempRange": "-30〜120℃",
-        "ppPeText": "公式に明記なし",
-        "ngMaterials": "公式に明記なし",
+        "ppPeText": "使えない（カタログの適用素材表で×）",
+        "ngMaterials": "ポリプロピレン、ポリエチレン、フッ素樹脂（カタログの適用素材表で×）",
         "volume": "10mL・25mL・120mL",
-        "ppPe": null,
+        "ppPe": false,
         "ppPeShort": "公式に明記なし"
       },
-      "note": ""
+      "note": "時間はカタログの「硬化時間の目安」（アクリル同士、約1〜2cm角、23℃・湿度50%）。"
     },
     {
       "name": "コニシ ボンド ウルトラ多用途SU プレミアムソフト",
       "brand": "コニシ",
       "asin": null,
       "verified": true,
-      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20007（2026-10-25 確認）",
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20007（2026-10-25 確認） ・ カタログ「ウルトラ多用途SU」（2020年10月版） https://www.bond.co.jp/bond/catalog/search/pdf/download/164（2026-10-25 確認）",
       "specs": {
         "type": "シリル化ウレタン系（1液）",
-        "cureStartMin": null,
-        "cureStartText": "公式に明記なし",
-        "strengthText": "公式に明記なし",
-        "fullCureText": "公式に明記なし",
+        "cureStartMin": 10,
+        "cureStartText": "固定まで10〜15分（カタログ）",
+        "strengthText": "2〜3時間（カタログ）",
+        "fullCureText": "24時間（カタログ）",
         "tempRange": "-30〜80℃",
         "ppPeText": "使える（公式に「つきづらいプラスチック（PP・PE）も接着可能」）",
-        "ngMaterials": "公式に明記なし",
+        "ngMaterials": "フッ素樹脂（カタログの適用素材表で×）",
         "volume": "10mL・25mL・120mL",
         "ppPe": true,
         "ppPeShort": "使える"
       },
-      "note": "PP・PE：公式に「つきづらいプラスチック（PP・PE）も接着可能」。"
+      "note": "PP・PE：公式に「つきづらいプラスチック（PP・PE）も接着可能」。 時間はカタログの「硬化時間の目安」（ポリプロピレンとアクリル、約1〜2cm角、23℃・湿度50%）。"
     },
     {
       "name": "コニシ ボンド ウルトラ多用途SU プレミアムハード",
       "brand": "コニシ",
       "asin": null,
       "verified": true,
-      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20008（2026-10-25 確認）",
+      "source": "メーカー公式 https://www.bond.co.jp/bond/detail/item/info/root/2/productcd/20008（2026-10-25 確認） ・ カタログ「ウルトラ多用途SU」（2020年10月版） https://www.bond.co.jp/bond/catalog/search/pdf/download/164（2026-10-25 確認）",
       "specs": {
         "type": "シリル化ウレタン系（1液）",
-        "cureStartMin": null,
-        "cureStartText": "公式に明記なし",
-        "strengthText": "公式に明記なし",
-        "fullCureText": "公式に明記なし",
+        "cureStartMin": 2,
+        "cureStartText": "固定まで2〜3分（カタログ）",
+        "strengthText": "1時間（カタログ）",
+        "fullCureText": "24時間（カタログ）",
         "tempRange": "-30〜80℃",
-        "ppPeText": "公式に明記なし",
-        "ngMaterials": "公式に明記なし",
+        "ppPeText": "使えない（カタログの適用素材表で×）",
+        "ngMaterials": "ポリプロピレン、ポリエチレン、フッ素樹脂（カタログの適用素材表で×）",
         "volume": "10mL・25mL・120mL",
-        "ppPe": null,
+        "ppPe": false,
         "ppPeShort": "公式に明記なし"
       },
-      "note": "公式に「衝撃に強くガッチリ固まる」。"
+      "note": "公式に「衝撃に強くガッチリ固まる」。 時間はカタログの「硬化時間の目安」（アクリル同士、約1〜2cm角、23℃・湿度50%）。"
     }
   ],
   "nextProblems": [
