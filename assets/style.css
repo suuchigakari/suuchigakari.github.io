@@ -306,7 +306,7 @@ a.next-card:hover { background: var(--cat-soft); }
 .card { padding: 0; border-top: 5px solid var(--cat); overflow: hidden; transition: transform .15s ease, box-shadow .15s ease; }
 .card:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,0,0,.08); }
 .card-link { display: flex; flex-direction: column; gap: 6px; height: 100%; padding: 18px; color: var(--text); text-decoration: none; }
-.card-icon { display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: var(--cat-soft); }
+.card-icon { display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: #fff; border: 1px solid var(--border); }
 .card-genre { font-size: 0.78rem; font-weight: 700; color: var(--cat-ink); }
 .card h3 { margin: 0; font-size: 1.02rem; line-height: 1.55; }
 .card .summary { margin: 0; font-size: 0.85rem; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
@@ -319,14 +319,12 @@ a.next-card:hover { background: var(--cat-soft); }
 .article .conclusion-list p { margin: 0; }
 
 /* 商品の種類のイラスト */
-.ill { flex: none; stroke: var(--cat); stroke-width: 2.5; fill: none; }
-.ill .f { fill: var(--cat-soft); }
-.ill .a { fill: var(--cat); }
+.ill { flex: none; }
 .product-cell { display: flex; gap: 10px; align-items: flex-start; }
-.product-cell .ill { padding: 4px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+.product-cell .ill { padding: 4px; background: #fff; border: 1px solid var(--border); border-radius: 12px; }
 .ill-note { margin: 4px 0 0; font-size: 0.75rem; color: var(--muted); }
 .hero-inner { position: relative; }
-.hero-ill { float: right; margin: 0 0 8px 16px; padding: 8px; background: var(--surface); border-radius: 50%; box-shadow: var(--shadow); line-height: 0; }
+.hero-ill { float: right; margin: 0 0 8px 16px; padding: 8px; background: #fff; border-radius: 50%; box-shadow: var(--shadow); line-height: 0; }
 @media (max-width: 720px) {
   .hero-ill { padding: 6px; }
   .hero-ill .ill { width: 72px; height: 72px; }

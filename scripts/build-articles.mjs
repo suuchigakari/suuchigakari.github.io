@@ -23,7 +23,7 @@ import { fittingAirlines, totalCm } from '../src/luggage.js';
 import { renderSaleNotice, todayIso } from '../src/sale.js';
 import { categoryIcon, categoryOf, highlightNumbers, CATEGORIES } from '../src/theme.js';
 import { chartRows, chartSpec } from '../src/chart.js';
-import { illustration, illustrationKey } from '../src/illustrations.js';
+import { illustration, illustrationDefs, illustrationKey } from '../src/illustrations.js';
 import {
   FIT,
   applyTransform,
@@ -359,6 +359,7 @@ function renderArticle(article, config) {
     <link rel="stylesheet" href="../assets/article.css" />
   </head>
   <body class="cat-${category.key}">
+    ${illustrationDefs()}
     <header class="site-header">
       <div class="wrap">
         <p class="brand"><a href="../index.html">${escapeHtml(config.siteName)}</a></p>
@@ -475,6 +476,7 @@ ${groups}`;
     <link rel="stylesheet" href="./assets/article.css" />
   </head>
   <body class="home-page">
+    ${illustrationDefs()}
     <header class="site-header">
       <div class="wrap">
         <p class="brand">${escapeHtml(config.siteName)}</p>
@@ -528,6 +530,7 @@ function renderLccPage(template, airlineData, luggageData, config) {
     saleNotice: renderSaleNotice(config.saleNotice, todayIso(), '../assets/sale-notice.js'),
     categoryIcon: categoryIcon('travel', 22),
     heroIllustration: illustration('suitcase', 120),
+    illustrationDefs: illustrationDefs(),
     year: String(new Date().getFullYear()),
     conclusion: renderConclusion(airlines),
     conflict: renderConflict(airlines),
