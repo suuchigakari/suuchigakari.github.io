@@ -345,3 +345,9 @@ a.next-card:hover { background: var(--cat-soft); }
   .quick-table td { display: grid; grid-template-columns: 7.5em 1fr; gap: 8px; padding: 7px 14px; border-top: 1px solid var(--border); }
   .quick-table td::before { content: attr(data-label); color: var(--muted); font-size: 0.76rem; font-weight: 700; }
 }
+
+/* Amazon 特別プログラムの PR 枠 */
+.promo { margin: 40px 0 0; padding: 4px 20px 16px; background: var(--surface); border: 1px solid var(--border); border-top: 4px solid var(--accent); border-radius: var(--radius); }
+.promo-label { display: inline-block; margin: 14px 0 0; padding: 1px 10px; font-size: 0.75rem; font-weight: 800; color: var(--accent-text); background: var(--muted); border-radius: 999px; }
+.article .promo h2 { margin: 8px 0 8px; border: 0; padding: 0; font-size: 1.1rem; }
+.promo p { font-size: 0.92rem; }

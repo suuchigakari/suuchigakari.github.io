@@ -21,6 +21,7 @@ import {
 } from '../src/lcc-render.js';
 import { fittingAirlines, totalCm } from '../src/luggage.js';
 import { renderSaleNotice, todayIso } from '../src/sale.js';
+import { renderPromos } from '../src/promo.js';
 import { categoryIcon, categoryOf, highlightNumbers, CATEGORIES } from '../src/theme.js';
 import { chartRows, chartSpec } from '../src/chart.js';
 import { illustration, illustrationDefs, illustrationKey } from '../src/illustrations.js';
@@ -418,6 +419,8 @@ ${renderTable(products, article.columns, config, initial, article.slug)}
 
 ${renderSources(products, article.sources)}
 
+${renderPromos(article.slug, promoData.promos, config.associateTag)}
+
       <section class="next">
         <h2>次に困りそうなこと</h2>
         ${renderNextProblems(article.nextProblems)}
@@ -547,6 +550,7 @@ function renderLccPage(template, airlineData, luggageData, config) {
     priceNote: escapeHtml(config.priceNote),
     saleNotice: renderSaleNotice(config.saleNotice, todayIso(), '../assets/sale-notice.js'),
     categoryIcon: categoryIcon('travel', 22),
+    promo: renderPromos('lcc-carrycase', promoData.promos, config.associateTag),
     heroIllustration: illustration('suitcase', 120),
     illustrationDefs: illustrationDefs(),
     year: String(new Date().getFullYear()),
@@ -576,6 +580,7 @@ const config = JSON.parse(await readFile(configPath, 'utf8'));
 const readJson = async (path) =>
   JSON.parse(await readFile(fileURLToPath(new URL(path, root)), 'utf8'));
 const airlineData = await readJson('data/airlines.json');
+const promoData = await readJson('data/promos.json');
 
 const files = (await readdir(fileURLToPath(articlesDir))).filter((file) => file.endsWith('.json'));
 const entries = [];

@@ -1,0 +1,19 @@
+{
+  "note": "Amazon の特別プログラムの PR 枠。公式ページで確かめた事実だけを書き、料金は書かない。url は運営者がアソシエイトの SiteStripe で作った完全なリンク（tag=suuchigakari-22）。",
+  "promos": [
+    {
+      "id": "audible",
+      "title": "移動中に聴く：Audible（オーディオブック）",
+      "body": [
+        "Amazon の Audible プレミアムプランは、対象のオーディオブック・ポッドキャストなどが聴き放題になるサービスです（公式の記載は「数十万以上の対象作品」）。",
+        "スマートフォンやタブレットの Audible アプリで対象作品をダウンロードしておくと、インターネット接続のない場所でも聴けると公式に書かれています。",
+        "30日間の無料体験があり、無料体験の後は有料のプレミアムプランに自動で更新されます（公式に「いつでも退会できます」）。料金は公式ページで確認してください。"
+      ],
+      "cta": "Audible の無料体験を見る（Amazon）",
+      "url": "https://www.amazon.co.jp/b?node=7471076051&linkCode=ll2&tag=suuchigakari-22&linkId=0d33823badf7267c2c793f36d08997bd&ref_=as_li_ss_tl",
+      "source": "Amazon 公式 Audible ストアページ https://www.amazon.co.jp/b?node=7471076051",
+      "checkedOn": "2026-10-27",
+      "articles": ["lcc-carrycase", "lcc-backpack", "mobile-battery", "luggage-scale"]
+    }
+  ]
+}
