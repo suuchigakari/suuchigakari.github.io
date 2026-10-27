@@ -13,7 +13,31 @@
       "url": "https://www.amazon.co.jp/b?node=7471076051&linkCode=ll2&tag=suuchigakari-22&linkId=0d33823badf7267c2c793f36d08997bd&ref_=as_li_ss_tl",
       "source": "Amazon 公式 Audible ストアページ https://www.amazon.co.jp/b?node=7471076051",
       "checkedOn": "2026-10-27",
-      "articles": ["lcc-carrycase", "lcc-backpack", "mobile-battery", "luggage-scale"]
+      "articles": [
+        "lcc-carrycase",
+        "lcc-backpack",
+        "mobile-battery",
+        "luggage-scale"
+      ]
+    },
+    {
+      "id": "kindle-plus",
+      "title": "移動中に読む：Kindle+（旧 Kindle Unlimited）",
+      "body": [
+        "Amazon の Kindle+ は、対象の電子書籍・マンガ・雑誌が読み放題になるサービスです（公式の記載は「数百万冊」「電子書籍ごとの追加料金なし」）。",
+        "公式に「Kindleデバイスは必要ありません」とあり、スマートフォンやタブレットの無料の Kindle アプリで読めます。",
+        "無料体験に登録できます。無料体験の期間と、終了後の料金・更新の条件は公式ページで確認してください。"
+      ],
+      "cta": "Kindle+ の無料体験を見る（Amazon）",
+      "url": "https://www.amazon.co.jp/kindle-dbs/hz/subscribe/ku?shoppingPortalEnabled=true&linkCode=ll2&tag=suuchigakari-22&linkId=873f2c7b747f61a99ec39a183eb1c212&ref_=as_li_ss_tl",
+      "source": "Amazon 公式 Kindle+ 登録ページ https://www.amazon.co.jp/kindle-dbs/hz/subscribe/ku",
+      "checkedOn": "2026-10-27",
+      "articles": [
+        "lcc-carrycase",
+        "lcc-backpack",
+        "mobile-battery",
+        "luggage-scale"
+      ]
     }
   ]
 }
