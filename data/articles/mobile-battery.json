@@ -42,6 +42,14 @@
       ]
     },
     {
+      "heading": "Anker Power Bank（10000mAh）は機内に持ち込める？",
+      "paragraphs": [
+        "持ち込めるかどうかは Wh（定格量）で決まり、2026年4月24日からのルールでは1個160Wh以下・2個までです。Anker Power Bank (10000mAh, 22.5W)（A1257）と (10000mAh, 30W)（A1256）は、Anker の公式ページに容量（10000mAh）は書かれていますが、Wh の記載はありませんでした（2026-11-02 に再確認）。",
+        "持ち込む前に、本体のラベルに印字された Wh を見てください。ラベルに Wh がなければ、定格容量（mAh）×定格電圧（V）÷1000 で計算できると羽田空港の案内にあります。参考までに、同じ10000mAhで Wh を公式に書いているエレコムの4製品は36.5〜38.5Whです。",
+        "持ち込めた場合も、機内ではモバイルバッテリーへの充電も、モバイルバッテリーからスマートフォンなどへの充電もできません。預け荷物にも入れられません。"
+      ]
+    },
+    {
       "heading": "Whは「定格容量（mAh）×定格電圧（V）÷1000」",
       "paragraphs": [
         "持ち込みの上限はWh（ワット時）で決まっています。羽田空港の案内では、本体のラベルに定格量（Wh）の記載がない場合、定格容量(mAh)×定格電圧(V)÷1000で計算できるとしています。",
@@ -159,7 +167,7 @@
       "brand": "Anker",
       "asin": "B0CQX67KTW",
       "verified": true,
-      "source": "メーカー公式 https://www.ankerjapan.com/products/a1257 （2026-10-15 確認）",
+      "source": "メーカー公式 https://www.ankerjapan.com/products/a1257 （2026-10-15 確認、2026-11-02 に Wh の記載がないことを再確認）",
       "specs": {
         "capacityText": "10000mAh",
         "whText": null,
@@ -193,7 +201,7 @@
       "brand": "Anker",
       "asin": "",
       "verified": true,
-      "source": "メーカー公式 https://www.ankerjapan.com/products/a1256 （2026-10-15 確認）",
+      "source": "メーカー公式 https://www.ankerjapan.com/products/a1256 （2026-10-15 確認、2026-11-02 に Wh の記載がないことを再確認）",
       "specs": {
         "capacityText": "10000mAh",
         "whText": null,
