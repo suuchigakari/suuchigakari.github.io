@@ -101,6 +101,8 @@ export const ILLUSTRATIONS = {
     `${SHADOW(116, 34)}<rect x="34" y="12" width="60" height="100" rx="10" fill="url(#il-black)" stroke="#212529"/><rect x="38" y="16" width="6" height="90" rx="3" fill="#fff" opacity=".18"/><rect x="54" y="6" width="20" height="6" rx="2" fill="#868e96"/><circle cx="56" cy="92" r="2.5" fill="#51cf66"/><circle cx="64" cy="92" r="2.5" fill="#51cf66"/><circle cx="72" cy="92" r="2.5" fill="#51cf66"/><circle cx="80" cy="92" r="2.5" fill="#495057"/><path d="M68 40l-10 16h10l-8 16" stroke="#adb5bd" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`,
   mirror:
     `${SHADOW(118, 30)}<path d="M64 108 88 118" stroke="#a9773c" stroke-width="4" stroke-linecap="round"/><rect x="40" y="6" width="48" height="108" rx="3" fill="url(#il-wood)" stroke="#a9773c"/><rect x="45" y="11" width="38" height="98" fill="url(#il-mirror)"/><path d="M50 40 72 14M50 58 80 24" stroke="#fff" stroke-width="4" opacity=".7" stroke-linecap="round"/>`,
+  'tension-shelf':
+    `<rect x="2" y="10" width="14" height="104" fill="url(#il-gray)"/><rect x="112" y="10" width="14" height="104" fill="url(#il-gray)"/>${SHADOW(96, 40)}<rect x="16" y="54" width="8" height="12" rx="2" fill="#adb5bd"/><rect x="104" y="54" width="8" height="12" rx="2" fill="#adb5bd"/><path d="M22 56h84l-6 26H28z" fill="url(#il-white)" stroke="#adb5bd" stroke-width="1.2"/><path d="M36 58l-2 22M50 58l-1 22M64 58v22M78 58l1 22M92 58l2 22M26 66h76M27 74h74" stroke="#ced4da" stroke-width="1.5"/><rect x="22" y="52" width="84" height="5" rx="2" fill="url(#il-aluV)" stroke="#868e96" stroke-width=".8"/><rect x="40" y="38" width="16" height="14" rx="2" fill="url(#il-blue)"/><rect x="62" y="30" width="22" height="22" rx="3" fill="url(#il-wood)"/>`,
   'monitor-arm':
     `<rect x="0" y="104" width="128" height="8" fill="url(#il-wood)"/><rect x="14" y="96" width="14" height="24" rx="2" fill="url(#il-black)"/><rect x="18" y="54" width="6" height="44" fill="url(#il-alu)"/><path d="M21 58 54 46" stroke="#495057" stroke-width="7" stroke-linecap="round"/><path d="M54 46 70 40" stroke="#495057" stroke-width="5" stroke-linecap="round"/><rect x="58" y="12" width="66" height="42" rx="3" fill="url(#il-black)"/><rect x="61" y="15" width="60" height="36" fill="url(#il-screen)"/><path d="M66 46 90 18" stroke="#fff" opacity=".15" stroke-width="6"/>`,
 };
@@ -144,6 +146,7 @@ const BY_ARTICLE = {
   'mobile-battery': () => 'power-bank',
   'full-length-mirror': () => 'mirror',
   'monitor-arm': () => 'monitor-arm',
+  'tension-shelf': () => 'tension-shelf',
 };
 
 /** 記事と商品の仕様から、図の名前を決める。 */

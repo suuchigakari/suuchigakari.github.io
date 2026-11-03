@@ -63,6 +63,7 @@ export const ARTICLE_CATEGORY = {
   'mobile-battery': 'travel',
   'full-length-mirror': 'home',
   'monitor-arm': 'home',
+  'tension-shelf': 'home',
 };
 
 export function categoryOf(slug) {

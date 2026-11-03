@@ -1,0 +1,958 @@
+{
+  "slug": "tension-shelf",
+  "genre": "突っ張り棚（壁と壁の間に付ける棚）",
+  "genreNumber": 45,
+  "commissionRate": "3.00%",
+  "title": "突っ張り棚は「幅を広げるほど載せられる重さが減る」｜平安伸銅の31製品を取付幅と耐荷重で比較",
+  "description": "突っ張り棚の耐荷重は、取り付ける幅で変わります。平安伸銅の公式ページでは、幅65cmで50kgの棚が95cmでは30kgになります。取付幅・幅ごとの耐荷重・奥行を公式の仕様で比べ、ラブリコの2×4アジャスターもまとめました。",
+  "keywords": [
+    "突っ張り棚 耐荷重",
+    "突っ張り棚 幅",
+    "平安伸銅 突っ張り棚",
+    "ラブリコ 耐荷重",
+    "突っ張り棚 選び方"
+  ],
+  "asOf": "2026-11-03",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "突っ張り棚は、壁と壁の間にバネの力で突っ張って取り付ける棚です。商品名に「耐荷重50〜30kg」のように幅のある数字が書かれていて、平安伸銅の公式ページを見ると、これは取り付ける幅による違いです。幅65cmで取り付ければ50kg、95cmまで伸ばすと30kgになります。取り付けたい場所の幅で、何kgまで載せられるかが変わります。メーカー公式の仕様だけで並べました。",
+  "excludeReaders": [
+    {
+      "who": "床から天井まで突っ張るラックを探している人",
+      "why": "このページは壁と壁の間（横方向）に付ける棚が対象です。床と天井に突っ張る柱は、下のラブリコの項目で扱っています"
+    },
+    {
+      "who": "石膏ボードなど弱い壁に付けたい人",
+      "why": "平安伸銅は、ボードやベニヤなどの弱い壁には下地に桟のある場所に付けるか、木板で補強するよう公式に書いています。まず壁の下地を確かめてください"
+    },
+    {
+      "who": "浴室に付けたい人",
+      "why": "掲載した突っ張り棚は、公式に浴室や湿度の高い所、水が掛かる所では使わないよう書かれています"
+    }
+  ],
+  "conclusion": [
+    "耐荷重は、幅を広げるほど小さくなる。平安伸銅の TDR-M は幅65cmで50kg、95cmで30kg。RB-12 は118cmで50kg、190cmで18kgまで下がる",
+    "取付幅は、すき間用の19〜28cmから、大型の118〜190cmまである。取り付けたい場所の幅が「伸ばせる範囲」に入るものを選ぶ",
+    "公式の耐荷重は「実験値で保証するものではない」とされ、壁の材質や施工状態で減る。取り付け2〜3日後と週1回程度の点検も公式に求められている"
+  ],
+  "sections": [
+    {
+      "heading": "耐荷重は、幅を広げるほど小さくなる",
+      "paragraphs": [
+        "平安伸銅の公式ページには、取付幅ごとの耐荷重が書かれている製品があります。強力メッシュの TDR-M は「取付幅65cmの時：50kgまで」「取付幅95cmの時：30kgまで」、超強力ワイドの RB-12 は118cmで50kg、190cmで18kgです。",
+        "幅ごとの耐荷重が書かれている製品は、どれも幅が狭いほうが耐荷重が大きくなっています。比較表の「参考耐荷重」は公式の範囲（例：50〜30kg）、「幅ごとの耐荷重」は公式に書かれた幅と重さの組み合わせです。",
+        "絞り込みの「載せたい重さ」は、参考耐荷重の小さいほうの値と比べています。幅いっぱいまで伸ばしても載せられるかを見るための判定です。"
+      ]
+    },
+    {
+      "heading": "取付幅は「伸ばせる範囲」で決まる",
+      "paragraphs": [
+        "突っ張り棚は、取付寸法の範囲の中でしか取り付けられません。掲載した製品の取付幅は、すき間用の SMR シリーズの19〜28cmから、スーパーワイド棚 大（RA-12・RB-12）の118〜190cmまであります。",
+        "同じシリーズでもサイズで範囲が分かれています。たとえば強力メッシュは、TDR-M が65〜95cm、TDR-LWH が95〜150cmです。取り付けたい場所の壁から壁までの幅を測り、その数字が範囲に入るものを選んでください。"
+      ]
+    },
+    {
+      "heading": "奥行は12cmから33.5cmまで",
+      "paragraphs": [
+        "奥行は、スリムメッシュ（TNS）とすき間棚の一部が12cm、強力メッシュ（TDR）が24cm、ワイドメッシュ（TDW）が32cm、スーパーワイド棚（RA・RB）が33.5cmです。置きたい物の大きさと、通路に出っ張っても困らないかで選びます。"
+      ]
+    },
+    {
+      "heading": "耐荷重は「実験値」。壁と施工で減る",
+      "paragraphs": [
+        "平安伸銅の公式ページには「耐荷重は圧着力が不足する場合や取り付け幅、壁の材質、施工状態により減少します」「表示耐荷重は実験値であり保証するものではありません」と書かれています。",
+        "取り付けられる場所は「コンクリート壁や柱、壁材と下地に十分な強度がある所」で、ボードやベニヤなどの弱い壁は、下地に桟のある場所に付けるか、市販の木板などで補強するよう求めています。縦方向に突っ張って使うことはできません。",
+        "取り付けたあとは「取り付け2～3日後、また週に1回程度定期的に取り付け状態を確認してください」とあります。"
+      ]
+    },
+    {
+      "heading": "ラブリコ：2×4材で床から天井まで柱を立てる",
+      "paragraphs": [
+        "ラブリコ（平安伸銅工業のブランド）のアジャスターは、市販の木材の両端に付けて、床と天井の間に柱を立てる部品です。棚は柱に棚受けを付けて作ります。突っ張り棚とは違い、取り付けの目安は壁の幅ではなく天井の高さで、耐荷重も柱1本あたりで書かれています。",
+        "2×4アジャスター（DX-1）の公式の説明では「天井の高さから95mm短い2×4材を用意してください」とあります。木材の長さは製品ごとに公式の説明書で確かめてください。"
+      ],
+      "table": {
+        "head": [
+          "製品",
+          "使う木材",
+          "天井の高さ（公式）",
+          "使用荷重（公式）"
+        ],
+        "rows": [
+          [
+            "ラブリコ 2×6アジャスター ライト（BX-81）",
+            "2×6材",
+            "高さ2750mmまで",
+            "15kgまで(柱1本あたり)"
+          ],
+          [
+            "ラブリコ 2×4アジャスター ライト（BX-1）",
+            "2×4材",
+            "高さ2750mmまで",
+            "15kgまで(柱1本あたり)"
+          ],
+          [
+            "ラブリコ 1×4アジャスター アイアン（IX-21）",
+            "1×4材",
+            "高さ1850mmまで",
+            "10kg (柱一本当たり)"
+          ],
+          [
+            "ラブリコ 2×4アジャスター アイアン（IX-1）",
+            "2×4材",
+            "高さ2750mmまで",
+            "20kg(柱一本当たり)"
+          ],
+          [
+            "ラブリコ 強力タイプ 2×4アジャスター (使用荷重40kg)（EX-1）",
+            "2×4材",
+            "高さ2750mmまで",
+            "40kg(自転車を掛ける場合は20kg)"
+          ],
+          [
+            "ラブリコ 2×4アジャスター STAPLER FIX（DX-1）",
+            "2×4材",
+            "高さ2750mmまで",
+            "20kg (柱一本当たり)"
+          ],
+          [
+            "ラブリコ 1×4アジャスター（DX-21）",
+            "1×4材",
+            "高さ1850mmまで（壁に平行に取り付ける場合、壁面から約25mmの距離が必要）",
+            "縦方向使用時：10kgまで"
+          ],
+          [
+            "ラブリコ 2×4アジャスター（DX-1）",
+            "2×4材",
+            "高さ2750mmまで",
+            "20kg (柱一本当たり)"
+          ]
+        ],
+        "note": "出典：平安伸銅工業オンラインショップの各製品ページ（2026-11-03 確認）。DX-1 と同じ仕様のモーヴピンク（DXP-1）もある。"
+      }
+    }
+  ],
+  "filter": {
+    "heading": "取り付けたい幅と、載せたい重さで絞り込む",
+    "note": "壁から壁までの幅（cm）を入れると、各製品の取付範囲に入るかを判定します。載せたい重さは、参考耐荷重の小さいほう（幅いっぱいに伸ばしたときの目安）と比べます。",
+    "numberInputs": [
+      {
+        "key": "mountRange",
+        "type": "range",
+        "label": "取り付けたい場所の幅 (cm)",
+        "unit": "cm",
+        "default": 80,
+        "min": 15,
+        "max": 200,
+        "step": 1
+      },
+      {
+        "key": "loadMinKg",
+        "type": "atLeast",
+        "label": "載せたい重さ (kg)",
+        "unit": "kg",
+        "default": 10,
+        "min": 1,
+        "max": 60,
+        "step": 1
+      }
+    ],
+    "flagInput": {
+      "key": "endsStated",
+      "label": "幅ごとの耐荷重が公式に書かれているものだけ",
+      "okDetail": "幅ごとの耐荷重の記載あり",
+      "ngDetail": "範囲の記載のみ"
+    }
+  },
+  "chart": {
+    "key": "loadMinKg",
+    "label": "参考耐荷重の小さいほうの値",
+    "unit": "kg",
+    "order": "desc",
+    "note": "幅いっぱいに伸ばしたときの目安として、公式の参考耐荷重の小さいほうを並べています。"
+  },
+  "columns": [
+    {
+      "key": "mountText",
+      "label": "取付幅"
+    },
+    {
+      "key": "loadText",
+      "label": "参考耐荷重（公式）"
+    },
+    {
+      "key": "loadByWidth",
+      "label": "幅ごとの耐荷重"
+    },
+    {
+      "key": "depthCm",
+      "label": "奥行",
+      "unit": "cm"
+    },
+    {
+      "key": "weightKg",
+      "label": "本体重量",
+      "unit": "kg"
+    },
+    {
+      "key": "shape",
+      "label": "棚の形"
+    }
+  ],
+  "products": [
+    {
+      "name": "平安伸銅工業 突っ張り棚 隙間収納（SMR-23）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-smr-23（2026-11-03 確認）",
+      "specs": {
+        "model": "SMR-23",
+        "mountRange": [
+          19,
+          28
+        ],
+        "mountText": "19〜28cm",
+        "loadText": "2kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 2,
+        "depthCm": 23,
+        "thicknessCm": 2.2,
+        "weightKg": 0.32,
+        "shape": "公式に明記なし",
+        "endsStated": false
+      },
+      "note": "色：ホワイト・ブラック（ブラックは SMR-23B）。 公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 隙間収納（SMR-13）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-smr-13（2026-11-03 確認）",
+      "specs": {
+        "model": "SMR-13",
+        "mountRange": [
+          19,
+          28
+        ],
+        "mountText": "19〜28cm",
+        "loadText": "2kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 2,
+        "depthCm": 12,
+        "thicknessCm": 2.2,
+        "weightKg": 0.21,
+        "shape": "公式に明記なし",
+        "endsStated": false
+      },
+      "note": "色：ホワイト・ブラック（ブラックは SMR-13B）。 公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 隙間収納（SMR-24）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-smr-24（2026-11-03 確認）",
+      "specs": {
+        "model": "SMR-24",
+        "mountRange": [
+          28.5,
+          43
+        ],
+        "mountText": "28.5〜43cm",
+        "loadText": "2kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 2,
+        "depthCm": 23,
+        "thicknessCm": 2.2,
+        "weightKg": 0.43,
+        "shape": "公式に明記なし",
+        "endsStated": false
+      },
+      "note": "色：ホワイト・ブラック（ブラックは SMR-24B）。 公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 隙間収納（SMR-14）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-smr-14（2026-11-03 確認）",
+      "specs": {
+        "model": "SMR-14",
+        "mountRange": [
+          28.5,
+          43
+        ],
+        "mountText": "28.5〜43cm",
+        "loadText": "2kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 2,
+        "depthCm": 12,
+        "thicknessCm": 2.2,
+        "weightKg": 0.275,
+        "shape": "公式に明記なし",
+        "endsStated": false
+      },
+      "note": "色：ホワイト・ブラック（ブラックは SMR-14B）。 公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚（TS-35）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-ts-35（2026-11-03 確認）",
+      "specs": {
+        "model": "TS-35",
+        "mountRange": [
+          35,
+          48
+        ],
+        "mountText": "35〜48cm",
+        "loadText": "15〜10kg",
+        "loadByWidth": "35cmで15kg・48cmで10kg",
+        "loadMinKg": 10,
+        "depthCm": 23,
+        "thicknessCm": 2.5,
+        "weightKg": 0.3,
+        "shape": "公式に明記なし",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 メッシュ（TNR-S）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tnr-s（2026-11-03 確認）",
+      "specs": {
+        "model": "TNR-S",
+        "mountRange": [
+          45,
+          65
+        ],
+        "mountText": "45〜65cm",
+        "loadText": "27〜13kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 13,
+        "depthCm": 24,
+        "thicknessCm": 3.4,
+        "weightKg": 0.65,
+        "shape": "メッシュ",
+        "endsStated": false
+      },
+      "note": "公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 スリムメッシュ（TNS-S）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tns-s（2026-11-03 確認）",
+      "specs": {
+        "model": "TNS-S",
+        "mountRange": [
+          45,
+          65
+        ],
+        "mountText": "45〜65cm",
+        "loadText": "24〜10kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 10,
+        "depthCm": 12,
+        "thicknessCm": 3.4,
+        "weightKg": 0.4,
+        "shape": "メッシュ",
+        "endsStated": false
+      },
+      "note": "公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚（TS-45）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-ts-45（2026-11-03 確認）",
+      "specs": {
+        "model": "TS-45",
+        "mountRange": [
+          45,
+          67
+        ],
+        "mountText": "45〜67cm",
+        "loadText": "15〜10kg",
+        "loadByWidth": "45cmで15kg・67cmで10kg",
+        "loadMinKg": 10,
+        "depthCm": 23,
+        "thicknessCm": 2.5,
+        "weightKg": 0.3,
+        "shape": "公式に明記なし",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力 ミニ（TAI-8）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-8（2026-11-03 確認）",
+      "specs": {
+        "model": "TAI-8",
+        "mountRange": [
+          50,
+          73
+        ],
+        "mountText": "50〜73cm",
+        "loadText": "50〜30kg",
+        "loadByWidth": "50cmで50kg・73cmで30kg",
+        "loadMinKg": 30,
+        "depthCm": 25.5,
+        "thicknessCm": 5.5,
+        "weightKg": 0.7,
+        "shape": "公式に明記なし",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力（TAI-5）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-5（2026-11-03 確認）",
+      "specs": {
+        "model": "TAI-5",
+        "mountRange": [
+          50,
+          73
+        ],
+        "mountText": "50〜73cm",
+        "loadText": "50〜30kg",
+        "loadByWidth": "50cmで50kg・73cmで30kg",
+        "loadMinKg": 30,
+        "depthCm": 28.5,
+        "thicknessCm": 5.5,
+        "weightKg": 0.9,
+        "shape": "公式に明記なし",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 伸縮突っ張り棚 強力（KB-63）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-kb-63（2026-11-03 確認）",
+      "specs": {
+        "model": "KB-63",
+        "mountRange": [
+          63,
+          93
+        ],
+        "mountText": "63〜93cm",
+        "loadText": "30〜13kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 13,
+        "depthCm": 23.5,
+        "thicknessCm": 3.3,
+        "weightKg": 0.75,
+        "shape": "公式に明記なし",
+        "endsStated": false
+      },
+      "note": "公式の仕様に「取付寸法」の欄がなく、商品サイズの幅を取付範囲とした。 公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚（TS-65）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-ts-65（2026-11-03 確認）",
+      "specs": {
+        "model": "TS-65",
+        "mountRange": [
+          65,
+          93
+        ],
+        "mountText": "65〜93cm",
+        "loadText": "15〜10kg",
+        "loadByWidth": "65cmで15kg・93cmで10kg",
+        "loadMinKg": 10,
+        "depthCm": 23,
+        "thicknessCm": 2.5,
+        "weightKg": 0.4,
+        "shape": "公式に明記なし",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力 ワイドメッシュ（TDW-M）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tdw-m（2026-11-03 確認）",
+      "specs": {
+        "model": "TDW-M",
+        "mountRange": [
+          65,
+          95
+        ],
+        "mountText": "65〜95cm",
+        "loadText": "50〜30kg",
+        "loadByWidth": "65cmで50kg・95cmで30kg",
+        "loadMinKg": 30,
+        "depthCm": 32,
+        "thicknessCm": 5.6,
+        "weightKg": 1.45,
+        "shape": "メッシュ",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力 メッシュ（TDR-M）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tdr-m（2026-11-03 確認）",
+      "specs": {
+        "model": "TDR-M",
+        "mountRange": [
+          65,
+          95
+        ],
+        "mountText": "65〜95cm",
+        "loadText": "50〜30kg",
+        "loadByWidth": "65cmで50kg・95cmで30kg",
+        "loadMinKg": 30,
+        "depthCm": 24,
+        "thicknessCm": 5.6,
+        "weightKg": 0.95,
+        "shape": "メッシュ",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚（TPR-M）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tpr-m（2026-11-03 確認）",
+      "specs": {
+        "model": "TPR-M",
+        "mountRange": [
+          65,
+          95
+        ],
+        "mountText": "65〜95cm",
+        "loadText": "27〜13kg",
+        "loadByWidth": "65cmで27kg・95cmで13kg",
+        "loadMinKg": 13,
+        "depthCm": 24,
+        "thicknessCm": 3.4,
+        "weightKg": 0.55,
+        "shape": "パイプ",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 メッシュ（TNR-M）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tnr-m（2026-11-03 確認）",
+      "specs": {
+        "model": "TNR-M",
+        "mountRange": [
+          65,
+          95
+        ],
+        "mountText": "65〜95cm",
+        "loadText": "27〜13kg",
+        "loadByWidth": "65cmで27kg・95cmで13kg",
+        "loadMinKg": 13,
+        "depthCm": 24,
+        "thicknessCm": 3.4,
+        "weightKg": 0.9,
+        "shape": "メッシュ",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 スリムメッシュ（TNS-M）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tns-m（2026-11-03 確認）",
+      "specs": {
+        "model": "TNS-M",
+        "mountRange": [
+          65,
+          95
+        ],
+        "mountText": "65〜95cm",
+        "loadText": "24〜10kg",
+        "loadByWidth": "65cmで24kg・95cmで10kg",
+        "loadMinKg": 10,
+        "depthCm": 12,
+        "thicknessCm": 3.4,
+        "weightKg": 0.55,
+        "shape": "メッシュ",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力 メッシュ（TAI-7）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-7（2026-11-03 確認）",
+      "specs": {
+        "model": "TAI-7",
+        "mountRange": [
+          73,
+          112
+        ],
+        "mountText": "73〜112cm",
+        "loadText": "50〜30kg",
+        "loadByWidth": "73cmで50kg・112cmで30kg",
+        "loadMinKg": 30,
+        "depthCm": 25.5,
+        "thicknessCm": 5.5,
+        "weightKg": 0.9,
+        "shape": "メッシュ",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力（TAI-20）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-20（2026-11-03 確認）",
+      "specs": {
+        "model": "TAI-20",
+        "mountRange": [
+          73,
+          112
+        ],
+        "mountText": "73〜112cm",
+        "loadText": "50〜30kg",
+        "loadByWidth": "73cmで50kg・112cmで30kg",
+        "loadMinKg": 30,
+        "depthCm": 25,
+        "thicknessCm": 5.5,
+        "weightKg": 0.95,
+        "shape": "公式に明記なし",
+        "endsStated": true
+      },
+      "note": "公式の仕様に「取付寸法」の欄がなく、商品サイズの幅を取付範囲とした。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力（TAI-2）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-2（2026-11-03 確認）",
+      "specs": {
+        "model": "TAI-2",
+        "mountRange": [
+          73,
+          112
+        ],
+        "mountText": "73〜112cm",
+        "loadText": "50〜30kg",
+        "loadByWidth": "73cmで50kg・112cmで30kg",
+        "loadMinKg": 30,
+        "depthCm": 28.5,
+        "thicknessCm": 5.5,
+        "weightKg": 1.1,
+        "shape": "公式に明記なし",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力（TAI-1B）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-1b（2026-11-03 確認）",
+      "specs": {
+        "model": "TAI-1B",
+        "mountRange": [
+          73,
+          112
+        ],
+        "mountText": "73〜112cm",
+        "loadText": "50〜30kg",
+        "loadByWidth": "73cmで50kg・112cmで30kg",
+        "loadMinKg": 30,
+        "depthCm": 25,
+        "thicknessCm": 5.5,
+        "weightKg": 1.1,
+        "shape": "公式に明記なし",
+        "endsStated": true
+      },
+      "note": "公式の仕様に「取付寸法」の欄がなく、商品サイズの幅を取付範囲とした。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力 ワイド メッシュ（TAI-17）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-17（2026-11-03 確認）",
+      "specs": {
+        "model": "TAI-17",
+        "mountRange": [
+          73,
+          112
+        ],
+        "mountText": "73〜112cm",
+        "loadText": "50〜30kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 30,
+        "depthCm": 32,
+        "thicknessCm": 5.5,
+        "weightKg": 1,
+        "shape": "メッシュ",
+        "endsStated": false
+      },
+      "note": "公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 超強力 ワイド メッシュ（RB-11）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-rb-11（2026-11-03 確認）",
+      "specs": {
+        "model": "RB-11",
+        "mountRange": [
+          75,
+          120
+        ],
+        "mountText": "75〜120cm",
+        "loadText": "60〜40kg",
+        "loadByWidth": "75cmで60kg・120cmで40kg",
+        "loadMinKg": 40,
+        "depthCm": 33.5,
+        "thicknessCm": 9,
+        "weightKg": 1.3,
+        "shape": "メッシュ",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 超強力 ワイド（RA-11）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-ra-11（2026-11-03 確認）",
+      "specs": {
+        "model": "RA-11",
+        "mountRange": [
+          75,
+          120
+        ],
+        "mountText": "75〜120cm",
+        "loadText": "60〜40kg",
+        "loadByWidth": "75cmで60kg・120cmで40kg",
+        "loadMinKg": 40,
+        "depthCm": 33.5,
+        "thicknessCm": 9,
+        "weightKg": 1.4,
+        "shape": "公式に明記なし",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 伸縮突っ張り棚 強力（KB-75）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-kb-75（2026-11-03 確認）",
+      "specs": {
+        "model": "KB-75",
+        "mountRange": [
+          75,
+          120
+        ],
+        "mountText": "75〜120cm",
+        "loadText": "25〜10kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 10,
+        "depthCm": 23.5,
+        "thicknessCm": 3.3,
+        "weightKg": 0.9,
+        "shape": "公式に明記なし",
+        "endsStated": false
+      },
+      "note": "公式の仕様に「取付寸法」の欄がなく、商品サイズの幅を取付範囲とした。 公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 メッシュ（TNR-LWH）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tnr-lwh（2026-11-03 確認）",
+      "specs": {
+        "model": "TNR-LWH",
+        "mountRange": [
+          95,
+          120
+        ],
+        "mountText": "95〜120cm",
+        "loadText": "20〜10kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 10,
+        "depthCm": 24,
+        "thicknessCm": 3.4,
+        "weightKg": 1.1,
+        "shape": "メッシュ",
+        "endsStated": false
+      },
+      "note": "公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力 ワイドメッシュ（TDW-LWH）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tdw-lwh（2026-11-03 確認）",
+      "specs": {
+        "model": "TDW-LWH",
+        "mountRange": [
+          95,
+          150
+        ],
+        "mountText": "95〜150cm",
+        "loadText": "45〜15kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 15,
+        "depthCm": 32,
+        "thicknessCm": 5.6,
+        "weightKg": 1.5,
+        "shape": "メッシュ",
+        "endsStated": false
+      },
+      "note": "公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力 メッシュ（TDR-LWH）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tdr-lwh（2026-11-03 確認）",
+      "specs": {
+        "model": "TDR-LWH",
+        "mountRange": [
+          95,
+          150
+        ],
+        "mountText": "95〜150cm",
+        "loadText": "45〜15kg",
+        "loadByWidth": "公式に明記なし",
+        "loadMinKg": 15,
+        "depthCm": 24,
+        "thicknessCm": 5.6,
+        "weightKg": 1.3,
+        "shape": "メッシュ",
+        "endsStated": false
+      },
+      "note": "公式の商品ページに、取付幅ごとの耐荷重の記載はない（参考耐荷重の範囲のみ）。"
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 強力（TAI-3）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-3（2026-11-03 確認）",
+      "specs": {
+        "model": "TAI-3",
+        "mountRange": [
+          108,
+          147
+        ],
+        "mountText": "108〜147cm",
+        "loadText": "40〜20kg",
+        "loadByWidth": "108cmで40kg・147cmで20kg",
+        "loadMinKg": 20,
+        "depthCm": 28.5,
+        "thicknessCm": 5.5,
+        "weightKg": 1.5,
+        "shape": "公式に明記なし",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 超強力 ワイド メッシュ（RB-12）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-rb-12（2026-11-03 確認）",
+      "specs": {
+        "model": "RB-12",
+        "mountRange": [
+          118,
+          190
+        ],
+        "mountText": "118〜190cm",
+        "loadText": "50〜18kg",
+        "loadByWidth": "118cmで50kg・190cmで18kg",
+        "loadMinKg": 18,
+        "depthCm": 33.5,
+        "thicknessCm": 9,
+        "weightKg": 1.8,
+        "shape": "メッシュ",
+        "endsStated": true
+      },
+      "note": ""
+    },
+    {
+      "name": "平安伸銅工業 突っ張り棚 超強力 ワイド（RA-12）",
+      "brand": "平安伸銅工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-ra-12（2026-11-03 確認）",
+      "specs": {
+        "model": "RA-12",
+        "mountRange": [
+          118,
+          190
+        ],
+        "mountText": "118〜190cm",
+        "loadText": "50〜20kg",
+        "loadByWidth": "118cmで50kg・190cmで20kg",
+        "loadMinKg": 20,
+        "depthCm": 33.5,
+        "thicknessCm": 9,
+        "weightKg": 2,
+        "shape": "公式に明記なし",
+        "endsStated": true
+      },
+      "note": ""
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "高い所に付けるときの脚立（使用最大高さで選ぶ）",
+      "href": "./stepladder.html"
+    },
+    {
+      "text": "壁と柱のすき間を埋めるコーキング",
+      "href": "./caulking.html"
+    }
+  ],
+  "sources": []
+}
