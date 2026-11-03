@@ -79,49 +79,73 @@
         ],
         "rows": [
           [
-            "ラブリコ 2×6アジャスター ライト（BXO-81［オフホワイト］・BXB-81）",
+            {
+              "text": "ラブリコ 2×6アジャスター ライト（BXO-81［オフホワイト］・BXB-81）",
+              "asin": "B09TR93391"
+            },
             "2×6材",
             "高さ2750mmまで",
             "15kgまで(柱1本あたり)"
           ],
           [
-            "ラブリコ 2×4アジャスター ライト（BXO-1［オフホワイト］・BXB-1）",
+            {
+              "text": "ラブリコ 2×4アジャスター ライト（BXO-1［オフホワイト］・BXB-1）",
+              "asin": "B09TR98T15"
+            },
             "2×4材",
             "高さ2750mmまで",
             "15kgまで(柱1本あたり)"
           ],
           [
-            "ラブリコ 1×4アジャスター アイアン（IXO-21［ホワイト］・IXK-21）",
+            {
+              "text": "ラブリコ 1×4アジャスター アイアン（IXO-21［ホワイト］・IXK-21）",
+              "asin": "B07B4YXXBM"
+            },
             "1×4材",
             "高さ1850mmまで",
             "10kg (柱一本当たり)"
           ],
           [
-            "ラブリコ 2×4アジャスター アイアン（IXO-1［ホワイト］・IXK-1）",
+            {
+              "text": "ラブリコ 2×4アジャスター アイアン（IXO-1［ホワイト］・IXK-1）",
+              "asin": "B07B4W2HTJ"
+            },
             "2×4材",
             "高さ2750mmまで",
             "20kg(柱一本当たり)"
           ],
           [
-            "ラブリコ 強力タイプ 2×4アジャスター (使用荷重40kg)（EXO-1［オフホワイト］・EXB-1）",
+            {
+              "text": "ラブリコ 強力タイプ 2×4アジャスター (使用荷重40kg)（EXO-1［オフホワイト］・EXB-1）",
+              "asin": "B083WKG6JH"
+            },
             "2×4材",
             "高さ2750mmまで",
             "40kg(自転車を掛ける場合は20kg)"
           ],
           [
-            "ラブリコ 2×4アジャスター STAPLER FIX（DXW-1［オフホワイト］・DXS-1・DXC-1）",
+            {
+              "text": "ラブリコ 2×4アジャスター STAPLER FIX（DXW-1［オフホワイト］・DXS-1・DXC-1）",
+              "asin": "B07CVBYX18"
+            },
             "2×4材",
             "高さ2750mmまで",
             "20kg (柱一本当たり)"
           ],
           [
-            "ラブリコ 1×4アジャスター（DXO-21［オフホワイト］・DXB-21・DXV-21）",
+            {
+              "text": "ラブリコ 1×4アジャスター（DXO-21［オフホワイト］・DXB-21・DXV-21）",
+              "asin": "B071HDY6Q4"
+            },
             "1×4材",
             "高さ1850mmまで（壁に平行に取り付ける場合、壁面から約25mmの距離が必要）",
             "縦方向使用時：10kgまで"
           ],
           [
-            "ラブリコ 2×4アジャスター（DXO-1［オフホワイト］・DXB-1・DXV-1・DXK-1）",
+            {
+              "text": "ラブリコ 2×4アジャスター（DXO-1［オフホワイト］・DXB-1・DXV-1・DXK-1）",
+              "asin": "B01HTRVZ0A"
+            },
             "2×4材",
             "高さ2750mmまで",
             "20kg (柱一本当たり)"
@@ -147,42 +171,60 @@
         ],
         "rows": [
           [
-            "LOWYA ポストン 突っ張り収納 幅45（F504_G1011）",
+            {
+              "text": "LOWYA ポストン 突っ張り収納 幅45（F504_G1011）",
+              "asin": "B0976T2MMY"
+            },
             "200〜260cm",
             "幅45×奥行32.5cm",
             "約11.6kg",
             "各棚板 約3kg、タップ収納（天板・内部合計）約2kg"
           ],
           [
-            "LOWYA ドアーツ 突っ張り本棚 幅60（RM22D）",
+            {
+              "text": "LOWYA ドアーツ 突っ張り本棚 幅60（RM22D）",
+              "asin": "B0DVKY3TWT"
+            },
             "219.6〜252cm",
             "幅60×奥行28cm",
             "約34.8kg",
             "上段固定棚 約13kg、中段固定棚 約15kg・約20kg、可動棚 約10kg、地板 約17.5kg"
           ],
           [
-            "LOWYA ラピスト 突っ張り収納 幅80（X7PGH）",
+            {
+              "text": "LOWYA ラピスト 突っ張り収納 幅80（X7PGH）",
+              "asin": "B09RK1KVNP"
+            },
             "200〜260cm",
             "幅80×奥行28.5cm",
             "約27.8kg",
             "棚板 約3kg、フック 約0.5kg"
           ],
           [
-            "LOWYA アーチメオリック 突っ張り収納 幅80（K3RJW）",
+            {
+              "text": "LOWYA アーチメオリック 突っ張り収納 幅80（K3RJW）",
+              "asin": "B0H354Z7S8"
+            },
             "206〜260cm",
             "幅80×奥行13.2cm",
             "約18.5kg",
             "全体 約7.5kg、各棚 約1.5kg"
           ],
           [
-            "LOWYA メオリック 突っ張り収納 幅80（F504_G1003）",
+            {
+              "text": "LOWYA メオリック 突っ張り収納 幅80（F504_G1003）",
+              "asin": "B08HN2XJNR"
+            },
             "206〜260cm",
             "幅80×奥行13cm",
             "約18kg",
             "全体 約7.5kg、各棚 約1.5kg"
           ],
           [
-            "LOWYA アプレント ミラー付き突っ張り棚 幅80（KCBNC）",
+            {
+              "text": "LOWYA アプレント ミラー付き突っ張り棚 幅80（KCBNC）",
+              "asin": "B09HRKX52R"
+            },
             "193〜260cm",
             "幅80×奥行10cm",
             "約21kg",
@@ -264,7 +306,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 隙間収納（SMR-23）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B00C1STJ1U",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-smr-23（2026-11-03 確認）",
       "specs": {
@@ -288,7 +330,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 隙間収納（SMR-13）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B00C1STJE2",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-smr-13（2026-11-03 確認）",
       "specs": {
@@ -312,7 +354,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 隙間収納（SMR-24）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B00C1STM5S",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-smr-24（2026-11-03 確認）",
       "specs": {
@@ -336,7 +378,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 隙間収納（SMR-14）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B00C1STJBU",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-smr-14（2026-11-03 確認）",
       "specs": {
@@ -360,7 +402,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚（TS-35）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B00DILSEV0",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-ts-35（2026-11-03 確認）",
       "specs": {
@@ -384,7 +426,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 メッシュ（TNR-S）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B0C42P6YJC",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tnr-s（2026-11-03 確認）",
       "specs": {
@@ -408,7 +450,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 スリムメッシュ（TNS-S）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B0C42NYM5H",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tns-s（2026-11-03 確認）",
       "specs": {
@@ -432,7 +474,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚（TS-45）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B002NHYOVE",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-ts-45（2026-11-03 確認）",
       "specs": {
@@ -456,7 +498,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力 ミニ（TAI-8）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B002WQJLIC",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-8（2026-11-03 確認）",
       "specs": {
@@ -480,7 +522,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力（TAI-5）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B000MU9OVY",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-5（2026-11-03 確認）",
       "specs": {
@@ -504,7 +546,7 @@
     {
       "name": "平安伸銅工業 伸縮突っ張り棚 強力（KB-63）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B005EP348Q",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-kb-63（2026-11-03 確認）",
       "specs": {
@@ -528,7 +570,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚（TS-65）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B002NIY10C",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-ts-65（2026-11-03 確認）",
       "specs": {
@@ -552,7 +594,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力 ワイドメッシュ（TDW-M）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B0C42FC2YC",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tdw-m（2026-11-03 確認）",
       "specs": {
@@ -576,7 +618,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力 メッシュ（TDR-M）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B0C42JYTJL",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tdr-m（2026-11-03 確認）",
       "specs": {
@@ -600,7 +642,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚（TPR-M）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B0C428GNVZ",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tpr-m（2026-11-03 確認）",
       "specs": {
@@ -624,7 +666,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 メッシュ（TNR-M）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B0C42CB7GN",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tnr-m（2026-11-03 確認）",
       "specs": {
@@ -648,7 +690,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 スリムメッシュ（TNS-M）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B0C4296399",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tns-m（2026-11-03 確認）",
       "specs": {
@@ -672,7 +714,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力 メッシュ（TAI-7）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B000MU9Q0I",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-7（2026-11-03 確認）",
       "specs": {
@@ -696,7 +738,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力（TAI-20）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B00I0N3Z3I",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-20（2026-11-03 確認）",
       "specs": {
@@ -720,7 +762,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力（TAI-2）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B000MU9OYQ",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-2（2026-11-03 確認）",
       "specs": {
@@ -744,7 +786,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力（TAI-1B）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B07WRLBJXG",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-1b（2026-11-03 確認）",
       "specs": {
@@ -768,7 +810,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力 ワイド メッシュ（TAI-17）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B002WQOWK4",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-17（2026-11-03 確認）",
       "specs": {
@@ -792,7 +834,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 超強力 ワイド メッシュ（RB-11）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B00392BWVW",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-rb-11（2026-11-03 確認）",
       "specs": {
@@ -816,7 +858,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 超強力 ワイド（RA-11）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B00392DP7G",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-ra-11（2026-11-03 確認）",
       "specs": {
@@ -840,7 +882,7 @@
     {
       "name": "平安伸銅工業 伸縮突っ張り棚 強力（KB-75）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B005MUEURC",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-kb-75（2026-11-03 確認）",
       "specs": {
@@ -864,7 +906,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 メッシュ（TNR-LWH）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B0DYN9HK7V",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tnr-lwh（2026-11-03 確認）",
       "specs": {
@@ -888,7 +930,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力 ワイドメッシュ（TDW-LWH）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B0DYNXQXT7",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tdw-lwh（2026-11-03 確認）",
       "specs": {
@@ -912,7 +954,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力 メッシュ（TDR-LWH）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B0DYMLGQBF",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tdr-lwh（2026-11-03 確認）",
       "specs": {
@@ -936,7 +978,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 強力（TAI-3）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B000MU9P1I",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-tai-3（2026-11-03 確認）",
       "specs": {
@@ -960,7 +1002,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 超強力 ワイド メッシュ（RB-12）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B0057KKR2E",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-rb-12（2026-11-03 確認）",
       "specs": {
@@ -984,7 +1026,7 @@
     {
       "name": "平安伸銅工業 突っ張り棚 超強力 ワイド（RA-12）",
       "brand": "平安伸銅工業",
-      "asin": null,
+      "asin": "B001CNIAE2",
       "verified": true,
       "source": "メーカー公式オンラインショップ https://ec.heianshindo.co.jp/products/heian-ra-12（2026-11-03 確認）",
       "specs": {

@@ -133,11 +133,20 @@ function sectionId(index) {
 }
 
 /** 本文の表（早見表など）。{ head: [...], rows: [[...], ...], note } */
-function renderSectionTable(table) {
+/** 本文の表の1列目。{ text, asin } のときは Amazon へのリンク（広告）にする。 */
+function sectionTableHead(cell, config) {
+  if (typeof cell === 'string') return `<th scope="row">${escapeHtml(cell)}</th>`;
+  if (!cell.asin) return `<th scope="row">${escapeHtml(cell.text)}</th>`;
+  const url = buildAffiliateUrl({ asin: cell.asin, tag: config.associateTag, domain: config.marketplace });
+  return `<th scope="row"><a class="product-name" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(cell.text)}</a>
+              <a class="cta-small" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(config.ctaLabel ?? 'Amazonで見る')}</a></th>`;
+}
+
+function renderSectionTable(table, config) {
   if (!table) return '';
   const head = table.head.map((label) => `<th scope="col">${escapeHtml(label)}</th>`).join('');
   const rows = table.rows
-    .map((row) => `<tr>${row.map((cell, index) => (index === 0 ? `<th scope="row">${escapeHtml(cell)}</th>` : `<td data-label="${escapeHtml(table.head[index])}">${escapeHtml(cell)}</td>`)).join('')}</tr>`)
+    .map((row) => `<tr>${row.map((cell, index) => (index === 0 ? sectionTableHead(cell, config) : `<td data-label="${escapeHtml(table.head[index])}">${escapeHtml(cell)}</td>`)).join('')}</tr>`)
     .join('\n            ');
   return `<div class="table-scroll quick-table">
           <table>
@@ -149,14 +158,14 @@ function renderSectionTable(table) {
         </div>${table.note ? `\n        <p class="small">${escapeHtml(table.note)}</p>` : ''}`;
 }
 
-function renderSections(sections) {
+function renderSections(sections, config) {
   return sections
     .map(
       (section, index) => `      <section id="${sectionId(index)}">
         <h2 class="numbered"><span class="no" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>${escapeHtml(section.heading)}</h2>
         ${(section.paragraphs ?? []).map((text) => `<p>${highlightNumbers(text)}</p>`).join('\n        ')}
         ${list(section.list)}
-        ${renderSectionTable(section.table)}
+        ${renderSectionTable(section.table, config)}
       </section>`,
     )
     .join('\n\n');
@@ -398,7 +407,7 @@ ${renderToc(article, Boolean(chart))}
 
 ${renderExclusions(article.excludeReaders)}
 
-${renderSections(article.sections)}
+${renderSections(article.sections, config)}
 
 ${chart}
 

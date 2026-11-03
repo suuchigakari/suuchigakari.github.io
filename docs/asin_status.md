@@ -329,3 +329,60 @@
 | adhesive | コニシ ボンド ウルトラ多用途SU プレミアムクイック | B08RCYKYL6 | 産業・研究開発用品 |
 | adhesive | コニシ ボンド ウルトラ多用途SU プレミアムソフト | B005SNFU68 | 産業・研究開発用品 |
 | adhesive | コニシ ボンド ウルトラ多用途SU プレミアムハード | B005SO23SK | 産業・研究開発用品 |
+
+## 2026-11-03 突っ張り棚（tension-shelf）に設定した45件
+
+運営者が Claude in Chrome で確認（`docs/sources/tension_shelf_amazon_2026-11-03.csv`）。
+
+- 平安伸銅工業の突っ張り棚31件は、すべてブランド欄「平安伸銅工業」・タイトルの型番が公式と一致。カテゴリは30件が「ホーム＆キッチン › 収納用品 › つっぱり棒・つっぱり棚」、TNS-M だけ「ホーム＆キッチン › 家具 › 収納家具 › オープンシェルフ・ラック」。記事の料率は 3.00%（ホーム＆キッチン）
+- ラブリコ8件（本文の表）は Amazon の型番が色ごとの公式型番（BXO-81・IXK-21 など）。カテゴリは「DIY・工具・ガーデン」5件・「ホーム＆キッチン」2件・「DIY・工具・ガーデン › 建築金物」1件（STAPLER FIX）。DIY・工具・ガーデンの料率は未確認
+- STAPLER FIX は確認表の JAN が通常版のものだった（2026-11-03 に修正済み）。Amazon の出品は DXW-1（B07CVBYX18）で、公式の STAPLER FIX の型番と一致
+- LOWYA 6件（本文の表）は Amazon に LOWYA の商品番号の表記がなく、出品者 LOWYA・名称・幅（ドアーツは高さも）で照合。Amazon の「商品コード」は公式サイトの商品番号と別の体系
+
+| 記事 | 商品 | ASIN | カテゴリ |
+|---|---|---|---|
+| tension-shelf | 平安伸銅工業 突っ張り棚 隙間収納（SMR-23） | B00C1STJ1U | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 隙間収納（SMR-13） | B00C1STJE2 | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 隙間収納（SMR-24） | B00C1STM5S | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 隙間収納（SMR-14） | B00C1STJBU | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚（TS-35） | B00DILSEV0 | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 メッシュ（TNR-S） | B0C42P6YJC | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 スリムメッシュ（TNS-S） | B0C42NYM5H | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚（TS-45） | B002NHYOVE | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力 ミニ（TAI-8） | B002WQJLIC | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力（TAI-5） | B000MU9OVY | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 伸縮突っ張り棚 強力（KB-63） | B005EP348Q | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚（TS-65） | B002NIY10C | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力 ワイドメッシュ（TDW-M） | B0C42FC2YC | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力 メッシュ（TDR-M） | B0C42JYTJL | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚（TPR-M） | B0C428GNVZ | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 メッシュ（TNR-M） | B0C42CB7GN | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 スリムメッシュ（TNS-M） | B0C4296399 | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力 メッシュ（TAI-7） | B000MU9Q0I | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力（TAI-20） | B00I0N3Z3I | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力（TAI-2） | B000MU9OYQ | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力（TAI-1B） | B07WRLBJXG | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力 ワイド メッシュ（TAI-17） | B002WQOWK4 | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 超強力 ワイド メッシュ（RB-11） | B00392BWVW | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 超強力 ワイド（RA-11） | B00392DP7G | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 伸縮突っ張り棚 強力（KB-75） | B005MUEURC | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 メッシュ（TNR-LWH） | B0DYN9HK7V | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力 ワイドメッシュ（TDW-LWH） | B0DYNXQXT7 | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力 メッシュ（TDR-LWH） | B0DYMLGQBF | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 強力（TAI-3） | B000MU9P1I | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 超強力 ワイド メッシュ（RB-12） | B0057KKR2E | ホーム＆キッチン |
+| tension-shelf | 平安伸銅工業 突っ張り棚 超強力 ワイド（RA-12） | B001CNIAE2 | ホーム＆キッチン |
+| tension-shelf | ラブリコ 2×6アジャスター ライト（BX-81） | B09TR93391 | ホーム＆キッチン |
+| tension-shelf | ラブリコ 2×4アジャスター ライト（BX-1） | B09TR98T15 | ホーム＆キッチン |
+| tension-shelf | ラブリコ 1×4アジャスター アイアン（IX-21） | B07B4YXXBM | DIY・工具・ガーデン |
+| tension-shelf | ラブリコ 2×4アジャスター アイアン（IX-1） | B07B4W2HTJ | DIY・工具・ガーデン |
+| tension-shelf | ラブリコ 強力タイプ 2×4アジャスター (使用荷重40kg)（EX-1） | B083WKG6JH | DIY・工具・ガーデン |
+| tension-shelf | ラブリコ 2×4アジャスター STAPLER FIX（DXW-1） | B07CVBYX18 | DIY・工具・ガーデン |
+| tension-shelf | ラブリコ 1×4アジャスター（DX-21） | B071HDY6Q4 | DIY・工具・ガーデン |
+| tension-shelf | ラブリコ 2×4アジャスター（DX-1） | B01HTRVZ0A | DIY・工具・ガーデン |
+| tension-shelf | LOWYA ポストン 突っ張り収納 幅45 | B0976T2MMY | ホーム＆キッチン |
+| tension-shelf | LOWYA ドアーツ 突っ張り本棚 幅60 | B0DVKY3TWT | ホーム＆キッチン |
+| tension-shelf | LOWYA ラピスト 突っ張り収納 幅80 | B09RK1KVNP | ホーム＆キッチン |
+| tension-shelf | LOWYA アーチメオリック 突っ張り収納 幅80 | B0H354Z7S8 | ホーム＆キッチン |
+| tension-shelf | LOWYA メオリック 突っ張り収納 幅80 | B08HN2XJNR | ホーム＆キッチン |
+| tension-shelf | LOWYA アプレント ミラー付き突っ張り棚 幅80 | B09HRKX52R | ホーム＆キッチン |
