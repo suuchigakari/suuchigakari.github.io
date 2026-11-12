@@ -8,5 +8,15 @@
   "disclosure": "【PR】本サイトはプロモーション（広告）を含みます。Amazonのアソシエイトとして、数値で選ぶ比較ノートは適格販売により収入を得ています。記事内の商品リンクはアフィリエイトリンクです。",
   "ctaLabel": "Amazonで価格を見る",
   "priceNote": "価格・在庫は変動し、セール期間中は価格が変わることがあります。購入前に Amazon の商品ページで最新の価格をご確認ください。",
-  "saleNotice": null
+  "saleNotice": null,
+  "featured": {
+    "heading": "検索でよく見られている記事",
+    "slugs": [
+      "stepladder",
+      "lcc-carrycase",
+      "mobile-battery"
+    ],
+    "checkedOn": "2026-11-12",
+    "source": "Google Search Console の表示回数（過去3か月）"
+  }
 }

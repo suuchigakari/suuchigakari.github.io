@@ -24,6 +24,7 @@ import { renderSaleNotice, todayIso } from '../src/sale.js';
 import { renderPromos } from '../src/promo.js';
 import { categoryIcon, categoryOf, highlightNumbers, CATEGORIES } from '../src/theme.js';
 import { chartRows, chartSpec } from '../src/chart.js';
+import { articleSeo, homeSeo, lastCheckedFact } from '../src/seo.js';
 import { illustration, illustrationDefs, illustrationKey } from '../src/illustrations.js';
 import {
   FIT,
@@ -224,7 +225,7 @@ function renderHero(article, category, count) {
         <h1>${escapeHtml(article.title)}</h1>
         <ul class="hero-facts">
           <li><strong>${count}</strong>件を比較</li>
-          <li><strong>${escapeHtml(article.asOf)}</strong>確認</li>
+          ${lastCheckedFact(article.asOf)}
           <li>数値は<strong>メーカー公式</strong>のみ</li>
         </ul>
       </div>
@@ -383,6 +384,7 @@ function renderArticle(article, config) {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>${escapeHtml(article.title)}</title>
     <meta name="description" content="${escapeHtml(article.description)}" />
+    ${articleSeo({ title: article.title, description: article.description, slug: article.slug, asOf: article.asOf, config })}
     <link rel="stylesheet" href="../assets/style.css" />
     <link rel="stylesheet" href="../assets/article.css" />
   </head>
@@ -465,7 +467,7 @@ function renderIndex(entries, config) {
               <span class="card-genre">${escapeHtml(entry.genre)}</span>
               <h3>${escapeHtml(entry.title)}</h3>
               <p class="summary">${escapeHtml(entry.description)}</p>
-              <span class="card-meta"><strong>${entry.productCount}</strong>件を比較 ・ ${escapeHtml(entry.asOf)} 確認</span>
+              <span class="card-meta"><strong>${entry.productCount}</strong>件を比較 ・ 最終確認 ${escapeHtml(entry.asOf)}</span>
             </a>
           </article>`;
   const groups = Object.entries(CATEGORIES)
@@ -485,11 +487,25 @@ ${items.map((entry) => card(entry, key)).join('\n')}
     .filter(([key]) => entries.some((entry) => categoryOf(entry.slug).key === key))
     .map(([key, category]) => `<a class="chip cat-${key}" href="#cat-${key}">${categoryIcon(key, 18)}${escapeHtml(category.label)}</a>`)
     .join('\n          ');
+  // 検索でよく見られている記事（site.config.json の featured）。カテゴリ一覧の前に出す。
+  const featuredEntries = (config.featured?.slugs ?? [])
+    .map((slug) => entries.find((entry) => entry.slug === slug))
+    .filter(Boolean);
+  const featured = featuredEntries.length
+    ? `      <section class="cat-group featured" id="featured" aria-label="${escapeHtml(config.featured.heading)}">
+        <h2 class="cat-heading">${escapeHtml(config.featured.heading)}</h2>
+        <div class="grid">
+${featuredEntries.map((entry) => card(entry, categoryOf(entry.slug).key)).join('\n')}
+        </div>
+      </section>
+
+`
+    : '';
   const cards = `      <nav class="chips" aria-label="カテゴリ">
           ${jump}
       </nav>
 
-${groups}`;
+${featured}${groups}`;
 
   return `<!doctype html>
 <html lang="ja">
@@ -497,7 +513,8 @@ ${groups}`;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>${escapeHtml(config.siteName)}</title>
-    <meta name="description" content="${escapeHtml(config.tagline)}" />${
+    <meta name="description" content="${escapeHtml(config.tagline)}" />
+    ${homeSeo(config)}${
       config.googleSiteVerification
         ? `\n    <meta name="google-site-verification" content="${escapeHtml(config.googleSiteVerification)}" />`
         : ''
@@ -547,14 +564,32 @@ ${cards}
 `;
 }
 
+// テンプレートの <title> と meta description を OGP・構造化データにも使う（二重管理しない）。
+const unescapeHtml = (text) =>
+  text.replaceAll('&quot;', '"').replaceAll('&#39;', "'").replaceAll('&lt;', '<').replaceAll('&gt;', '>').replaceAll('&amp;', '&');
+function pageTitle(template) {
+  return unescapeHtml(template.match(/<title>([^<]*)<\/title>/)[1].trim());
+}
+function pageDescription(template) {
+  return unescapeHtml(template.match(/<meta\s+name="description"\s+content="([^"]*)"/)[1].trim());
+}
+
 /** LCC記事のテンプレートの {{名前}} を埋める。 */
-function renderLccPage(template, airlineData, luggageData, config) {
+function renderLccPage(template, airlineData, luggageData, config, listEntry) {
   const airlines = airlineData.airlines;
   const airlineParts = renderAirlines(airlineData);
   const productParts = renderProducts(luggageData, airlines, config);
   const checker = renderChecker(airlines, CHECKER_DEFAULTS);
   const values = {
     siteName: escapeHtml(config.siteName),
+    seoHead: articleSeo({
+      title: pageTitle(template),
+      description: pageDescription(template),
+      slug: 'lcc-carrycase',
+      asOf: listEntry.asOf,
+      config,
+    }),
+    lastChecked: lastCheckedFact(listEntry.asOf),
     disclosure: escapeHtml(config.disclosure),
     priceNote: escapeHtml(config.priceNote),
     saleNotice: renderSaleNotice(config.saleNotice, todayIso(), '../assets/sale-notice.js'),
@@ -628,6 +663,7 @@ await writeFile(
     airlineData,
     luggageData,
     config,
+    (await readJson('data/article-list.json')).articles.find((entry) => entry.slug === 'lcc-carrycase'),
   ),
 );
 console.log(`生成: articles/lcc-carrycase.html （掲載 ${luggageListed.length} 件）`);

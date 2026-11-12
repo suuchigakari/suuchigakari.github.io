@@ -63,4 +63,7 @@ Amazonアソシエイト向けの商品比較サイトです。ジャンル選�
 - キャリーケース以外で航空会社の規定を判定する記事（例：`lcc-backpack`）は、記事 JSON に `"airlineFit": { "group": "LCC" }` を書き、商品の `specs.outerCm`（高さ・幅・奥行）と `weightKg` を入れる。ビルド時に `src/luggage.js` の `fittingAirlines` で「収まる会社」を計算する。航空会社の規定を記事 JSON に書き写さない。
 - 仕様から計算できる値（例：ウォータージャグの満水時の重さ＝容量＋本体重量）は、記事 JSON の `"derivedSpecs": ["filledWeightKg"]` で指定し、計算は `src/fit.js` に置く。元の値が「公式に明記なし」なら計算結果も null にする（推定しない）。
 - **見た目**：記事はカテゴリごとの色と線画アイコンで見分ける（`src/theme.js`）。新しい記事を足したら `ARTICLE_CATEGORY` に slug を追加する（未設定だとビルドとテストが止まる）。商品画像の代わりに、自前の SVG アイコンと「数字で見る」棒グラフ（`src/chart.js`）を使う。棒グラフは絞り込みの最初の数値入力の仕様を並べ、合わないときは記事 JSON の `"chart"`（`key`・`label`・`unit`・`order`・`note`、出さないなら `false`）で上書きする。本文・結論の「数字＋単位」は自動で太字の色付きになる。商品ごとに種類のイラスト（`src/illustrations.js`、素材の色と陰影で描いた自前の SVG。陰影の定義は `illustrationDefs()` で各ページに1回だけ埋め込む）を出す。実物の形・色・ロゴは写さず、表の上に「図は種類のイメージ」と表示する。新しい記事は `BY_ARTICLE` に図を足す（テストで確認）。スマホでは比較表が1商品1カードに切り替わる（CSS のみ）。
+- **検索エンジン向けのタグ**：正規URL・OGP・構造化データ（Article／BreadcrumbList、トップは WebSite）は `src/seo.js` がビルド時に全ページへ入れる。`dateModified` とページ上部の「最終確認」は記事の `asOf`（YYYY-MM-DD のときだけ構造化データに出す）。LCC記事はテンプレートの `<title>`・meta description と `data/article-list.json` の `asOf` を使う。og:image は出さない（商品画像を使えないため）。
+- **トップの「検索でよく見られている記事」**は `site.config.json` の `featured`（`slugs`・`checkedOn`・`source`）。Search Console の表示回数で選び、定期点検でスクショをもらったら入れ替える。
+- **「AとBの違い」を答える表**（例：長谷川工業 RS と RD）は、公式の仕様表・説明文で確かめた違いだけを書く。価格の違いは書かない。本文の表のセルは `\n` で改行できる。
 - 変更したら `npm test` を通し、`npm run build` の差分もコミットする。
