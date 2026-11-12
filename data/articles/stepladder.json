@@ -3,20 +3,20 @@
   "genre": "脚立（DIY・家庭用）",
   "genreNumber": 42,
   "commissionRate": "4.00%",
-  "title": "脚立は「天板の高さ」ではなく「使用最大高さ」で選ぶ｜長谷川工業・アルインコ・ホームセンター3社の25台を比較",
-  "description": "脚立のカタログにある「天板の高さ」と、実際に足を乗せてよい「使用最大高さ」は、製品によって30cm違います。長谷川工業・アルインコと、コメリ・DCM・コーナンの自社ブランドの家庭向け脚立25台を、メーカー公式の天板高さ・使用最大高さ・最大使用質量・重さで比べました。",
+  "title": "脚立は「天板の高さ」ではなく「使用最大高さ」で選ぶ｜長谷川工業・アルインコ・ホームセンター3社の35台を比較",
+  "description": "脚立のカタログにある「天板の高さ」と、実際に足を乗せてよい「使用最大高さ」は、製品によって30cm違います。長谷川工業とアルインコの違いを同じ高さどうしで並べ、コメリ・DCM・コーナンの自社ブランドも含めた家庭向け脚立35台（天板0.5〜1.4m）を、メーカー公式の天板高さ・使用最大高さ・最大使用質量・重さで比べました。",
   "keywords": [
     "脚立 比較",
     "脚立 使用最大高さ",
     "脚立 DIY 選び方"
   ],
-  "asOf": "2026-10-24",
+  "asOf": "2026-11-12",
   "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
   "lead": "脚立を選ぶとき、商品名やカタログで目立つのは「天板の高さ」です。ところが、はしご兼用脚立などの多くは天板に立つことができず、足を乗せてよいのは天板より1段下までです。メーカーはこれを「使用最大高さ」（アルインコは「有効高さ」）として別に書いています。電球交換や棚の取り付けで「どの高さに立てるか」を基準に、長谷川工業とアルインコの家庭向け脚立を、メーカー公式の数値で並べました。",
   "excludeReaders": [
     {
       "who": "2mを超える高さの作業をする人",
-      "why": "このページは天板の高さが1.2m前後までの家庭向け脚立を比べています。高所作業用の脚立や足場台は別の製品です"
+      "why": "このページは天板の高さが1.4m前後までの家庭向け脚立を比べています。高所作業用の脚立や足場台は別の製品です"
     },
     {
       "who": "ピカコーポレイションの脚立を比べたい人",
@@ -24,12 +24,90 @@
     }
   ],
   "conclusion": [
+    "長谷川工業とアルインコを同じ高さで比べると、はしご兼用脚立はアルインコ（MR-W・KUR）のほうが軽い。1.4m級で長谷川工業 RD-15c が5.8kg、アルインコ MR150W が5.2kg。最大使用質量130kgのものは長谷川工業（RAX・脚軽・強力ミニ脚立）にある",
     "「天板の高さ」ではなく「使用最大高さ」で選ぶ。はしご兼用脚立（アルインコ MR60W を除く）と、アルインコの専用脚立シエロ（MSS-FX・BS-FX）、長谷川工業の脚軽 RZ-12c は、使用最大高さが天板より30〜31cm低い",
     "天板まで立てるのは、長谷川工業の脚軽（RZ-06c・RZ-09c）と強力ミニ脚立（RM-50a・RM-75a）、アルインコ MR60W。コメリの上枠付きステップラダーも説明文に「天板に立つと」とある。脚軽の RZ-12c は天板1.09mに対して使用最大高さ0.79m",
-    "最大使用質量は長谷川工業の脚軽・強力ミニ脚立が130kg、ほかは100kg",
-    "はしごとしても使いたいなら、はしご兼用脚立（長谷川工業 RS・RD、アルインコ MR-W・KUR・MXA-W、コーナン HKK、DCM の伸縮脚付き）。0.9m級で、はしごにしたときの長さは1.71〜1.75m"
+    "最大使用質量は長谷川工業の脚軽・強力ミニ脚立・RAX が130kg、ほかは100kg",
+    "はしごとしても使いたいなら、はしご兼用脚立（長谷川工業 RS・RD・RAX、アルインコ MR-W・KUR・MXA-W、コーナン HKK、DCM の伸縮脚付き）。0.9m級で、はしごにしたときの長さは1.70〜1.75m"
   ],
   "sections": [
+    {
+      "heading": "アルインコと長谷川工業の違い（同じ高さで比べる）",
+      "paragraphs": [
+        "「アルインコと長谷川工業、どちらがいいか」は、同じ天板の高さどうしで比べると違いが見えます。下の表は、両社の家庭向けの主なシリーズを、メーカー公式の仕様で並べたものです。",
+        "はしご兼用脚立の重さは、同じ高さならアルインコの MR-W・KUR が最も軽く、長谷川工業の RD がその次です。長谷川工業の RAX は重くなる代わりに最大使用質量が130kgです。天板と使用最大高さは、両社ともほぼ同じ（天板より30cm前後低い段まで）です。"
+      ],
+      "table": {
+        "head": [
+          "比べる点",
+          "長谷川工業",
+          "アルインコ"
+        ],
+        "rows": [
+          [
+            "使用最大高さの呼び方",
+            "使用最大高さ",
+            "有効高さ（使用最大高さ）"
+          ],
+          [
+            "はしご兼用脚立のシリーズ（この記事に掲載）",
+            "RS・RD・RAX",
+            "MR-W・KUR（黒）・MXA-W"
+          ],
+          [
+            "専用脚立のシリーズ（この記事に掲載）",
+            "脚軽 RZ・強力ミニ脚立 RM",
+            "シエロ MSS-FX・BS-FX（黒）"
+          ],
+          [
+            "0.8m級はしご兼用脚立の重さ",
+            "RD-09c 3.6kg\nRS-09c 3.8kg\nRAX-09d 5kg",
+            "MR90W・KUR90 3.1kg\nMXA-90W 3.4kg"
+          ],
+          [
+            "1.1m級はしご兼用脚立の重さ",
+            "RD-12c 4.5kg\nRS-12c 4.7kg\nRAX-12d 5.9kg",
+            "MR120W・KUR120 3.9kg\nMXA-120W 4.2kg"
+          ],
+          [
+            "1.4m級はしご兼用脚立の重さ",
+            "RD-15c 5.8kg\nRS-15c 6.1kg\nRAX-15d 6.9kg",
+            "MR150W・KUR150 5.2kg\nMXA-150W 5.6kg"
+          ],
+          [
+            "1.4m級のはしご時の長さ",
+            "RS-15c・RD-15c 2.94m\nRAX-15d 2.93m",
+            "MR150W・KUR150・MXA-150W 2.99m"
+          ],
+          [
+            "最大使用質量",
+            "RS・RD 100kg\nRAX・脚軽・強力ミニ脚立 130kg",
+            "掲載の全製品 100kg"
+          ],
+          [
+            "踏ざんの幅（公式の記載）",
+            "RS・RD 60mm（RAX は「幅広」とだけ記載）",
+            "MR-W・KUR 52mm\nMXA-W 60mm"
+          ],
+          [
+            "たたんだときの厚さ",
+            "RS・RD 17cm\nRAX 20cm",
+            "MR-W・KUR・MXA-W 16.3〜16.9cm\nシエロ 12.6cm"
+          ],
+          [
+            "天板まで立てる製品",
+            "脚軽 RZ-06c・RZ-09c、強力ミニ脚立 RM-50a・RM-75a",
+            "MR60W"
+          ],
+          [
+            "規格のマーク（公式ページの記載）",
+            "RS・RD・RAX にマークの表記、脚軽は「シリーズ全てJIS適合品」",
+            "確認したページに記載なし"
+          ]
+        ],
+        "note": "重さ・長さ・厚さはメーカー公式の仕様表の値（2026-11-12 確認）。踏ざんの幅は公式ページの説明文に書かれた値です。"
+      }
+    },
     {
       "heading": "天板の高さと「使用最大高さ」は別の数値",
       "paragraphs": [
@@ -41,21 +119,21 @@
     {
       "heading": "最大使用質量は100kgか130kg",
       "paragraphs": [
-        "最大使用質量（乗る人と持つ道具の合計の上限）は、長谷川工業の脚軽と強力ミニ脚立が130kg、はしご兼用脚立 RS・RD とアルインコの各製品が100kgでした。",
+        "最大使用質量（乗る人と持つ道具の合計の上限）は、長谷川工業の脚軽・強力ミニ脚立とはしご兼用脚立 RAX が130kg、はしご兼用脚立 RS・RD とアルインコの各製品が100kgでした。",
         "工具や材料を持って乗る場合は、体重だけでなく持つものの重さも含めて考えます。"
       ]
     },
     {
       "heading": "重さと収納時のサイズ",
       "paragraphs": [
-        "0.8m級（天板）の重さは、アルインコのシエロ MSS90FX・BS90FX と長谷川工業の強力ミニ脚立 RM-75a が2.7kg、アルインコ MR90W・KUR90 が3.1kg、長谷川工業の脚軽 RZ-09c とアルインコ MXA-90W が3.4kg、RD-09c が3.6kg、RS-09c が3.8kgです。",
-        "収納時の奥行（たたんだ厚さ）は、アルインコのシエロ（MSS-FX・BS-FX）が12.6cmと最も薄く、ほかは16〜17cmでした。アルインコの MXA-W は、踏ざんの幅が60mmの幅広です（片面のみ）。"
+        "0.8m級（天板）の重さは、アルインコのシエロ MSS90FX・BS90FX と長谷川工業の強力ミニ脚立 RM-75a が2.7kg、アルインコ MR90W・KUR90 が3.1kg、長谷川工業の脚軽 RZ-09c とアルインコ MXA-90W が3.4kg、RD-09c が3.6kg、RS-09c が3.8kg、RAX-09d が5kgです。1.4m級では、アルインコのシエロ MSS150FX・BS150FX が4.2kg、MR150W・KUR150 が5.2kg、MXA-150W が5.6kg、長谷川工業の RD-15c が5.8kg、RS-15c が6.1kg、RAX-15d が6.9kgです。",
+        "収納時の奥行（たたんだ厚さ）は、アルインコのシエロ（MSS-FX・BS-FX）が12.6cmと最も薄く、RAX が20cm、ほかは16〜17cmでした。アルインコの MXA-W は、踏ざんの幅が60mmの幅広です（片面のみ）。"
       ]
     },
     {
       "heading": "規格のマーク",
       "paragraphs": [
-        "長谷川工業の RS・RD は、公式ページに日本産業規格（JIS）・製品安全協会（SG）・軽金属製品協会のマークが載っています。脚軽は公式に「シリーズ全てJIS適合品」とあります。強力ミニ脚立とアルインコの各製品は、確認したページに規格の記載がありませんでした。"
+        "長谷川工業の RS・RD は、公式ページに日本産業規格（JIS）・製品安全協会（SG）・軽金属製品協会のマークが載っています。RAX は日本産業規格と軽金属製品協会のマークです。脚軽は公式に「シリーズ全てJIS適合品」とあります。強力ミニ脚立とアルインコの各製品は、確認したページに規格の記載がありませんでした。"
       ]
     },
     {
@@ -78,7 +156,7 @@
         "unit": "m",
         "default": 0.5,
         "min": 0.3,
-        "max": 1.0,
+        "max": 1.2,
         "step": 0.05
       },
       {
@@ -286,6 +364,26 @@
       }
     },
     {
+      "name": "長谷川工業 RS-15c",
+      "brand": "長谷川工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.hasegawa-kogyo.co.jp/product/RS （2026-11-12 確認）",
+      "specs": {
+        "type": "はしご兼用脚立",
+        "topM": 1.4,
+        "standM": 1.1,
+        "standOnTop": false,
+        "ladderM": 2.94,
+        "footprintCm": "幅57×奥行92cm",
+        "foldedCm": "幅57×奥行17×高さ149cm",
+        "weightKg": 6.1,
+        "maxLoadKg": 100,
+        "standards": "日本産業規格・製品安全協会・軽金属製品協会のマーク（公式の表記）",
+        "standOnTopText": "天板より30cm低い段まで"
+      }
+    },
+    {
       "name": "長谷川工業 RD-09c",
       "brand": "長谷川工業",
       "asin": "B09Q5MX279",
@@ -324,6 +422,89 @@
         "standards": "日本産業規格・製品安全協会・軽金属製品協会のマーク（公式の表記）",
         "standOnTopText": "天板より30cm低い段まで"
       }
+    },
+    {
+      "name": "長谷川工業 RD-15c",
+      "brand": "長谷川工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.hasegawa-kogyo.co.jp/product/RD （2026-11-12 確認）",
+      "specs": {
+        "type": "はしご兼用脚立",
+        "topM": 1.4,
+        "standM": 1.1,
+        "standOnTop": false,
+        "ladderM": 2.94,
+        "footprintCm": "幅57×奥行92cm",
+        "foldedCm": "幅57×奥行17×高さ149cm",
+        "weightKg": 5.8,
+        "maxLoadKg": 100,
+        "standards": "日本産業規格・製品安全協会・軽金属製品協会のマーク（公式の表記）",
+        "standOnTopText": "天板より30cm低い段まで"
+      }
+    },
+    {
+      "name": "長谷川工業 RAX-09d",
+      "brand": "長谷川工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.hasegawa-kogyo.co.jp/product/RAX （2026-11-12 確認）",
+      "specs": {
+        "type": "はしご兼用脚立",
+        "topM": 0.8,
+        "standM": 0.5,
+        "standOnTop": false,
+        "ladderM": 1.7,
+        "footprintCm": "幅46×奥行63cm",
+        "foldedCm": "幅46×奥行20×高さ87cm",
+        "weightKg": 5.0,
+        "maxLoadKg": 130,
+        "standards": "日本産業規格・軽金属製品協会のマーク（公式の表記）",
+        "standOnTopText": "天板より30cm低い段まで"
+      },
+      "note": "公式に「耐久性に優れるプロ用」。"
+    },
+    {
+      "name": "長谷川工業 RAX-12d",
+      "brand": "長谷川工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.hasegawa-kogyo.co.jp/product/RAX （2026-11-12 確認）",
+      "specs": {
+        "type": "はしご兼用脚立",
+        "topM": 1.1,
+        "standM": 0.8,
+        "standOnTop": false,
+        "ladderM": 2.31,
+        "footprintCm": "幅51×奥行79cm",
+        "foldedCm": "幅51×奥行20×高さ118cm",
+        "weightKg": 5.9,
+        "maxLoadKg": 130,
+        "standards": "日本産業規格・軽金属製品協会のマーク（公式の表記）",
+        "standOnTopText": "天板より30cm低い段まで"
+      },
+      "note": "公式に「耐久性に優れるプロ用」。"
+    },
+    {
+      "name": "長谷川工業 RAX-15d",
+      "brand": "長谷川工業",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://www.hasegawa-kogyo.co.jp/product/RAX （2026-11-12 確認）",
+      "specs": {
+        "type": "はしご兼用脚立",
+        "topM": 1.4,
+        "standM": 1.09,
+        "standOnTop": false,
+        "ladderM": 2.93,
+        "footprintCm": "幅57×奥行95cm",
+        "foldedCm": "幅57×奥行20×高さ149cm",
+        "weightKg": 6.9,
+        "maxLoadKg": 130,
+        "standards": "日本産業規格・軽金属製品協会のマーク（公式の表記）",
+        "standOnTopText": "天板より31cm低い段まで"
+      },
+      "note": "公式に「耐久性に優れるプロ用」。"
     },
     {
       "name": "アルインコ MR60W",
@@ -389,6 +570,27 @@
       "note": "使用最大高さは公式の「有効高さ」。"
     },
     {
+      "name": "アルインコ MR150W",
+      "brand": "アルインコ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://alinco.co.jp/housing/product/detail/MR-W/ （2026-11-12 確認）",
+      "specs": {
+        "type": "はしご兼用脚立",
+        "topM": 1.41,
+        "standM": 1.11,
+        "standOnTop": false,
+        "ladderM": 2.99,
+        "footprintCm": "幅57.6×奥行103.6cm",
+        "foldedCm": "幅57.6×奥行16.9×高さ150.8cm",
+        "weightKg": 5.2,
+        "maxLoadKg": 100,
+        "standards": "公式に記載なし",
+        "standOnTopText": "天板より30cm低い段まで"
+      },
+      "note": "使用最大高さは公式の「有効高さ」。"
+    },
+    {
       "name": "アルインコ KUR90（ブラック）",
       "brand": "アルインコ",
       "asin": "B0CHM7QWPS",
@@ -431,6 +633,26 @@
       "note": "MR120W と同じ寸法のブラック版。"
     },
     {
+      "name": "アルインコ KUR150（ブラック）",
+      "brand": "アルインコ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://alinco.co.jp/housing/product/detail/KUR/ （2026-11-12 確認）",
+      "specs": {
+        "type": "はしご兼用脚立",
+        "topM": 1.41,
+        "standM": 1.11,
+        "standOnTop": false,
+        "ladderM": 2.99,
+        "footprintCm": "幅57.6×奥行103.6cm",
+        "foldedCm": "幅57.6×奥行16.9×高さ150.8cm",
+        "weightKg": 5.2,
+        "maxLoadKg": 100,
+        "standards": "公式に記載なし",
+        "standOnTopText": "天板より30cm低い段まで"
+      }
+    },
+    {
       "name": "アルインコ MSS90FX（シエロ）",
       "brand": "アルインコ",
       "asin": "B014K5FNY8",
@@ -465,6 +687,26 @@
         "footprintCm": "幅52.2×奥行79.3cm",
         "foldedCm": "幅52.2×奥行12.6×高さ117.9cm",
         "weightKg": 3.4,
+        "maxLoadKg": 100,
+        "standards": "公式に記載なし",
+        "standOnTopText": "天板より30cm低い段まで"
+      }
+    },
+    {
+      "name": "アルインコ MSS150FX（シエロ）",
+      "brand": "アルインコ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://alinco.co.jp/housing/product/detail/MSS-FX/ （2026-11-12 確認）",
+      "specs": {
+        "type": "専用脚立",
+        "topM": 1.41,
+        "standM": 1.11,
+        "standOnTop": false,
+        "ladderM": null,
+        "footprintCm": "幅57.6×奥行97.4cm",
+        "foldedCm": "幅57.6×奥行12.6×高さ148.8cm",
+        "weightKg": 4.2,
         "maxLoadKg": 100,
         "standards": "公式に記載なし",
         "standOnTopText": "天板より30cm低い段まで"
@@ -513,6 +755,26 @@
       "note": "MSS120FX と同じ寸法のブラック版。確認時、Amazon は「すべての出品を見るのみ」。"
     },
     {
+      "name": "アルインコ BS150FX（シエロブラック）",
+      "brand": "アルインコ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://alinco.co.jp/housing/product/detail/BS-FX/ （2026-11-12 確認）",
+      "specs": {
+        "type": "専用脚立",
+        "topM": 1.41,
+        "standM": 1.11,
+        "standOnTop": false,
+        "ladderM": null,
+        "footprintCm": "幅57.6×奥行97.4cm",
+        "foldedCm": "幅57.6×奥行12.6×高さ148.8cm",
+        "weightKg": 4.2,
+        "maxLoadKg": 100,
+        "standards": "公式に記載なし",
+        "standOnTopText": "天板より30cm低い段まで"
+      }
+    },
+    {
       "name": "アルインコ MXA-90W（ワイドステップ）",
       "brand": "アルインコ",
       "asin": "B01IUS5QLQ",
@@ -553,6 +815,26 @@
         "standOnTopText": "天板より30cm低い段まで"
       },
       "note": "踏ざんの幅が60mmの幅広（片面のみ、公式の表記）。使用最大高さは公式の「有効高さ」。"
+    },
+    {
+      "name": "アルインコ MXA-150W（ワイドステップ）",
+      "brand": "アルインコ",
+      "asin": null,
+      "verified": true,
+      "source": "メーカー公式 https://alinco.co.jp/housing/product/detail/MXA-W/ （2026-11-12 確認）",
+      "specs": {
+        "type": "はしご兼用脚立",
+        "topM": 1.41,
+        "standM": 1.11,
+        "standOnTop": false,
+        "ladderM": 2.99,
+        "footprintCm": "幅57.8×奥行103.6cm",
+        "foldedCm": "幅57.8×奥行16.9×高さ150.7cm",
+        "weightKg": 5.6,
+        "maxLoadKg": 100,
+        "standards": "公式に記載なし",
+        "standOnTopText": "天板より30cm低い段まで"
+      }
     },
     {
       "name": "コメリ 上枠付きステップラダー 4段",

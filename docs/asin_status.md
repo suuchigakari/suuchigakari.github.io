@@ -401,3 +401,29 @@
 | tension-shelf | ニトリ 突っ張り壁面収納パンチングボード Nポルダ（8791575）※本文の表 | B0CHM7J96Z | ホーム＆キッチン（Amazon はミドルブラウン 8791571） |
 
 - ポールスライド棚 幅63-93cm・ポールつっぱり棚 幅73-112cm と、本文の表のほかの13行は Amazon で見つからず、リンクなし
+
+### 2026-11-12 追加：脚立10台・Anker 8製品（ASIN 未設定）
+
+メーカー公式で仕様を確認して追加。ASIN は未設定（転記テンプレート `docs/sources/stepladder_battery_amazon_template_2026-11-12.csv`）。A1256 も未設定のまま。
+
+| 記事 | 商品 |
+|---|---|
+| stepladder | RS-15c |
+| stepladder | RD-15c |
+| stepladder | RAX-09d |
+| stepladder | RAX-12d |
+| stepladder | RAX-15d |
+| stepladder | MR150W |
+| stepladder | KUR150（ブラック） |
+| stepladder | MSS150FX（シエロ） |
+| stepladder | BS150FX（シエロブラック） |
+| stepladder | MXA-150W（ワイドステップ） |
+| mobile-battery | Anker Power Bank (10000mAh, 30W)（A1256） |
+| mobile-battery | Anker Power Bank (10000mAh, 22.5W, 2 Ports)（A1388） |
+| mobile-battery | Anker Zolo Power Bank (10000mAh, 30W, Built-In USB-Cケーブル)（A1688） |
+| mobile-battery | Anker Nano Power Bank (10000mAh, 45W, 巻取り式 USB-Cケーブル)（A1638） |
+| mobile-battery | Anker Power Bank (10000mAh, Fusion, Built-In USB-C ケーブル)（A1637） |
+| mobile-battery | Anker MagGo Power Bank (10000mAh, Slim)（A1664） |
+| mobile-battery | Anker Nano Power Bank (5000mAh, MagGo, Slim)（A1665） |
+| mobile-battery | Anker Power Bank (20000mAh, 22.5W, Built-In USB-C ケーブル)（A1647） |
+| mobile-battery | Anker Power Bank (20000mAh, 30W)（A1384） |

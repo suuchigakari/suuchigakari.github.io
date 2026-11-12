@@ -146,7 +146,7 @@ function renderSectionTable(table, config) {
   if (!table) return '';
   const head = table.head.map((label) => `<th scope="col">${escapeHtml(label)}</th>`).join('');
   const rows = table.rows
-    .map((row) => `<tr>${row.map((cell, index) => (index === 0 ? sectionTableHead(cell, config) : `<td data-label="${escapeHtml(table.head[index])}">${escapeHtml(cell)}</td>`)).join('')}</tr>`)
+    .map((row) => `<tr>${row.map((cell, index) => (index === 0 ? sectionTableHead(cell, config) : `<td data-label="${escapeHtml(table.head[index])}">${escapeHtml(cell).replace(/\n/g, "<br>")}</td>`)).join('')}</tr>`)
     .join('\n            ');
   return `<div class="table-scroll quick-table">
           <table>
