@@ -427,3 +427,11 @@
 | mobile-battery | Anker Nano Power Bank (5000mAh, MagGo, Slim)（A1665） |
 | mobile-battery | Anker Power Bank (20000mAh, 22.5W, Built-In USB-C ケーブル)（A1647） |
 | mobile-battery | Anker Power Bank (20000mAh, 30W)（A1384） |
+
+#### 2026-11-12 ASIN 設定（運営者が Claude in Chrome で転記、Google ドライブ「Amazon ASIN一覧（19製品）」）
+
+- 19製品すべてに ASIN を設定。商品名の型番で照合
+- カテゴリ：脚立10台は「産業・研究開発用品」、Anker 9製品は「家電＆カメラ」
+- 長谷川工業 RS-15c（B09TSZ5V7P）：商品名は RS-15c だが、詳細欄のメーカー型番が「RS-15b」表記。定期点検で確認する
+- アルインコ MXA-150W（B01IUS5V2U）：Amazon の表記はハイフンなしの「MXA150W」
+- Anker A1388（B0CQMSZBXZ）：販売元が Anker 以外（AnkerDirect の出品は見当たらず）
