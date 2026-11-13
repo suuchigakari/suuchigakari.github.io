@@ -1,0 +1,499 @@
+{
+  "slug": "torque-wrench",
+  "genre": "トルクレンチ（自動車整備・DIY）",
+  "genreNumber": 50,
+  "commissionRate": "4.00%",
+  "title": "トルクレンチは「締めたいトルクが範囲の中ほどに入るか」で選ぶ｜BAL・KTCの15本を公式の測定範囲で比較",
+  "description": "トルクレンチは、設定できるトルクの範囲（N·m）が製品ごとに決まっています。タイヤ交換向けのソケット付きセット（BAL）と、整備士向けのプレセット型（KTC）の15本を、メーカー公式の測定範囲・差込角・精度・全長で比べました。",
+  "keywords": [
+    "トルクレンチ 選び方",
+    "トルクレンチ タイヤ交換",
+    "トルクレンチ 比較",
+    "トルクレンチ 12.7",
+    "プレセット型 トルクレンチ"
+  ],
+  "asOf": "2026-11-13",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "トルクレンチは、ボルトやナットを決められた力（トルク）で締めるための工具です。設定できる範囲は製品ごとに決まっていて、たとえば BAL のトルクレンチ6pcセットは30〜180N·m、KTC の CMPC2004 は40〜200N·mです。締めたいトルクがその範囲に入っているかを、メーカー公式の数値で確かめられるよう並べました。",
+  "excludeReaders": [
+    {
+      "who": "自分の車のホイールナットの締付トルクを知りたい人",
+      "why": "車種ごとに違うため、このページでは扱いません。車の取扱説明書で確かめてください"
+    },
+    {
+      "who": "左ねじ（逆回転）を締めたい人",
+      "why": "掲載したトルクレンチは、すべて公式に右回転（時計まわり）のみと書かれています"
+    }
+  ],
+  "conclusion": [
+    "締めたいトルクが測定範囲に入るものを選ぶ。BAL のタイヤ交換用セットは28〜210N·m・30〜180N·m・70〜170N·m",
+    "差込角は2種類。9.5mm（KTC CMPC0253〜1003）と12.7mm（BAL の全セット、KTC CMPC0504〜3004・CMPD）",
+    "BAL のセットにはアルミホイール対応の薄型ソケット（17・19・21mm）が付く。KTC は本体のみ",
+    "精度は KTC の全製品と BAL の No.2059・2060・2069 が±3%、BAL の No.2068（クロストルクレンチ）が±4%"
+  ],
+  "filter": {
+    "heading": "締めたいトルクで絞り込む",
+    "note": "締めたいトルク（N·m）を入れると、設定範囲に入る製品を判定します。トルクの値は車やボルトの取扱説明書で確かめてください。",
+    "numberInputs": [
+      {
+        "key": "torqueRange",
+        "type": "range",
+        "label": "締めたいトルク (N·m)",
+        "unit": "N·m",
+        "default": 100,
+        "min": 1,
+        "max": 300,
+        "step": 1
+      }
+    ],
+    "flagInput": {
+      "key": "hasSockets",
+      "label": "ソケット付きのセットだけ",
+      "okDetail": "ソケット付き",
+      "ngDetail": "本体のみ"
+    }
+  },
+  "chart": {
+    "key": "maxNm",
+    "label": "設定できる最大トルク",
+    "unit": "N·m",
+    "order": "asc",
+    "note": "メーカー公式の測定範囲（トルク設定範囲）の上限です。"
+  },
+  "columns": [
+    {
+      "key": "rangeText",
+      "label": "測定範囲"
+    },
+    {
+      "key": "drive",
+      "label": "差込角"
+    },
+    {
+      "key": "accuracy",
+      "label": "精度"
+    },
+    {
+      "key": "minScale",
+      "label": "最小目盛り"
+    },
+    {
+      "key": "lengthMm",
+      "label": "全長",
+      "unit": "mm"
+    },
+    {
+      "key": "weightText",
+      "label": "重さ"
+    },
+    {
+      "key": "sockets",
+      "label": "付属のソケット"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "測定範囲は製品ごとに決まっている",
+      "paragraphs": [
+        "プレセット型のトルクレンチは、グリップを回して締めたいトルクをあらかじめ設定し、そのトルクに達すると「カチッ」という手応えで知らせる形式です（KTC 公式の説明）。設定できる範囲は製品ごとに決まっていて、範囲の外のトルクは設定できません。",
+        "KTC の12.7mm角は、10〜50・20〜100・40〜200・60〜300N·mの4段階です。BAL のタイヤ交換用セットは、28〜210N·m（No.2060）のように1本で広い範囲をカバーします。"
+      ]
+    },
+    {
+      "heading": "ソケット付きセットと本体のみ",
+      "paragraphs": [
+        "BAL のトルクレンチセットは、アルミホイール対応の薄型ディープソケット（17・19・21mm、No.2060 は19・21mm）とエクステンションバーが付きます。クロストルクレンチ No.2068 は、クロスレンチとしても使える2WAYの形です。",
+        "KTC のプレセット型は本体のみで、ソケットは別に用意します。最小目盛りは0.1N·m（CMPC0253）から2N·m（CMPC2004・3004 など）です。"
+      ]
+    },
+    {
+      "heading": "右回転だけ・精度は±3%と±4%",
+      "paragraphs": [
+        "掲載した15本は、すべて公式に右回転（時計まわり）のみの測定と書かれています。",
+        "精度は、KTC の全製品が±3%（公式に「ISO基準をクリア」）、BAL の No.2059・2060・2069 が±3%、No.2068 が±4%です。"
+      ]
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "車を持ち上げるジャッキと、保持するジャッキスタンド",
+      "href": "./jack-stand.html"
+    },
+    {
+      "text": "作業時に目を守る保護メガネ",
+      "href": "./safety-glasses.html"
+    },
+    "トルクレンチの校正（KTC は検査成績表・校正証明書を案内している）"
+  ],
+  "sources": [],
+  "products": [
+    {
+      "name": "BAL No.2059 トルクレンチ6pcセット",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/wrench/no-2059/ （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          30,
+          180
+        ],
+        "rangeText": "30〜180N·m",
+        "drive": "12.7mm",
+        "accuracy": "±3%",
+        "minScale": "公式に明記なし",
+        "lengthMm": 478,
+        "weightText": "1.2kg（本体のみ）",
+        "direction": "右回転のみ",
+        "sockets": "アルミホイール対応薄型ディープソケット 17・19・21mm、エクステンションバー150mm",
+        "maxNm": 180,
+        "jan": "4960169020591",
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": true
+      }
+    },
+    {
+      "name": "BAL No.2069 トルクレンチ ブラック 6pcセット",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/wrench/no-2069/ （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          30,
+          180
+        ],
+        "rangeText": "30〜180N·m",
+        "drive": "12.7mm",
+        "accuracy": "±3%（公式の表記は「±3」）",
+        "minScale": "公式に明記なし",
+        "lengthMm": 478,
+        "weightText": "1.2kg",
+        "direction": "右回転のみ",
+        "sockets": "アルミホイール対応薄型ディープソケット 17・19・21mm、エクステンションバー150mm",
+        "maxNm": 180,
+        "jan": "4960169020690",
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": true
+      }
+    },
+    {
+      "name": "BAL No.2060 トルクレンチ5pcセット",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/wrench/no-2060/ （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          28,
+          210
+        ],
+        "rangeText": "28〜210N·m",
+        "drive": "12.7mm",
+        "accuracy": "±3%",
+        "minScale": "公式に明記なし",
+        "lengthMm": 478,
+        "weightText": "1.2kg",
+        "direction": "右回転のみ",
+        "sockets": "アルミホイール対応薄型ディープソケット 19・21mm、エクステンションバー125mm",
+        "maxNm": 210,
+        "jan": "4960169020607",
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": true
+      }
+    },
+    {
+      "name": "BAL No.2068 クロストルクレンチ 5pcセット",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/wrench/no-2068/ （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          70,
+          170
+        ],
+        "rangeText": "70〜170N·m",
+        "drive": "12.7mm",
+        "accuracy": "±4%",
+        "minScale": "公式に明記なし",
+        "lengthMm": 488,
+        "weightText": "1.5kg",
+        "direction": "右回転のみ",
+        "sockets": "アルミホイール対応薄型ソケット 17・19・21mm（クロスレンチとしても使える2WAY）",
+        "maxNm": 170,
+        "jan": "4960169020683",
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": true
+      }
+    },
+    {
+      "name": "KTC CMPC0253（9.5sq.プレセット型）",
+      "brand": "KTC（京都機械工具）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0253__1003 （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          5,
+          25
+        ],
+        "rangeText": "5〜25N·m",
+        "drive": "9.5mm",
+        "accuracy": "±3%",
+        "minScale": "0.1N·m",
+        "lengthMm": 282,
+        "weightText": "0.4kg",
+        "direction": "右方向のみ",
+        "sockets": "なし",
+        "maxNm": 25,
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": false
+      }
+    },
+    {
+      "name": "KTC CMPC0503（9.5sq.プレセット型）",
+      "brand": "KTC（京都機械工具）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0253__1003 （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          10,
+          50
+        ],
+        "rangeText": "10〜50N·m",
+        "drive": "9.5mm",
+        "accuracy": "±3%",
+        "minScale": "0.5N·m",
+        "lengthMm": 353,
+        "weightText": "1kg",
+        "direction": "右方向のみ",
+        "sockets": "なし",
+        "maxNm": 50,
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": false
+      }
+    },
+    {
+      "name": "KTC CMPC1003（9.5sq.プレセット型）",
+      "brand": "KTC（京都機械工具）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0253__1003 （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          20,
+          100
+        ],
+        "rangeText": "20〜100N·m",
+        "drive": "9.5mm",
+        "accuracy": "±3%",
+        "minScale": "0.5N·m",
+        "lengthMm": 400,
+        "weightText": "1.2kg",
+        "direction": "右方向のみ",
+        "sockets": "なし",
+        "maxNm": 100,
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": false
+      }
+    },
+    {
+      "name": "KTC CMPC0504（12.7sq.プレセット型）",
+      "brand": "KTC（京都機械工具）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0504__3004-4 （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          10,
+          50
+        ],
+        "rangeText": "10〜50N·m",
+        "drive": "12.7mm",
+        "accuracy": "±3%",
+        "minScale": "0.5N·m",
+        "lengthMm": 335,
+        "weightText": "1kg",
+        "direction": "右方向のみ",
+        "sockets": "なし",
+        "maxNm": 50,
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": false
+      }
+    },
+    {
+      "name": "KTC CMPC1004（12.7sq.プレセット型）",
+      "brand": "KTC（京都機械工具）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0504__3004-4 （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          20,
+          100
+        ],
+        "rangeText": "20〜100N·m",
+        "drive": "12.7mm",
+        "accuracy": "±3%",
+        "minScale": "0.5N·m",
+        "lengthMm": 400,
+        "weightText": "1.2kg",
+        "direction": "右方向のみ",
+        "sockets": "なし",
+        "maxNm": 100,
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": false
+      }
+    },
+    {
+      "name": "KTC CMPC2004（12.7sq.プレセット型）",
+      "brand": "KTC（京都機械工具）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0504__3004-4 （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          40,
+          200
+        ],
+        "rangeText": "40〜200N·m",
+        "drive": "12.7mm",
+        "accuracy": "±3%",
+        "minScale": "2N·m",
+        "lengthMm": 480,
+        "weightText": "1.4kg",
+        "direction": "右方向のみ",
+        "sockets": "なし",
+        "maxNm": 200,
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": false
+      }
+    },
+    {
+      "name": "KTC CMPC3004（12.7sq.プレセット型）",
+      "brand": "KTC（京都機械工具）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0504__3004-4 （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          60,
+          300
+        ],
+        "rangeText": "60〜300N·m",
+        "drive": "12.7mm",
+        "accuracy": "±3%",
+        "minScale": "2N·m",
+        "lengthMm": 485,
+        "weightText": "1.4kg",
+        "direction": "右方向のみ",
+        "sockets": "なし",
+        "maxNm": 300,
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": false
+      }
+    },
+    {
+      "name": "KTC CMPD0504（12.7sq.プレセット型）",
+      "brand": "KTC（京都機械工具）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpd0504_3004-3 （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          10,
+          50
+        ],
+        "rangeText": "10〜50N·m",
+        "drive": "12.7mm",
+        "accuracy": "±3%",
+        "minScale": "0.5N·m",
+        "lengthMm": 369,
+        "weightText": "公式に明記なし",
+        "direction": "右方向のみ",
+        "sockets": "なし",
+        "maxNm": 50,
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": false
+      },
+      "note": "公式の詳細表の重さ欄は単位が「g」で値が0.9〜1.8と書かれており、単位を確かめられないため載せていない。"
+    },
+    {
+      "name": "KTC CMPD1004（12.7sq.プレセット型）",
+      "brand": "KTC（京都機械工具）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpd0504_3004-3 （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          20,
+          100
+        ],
+        "rangeText": "20〜100N·m",
+        "drive": "12.7mm",
+        "accuracy": "±3%",
+        "minScale": "0.5N·m",
+        "lengthMm": 430,
+        "weightText": "公式に明記なし",
+        "direction": "右方向のみ",
+        "sockets": "なし",
+        "maxNm": 100,
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": false
+      },
+      "note": "公式の詳細表の重さ欄は単位が「g」で値が0.9〜1.8と書かれており、単位を確かめられないため載せていない。"
+    },
+    {
+      "name": "KTC CMPD2004（12.7sq.プレセット型）",
+      "brand": "KTC（京都機械工具）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpd0504_3004-3 （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          40,
+          200
+        ],
+        "rangeText": "40〜200N·m",
+        "drive": "12.7mm",
+        "accuracy": "±3%",
+        "minScale": "1N·m",
+        "lengthMm": 525,
+        "weightText": "公式に明記なし",
+        "direction": "右方向のみ",
+        "sockets": "なし",
+        "maxNm": 200,
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": false
+      },
+      "note": "公式の詳細表の重さ欄は単位が「g」で値が0.9〜1.8と書かれており、単位を確かめられないため載せていない。"
+    },
+    {
+      "name": "KTC CMPD3004（12.7sq.プレセット型）",
+      "brand": "KTC（京都機械工具）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpd0504_3004-3 （2026-11-13 確認）",
+      "specs": {
+        "torqueRange": [
+          60,
+          300
+        ],
+        "rangeText": "60〜300N·m",
+        "drive": "12.7mm",
+        "accuracy": "±3%",
+        "minScale": "2N·m",
+        "lengthMm": 606,
+        "weightText": "公式に明記なし",
+        "direction": "右方向のみ",
+        "sockets": "なし",
+        "maxNm": 300,
+        "type": "プレセット型（ラチェット式）",
+        "hasSockets": false
+      },
+      "note": "公式の詳細表の重さ欄は単位が「g」で値が0.9〜1.8と書かれており、単位を確かめられないため載せていない。"
+    }
+  ]
+}

@@ -64,6 +64,15 @@ export const ARTICLE_CATEGORY = {
   'full-length-mirror': 'home',
   'monitor-arm': 'home',
   'tension-shelf': 'home',
+  'rice-bin': 'kitchen',
+  'dish-rack': 'kitchen',
+  'bath-magnet-rack': 'home',
+  'torque-wrench': 'diy',
+  'jack-stand': 'diy',
+  'full-harness': 'diy',
+  'laser-level': 'diy',
+  'packing-cube': 'travel',
+  'travel-bottle': 'travel',
 };
 
 export function categoryOf(slug) {

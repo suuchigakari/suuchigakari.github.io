@@ -103,6 +103,24 @@ export const ILLUSTRATIONS = {
     `${SHADOW(118, 30)}<path d="M64 108 88 118" stroke="#a9773c" stroke-width="4" stroke-linecap="round"/><rect x="40" y="6" width="48" height="108" rx="3" fill="url(#il-wood)" stroke="#a9773c"/><rect x="45" y="11" width="38" height="98" fill="url(#il-mirror)"/><path d="M50 40 72 14M50 58 80 24" stroke="#fff" stroke-width="4" opacity=".7" stroke-linecap="round"/>`,
   'tension-shelf':
     `<rect x="2" y="10" width="14" height="104" fill="url(#il-gray)"/><rect x="112" y="10" width="14" height="104" fill="url(#il-gray)"/>${SHADOW(96, 40)}<rect x="16" y="54" width="8" height="12" rx="2" fill="#adb5bd"/><rect x="104" y="54" width="8" height="12" rx="2" fill="#adb5bd"/><path d="M22 56h84l-6 26H28z" fill="url(#il-white)" stroke="#adb5bd" stroke-width="1.2"/><path d="M36 58l-2 22M50 58l-1 22M64 58v22M78 58l1 22M92 58l2 22M26 66h76M27 74h74" stroke="#ced4da" stroke-width="1.5"/><rect x="22" y="52" width="84" height="5" rx="2" fill="url(#il-aluV)" stroke="#868e96" stroke-width=".8"/><rect x="40" y="38" width="16" height="14" rx="2" fill="url(#il-blue)"/><rect x="62" y="30" width="22" height="22" rx="3" fill="url(#il-wood)"/>`,
+  'rice-bin':
+    `${SHADOW(112, 46)}<rect x="24" y="44" width="80" height="64" rx="6" fill="url(#il-white)" stroke="#adb5bd" stroke-width="1.2"/><rect x="20" y="34" width="88" height="14" rx="4" fill="url(#il-glass)" stroke="#868e96"/><path d="M30 60h68v40c0 3-2 4-4 4H34c-2 0-4-1-4-4z" fill="#f8f3e6"/><g fill="#e9dfc6"><ellipse cx="44" cy="70" rx="3" ry="1.6"/><ellipse cx="58" cy="76" rx="3" ry="1.6"/><ellipse cx="72" cy="68" rx="3" ry="1.6"/><ellipse cx="84" cy="80" rx="3" ry="1.6"/><ellipse cx="50" cy="88" rx="3" ry="1.6"/><ellipse cx="76" cy="92" rx="3" ry="1.6"/></g><rect x="56" y="38" width="16" height="5" rx="2.5" fill="#868e96"/>`,
+  'torque-wrench':
+    `${SHADOW(112, 50)}<path d="M24 100 96 28" stroke="url(#il-alu)" stroke-width="12" stroke-linecap="round"/><path d="M24 100 52 72" stroke="url(#il-black)" stroke-width="15" stroke-linecap="round"/><circle cx="102" cy="22" r="13" fill="url(#il-alu)" stroke="#6b737b" stroke-width="1.2"/><rect x="97" y="17" width="10" height="10" fill="#495057"/><path d="M60 64l8-8" stroke="#e8590c" stroke-width="3"/><path d="M66 58l6 0M70 54l6 0" stroke="#495057" stroke-width="1.2"/>`,
+  'jack-stand':
+    `${SHADOW(116, 50)}<path d="M64 40 26 112h12l26-52 26 52h12z" fill="url(#il-red)" stroke="#a51111" stroke-width="1.2"/><rect x="58" y="22" width="12" height="44" fill="url(#il-alu)" stroke="#6b737b"/><path d="M50 20h28l-4 6H54z" fill="url(#il-gray)" stroke="#6b737b"/><g fill="#6b737b"><circle cx="64" cy="34" r="1.6"/><circle cx="64" cy="44" r="1.6"/><circle cx="64" cy="54" r="1.6"/></g><rect x="44" y="70" width="40" height="5" rx="2" fill="#a51111"/>`,
+  'packing-cube':
+    `${SHADOW(112, 50)}<path d="M18 52 64 36l46 16v48l-46 14-46-14z" fill="url(#il-navy)" stroke="#14263d" stroke-width="1.2"/><path d="M18 52l46 14 46-14" fill="none" stroke="#14263d" stroke-width="1.2"/><path d="M64 66v48" stroke="#14263d"/><path d="M24 55l40 12 40-12" fill="none" stroke="#adb5bd" stroke-width="2" stroke-dasharray="3 2"/><path d="M30 70l26 8v20l-26-8z" fill="#fff" opacity=".18"/><rect x="96" y="54" width="8" height="4" rx="1" fill="#ced4da"/>`,
+  'travel-bottle':
+    `${SHADOW(114, 34)}<path d="M44 46c0-4 3-6 6-6h28c3 0 6 2 6 6v58c0 5-3 8-8 8H52c-5 0-8-3-8-8z" fill="url(#il-glass)" stroke="#868e96" stroke-width="1.2"/><path d="M46 70h36v34c0 4-2 6-6 6H52c-4 0-6-2-6-6z" fill="#a5d8ff" opacity=".7"/><rect x="50" y="22" width="28" height="20" rx="4" fill="url(#il-teal)" stroke="#0b7285"/><rect x="58" y="14" width="12" height="10" rx="3" fill="#0b7285"/><rect x="50" y="50" width="5" height="50" rx="2.5" fill="#fff" opacity=".7"/>`,
+  'dish-rack':
+    `<rect x="4" y="88" width="120" height="30" rx="4" fill="url(#il-aluV)" stroke="#868e96"/><rect x="16" y="92" width="96" height="20" rx="6" fill="#adb5bd"/>${SHADOW(84, 48)}<path d="M14 80V36M114 80V36" stroke="url(#il-alu)" stroke-width="5"/><path d="M14 40h100M14 60h100" stroke="#868e96" stroke-width="3"/><path d="M26 60V44M38 60V44M50 60V44M62 60V44M74 60V44M86 60V44M98 60V44" stroke="#adb5bd" stroke-width="2"/><ellipse cx="44" cy="46" rx="4" ry="14" fill="url(#il-white)" stroke="#adb5bd"/><ellipse cx="58" cy="46" rx="4" ry="14" fill="url(#il-white)" stroke="#adb5bd"/><rect x="80" y="30" width="16" height="28" rx="3" fill="url(#il-blue)"/>`,
+  'bath-rack':
+    `<rect x="0" y="0" width="128" height="128" fill="#e7f5ff" opacity=".6"/><g stroke="#d0ebff" stroke-width="1"><path d="M0 32h128M0 64h128M0 96h128M32 0v128M64 0v128M96 0v128"/></g>${SHADOW(96, 44)}<rect x="20" y="70" width="88" height="8" rx="2" fill="url(#il-white)" stroke="#adb5bd"/><path d="M22 78h84l-4 10H26z" fill="url(#il-white)" stroke="#adb5bd"/><rect x="28" y="40" width="18" height="30" rx="5" fill="url(#il-teal)"/><rect x="33" y="34" width="8" height="8" rx="2" fill="#0b7285"/><rect x="54" y="46" width="16" height="24" rx="5" fill="url(#il-pink)"/><rect x="78" y="50" width="22" height="20" rx="4" fill="url(#il-white)" stroke="#adb5bd"/><rect x="26" y="66" width="6" height="6" rx="1" fill="#495057"/><rect x="96" y="66" width="6" height="6" rx="1" fill="#495057"/>`,
+  harness:
+    `${SHADOW(120, 40)}<path d="M44 14c4 8 6 22 4 40l-6 30M84 14c-4 8-6 22-4 40l6 30" fill="none" stroke="url(#il-yellowV)" stroke-width="7" stroke-linecap="round"/><path d="M46 50h36M44 84c10 6 30 6 40 0" fill="none" stroke="url(#il-yellowV)" stroke-width="7" stroke-linecap="round"/><path d="M42 84l-8 26M86 84l8 26" stroke="url(#il-yellowV)" stroke-width="7" stroke-linecap="round"/><rect x="58" y="44" width="12" height="12" rx="2" fill="url(#il-alu)" stroke="#6b737b"/><path d="M64 22c-8 0-10-12 0-12s8 12 0 12" fill="none" stroke="url(#il-alu)" stroke-width="4"/><rect x="58" y="78" width="12" height="10" rx="2" fill="url(#il-black)"/>`,
+  'laser-level':
+    `<path d="M64 52 6 30M64 52l58-22M64 52V6" stroke="#2f9e44" stroke-width="2" opacity=".8"/>${SHADOW(112, 40)}<rect x="40" y="52" width="48" height="44" rx="8" fill="url(#il-yellow)" stroke="#b08800" stroke-width="1.2"/><rect x="48" y="44" width="32" height="12" rx="4" fill="url(#il-black)"/><circle cx="64" cy="50" r="3" fill="#69db7c"/><rect x="48" y="96" width="32" height="10" rx="2" fill="url(#il-black)"/><rect x="50" y="62" width="28" height="20" rx="3" fill="url(#il-black)" opacity=".85"/><circle cx="64" cy="72" r="5" fill="url(#il-glass)"/>`,
   'monitor-arm':
     `<rect x="0" y="104" width="128" height="8" fill="url(#il-wood)"/><rect x="14" y="96" width="14" height="24" rx="2" fill="url(#il-black)"/><rect x="18" y="54" width="6" height="44" fill="url(#il-alu)"/><path d="M21 58 54 46" stroke="#495057" stroke-width="7" stroke-linecap="round"/><path d="M54 46 70 40" stroke="#495057" stroke-width="5" stroke-linecap="round"/><rect x="58" y="12" width="66" height="42" rx="3" fill="url(#il-black)"/><rect x="61" y="15" width="60" height="36" fill="url(#il-screen)"/><path d="M66 46 90 18" stroke="#fff" opacity=".15" stroke-width="6"/>`,
 };
@@ -147,6 +165,15 @@ const BY_ARTICLE = {
   'full-length-mirror': () => 'mirror',
   'monitor-arm': () => 'monitor-arm',
   'tension-shelf': () => 'tension-shelf',
+  'rice-bin': () => 'rice-bin',
+  'torque-wrench': () => 'torque-wrench',
+  'jack-stand': () => 'jack-stand',
+  'packing-cube': () => 'packing-cube',
+  'travel-bottle': () => 'travel-bottle',
+  'dish-rack': () => 'dish-rack',
+  'bath-magnet-rack': () => 'bath-rack',
+  'full-harness': () => 'harness',
+  'laser-level': () => 'laser-level',
 };
 
 /** 記事と商品の仕様から、図の名前を決める。 */

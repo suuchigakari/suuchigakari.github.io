@@ -1,0 +1,575 @@
+{
+  "slug": "jack-stand",
+  "genre": "ジャッキ・ジャッキスタンド（自動車用）",
+  "genreNumber": 49,
+  "commissionRate": "4.00%",
+  "title": "車のジャッキは「最大荷重」と「最低位」で選ぶ｜BAL（大橋産業）のジャッキ18台とジャッキスタンド3種を公式の仕様で比較",
+  "description": "車のジャッキは、最大荷重（何トンまで上げられるか）と、いちばん低い位置（最低位）で選びます。ローダウン車なら最低位85mm前後のもの、ミニバンやSUVなら最高位の高いものが必要です。大橋産業（BAL）のジャッキ18台とジャッキスタンド3種を、メーカー公式の数値で比べました。",
+  "keywords": [
+    "ジャッキ 選び方",
+    "フロアジャッキ 比較",
+    "ジャッキスタンド 高さ",
+    "ローダウン ジャッキ",
+    "リジッドラック"
+  ],
+  "asOf": "2026-11-13",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "タイヤ交換で使うジャッキは、車の重さに見合う「最大荷重」と、車体の下に差し込めるかを決める「最低位（いちばん低い高さ）」で選びます。持ち上げた車の下に入る作業をするなら、ジャッキだけで支えずにジャッキスタンド（リジッドラック）で保持します。大橋産業（BAL）は製品ごとに最大荷重・揚程・質量を公式に書いているので、その数値だけで並べました。",
+  "excludeReaders": [
+    {
+      "who": "自分の車のジャッキポイントの位置や締付トルクを知りたい人",
+      "why": "車種ごとに違うため、このページでは扱いません。車の取扱説明書か販売店で確かめてください"
+    },
+    {
+      "who": "ほかのメーカーとも比べたい人",
+      "why": "今回は公式の仕様を確認できた大橋産業（BAL）の製品だけを載せています"
+    }
+  ],
+  "conclusion": [
+    "ローダウン車なら最低位を見る。最低位が85mm以下なのは、PROEXCEL のガレージジャッキ（70mm・80mm・85mm）とアルミジャッキ（80mm・83mm）、No.2102（85mm）",
+    "ミニバン・SUVなら最高位を見る。ハイリフトジャッキ No.2104 は最高位530mm、PROEXCEL 1.5t は610mm",
+    "車の下に入るなら、ジャッキスタンドで保持する。BAL のキーパーマンは2脚で2トン・3トン用、サドルの高さは160〜240mm（ローダウン車対応）から295〜490mmまで",
+    "重さは1.5kg（パンタグラフジャッキ No.1351）から43.5kg（PROEXCEL のガレージジャッキ 1.5t）まで。持ち運ぶなら重さも確かめる"
+  ],
+  "filter": {
+    "heading": "必要な荷重と、車体の下のすき間で絞り込む",
+    "note": "最大荷重は、車両重量の半分（片側を上げる場合）より余裕のある値を目安にしてください。最低位は、ジャッキポイントまでの地面からの高さ以下が必要です。",
+    "numberInputs": [
+      {
+        "key": "maxLoadT",
+        "type": "atLeast",
+        "label": "必要な最大荷重 (トン)",
+        "unit": "トン",
+        "default": 1.5,
+        "min": 0.5,
+        "max": 4,
+        "step": 0.5
+      },
+      {
+        "key": "lowMm",
+        "type": "atMost",
+        "label": "ジャッキポイントまでの高さ (mm)",
+        "unit": "mm",
+        "default": 120,
+        "min": 60,
+        "max": 300,
+        "step": 5
+      }
+    ],
+    "flagInput": {
+      "key": "lowdown",
+      "label": "公式に「ローダウン車対応」とあるものだけ",
+      "okDetail": "ローダウン車対応と記載",
+      "ngDetail": "記載なし"
+    }
+  },
+  "chart": {
+    "key": "lowMm",
+    "label": "最低位（ジャッキスタンドはサドルの最低の高さ）",
+    "unit": "mm",
+    "order": "asc",
+    "note": "メーカー公式の揚程・揚幅のうち、低いほうの値です。"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "label": "種類"
+    },
+    {
+      "key": "loadText",
+      "label": "最大荷重"
+    },
+    {
+      "key": "rangeText",
+      "label": "揚程（最低位〜最高位）"
+    },
+    {
+      "key": "weightText",
+      "label": "重さ"
+    },
+    {
+      "key": "sizeText",
+      "label": "本体サイズ"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "最大荷重は「車両重量の半分」より余裕をもつ",
+      "paragraphs": [
+        "片側の前後どちらか（または1輪）を上げる場合、ジャッキにかかるのは車両重量の一部です。BAL の No.1365・No.2100（1.5トン）は公式に「軽・小型乗用車 サイド上げ専用」と書かれています。",
+        "ジャッキスタンドの最大荷重は「2脚使用時」の値です。BAL の公式 FAQ では「必ず2脚同時に使用してください」とされています。"
+      ]
+    },
+    {
+      "heading": "最低位と最高位",
+      "paragraphs": [
+        "車体の下にジャッキを差し込めるかは最低位で決まります。PROEXCEL の油圧式ガレージジャッキ 1.5t は最低位70mm、ローダウン車対応の No.2102 は85mmです。一般的なフロアジャッキ No.2101 は135mmです。",
+        "上げられる高さは最高位で決まります。ハイリフトジャッキ No.2104 は530mm、PROEXCEL 1.5t は610mmです。No.2101・2102・2103・2104 は、別売のジャッキアップ用アダプターを付けると揚程が20mm高くなると公式に書かれています。"
+      ]
+    },
+    {
+      "heading": "ジャッキだけで車を支えない",
+      "paragraphs": [
+        "ジャッキは持ち上げるための道具で、上げた車を保持するにはジャッキスタンド（リジッドラック）を使います。BAL のキーパーマンは、サドルの高さを4段階に調整できます（2トン用で265〜380mm）。",
+        "車体側面のジャッキポイントで使う場合は、別売のジャッキアップ用アダプターが必要と公式 FAQ にあります。どこに設置するかは車種で違うため、車の取扱説明書か販売店で確かめるよう公式に書かれています。"
+      ],
+      "table": {
+        "head": [
+          "ジャッキスタンド",
+          "最大荷重（2脚）",
+          "サドルの高さ",
+          "重さ（1脚）"
+        ],
+        "rows": [
+          [
+            "No.925 2トン用（ローダウン車対応）",
+            "2トン",
+            "160〜240mm",
+            "1.3kg"
+          ],
+          [
+            "No.923 2トン用",
+            "2トン",
+            "265〜380mm",
+            "1.7kg"
+          ],
+          [
+            "No.924 3トン用",
+            "3トン",
+            "295〜490mm",
+            "2.8kg"
+          ]
+        ],
+        "note": "大橋産業の公式ページ（2026-11-13 確認）。別売アダプター取り付け時は38mm高くなります。"
+      }
+    },
+    {
+      "heading": "車載用のパンタグラフとボトルジャッキ",
+      "paragraphs": [
+        "パンタグラフジャッキ No.1351〜1353 は重さ1.5〜2.4kgで、公式に「SG規格適合品」「日本製」と書かれています。No.1353 は「車載用」です。",
+        "ボトルジャッキは2トン（No.1362）と4トン（No.1363）があり、最低位は181mm・195mmと高めです。車高の低い車には差し込めないことがあります。"
+      ]
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "ホイールナットを決められた力で締めるトルクレンチ",
+      "href": "./torque-wrench.html"
+    },
+    {
+      "text": "作業時に目を守る保護メガネ",
+      "href": "./safety-glasses.html"
+    },
+    "車の取扱説明書でジャッキポイントとホイールナットの締付トルクを確かめる"
+  ],
+  "sources": [],
+  "products": [
+    {
+      "name": "BAL No.1351 パンタグラフジャッキ 600kg",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1351-1352-1353/ （2026-11-13 確認）",
+      "specs": {
+        "type": "パンタグラフジャッキ",
+        "maxLoadT": 0.6,
+        "loadText": "0.6トン",
+        "lowMm": 90,
+        "highMm": 350,
+        "rangeText": "90〜350mm",
+        "weightText": "1.5kg",
+        "sizeText": "91(W)×388(D)×90(H)mm",
+        "lowdown": false,
+        "jan": "4960169013517"
+      },
+      "note": "公式ページは No.1351・1352 の共通ページ。SG規格適合品・日本製と公式に記載。"
+    },
+    {
+      "name": "BAL No.1352 パンタグラフジャッキ 800kg",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1351-1352-1353/ （2026-11-13 確認）",
+      "specs": {
+        "type": "パンタグラフジャッキ",
+        "maxLoadT": 0.8,
+        "loadText": "0.8トン",
+        "lowMm": 90,
+        "highMm": 375,
+        "rangeText": "90〜375mm",
+        "weightText": "2.1kg",
+        "sizeText": "100(W)×420(D)×90(H)mm",
+        "lowdown": false,
+        "jan": "4960169013524"
+      },
+      "note": "公式ページは No.1351・1352 の共通ページ。"
+    },
+    {
+      "name": "BAL No.1353 パンタグラフジャッキ 1000kg",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1353/ （2026-11-13 確認）",
+      "specs": {
+        "type": "パンタグラフジャッキ",
+        "maxLoadT": 1.0,
+        "loadText": "1トン",
+        "lowMm": 90,
+        "highMm": 375,
+        "rangeText": "90〜375mm",
+        "weightText": "2.4kg",
+        "sizeText": "100(W)×420(D)×90(H)mm",
+        "lowdown": false,
+        "jan": "4960169013531"
+      },
+      "note": "SG規格適合品・日本製と公式に記載。"
+    },
+    {
+      "name": "BAL No.1377 オイルパンタグラフジャッキ",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1377/ （2026-11-13 確認）",
+      "specs": {
+        "type": "油圧式パンタグラフジャッキ",
+        "maxLoadT": 1.0,
+        "loadText": "1トン",
+        "lowMm": 140,
+        "highMm": 380,
+        "rangeText": "140〜380mm",
+        "weightText": "6.6kg（ハンドル含まず）",
+        "sizeText": "384(L)×130(W)×140(H)mm",
+        "lowdown": false,
+        "jan": "4960169013777"
+      }
+    },
+    {
+      "name": "BAL No.1362 ボトルジャッキ 2トン",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1362-1363/ （2026-11-13 確認）",
+      "specs": {
+        "type": "ボトルジャッキ",
+        "maxLoadT": 2.0,
+        "loadText": "2トン",
+        "lowMm": 181,
+        "highMm": 345,
+        "rangeText": "181〜345mm",
+        "weightText": "2.5kg",
+        "sizeText": "94(W)×94(D)×181(H)mm",
+        "lowdown": false,
+        "jan": "4960169013623"
+      },
+      "note": "揚幅はアジャスター込み（公式）。公式ページは No.1362・1363 の共通ページ。"
+    },
+    {
+      "name": "BAL No.1363 ボトルジャッキ 4トン",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1362-1363/ （2026-11-13 確認）",
+      "specs": {
+        "type": "ボトルジャッキ",
+        "maxLoadT": 4.0,
+        "loadText": "4トン",
+        "lowMm": 195,
+        "highMm": 385,
+        "rangeText": "195〜385mm",
+        "weightText": "3.0kg",
+        "sizeText": "108(W)×100(D)×195(H)mm",
+        "lowdown": false,
+        "jan": "4960169013630"
+      },
+      "note": "揚幅はアジャスター込み（公式）。"
+    },
+    {
+      "name": "BAL No.1365 油圧式フロアジャッキ 1.5トン",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1365/ （2026-11-13 確認）",
+      "specs": {
+        "type": "フロアジャッキ（軽・小型乗用車 サイド上げ専用）",
+        "maxLoadT": 1.5,
+        "loadText": "1.5トン",
+        "lowMm": 135,
+        "highMm": 305,
+        "rangeText": "135〜305mm",
+        "weightText": "6.6kg",
+        "sizeText": "192(W)×415(L)×140(H)mm",
+        "lowdown": false,
+        "jan": "4960169013654"
+      }
+    },
+    {
+      "name": "BAL No.2100 油圧式フロアジャッキ 1.5トン",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-2100/ （2026-11-13 確認）",
+      "specs": {
+        "type": "フロアジャッキ（軽・小型乗用車 サイド上げ専用）",
+        "maxLoadT": 1.5,
+        "loadText": "1.5トン",
+        "lowMm": 140,
+        "highMm": 310,
+        "rangeText": "140〜310mm",
+        "weightText": "7kg",
+        "sizeText": "192(W)×415(L)×140(H)mm",
+        "lowdown": false,
+        "jan": "4960169021000"
+      }
+    },
+    {
+      "name": "BAL No.2101 油圧式 フロアジャッキ 2トン",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-2101/ （2026-11-13 確認）",
+      "specs": {
+        "type": "フロアジャッキ",
+        "maxLoadT": 2.0,
+        "loadText": "2トン",
+        "lowMm": 135,
+        "highMm": 385,
+        "rangeText": "135〜385mm",
+        "weightText": "9.0kg",
+        "sizeText": "195(W)×515(L)×167(H)mm",
+        "lowdown": false,
+        "jan": "4960169021017"
+      }
+    },
+    {
+      "name": "BAL No.2102 ローダウン車対応 油圧ジャッキ 2トン",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-2102/ （2026-11-13 確認）",
+      "specs": {
+        "type": "フロアジャッキ",
+        "maxLoadT": 2.0,
+        "loadText": "2トン",
+        "lowMm": 85,
+        "highMm": 370,
+        "rangeText": "85〜370mm",
+        "weightText": "11.8kg",
+        "sizeText": "217(W)×565(L)×150(H)mm",
+        "lowdown": true,
+        "jan": "4960169021024"
+      }
+    },
+    {
+      "name": "BAL No.2103 油圧式 フロアジャッキ 2.5トン",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-2103/ （2026-11-13 確認）",
+      "specs": {
+        "type": "フロアジャッキ",
+        "maxLoadT": 2.5,
+        "loadText": "2.5トン",
+        "lowMm": 125,
+        "highMm": 410,
+        "rangeText": "125〜410mm",
+        "weightText": "12.9kg",
+        "sizeText": "219(W)×565(L)×150(H)mm",
+        "lowdown": false,
+        "jan": "4960169021031"
+      }
+    },
+    {
+      "name": "BAL No.2104 油圧式 ハイリフトジャッキ 2.8t",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-2104/ （2026-11-13 確認）",
+      "specs": {
+        "type": "フロアジャッキ（ハイリフト）",
+        "maxLoadT": 2.8,
+        "loadText": "2.8トン",
+        "lowMm": 150,
+        "highMm": 530,
+        "rangeText": "150〜530mm",
+        "weightText": "21.5kg",
+        "sizeText": "250(W)×720(L)×180(H)mm",
+        "lowdown": false,
+        "jan": "4960169021048"
+      }
+    },
+    {
+      "name": "BAL No.1347 油圧式アルミジャッキ 2t",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1347/ （2026-11-13 確認）",
+      "specs": {
+        "type": "アルミ製フロアジャッキ",
+        "maxLoadT": 2.0,
+        "loadText": "2トン",
+        "lowMm": 83,
+        "highMm": 470,
+        "rangeText": "83〜470mm",
+        "weightText": "19.0kg",
+        "sizeText": "302(W)×650(L)×235(H)mm",
+        "lowdown": true,
+        "jan": "4960169013470"
+      }
+    },
+    {
+      "name": "BAL No.7500 PROEXCEL 油圧式アルミジャッキ 1.5t",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-7500/ （2026-11-13 確認）",
+      "specs": {
+        "type": "アルミ製フロアジャッキ",
+        "maxLoadT": 1.5,
+        "loadText": "1.5トン",
+        "lowMm": 80,
+        "highMm": 420,
+        "rangeText": "80〜420mm",
+        "weightText": "11.7kg",
+        "sizeText": "250(W)×570(L)×200(H)mm",
+        "lowdown": true,
+        "jan": "4960169075003"
+      }
+    },
+    {
+      "name": "BAL No.7503 PROEXCEL 油圧式ガレージジャッキ 2t",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-7503/ （2026-11-13 確認）",
+      "specs": {
+        "type": "ガレージジャッキ",
+        "maxLoadT": 2.0,
+        "loadText": "2トン",
+        "lowMm": 85,
+        "highMm": 430,
+        "rangeText": "85〜430mm",
+        "weightText": "22kg",
+        "sizeText": "310(W)×590(L)×200(H)mm",
+        "lowdown": true,
+        "jan": "4960169075034"
+      }
+    },
+    {
+      "name": "BAL No.7501 PROEXCEL 油圧式ガレージジャッキ 1.5t",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-7501/ （2026-11-13 確認）",
+      "specs": {
+        "type": "ガレージジャッキ",
+        "maxLoadT": 1.5,
+        "loadText": "1.5トン",
+        "lowMm": 70,
+        "highMm": 610,
+        "rangeText": "70〜610mm",
+        "weightText": "43.5kg",
+        "sizeText": "364(W)×865(L)×205(H)mm",
+        "lowdown": false,
+        "jan": "4960169075010"
+      }
+    },
+    {
+      "name": "BAL No.7502 PROEXCEL 油圧式ガレージジャッキ 3t",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-7502/ （2026-11-13 確認）",
+      "specs": {
+        "type": "ガレージジャッキ",
+        "maxLoadT": 3.0,
+        "loadText": "3トン",
+        "lowMm": 80,
+        "highMm": 500,
+        "rangeText": "80〜500mm",
+        "weightText": "35kg",
+        "sizeText": "353(W)×690(L)×220(H)mm",
+        "lowdown": false,
+        "jan": "4960169075027"
+      }
+    },
+    {
+      "name": "BAL No.1396 ガレージジャッキ マンモス3t",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1396/ （2026-11-13 確認）",
+      "specs": {
+        "type": "ガレージジャッキ",
+        "maxLoadT": 3.0,
+        "loadText": "3トン",
+        "lowMm": 133,
+        "highMm": 465,
+        "rangeText": "133〜465mm",
+        "weightText": "30.7kg",
+        "sizeText": "344(W)×682(L)×215(H)mm",
+        "lowdown": false,
+        "jan": "4960169013968"
+      }
+    },
+    {
+      "name": "BAL No.925 ジャッキスタンド キーパーマン 2トン用【ローダウン車対応】",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-925/ （2026-11-13 確認）",
+      "specs": {
+        "type": "ジャッキスタンド（2脚入）",
+        "maxLoadT": 2.0,
+        "loadText": "2トン（2脚使用時）",
+        "lowMm": 160,
+        "highMm": 240,
+        "rangeText": "160〜240mm",
+        "weightText": "1.3kg（1脚）",
+        "sizeText": "185(W)×206(D)×168(H)mm",
+        "lowdown": true,
+        "jan": "4960169009251"
+      },
+      "note": "高さはサドルの高さ（公式）。"
+    },
+    {
+      "name": "BAL No.923 ジャッキスタンド キーパーマン 2トン用",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-923/ （2026-11-13 確認）",
+      "specs": {
+        "type": "ジャッキスタンド（2脚入）",
+        "maxLoadT": 2.0,
+        "loadText": "2トン（2脚使用時）",
+        "lowMm": 265,
+        "highMm": 380,
+        "rangeText": "265〜380mm",
+        "weightText": "1.7kg（1脚）",
+        "sizeText": "190(W)×215(D)×275(H)mm",
+        "lowdown": false,
+        "jan": "4960169009237"
+      },
+      "note": "高さはサドルの高さを4段階に調整（公式）。"
+    },
+    {
+      "name": "BAL No.924 ジャッキスタンド キーパーマン 3トン用",
+      "brand": "大橋産業（BAL）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-924/ （2026-11-13 確認）",
+      "specs": {
+        "type": "ジャッキスタンド（2脚入）",
+        "maxLoadT": 3.0,
+        "loadText": "3トン（2脚使用時）",
+        "lowMm": 295,
+        "highMm": 490,
+        "rangeText": "295〜490mm",
+        "weightText": "2.8kg（1脚）",
+        "sizeText": "230(W)×255(D)×305(H)mm",
+        "lowdown": false,
+        "jan": "4960169009244"
+      },
+      "note": "高さはサドルの高さ（公式）。"
+    }
+  ]
+}

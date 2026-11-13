@@ -435,3 +435,11 @@
 - 長谷川工業 RS-15c（B09TSZ5V7P）：商品名は RS-15c だが、詳細欄のメーカー型番が「RS-15b」表記。定期点検で確認する
 - アルインコ MXA-150W（B01IUS5V2U）：Amazon の表記はハイフンなしの「MXA150W」
 - Anker A1388（B0CQMSZBXZ）：販売元が Anker 以外（AnkerDirect の出品は見当たらず）
+
+### 2026-11-13 追加：米びつ16・水切りラック10・浴室マグネット収納15（ASIN 未設定）
+
+メーカー公式（アスベル・山崎実業）で仕様を確認して追加。ASIN は未設定。転記テンプレート `docs/sources/kitchen_bath_amazon_template_2026-11-13.csv`（アスベルは JAN で検索できる）。
+
+### 2026-11-13 追加：ジャッキ21・トルクレンチ15（ASIN 未設定）
+
+メーカー公式（大橋産業・KTC）で仕様を確認して追加。ASIN は未設定。転記テンプレート `docs/sources/car_tools_amazon_template_2026-11-13.csv`（BAL は JAN で検索できる）。

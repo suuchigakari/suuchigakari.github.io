@@ -1,0 +1,386 @@
+{
+  "slug": "bath-magnet-rack",
+  "genre": "浴室のマグネット収納",
+  "genreNumber": 48,
+  "commissionRate": "3.00%",
+  "title": "浴室のマグネット収納は「幅」と「耐荷重」で選ぶ｜山崎実業 tower の15製品を公式の仕様で比較",
+  "description": "浴室の壁に磁石で付ける収納ラックは、幅18cmから60cm、耐荷重1kgから7kgまであります。山崎実業（tower）のマグネット式バスルームラック・トレー・バスケット15製品を、公式の幅・耐荷重・収納部の内寸で比べました。",
+  "keywords": [
+    "浴室 マグネット 収納",
+    "マグネット バスラック",
+    "お風呂 収納 マグネット 耐荷重",
+    "山崎実業 マグネット 浴室"
+  ],
+  "asOf": "2026-11-13",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "浴室の壁に磁石で付ける収納は、ネジや吸盤を使わずに付け外しできます。ただし付けられるのは、磁石がつく平らなスチールの壁だけです。山崎実業の公式ページには、製品ごとの幅と耐荷重、収納部の内寸が書かれています。シャンプーのボトルを何本置くか、壁のどこに付けるかで選べるよう、公式の仕様だけで並べました。",
+  "excludeReaders": [
+    {
+      "who": "壁がタイルや樹脂で、磁石がつかない浴室の人",
+      "why": "掲載した製品は、公式に「マグネットがつく平らな面・スチール壁面」に取り付けるものです。まず冷蔵庫用のマグネットなどで壁につくか確かめてください"
+    },
+    {
+      "who": "ほかのメーカーとも比べたい人",
+      "why": "今回は耐荷重と内寸を公式に書いている山崎実業の製品だけを載せています"
+    }
+  ],
+  "conclusion": [
+    "付けられるのは、磁石がつく凹凸のない平らなスチールの壁だけ（公式の記載）",
+    "幅は18cmから60cm。W60のトレー・収納ラックは耐荷重7kg、W30は3.5kgと、同じシリーズで幅に比例する",
+    "シャンプーなど背の高いボトルを入れるなら、収納部の高さを見る。収納ラック W30・W60 は内寸の高さ8.5cm、トレーは1.4cm"
+  ],
+  "filter": {
+    "heading": "付けたい場所の幅と、載せたい重さで絞り込む",
+    "note": "壁の空いている幅（cm）と、載せたいものの合計の重さを入れてください。",
+    "numberInputs": [
+      {
+        "key": "widthCm",
+        "type": "atMost",
+        "label": "付けたい場所の幅 (cm)",
+        "unit": "cm",
+        "default": 40,
+        "min": 15,
+        "max": 80,
+        "step": 1
+      },
+      {
+        "key": "loadShelfKg",
+        "type": "atLeast",
+        "label": "載せたい重さ (kg)",
+        "unit": "kg",
+        "default": 2,
+        "min": 0.5,
+        "max": 7,
+        "step": 0.5
+      }
+    ],
+    "flagInput": {
+      "key": "hasHook",
+      "label": "フックの耐荷重が書かれているもの（フック付き）",
+      "okDetail": "フック付き",
+      "ngDetail": "フックの記載なし"
+    }
+  },
+  "chart": {
+    "key": "loadShelfKg",
+    "label": "棚・トレー部分の耐荷重",
+    "unit": "kg",
+    "order": "desc",
+    "note": "公式の耐荷重のうち、棚・トレー・バスケット部分の値（コーナーラック2段は1段あたり）です。"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "label": "形"
+    },
+    {
+      "key": "sizeText",
+      "label": "本体サイズ"
+    },
+    {
+      "key": "innerText",
+      "label": "収納部の内寸"
+    },
+    {
+      "key": "loadText",
+      "label": "耐荷重（公式）"
+    },
+    {
+      "key": "weightG",
+      "label": "重さ",
+      "unit": "g"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "付けられる壁は「磁石がつく平らなスチール面」だけ",
+      "paragraphs": [
+        "山崎実業の公式ページには、取り付け可能な面として「マグネットがつく凹凸のない平らな面・スチール面」と書かれています。タイルや樹脂の壁、凹凸のある壁には付きません。",
+        "耐荷重には「静止荷重」と書かれている製品があります。物を勢いよく置いたり、引っ張ったりしたときの重さは含まれていないため、余裕をもって選ぶのが安全です。"
+      ]
+    },
+    {
+      "heading": "幅と耐荷重は、同じシリーズなら比例する",
+      "paragraphs": [
+        "マグネット バスルームトレーと収納ラックは、W30が耐荷重3.5kg、W60が7kgです（フック1つあたり250gを含む）。ワイヤートレーも、M（幅31cm）が2kg、L（幅44.3cm）が3kgです。",
+        "狭い場所向けには、幅18cmのマグネットバスルームラック（耐荷重2kg）や、幅22cmの多機能ラック（棚1.5kg・タオルハンガー500g）があります。"
+      ]
+    },
+    {
+      "heading": "ボトルを置くなら「収納部の高さ」を見る",
+      "paragraphs": [
+        "収納部の内寸は、トレーが高さ1.4cm、ワイヤートレーが2cmと浅く、収納ラック W30・W60 は8.5cm、バスケットは10〜13cmです。背の高いシャンプーボトルを倒れにくく置きたいなら、内寸の高さがあるラックやバスケットが向いています。",
+        "コーナーラック2段は、下段の高さが26.5cmと高く、1段あたり2.5kg・合計6kgまで載せられます。"
+      ]
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "浴室以外の場所に付ける突っ張り棚の耐荷重",
+      "href": "./tension-shelf.html"
+    },
+    {
+      "text": "キッチンのシンクに渡す水切りラック",
+      "href": "./dish-rack.html"
+    },
+    "磁石がつく壁かどうかの確かめ方（冷蔵庫用マグネットで試す）"
+  ],
+  "sources": [],
+  "products": [
+    {
+      "name": "山崎実業 マグネット バスルームトレー タワー W60",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/250298 （2026-11-13 確認）",
+      "specs": {
+        "type": "トレー",
+        "widthCm": 60,
+        "sizeText": "W60×D10.1×H10cm",
+        "loadText": "最大7kg（フック1つあたり250gを含む・静止荷重）",
+        "loadShelfKg": 7,
+        "weightG": 1555,
+        "innerText": "W58×D7.8×H1.4cm",
+        "hasHook": true
+      }
+    },
+    {
+      "name": "山崎実業 マグネット バスルーム収納ラック タワー W60",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/250296 （2026-11-13 確認）",
+      "specs": {
+        "type": "ラック（深め）",
+        "widthCm": 60,
+        "sizeText": "W60×D10×H9cm",
+        "loadText": "7kg（フック1つあたり250gを含む・静止荷重）",
+        "loadShelfKg": 7,
+        "weightG": 1655,
+        "innerText": "W58.4×D8.3×H8.5cm",
+        "hasHook": true
+      }
+    },
+    {
+      "name": "山崎実業 マグネットバスルームラック タワー ロング",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241622 （2026-11-13 確認）",
+      "specs": {
+        "type": "ラック",
+        "widthCm": 60,
+        "sizeText": "W60×D8.5×H8cm",
+        "loadText": "ラック4kg・フック1つあたり250g",
+        "loadShelfKg": 4,
+        "weightG": 1200,
+        "innerText": "W58.5×D8cm",
+        "hasHook": true
+      }
+    },
+    {
+      "name": "山崎実業 マグネットバスルームワイヤートレー タワー L",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/260203 （2026-11-13 確認）",
+      "specs": {
+        "type": "ワイヤートレー",
+        "widthCm": 44.3,
+        "sizeText": "W44.3×D12×H12cm",
+        "loadText": "本体3kg・フック1つあたり250g（静止荷重）",
+        "loadShelfKg": 3,
+        "weightG": 1200,
+        "innerText": "W42.6×D11.3×H2cm",
+        "hasHook": true
+      }
+    },
+    {
+      "name": "山崎実業 マグネットバスルームバスケット タワー ワイド",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241313 （2026-11-13 確認）",
+      "specs": {
+        "type": "バスケット",
+        "widthCm": 44.3,
+        "sizeText": "W44.3×D12.3×H12cm",
+        "loadText": "バスケット3kg・バー1kg・フック1つあたり250g",
+        "loadShelfKg": 3,
+        "weightG": 1450,
+        "innerText": "W42.7×D8.8×H10cm",
+        "hasHook": true
+      }
+    },
+    {
+      "name": "山崎実業 マグネットバスルームコーナーおもちゃラック タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241421 （2026-11-13 確認）",
+      "specs": {
+        "type": "コーナーラック",
+        "widthCm": 33,
+        "sizeText": "W33×D18.5×H10cm",
+        "loadText": "2kg",
+        "loadShelfKg": 2,
+        "weightG": 475,
+        "innerText": "公式に明記なし",
+        "hasHook": false
+      }
+    },
+    {
+      "name": "山崎実業 マグネットバスルームバスケット タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/242026 （2026-11-13 確認）",
+      "specs": {
+        "type": "バスケット",
+        "widthCm": 31,
+        "sizeText": "31×17×15cm（公式の表記）",
+        "loadText": "バスケット3kg・バー500g・フック1つあたり250g",
+        "loadShelfKg": 3,
+        "weightG": 1350,
+        "innerText": "W29.3×D13.5×H13cm",
+        "hasHook": true
+      }
+    },
+    {
+      "name": "山崎実業 マグネットバスルームワイヤートレー タワー M",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/260201 （2026-11-13 確認）",
+      "specs": {
+        "type": "ワイヤートレー",
+        "widthCm": 31,
+        "sizeText": "W31×D12×H12cm",
+        "loadText": "本体2kg・フック1つあたり250g（静止荷重）",
+        "loadShelfKg": 2,
+        "weightG": 850,
+        "innerText": "W29.3×D11.3×H2cm",
+        "hasHook": true
+      }
+    },
+    {
+      "name": "山崎実業 マグネット バスルームトレー タワー W30",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/250297 （2026-11-13 確認）",
+      "specs": {
+        "type": "トレー",
+        "widthCm": 30,
+        "sizeText": "W30×D10.1×H10cm",
+        "loadText": "最大3.5kg（フック1つあたり250gを含む・静止荷重）",
+        "loadShelfKg": 3.5,
+        "weightG": 750,
+        "innerText": "W28×D7.8×H1.4cm",
+        "hasHook": true
+      }
+    },
+    {
+      "name": "山崎実業 マグネット バスルーム収納ラック タワー W30",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/250295 （2026-11-13 確認）",
+      "specs": {
+        "type": "ラック（深め）",
+        "widthCm": 30,
+        "sizeText": "W30×D10×H9cm",
+        "loadText": "3.5kg（フック1つあたり250gを含む・静止荷重）",
+        "loadShelfKg": 3.5,
+        "weightG": 840,
+        "innerText": "W28.4×D8.3×H8.5cm",
+        "hasHook": true
+      }
+    },
+    {
+      "name": "山崎実業 リバーシブルマグネットバスルームコーナーラック タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241366 （2026-11-13 確認）",
+      "specs": {
+        "type": "コーナーラック",
+        "widthCm": 29.5,
+        "sizeText": "W29.5×D17×H10cm",
+        "loadText": "1.5kg",
+        "loadShelfKg": 1.5,
+        "weightG": 320,
+        "innerText": "公式に明記なし",
+        "hasHook": false
+      }
+    },
+    {
+      "name": "山崎実業 マグネットバスルームコーナーラック タワー 2段",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/242307 （2026-11-13 確認）",
+      "specs": {
+        "type": "コーナーラック（2段）",
+        "widthCm": 22.5,
+        "sizeText": "W22.5×D22.5×H34cm",
+        "loadText": "合計6kg（1段あたり2.5kg・フック1つあたり250g）",
+        "loadShelfKg": 2.5,
+        "weightG": 1300,
+        "innerText": "各段 W21.5×D21.5cm",
+        "hasHook": true
+      }
+    },
+    {
+      "name": "山崎実業 マグネットバスルーム多機能ラック タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241251 （2026-11-13 確認）",
+      "specs": {
+        "type": "多機能ラック（棚・フック・タオルハンガー）",
+        "widthCm": 22,
+        "sizeText": "W22×D11×H12cm",
+        "loadText": "合計3.5kg（棚1.5kg・フック1つあたり250g・タオルハンガー500g）",
+        "loadShelfKg": 1.5,
+        "weightG": 780,
+        "innerText": "W21×D10.5cm",
+        "hasHook": true
+      }
+    },
+    {
+      "name": "山崎実業 マグネットバスルーム折り畳み棚 タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/242021 （2026-11-13 確認）",
+      "specs": {
+        "type": "折り畳み棚",
+        "widthCm": 22,
+        "sizeText": "使用時 22×38.7×22cm・折り畳み時 22×5×41cm（公式の表記）",
+        "loadText": "1kg（棚前方500g）",
+        "loadShelfKg": 1,
+        "weightG": 1200,
+        "innerText": "W20×D33cm",
+        "hasHook": false
+      }
+    },
+    {
+      "name": "山崎実業 マグネットバスルームラック タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241175 （2026-11-13 確認）",
+      "specs": {
+        "type": "小さなラック",
+        "widthCm": 18,
+        "sizeText": "W18×D8.5×H8cm",
+        "loadText": "2kg",
+        "loadShelfKg": 2,
+        "weightG": 330,
+        "innerText": "W17×D8×H1.5cm",
+        "hasHook": false
+      }
+    }
+  ]
+}

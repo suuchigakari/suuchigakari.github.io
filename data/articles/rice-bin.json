@@ -1,0 +1,478 @@
+{
+  "slug": "rice-bin",
+  "genre": "米びつ",
+  "genreNumber": 46,
+  "commissionRate": "3.00%",
+  "title": "米びつは「何kg入るか」と「置き場所の形」で選ぶ｜アスベル・山崎実業の16製品を公式の容量・外寸で比較",
+  "description": "米びつの容量は2kgから20kgまで。同じ12kgでも、高さ19cmの引き出し用と高さ41cmの縦型計量タイプでは置ける場所が違います。アスベルと山崎実業（tower）の米びつ16製品を、メーカー公式の容量・外寸・パッキンの有無・計量方式で比べました。",
+  "keywords": [
+    "米びつ 比較",
+    "米びつ 5kg",
+    "米びつ 10kg",
+    "米びつ 密閉",
+    "米びつ 引き出し"
+  ],
+  "asOf": "2026-11-13",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "米びつは「何kg入るか」で探しがちですが、実際に困るのは置き場所です。アスベルの12kgの米びつでも、システムキッチンの引き出しに入れる平たいもの（高さ19cm）と、レバーで1合ずつ出せる縦型（高さ41cm）があります。いつも買う米袋の重さと、置きたい場所の形で選べるよう、メーカー公式の仕様だけで並べました。",
+  "excludeReaders": [
+    {
+      "who": "30kgの玄米袋をそのまま入れたい人",
+      "why": "このページの最大は20kg（山崎実業の密閉米びつ タワー 20kg）です"
+    },
+    {
+      "who": "保存性能（虫・湿気を防ぐ効果）で比べたい人",
+      "why": "防虫や鮮度保持の効果は数値で公開されていないため比べていません。パッキンの有無だけを公式の材質欄で確かめています"
+    }
+  ],
+  "conclusion": [
+    "容量は2kg・5〜6kg・10〜12kg・20kgの4つの大きさに分かれる。いつも買う米袋より一回り大きいものを選ぶ",
+    "同じ12kgでも形が違う。アスベルの引き出し用 A7508 は高さ19cm、縦型の計量米びつ A7503 は高さ41cm",
+    "レバーで1合ずつ出せる計量タイプは、アスベルの計量米びつ（A7503・A7504・A7527・A7528）。ほかは計量カップですくう",
+    "パッキンが公式の材質欄に書かれているのは16製品中13製品。アスベルの計量米びつ（A7503・A7504）と山崎実業の冷蔵庫用米びつには記載がない"
+  ],
+  "filter": {
+    "heading": "入れたいお米の量で絞り込む",
+    "note": "いつも買う米袋の重さ（kg）を入れてください。",
+    "numberInputs": [
+      {
+        "key": "capacityKg",
+        "type": "atLeast",
+        "label": "入れたいお米の量 (kg)",
+        "unit": "kg",
+        "default": 5,
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    ],
+    "flagInput": {
+      "key": "measure",
+      "label": "レバーで1合ずつ出せるものだけ",
+      "okDetail": "レバーで計量",
+      "ngDetail": "計量カップ"
+    }
+  },
+  "chart": {
+    "key": "capacityKg",
+    "label": "入るお米の量",
+    "unit": "kg",
+    "order": "asc",
+    "note": "メーカー公式のお米の容量です。"
+  },
+  "columns": [
+    {
+      "key": "capacityText",
+      "label": "お米の容量"
+    },
+    {
+      "key": "type",
+      "label": "形・置き場所"
+    },
+    {
+      "key": "sizeText",
+      "label": "外寸"
+    },
+    {
+      "key": "measureText",
+      "label": "計量"
+    },
+    {
+      "key": "packingText",
+      "label": "パッキン"
+    },
+    {
+      "key": "caster",
+      "label": "キャスター"
+    },
+    {
+      "key": "weightText",
+      "label": "本体の重さ"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "容量は4つの大きさに分かれる",
+      "paragraphs": [
+        "掲載した16製品のお米の容量は、2kg前後（アスベル A7510 の約2kg、山崎実業の冷蔵庫用米びつの1.8kg）、5〜6kg、10〜12kg、20kg（山崎実業の密閉米びつ タワー 20kg）の4つに分かれます。",
+        "山崎実業の製品は、容器の容量（L）とお米の容量（kg）を両方書いています。5kgの製品は「6L（お米：5kg）」、10kgは「12L（お米：10）」、20kgは「25L（お米：20kg）」です。"
+      ]
+    },
+    {
+      "heading": "同じ容量でも、置ける場所が違う",
+      "paragraphs": [
+        "12kgの米びつを比べると、アスベルの引き出し用 A7508 は幅30.2×奥行36.2×高さ19cm、縦型の計量米びつ A7503 は幅19×奥行42×高さ41cmです。前者はシステムキッチンの引き出しに入れる平たい形、後者は床やすき間に置く縦長の形です。",
+        "5kgでは、山崎実業のシンク下米びつ（W30×D19.7×H19.2cm）と袋ごと米びつ（W28×D16.5×H28.5cm）で高さが約9cm違います。置きたい場所の高さを先に測っておくと選びやすくなります。"
+      ],
+      "table": {
+        "head": [
+          "置き場所",
+          "向いている形（公式の外寸）"
+        ],
+        "rows": [
+          [
+            "システムキッチンの引き出し",
+            "アスベル 引き出し用 A7507（高さ17.2cm）・A7508（高さ19cm）\n山崎実業 シンク下米びつ（H19.2cm）"
+          ],
+          [
+            "冷蔵庫の野菜室・ドアポケット",
+            "アスベル A7510（幅16.7×奥行11cm）\n山崎実業 冷蔵庫用米びつ（W18.5×D8.5cm）"
+          ],
+          [
+            "床・すき間（縦長）",
+            "アスベル 計量米びつ（幅15〜19cm・高さ35.3〜41.1cm）"
+          ]
+        ],
+        "note": "どこに入るかは、各家庭の引き出しや冷蔵庫の内寸で確かめてください。"
+      }
+    },
+    {
+      "heading": "「計量」はレバー式と計量カップ式",
+      "paragraphs": [
+        "アスベルの計量米びつ（A7503・A7504・A7527・A7528）は、レバーを下げると1合ずつ出てくる形式です。公式に無洗米アダプターも材質欄に書かれています。",
+        "ほかの製品は付属の計量カップですくいます。山崎実業の計量カップは容量180mLで、公式に「すり切り一杯で1合、段差部分で半合」と説明されています。"
+      ]
+    },
+    {
+      "heading": "パッキンとキャスター",
+      "paragraphs": [
+        "パッキン（シリコーンゴム）は、16製品中13製品の公式の材質欄に書かれています。アスベルの計量米びつ A7503・A7504 と、山崎実業の冷蔵庫用米びつには記載がありません。アスベルの S計量米びつ（A7527・A7528）はパッキン付きです。",
+        "キャスター付きは、アスベルの12kgの4製品（A7503・A7512・A7514・A7528）と6kgの計量米びつ2製品（A7504・A7527）、山崎実業の20kgです。重いお米を入れたまま動かす場所なら、キャスターの有無も見ておくと便利です。"
+      ]
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "お米以外の食材を入れる保存容器の耐熱温度と容量",
+      "href": "./food-container.html"
+    },
+    {
+      "text": "量りたい材料に合うキッチンスケール",
+      "href": "./kitchen-scale.html"
+    },
+    "米びつを置く引き出しやシンク下の内寸の測り方"
+  ],
+  "sources": [],
+  "products": [
+    {
+      "name": "アスベル 密閉米びつ2kg（パッキン付）A7510",
+      "brand": "アスベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7510 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 2,
+        "capacityText": "約2kg",
+        "sizeText": "幅16.7×奥行11×高さ29.3cm",
+        "type": "密閉（縦長）",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "なし",
+        "weightText": "公式に明記なし",
+        "jan": "4974908751011"
+      }
+    },
+    {
+      "name": "山崎実業 1合分別 冷蔵庫用米びつ タワー（3760）",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241311 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 1.8,
+        "capacityText": "1.8kg",
+        "sizeText": "W18.5×D8.5×H24.5cm",
+        "type": "冷蔵庫用（1合ずつ仕切り）",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": false,
+        "packingText": "公式の材質欄に記載なし",
+        "caster": "なし",
+        "weightText": "710g"
+      },
+      "note": "容量は公式に「容器：2L（普通精米：1.8kg）」。"
+    },
+    {
+      "name": "アスベル 引き出し用米びつ6kg A7507",
+      "brand": "アスベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7507 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 6,
+        "capacityText": "約6kg",
+        "sizeText": "幅22.8×奥行32.3×高さ17.2cm",
+        "type": "引き出し用（平たい）",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "なし",
+        "weightText": "公式に明記なし",
+        "jan": "4974908750793"
+      }
+    },
+    {
+      "name": "アスベル 密閉米びつ6kg（パッキン付）A7511",
+      "brand": "アスベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7511 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 6,
+        "capacityText": "約6kg",
+        "sizeText": "幅19.8×奥行30.8×高さ20.1cm",
+        "type": "密閉",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "なし",
+        "weightText": "公式に明記なし",
+        "jan": "4974908751189"
+      }
+    },
+    {
+      "name": "アスベル S密閉米びつ6kg（パッキン付）A7513",
+      "brand": "アスベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7513 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 6,
+        "capacityText": "約6kg",
+        "sizeText": "幅18.8×奥行29.6×高さ19.3cm",
+        "type": "密閉",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "なし",
+        "weightText": "公式に明記なし",
+        "jan": "4974908751394"
+      }
+    },
+    {
+      "name": "アスベル 計量米びつ6kg型 A7504",
+      "brand": "アスベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7504 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 6,
+        "capacityText": "約6kg",
+        "sizeText": "幅15×奥行35×高さ36cm",
+        "type": "計量（縦型）",
+        "measure": true,
+        "measureText": "レバーで1合ずつ計量",
+        "packing": false,
+        "packingText": "公式の材質欄に記載なし",
+        "caster": "あり",
+        "weightText": "公式に明記なし",
+        "jan": "4974908750496"
+      }
+    },
+    {
+      "name": "アスベル S計量米びつ6kg A7527",
+      "brand": "アスベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7527 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 6,
+        "capacityText": "約6kg",
+        "sizeText": "幅15.1×奥行34.2×高さ35.3cm",
+        "type": "計量（縦型）",
+        "measure": true,
+        "measureText": "レバーで1合ずつ計量",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "あり",
+        "weightText": "公式に明記なし",
+        "jan": "4974908752704"
+      }
+    },
+    {
+      "name": "山崎実業 密閉 袋ごと米びつ タワー 5kg（3375）",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241211 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 5,
+        "capacityText": "5kg",
+        "sizeText": "W28×D16.5×H28.5cm",
+        "type": "密閉（袋ごと入れる）",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "なし",
+        "weightText": "830g（計量カップ別）"
+      },
+      "note": "容量は公式に「本体：6L（お米：5kg）」。"
+    },
+    {
+      "name": "山崎実業 密閉 シンク下米びつ タワー 5kg（3377）",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241212 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 5,
+        "capacityText": "5kg",
+        "sizeText": "W30×D19.7×H19.2cm",
+        "type": "密閉（シンク下・引き出し向け）",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "なし",
+        "weightText": "880g（計量カップ別）"
+      },
+      "note": "容量は公式に「本体：6L（お米：5kg）」。"
+    },
+    {
+      "name": "山崎実業 密閉米びつ タワー 10kg（5423）",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241977 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 10,
+        "capacityText": "10kg",
+        "sizeText": "30.7×19.7×31.2cm（公式の表記）",
+        "type": "密閉",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "なし",
+        "weightText": "1200g（計量カップ別）"
+      },
+      "note": "容量は公式に「12L（お米：10）」。サイズの並び（幅・奥行・高さ）は公式に明記なし。"
+    },
+    {
+      "name": "アスベル 引き出し用米びつ12kg A7508",
+      "brand": "アスベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7508 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 12,
+        "capacityText": "約12kg",
+        "sizeText": "幅30.2×奥行36.2×高さ19cm",
+        "type": "引き出し用（平たい）",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "なし",
+        "weightText": "公式に明記なし",
+        "jan": "4974908750892"
+      }
+    },
+    {
+      "name": "アスベル 密閉米びつ12kg（パッキン付）A7512",
+      "brand": "アスベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7512 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 12,
+        "capacityText": "約12kg",
+        "sizeText": "幅21.9×奥行37.6×高さ28.5cm",
+        "type": "密閉",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "あり",
+        "weightText": "公式に明記なし",
+        "jan": "4974908751288"
+      }
+    },
+    {
+      "name": "アスベル S密閉米びつ12kg（パッキン付）A7514",
+      "brand": "アスベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7514 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 12,
+        "capacityText": "約12kg",
+        "sizeText": "幅21.5×奥行35.5×高さ26.9cm",
+        "type": "密閉",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "あり",
+        "weightText": "公式に明記なし",
+        "jan": "4974908751493"
+      }
+    },
+    {
+      "name": "アスベル 計量米びつ12kg型 A7503",
+      "brand": "アスベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7503 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 12,
+        "capacityText": "約12kg",
+        "sizeText": "幅19×奥行42×高さ41cm",
+        "type": "計量（縦型）",
+        "measure": true,
+        "measureText": "レバーで1合ずつ計量",
+        "packing": false,
+        "packingText": "公式の材質欄に記載なし",
+        "caster": "あり",
+        "weightText": "公式に明記なし",
+        "jan": "4974908750397"
+      }
+    },
+    {
+      "name": "アスベル S計量米びつ12kg A7528",
+      "brand": "アスベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7528 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 12,
+        "capacityText": "約12kg",
+        "sizeText": "幅18.1×奥行41.8×高さ41.1cm",
+        "type": "計量（縦型）",
+        "measure": true,
+        "measureText": "レバーで1合ずつ計量",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "あり",
+        "weightText": "公式に明記なし",
+        "jan": "4974908752803"
+      }
+    },
+    {
+      "name": "山崎実業 密閉米びつ タワー 20kg（5425）",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241978 （2026-11-13 確認）",
+      "specs": {
+        "capacityKg": 20,
+        "capacityText": "20kg",
+        "sizeText": "41×24×42.5cm（公式の表記）",
+        "type": "密閉",
+        "measure": false,
+        "measureText": "計量カップ",
+        "packing": true,
+        "packingText": "あり",
+        "caster": "あり",
+        "weightText": "2100g（計量カップ別）"
+      },
+      "note": "容量は公式に「米びつ：25L（お米：20kg）」。サイズの並びは公式に明記なし。"
+    }
+  ]
+}

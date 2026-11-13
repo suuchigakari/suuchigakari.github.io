@@ -1,0 +1,305 @@
+{
+  "slug": "dish-rack",
+  "genre": "シンク上の水切りラック",
+  "genreNumber": 47,
+  "commissionRate": "3.00%",
+  "title": "シンクに渡す水切りラックは「シンクの内寸」で選ぶ｜山崎実業 tower の10製品を公式の対応サイズ・耐荷重で比較",
+  "description": "シンクに渡して使う水切りラックは、製品ごとに使えるシンクの大きさが決まっています。山崎実業（tower）の10製品を、公式の「対応するシンク」の寸法、耐荷重、本体サイズで比べました。耐荷重は2kgから8kgまで4倍の差があります。",
+  "keywords": [
+    "水切りラック シンク上",
+    "水切りラック 伸縮",
+    "水切りかご スリム",
+    "シンク 渡す 水切り",
+    "山崎実業 水切り"
+  ],
+  "asOf": "2026-11-13",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "シンクの上に渡して使う水切りラックは、作業スペースを広げられる一方で、シンクの大きさが合わないと置けません。山崎実業は製品ごとに「奥行50cm以内のシンク」「シンク内寸38〜55cm」のように使えるシンクの寸法を公式に書いています。シンクの内寸を測ってから選べるよう、公式の仕様だけで並べました。",
+  "excludeReaders": [
+    {
+      "who": "調理台の上に置く大きな水切りかごを探している人",
+      "why": "このページはシンクの上に渡して使える製品を比べています"
+    },
+    {
+      "who": "ほかのメーカーとも比べたい人",
+      "why": "今回はシンクの寸法を公式に書いている山崎実業の製品だけを載せています。ほかのメーカーは、公式の仕様が確認できしだい追加します"
+    }
+  ],
+  "conclusion": [
+    "先にシンクの内寸を測る。スリムタイプの多くは「奥行50cm以内のシンク」、折り畳み水切りラック S は「38cm以下」、L は「54cm以下」",
+    "伸縮タイプには下限もある。伸縮水切りラックはシンク内寸38〜55cm、伸縮水切りワイヤーバスケットは37〜47cm",
+    "耐荷重は2kg（シンク上スリム水切りラックのラック部分）から8kg（スリム水切りバスケット ロングなど）まで。鍋やフライパンも乗せるなら8kgのものを選ぶ"
+  ],
+  "filter": {
+    "heading": "シンクの内寸で絞り込む",
+    "note": "シンクの内側の寸法（奥行）をcmで入れてください。公式の「○cm以内のシンク」の上限と比べます。伸縮タイプは下限（37〜38cm）もあるので、表の「対応するシンク」も確かめてください。",
+    "numberInputs": [
+      {
+        "key": "sinkMaxCm",
+        "type": "atLeast",
+        "label": "シンクの内寸 (cm)",
+        "unit": "cm",
+        "default": 45,
+        "min": 30,
+        "max": 60,
+        "step": 1
+      },
+      {
+        "key": "loadMainKg",
+        "type": "atLeast",
+        "label": "載せたい重さ (kg)",
+        "unit": "kg",
+        "default": 3,
+        "min": 1,
+        "max": 8,
+        "step": 1
+      }
+    ],
+    "flagInput": {
+      "key": "upperOnly",
+      "label": "対応サイズが上限だけのもの（伸縮タイプ以外）",
+      "okDetail": "上限のみの記載",
+      "ngDetail": "下限もある（伸縮）"
+    }
+  },
+  "chart": {
+    "key": "loadMainKg",
+    "label": "耐荷重（ラック・バスケット部分）",
+    "unit": "kg",
+    "order": "desc",
+    "note": "メーカー公式の耐荷重のうち、ラック・ワイヤーバスケット部分の値です。"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "label": "形"
+    },
+    {
+      "key": "fitText",
+      "label": "対応するシンク（公式）"
+    },
+    {
+      "key": "loadText",
+      "label": "耐荷重（公式）"
+    },
+    {
+      "key": "sizeText",
+      "label": "本体サイズ"
+    },
+    {
+      "key": "weightG",
+      "label": "重さ",
+      "unit": "g"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "対応するシンクの書き方は2種類",
+      "paragraphs": [
+        "山崎実業の公式ページでは、シンクに渡して使う製品に「設置可能なシンク　奥行き50cm以内」のような上限が書かれています。スリムタイプの5製品はいずれも50cm以内、シンク上スリム水切りラックは49cm以内です。",
+        "伸縮タイプは「シンク内寸38〜55cm」のように範囲で書かれています。幅を伸び縮みさせてシンクの縁に掛けるため、シンクが小さすぎても使えません。"
+      ]
+    },
+    {
+      "heading": "耐荷重は4倍の差",
+      "paragraphs": [
+        "ラック・バスケット部分の耐荷重は、シンク上スリム水切りラックが2kg（バー1kg・シリコーントレー500g）、伸縮水切りラックが3kg、折り畳み水切りラックが4kg、伸縮水切りワイヤーバスケットとツーウェイ水切りワイヤーバスケットが5kg、スリム水切りバスケット ロングやスリムツーウェイなどが8kgです。",
+        "フィルムフック ツーウェイ水切りワイヤーバスケットのように、フックの耐荷重（1つあたり250g）が別に書かれている製品もあります。"
+      ]
+    },
+    {
+      "heading": "折り畳み・伸縮・スリムの違い",
+      "paragraphs": [
+        "折り畳み水切りラック（S・L）は厚さ0.8cmで、使わないときは巻いてしまえる形です。伸縮水切りラックは厚さ1.6cm、重さ420gと最も軽い製品です。",
+        "スリムタイプのワイヤーバスケットは高さ16〜18.6cm（2段は33.5cm）です。2段のスリムスリーウェイは重さ2600gと、掲載品で最も重い製品です。「ツーウェイ」「スリーウェイ」の使い方は各製品の公式ページで確かめてください。"
+      ]
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "洗ったあとの食材を入れる保存容器",
+      "href": "./food-container.html"
+    },
+    {
+      "text": "シンクで使うまな板の大きさと厚み",
+      "href": "./cutting-board.html"
+    },
+    {
+      "text": "キッチンの米びつの置き場所と容量",
+      "href": "./rice-bin.html"
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "name": "山崎実業 伸縮水切りラック タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241066 （2026-11-13 確認）",
+      "specs": {
+        "type": "伸縮（シンクに渡す）",
+        "fitText": "シンク内寸 38〜55cm",
+        "sinkMaxCm": 55,
+        "loadText": "3kg",
+        "loadMainKg": 3,
+        "sizeText": "W44〜61×D17.5×H1.6cm",
+        "weightG": 420,
+        "upperOnly": false
+      }
+    },
+    {
+      "name": "山崎実業 伸縮水切りワイヤーバスケット タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241233 （2026-11-13 確認）",
+      "specs": {
+        "type": "伸縮（シンクに渡す）",
+        "fitText": "シンク内寸 37〜47cm",
+        "sinkMaxCm": 47,
+        "loadText": "5kg",
+        "loadMainKg": 5,
+        "sizeText": "W44〜54×D19.5×H14cm",
+        "weightG": 1500,
+        "upperOnly": false
+      }
+    },
+    {
+      "name": "山崎実業 折り畳み水切りラック タワー S",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/242646 （2026-11-13 確認）",
+      "specs": {
+        "type": "巻いてたためる（シンクに渡す）",
+        "fitText": "奥行38cm以下のシンク",
+        "sinkMaxCm": 38,
+        "loadText": "4kg",
+        "loadMainKg": 4,
+        "sizeText": "W26×D42×H0.8cm",
+        "weightG": 610,
+        "upperOnly": true
+      }
+    },
+    {
+      "name": "山崎実業 折り畳み水切りラック タワー L",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/242645 （2026-11-13 確認）",
+      "specs": {
+        "type": "巻いてたためる（シンクに渡す）",
+        "fitText": "奥行54cm以下のシンク",
+        "sinkMaxCm": 54,
+        "loadText": "4kg",
+        "loadMainKg": 4,
+        "sizeText": "W26×D58×H0.8cm",
+        "weightG": 810,
+        "upperOnly": true
+      }
+    },
+    {
+      "name": "山崎実業 シンク上スリム水切りラック タワー シリコーントレー付き",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/245151 （2026-11-13 確認）",
+      "specs": {
+        "type": "スリム（シンクに渡す）",
+        "fitText": "奥行49cm以内のシンク（シンク渡し使用時）",
+        "sinkMaxCm": 49,
+        "loadText": "ラック2kg・バー1kg・シリコーントレー500g",
+        "loadMainKg": 2,
+        "sizeText": "W55.2×D24.5×H3.1cm（バー使用時H14.5cm）",
+        "weightG": 1200,
+        "upperOnly": true
+      }
+    },
+    {
+      "name": "山崎実業 スリム水切りバスケット タワー ロング",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241440 （2026-11-13 確認）",
+      "specs": {
+        "type": "スリム（シンクに渡す）",
+        "fitText": "奥行50cm以内のシンク",
+        "sinkMaxCm": 50,
+        "loadText": "8kg",
+        "loadMainKg": 8,
+        "sizeText": "W55.5×D16.5×H16cm",
+        "weightG": 1200,
+        "upperOnly": true
+      }
+    },
+    {
+      "name": "山崎実業 スリムツーウェイ水切りワイヤーバスケット タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241826 （2026-11-13 確認）",
+      "specs": {
+        "type": "スリム（シンクに渡す）",
+        "fitText": "奥行50cm以内のシンク（シンク渡し使用時）",
+        "sinkMaxCm": 50,
+        "loadText": "ワイヤーバスケット8kg・水切りトレー5kg",
+        "loadMainKg": 8,
+        "sizeText": "W57.5×D16×H18.5cm",
+        "weightG": 2300,
+        "upperOnly": true
+      }
+    },
+    {
+      "name": "山崎実業 スリムスリーウェイ水切りワイヤーバスケット 2段 タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241827 （2026-11-13 確認）",
+      "specs": {
+        "type": "スリム2段（シンクに渡す）",
+        "fitText": "奥行50cm以内のシンク（シンク渡し使用時）",
+        "sinkMaxCm": 50,
+        "loadText": "ワイヤーバスケット8kg・水切りトレー5kg",
+        "loadMainKg": 8,
+        "sizeText": "W57.5×D16×H33.5cm",
+        "weightG": 2600,
+        "upperOnly": true
+      }
+    },
+    {
+      "name": "山崎実業 水切れの良いスリム水切りワイヤーバスケット タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/245206 （2026-11-13 確認）",
+      "specs": {
+        "type": "スリム（シンクに渡す）",
+        "fitText": "奥行50cm以内のシンク（シンク渡し使用時）",
+        "sinkMaxCm": 50,
+        "loadText": "ワイヤーバスケット8kg",
+        "loadMainKg": 8,
+        "sizeText": "ワイヤーバスケット W57.6×D18.8×H18.6cm",
+        "weightG": 2250,
+        "upperOnly": true
+      }
+    },
+    {
+      "name": "山崎実業 フィルムフック ツーウェイ水切りワイヤーバスケット タワー",
+      "brand": "山崎実業",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.yamajitsu.co.jp/products/250365 （2026-11-13 確認）",
+      "specs": {
+        "type": "スリム（シンクに渡す・フィルムフック付き）",
+        "fitText": "奥行50cm以内（シンク渡し使用時）",
+        "sinkMaxCm": 50,
+        "loadText": "ワイヤーバスケット5kg・水切りトレー3kg",
+        "loadMainKg": 5,
+        "sizeText": "W57.6×D22.9×H18.4cm",
+        "weightG": 1990,
+        "upperOnly": true
+      }
+    }
+  ]
+}
