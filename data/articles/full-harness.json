@@ -1,0 +1,848 @@
+{
+  "slug": "full-harness",
+  "genre": "フルハーネス（墜落制止用器具）",
+  "genreNumber": 51,
+  "commissionRate": "4.00%（見込み。ASIN 設定時に確認）",
+  "title": "フルハーネスは「使用可能質量」と「重さ」で選ぶ｜タジマ・藤井電工の38製品を公式の仕様で比較",
+  "description": "フルハーネス型の墜落制止用器具は、使用可能質量（体重と装備の合計）が100kg用と130kg用に分かれます。タジマ21製品と藤井電工（ツヨロン）17製品のハーネス本体を、公式の使用可能質量・重さ・腿ベルトの形・バックルで比べました。",
+  "keywords": [
+    "フルハーネス 比較",
+    "フルハーネス 130kg",
+    "フルハーネス 軽い",
+    "タジマ ハーネス",
+    "ツヨロン ハーネス"
+  ],
+  "asOf": "2026-11-13",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "フルハーネスは、体重と工具などの装備を合わせた重さ（使用可能質量）で、100kg用か130kg用かを選びます。タジマは製品ごとに「100kg以下」「130kg以下」を公式に書いていて、同じシリーズでも品番の頭に「A4」が付くものが130kg用です。ハーネス本体（ランヤードを除く）の仕様を、メーカー公式の数値で並べました。",
+  "excludeReaders": [
+    {
+      "who": "ランヤード（ショックアブソーバ付きのロープ）を選びたい人",
+      "why": "このページはハーネス本体だけを比べています。ランヤードは作業する高さや取付設備の高さで選ぶ別の製品です"
+    },
+    {
+      "who": "特別教育や法令の要件を確かめたい人",
+      "why": "このページは製品の仕様の比較です。法令・特別教育は厚生労働省や事業者の案内で確かめてください"
+    }
+  ],
+  "conclusion": [
+    "体重と装備の合計で選ぶ。タジマは100kg以下と130kg以下があり、品番の頭に「A4」が付くもの（A4ZAL など）が130kg用",
+    "藤井電工（ツヨロン）は、製品ページに使用可能質量が書かれていない（同社は大重量用（130kg）ショックアブソーバ付きは問い合わせと記載）",
+    "重さは約820g（ツヨロン ライトハーネス）から約1,945g（ゼロGハーネス 水平型ハイグレード）まで。タジマはハーネスGS が1,020〜1,080gと軽い",
+    "腿ベルトはV型と水平型。バックルはワンタッチ式とパススルー式（タジマ セフハーネスB・ハーネスGS）"
+  ],
+  "filter": {
+    "heading": "体重と装備の合計で絞り込む",
+    "note": "体重に、腰に下げる工具や装備の重さを足した合計を入れてください。",
+    "numberInputs": [
+      {
+        "key": "usableKg",
+        "type": "atLeast",
+        "label": "体重＋装備の重さ (kg)",
+        "unit": "kg",
+        "default": 90,
+        "min": 40,
+        "max": 130,
+        "step": 5
+      }
+    ],
+    "flagInput": {
+      "key": "vThigh",
+      "label": "腿ベルトがV型のものだけ",
+      "okDetail": "V型",
+      "ngDetail": "水平型"
+    }
+  },
+  "chart": {
+    "key": "weightG",
+    "label": "ハーネスの重さ",
+    "unit": "g",
+    "order": "asc",
+    "note": "メーカー公式の重さです。タジマのセフハーネスは付属パッド（150g）を含みます。"
+  },
+  "columns": [
+    {
+      "key": "usableText",
+      "label": "使用可能質量"
+    },
+    {
+      "key": "weightText",
+      "label": "重さ"
+    },
+    {
+      "key": "size",
+      "label": "サイズ"
+    },
+    {
+      "key": "thigh",
+      "label": "腿ベルト"
+    },
+    {
+      "key": "buckle",
+      "label": "バックル"
+    },
+    {
+      "key": "standard",
+      "label": "規格の表示"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "100kg用と130kg用",
+      "paragraphs": [
+        "タジマは、同じシリーズに100kg用と130kg用を用意しています。ハーネスZA は S・M・L が100kg以下、A4ZAL（Lサイズ）が130kg以下です。セフハーネスA・S・B は、掲載した品番がすべて130kg以下です。",
+        "藤井電工（ツヨロン）は、ハーネス本体の製品ページに使用可能質量が書かれていません。レヴォハーネスのページには「大重量用（130kg）ショックアブソーバ付きもありますので、お問い合わせください」とあります。"
+      ]
+    },
+    {
+      "heading": "重さは約820gから約1,945gまで",
+      "paragraphs": [
+        "もっとも軽いのはツヨロンのライトハーネス（約820g）、次が小町ハーネス（約920g、女性専用）です。タジマではハーネスGS（S 1,020g〜L 1,080g）が軽く、ハオルハーネス HS（1,350g）やセフハーネスS（1,350g、パッド込み）が重めです。",
+        "ツヨロンのゼロGハーネスは、付属品の違うハイグレード・ミドルグレード・スタンダードがあり、同じ水平型でも約1,630gから約1,945gまで差があります。"
+      ]
+    },
+    {
+      "heading": "腿ベルトとバックル",
+      "paragraphs": [
+        "腿ベルトは、V型と水平型があります。ツヨロンはV型について「墜落制止時の衝撃を骨盤全体で受け止め」と説明しています（コアハーネスのページ）。",
+        "バックルは、多くがワンタッチ式です。タジマのセフハーネスB とハーネスGS はスチールのパススルーバックルです。タジマはアルミ製とスチール製のワンタッチバックルを、シリーズで分けています（セフハーネスA・ハーネスZA・ハオルHA がアルミ、セフハーネスS・ハーネスZS・ハオルHS がスチール）。"
+      ]
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "頭を守る作業用ヘルメット（墜落時保護用かどうか）",
+      "href": "./work-helmet.html"
+    },
+    {
+      "text": "足元の安全靴・セーフティスニーカー",
+      "href": "./safety-sneaker.html"
+    },
+    "ランヤード（ショックアブソーバの種別とフックの種類）"
+  ],
+  "sources": [],
+  "products": [
+    {
+      "name": "タジマ セフハーネスA A4SFAF（フリーサイズ・130kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268761 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 130,
+        "usableText": "130kg以下",
+        "weightG": 1340,
+        "weightText": "1,340g（製品重量）",
+        "size": "フリーサイズ（適合目安身長 155〜185cm）",
+        "thigh": "V型",
+        "buckle": "アルミ ワンタッチバックル",
+        "standard": "種類：フルハーネス型タイプ1",
+        "vThigh": true
+      },
+      "note": "色違い：BK・RE・SI。付属パッド150gを含む重さ。"
+    },
+    {
+      "name": "タジマ セフハーネスA A4SFASS（SS・130kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268792 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 130,
+        "usableText": "130kg以下",
+        "weightG": 1310,
+        "weightText": "1,310g（製品重量）",
+        "size": "SS",
+        "thigh": "V型",
+        "buckle": "アルミ ワンタッチバックル",
+        "standard": "種類：フルハーネス型タイプ1",
+        "vThigh": true
+      },
+      "note": "色違い：BK。付属パッド150gを含む重さ。"
+    },
+    {
+      "name": "タジマ セフハーネスS A4SFSF（フリーサイズ・130kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268808 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 130,
+        "usableText": "130kg以下",
+        "weightG": 1350,
+        "weightText": "1,350g（製品重量）",
+        "size": "フリーサイズ（適合目安身長 155〜185cm）",
+        "thigh": "V型",
+        "buckle": "スチール ワンタッチバックル",
+        "standard": "種類：フルハーネス型タイプ1",
+        "vThigh": true
+      },
+      "note": "色違い：BK。付属パッド150gを含む重さ。"
+    },
+    {
+      "name": "タジマ セフハーネスB A4SFBF（フリーサイズ・130kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268815 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 130,
+        "usableText": "130kg以下",
+        "weightG": 1050,
+        "weightText": "1,050g（製品重量）",
+        "size": "フリーサイズ（適合目安身長 155〜185cm）",
+        "thigh": "V型",
+        "buckle": "スチール パススルーバックル",
+        "standard": "種類：フルハーネス型タイプ1",
+        "vThigh": true
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハオルハーネスHA AHAF（サイズ記載なし・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364267382 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1250,
+        "weightText": "1,250g（製品重量）",
+        "size": "記載なし",
+        "thigh": "水平型",
+        "buckle": "アルミ ワンタッチバックル",
+        "standard": "種類：フルハーネス型",
+        "vThigh": false
+      },
+      "note": "色違い：BK・RE・SI。"
+    },
+    {
+      "name": "タジマ ハオルハーネスHA A4HAF（フリーサイズ・130kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268976 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 130,
+        "usableText": "130kg以下",
+        "weightG": 1250,
+        "weightText": "1,250g（製品重量）",
+        "size": "フリーサイズ",
+        "thigh": "水平型",
+        "buckle": "アルミ ワンタッチバックル",
+        "standard": "種類：フルハーネス型",
+        "vThigh": false
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハオルハーネスHA AHASS（SS・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364267931 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1220,
+        "weightText": "1,220g（製品重量）",
+        "size": "SS",
+        "thigh": "水平型",
+        "buckle": "アルミ ワンタッチバックル",
+        "standard": "種類：フルハーネス型",
+        "vThigh": false
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハオルハーネスHS AHSF（サイズ記載なし・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364267412 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1350,
+        "weightText": "1,350g（製品重量）",
+        "size": "記載なし",
+        "thigh": "水平型",
+        "buckle": "スチール ワンタッチバックル",
+        "standard": "種類：フルハーネス型",
+        "vThigh": false
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハオルハーネスHS A4HSF（フリーサイズ・130kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268983 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 130,
+        "usableText": "130kg以下",
+        "weightG": 1350,
+        "weightText": "1,350g（製品重量）",
+        "size": "フリーサイズ",
+        "thigh": "水平型",
+        "buckle": "スチール ワンタッチバックル",
+        "standard": "種類：フルハーネス型",
+        "vThigh": false
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハーネスZA AZAS（S・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261229 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1090,
+        "weightText": "1,090g（製品重量）",
+        "size": "S（適合目安身長 155～165cm）",
+        "thigh": "水平型",
+        "buckle": "アルミ ワンタッチバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": false
+      },
+      "note": "色違い：BK・LRE・LWH。"
+    },
+    {
+      "name": "タジマ ハーネスZA AZAM（M・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261236 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1110,
+        "weightText": "1,110g（製品重量）",
+        "size": "M（適合目安身長 165～175cm）",
+        "thigh": "水平型",
+        "buckle": "アルミ ワンタッチバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": false
+      },
+      "note": "色違い：BK・LRE・LWH。"
+    },
+    {
+      "name": "タジマ ハーネスZA AZAL（L・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261243 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1150,
+        "weightText": "1,150g（製品重量）",
+        "size": "L（適合目安身長 175～185cm）",
+        "thigh": "水平型",
+        "buckle": "アルミ ワンタッチバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": false
+      },
+      "note": "色違い：BK・LRE・LWH。"
+    },
+    {
+      "name": "タジマ ハーネスZA A4ZAL（L・130kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268990 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 130,
+        "usableText": "130kg以下",
+        "weightG": 1150,
+        "weightText": "1,150g（製品重量）",
+        "size": "L",
+        "thigh": "水平型",
+        "buckle": "アルミ ワンタッチバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": false
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハーネスZS AZSS（S・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261199 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1270,
+        "weightText": "1,270g（製品重量）",
+        "size": "S（適合目安身長 155～165cm）",
+        "thigh": "水平型",
+        "buckle": "スチール ワンタッチバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": false
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハーネスZS AZSM（M・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261205 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1290,
+        "weightText": "1,290g（製品重量）",
+        "size": "M（適合目安身長 165～175cm）",
+        "thigh": "水平型",
+        "buckle": "スチール ワンタッチバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": false
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハーネスZS AZSL（L・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261212 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1320,
+        "weightText": "1,320g（製品重量）",
+        "size": "L（適合目安身長 175～185cm）",
+        "thigh": "水平型",
+        "buckle": "スチール ワンタッチバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": false
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハーネスZS A4ZSL（L・130kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364269003 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 130,
+        "usableText": "130kg以下",
+        "weightG": 1320,
+        "weightText": "1,320g（製品重量）",
+        "size": "L",
+        "thigh": "水平型",
+        "buckle": "スチール ワンタッチバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": false
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハーネスGS AGSS（S・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261168 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1020,
+        "weightText": "1,020g（製品重量）",
+        "size": "S（適合目安身長 155～165cm）",
+        "thigh": "V型",
+        "buckle": "スチール パススルーバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": true
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハーネスGS AGSM（M・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261175 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1050,
+        "weightText": "1,050g（製品重量）",
+        "size": "M（適合目安身長 165～175cm）",
+        "thigh": "V型",
+        "buckle": "スチール パススルーバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": true
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハーネスGS AGSL（L・100kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261182 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 100,
+        "usableText": "100kg以下",
+        "weightG": 1080,
+        "weightText": "1,080g（製品重量）",
+        "size": "L（適合目安身長 175～185cm）",
+        "thigh": "V型",
+        "buckle": "スチール パススルーバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": true
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "タジマ ハーネスGS A4GSL（L・130kg用）",
+      "brand": "タジマ",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364269010 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": 130,
+        "usableText": "130kg以下",
+        "weightG": 1080,
+        "weightText": "1,080g（製品重量）",
+        "size": "L",
+        "thigh": "V型",
+        "buckle": "スチール パススルーバックル",
+        "standard": "種類：フルハーネス型 ／「墜落制止用器具の規格」適合品",
+        "vThigh": true
+      },
+      "note": "色違い：BK。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） カイトハーネス TH-521-OT",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/kite-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1330,
+        "weightText": "約1,330g（アタッチメント含む）",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "水平型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": false
+      },
+      "note": "背部ベルトX型。ベルト幅45mm、胸ベルト幅30mm、胴ベルト幅150mmまで着脱可能。※胴ベルトは付属しません。ベルト色BLACK（BLK)/NAVY（BL）/DARKRED（DR)。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） カイトハーネス TH-521OT-OT",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/kite-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1530,
+        "weightText": "約1,530g（アタッチメント含む）",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "水平型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": false
+      },
+      "note": "背部ベルトX型。胸ベルト幅45mm、胸D環付き。※背部D環は標準装備 ※胴ベルトは付属しません。。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520V-OT-HG（ハイグレード）",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1845,
+        "weightText": "約1,845g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "V型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": true
+      },
+      "note": "付属品：背当てパッド・着脱式胸D環。胸ベルト幅28mm。ベルト色BL。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520V-OT-MG（ミドルグレード）",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1745,
+        "weightText": "約1,745g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "V型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": true
+      },
+      "note": "付属品：背当てパッド。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520V-OT-SG（スタンダード）",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1530,
+        "weightText": "約1,530g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "V型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": true
+      },
+      "note": "付属品：なし。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520H-OT-HG（ハイグレード）",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1945,
+        "weightText": "約1,945g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "水平型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": false
+      },
+      "note": "付属品：背当てパッド・着脱式胸D環。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520H-OT-MG（ミドルグレード）",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1845,
+        "weightText": "約1,845g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "水平型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": false
+      },
+      "note": "付属品：背当てパッド。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520H-OT-SG（スタンダード）",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1630,
+        "weightText": "約1,630g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "水平型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": false
+      },
+      "note": "付属品：なし。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） レヴォハーネス TH-508-OT",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/revo/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1050,
+        "weightText": "約1,050g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "V型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": true
+      },
+      "note": "ベルト色BKR/BKSL。同ページのランヤード付セット欄に「大重量用（130kg）ショックアブソーバ付きもありますので、お問い合わせください。」と記載。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） レヴォハーネス TH-508H-OT",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/revo/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1050,
+        "weightText": "約1,050g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "水平型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": false
+      },
+      "note": "ベルト色BKSL。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） レヴォハーネス TH-508OT-OT",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/revo/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1250,
+        "weightText": "約1,250g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "V型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": true
+      },
+      "note": "胸ベルト幅45mm(胸Ｄ環付）。ベルト色BKR。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） 黒影ハーネス TH-504-OT",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/kurokage/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1035,
+        "weightText": "約1,035g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "水平型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": false
+      },
+      "note": "胴ベルト：50mm幅ベルト着脱可能。ベルト色DG。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） ライトハーネス TH-510-OT",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/light/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 820,
+        "weightText": "約820g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "V型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": true
+      },
+      "note": "ベルト色BLK/BL4。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） コアハーネス TH-502-OT",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/core/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1430,
+        "weightText": "約1,430g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "V型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": true
+      },
+      "note": "胴ベルト：幅50mm（ワンタッチバックル）。ベルト色OR/P/DG。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） 飛燕ハーネス TH-506-OT",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/hien/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1460,
+        "weightText": "約1,460g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "水平型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": false
+      },
+      "note": "胴ベルト：幅50mm（アルミスライドバックル）。ベルト色DG。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） スマートハーネス TH-SM510-OT",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/smart/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 1135,
+        "weightText": "約1,135g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "V型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": true
+      },
+      "note": "ベルト色BLK/BL4。"
+    },
+    {
+      "name": "藤井電工（ツヨロン） 小町ハーネス TH-509-OT",
+      "brand": "藤井電工（ツヨロン）",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/komachi/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "usableKg": null,
+        "usableText": "公式に明記なし",
+        "weightG": 920,
+        "weightText": "約920g",
+        "size": "公式に明記なし（サイズ表は画像のみ）",
+        "thigh": "V型",
+        "buckle": "ワンタッチバックル",
+        "standard": "公式に明記なし",
+        "vThigh": true
+      },
+      "note": "女性専用ハーネス。ベルト色R/BLK。"
+    }
+  ]
+}

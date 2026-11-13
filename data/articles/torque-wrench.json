@@ -2,7 +2,7 @@
   "slug": "torque-wrench",
   "genre": "トルクレンチ（自動車整備・DIY）",
   "genreNumber": 50,
-  "commissionRate": "4.00%",
+  "commissionRate": "2.00%〜4.00%",
   "title": "トルクレンチは「締めたいトルクが範囲の中ほどに入るか」で選ぶ｜BAL・KTCの15本を公式の測定範囲で比較",
   "description": "トルクレンチは、設定できるトルクの範囲（N·m）が製品ごとに決まっています。タイヤ交換向けのソケット付きセット（BAL）と、整備士向けのプレセット型（KTC）の15本を、メーカー公式の測定範囲・差込角・精度・全長で比べました。",
   "keywords": [
@@ -130,7 +130,7 @@
     {
       "name": "BAL No.2059 トルクレンチ6pcセット",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B000SRVH6G",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/wrench/no-2059/ （2026-11-13 確認）",
       "specs": {
@@ -155,7 +155,7 @@
     {
       "name": "BAL No.2069 トルクレンチ ブラック 6pcセット",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B0CF568KLK",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/wrench/no-2069/ （2026-11-13 確認）",
       "specs": {
@@ -205,7 +205,7 @@
     {
       "name": "BAL No.2068 クロストルクレンチ 5pcセット",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B07NL8QPG9",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/wrench/no-2068/ （2026-11-13 確認）",
       "specs": {
@@ -230,7 +230,7 @@
     {
       "name": "KTC CMPC0253（9.5sq.プレセット型）",
       "brand": "KTC（京都機械工具）",
-      "asin": "",
+      "asin": "B082FTSJZZ",
       "verified": true,
       "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0253__1003 （2026-11-13 確認）",
       "specs": {
@@ -278,7 +278,7 @@
     {
       "name": "KTC CMPC1003（9.5sq.プレセット型）",
       "brand": "KTC（京都機械工具）",
-      "asin": "",
+      "asin": "B082FRMZLR",
       "verified": true,
       "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0253__1003 （2026-11-13 確認）",
       "specs": {
@@ -302,7 +302,7 @@
     {
       "name": "KTC CMPC0504（12.7sq.プレセット型）",
       "brand": "KTC（京都機械工具）",
-      "asin": "",
+      "asin": "B08CZCV4Q3",
       "verified": true,
       "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0504__3004-4 （2026-11-13 確認）",
       "specs": {
@@ -326,7 +326,7 @@
     {
       "name": "KTC CMPC1004（12.7sq.プレセット型）",
       "brand": "KTC（京都機械工具）",
-      "asin": "",
+      "asin": "B082FW3WKK",
       "verified": true,
       "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0504__3004-4 （2026-11-13 確認）",
       "specs": {
@@ -350,7 +350,7 @@
     {
       "name": "KTC CMPC2004（12.7sq.プレセット型）",
       "brand": "KTC（京都機械工具）",
-      "asin": "",
+      "asin": "B08CZH1FQ5",
       "verified": true,
       "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpc0504__3004-4 （2026-11-13 確認）",
       "specs": {
@@ -398,7 +398,7 @@
     {
       "name": "KTC CMPD0504（12.7sq.プレセット型）",
       "brand": "KTC（京都機械工具）",
-      "asin": "",
+      "asin": "B0HNJR23W6",
       "verified": true,
       "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpd0504_3004-3 （2026-11-13 確認）",
       "specs": {
@@ -423,7 +423,7 @@
     {
       "name": "KTC CMPD1004（12.7sq.プレセット型）",
       "brand": "KTC（京都機械工具）",
-      "asin": "",
+      "asin": "B0HNK2C1DP",
       "verified": true,
       "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpd0504_3004-3 （2026-11-13 確認）",
       "specs": {
@@ -448,7 +448,7 @@
     {
       "name": "KTC CMPD2004（12.7sq.プレセット型）",
       "brand": "KTC（京都機械工具）",
-      "asin": "",
+      "asin": "B0GWP762V4",
       "verified": true,
       "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpd0504_3004-3 （2026-11-13 確認）",
       "specs": {
@@ -473,7 +473,7 @@
     {
       "name": "KTC CMPD3004（12.7sq.プレセット型）",
       "brand": "KTC（京都機械工具）",
-      "asin": "",
+      "asin": "B0H4LSPH1B",
       "verified": true,
       "source": "メーカー公式 https://ktc.jp/catalog/index-category/category-list/cmpd0504_3004-3 （2026-11-13 確認）",
       "specs": {

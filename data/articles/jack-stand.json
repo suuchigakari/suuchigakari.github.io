@@ -2,7 +2,7 @@
   "slug": "jack-stand",
   "genre": "ジャッキ・ジャッキスタンド（自動車用）",
   "genreNumber": 49,
-  "commissionRate": "4.00%",
+  "commissionRate": "2.00%",
   "title": "車のジャッキは「最大荷重」と「最低位」で選ぶ｜BAL（大橋産業）のジャッキ18台とジャッキスタンド3種を公式の仕様で比較",
   "description": "車のジャッキは、最大荷重（何トンまで上げられるか）と、いちばん低い位置（最低位）で選びます。ローダウン車なら最低位85mm前後のもの、ミニバンやSUVなら最高位の高いものが必要です。大橋産業（BAL）のジャッキ18台とジャッキスタンド3種を、メーカー公式の数値で比べました。",
   "keywords": [
@@ -207,7 +207,7 @@
     {
       "name": "BAL No.1353 パンタグラフジャッキ 1000kg",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B000SSFL58",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1353/ （2026-11-13 確認）",
       "specs": {
@@ -227,7 +227,7 @@
     {
       "name": "BAL No.1377 オイルパンタグラフジャッキ",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B09BHFXYB8",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1377/ （2026-11-13 確認）",
       "specs": {
@@ -246,7 +246,7 @@
     {
       "name": "BAL No.1362 ボトルジャッキ 2トン",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B000SSFLC6",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1362-1363/ （2026-11-13 確認）",
       "specs": {
@@ -266,7 +266,7 @@
     {
       "name": "BAL No.1363 ボトルジャッキ 4トン",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B000SSDI5I",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1362-1363/ （2026-11-13 確認）",
       "specs": {
@@ -305,7 +305,7 @@
     {
       "name": "BAL No.2100 油圧式フロアジャッキ 1.5トン",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B0FJYBXCDY",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-2100/ （2026-11-13 確認）",
       "specs": {
@@ -324,7 +324,7 @@
     {
       "name": "BAL No.2101 油圧式 フロアジャッキ 2トン",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B0CF54T7K7",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-2101/ （2026-11-13 確認）",
       "specs": {
@@ -343,7 +343,7 @@
     {
       "name": "BAL No.2102 ローダウン車対応 油圧ジャッキ 2トン",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B0CF529DF1",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-2102/ （2026-11-13 確認）",
       "specs": {
@@ -362,7 +362,7 @@
     {
       "name": "BAL No.2103 油圧式 フロアジャッキ 2.5トン",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B0CF54DCBS",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-2103/ （2026-11-13 確認）",
       "specs": {
@@ -381,7 +381,7 @@
     {
       "name": "BAL No.2104 油圧式 ハイリフトジャッキ 2.8t",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B0CF52WTRK",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-2104/ （2026-11-13 確認）",
       "specs": {
@@ -400,7 +400,7 @@
     {
       "name": "BAL No.1347 油圧式アルミジャッキ 2t",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B0CQQZ1MVG",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1347/ （2026-11-13 確認）",
       "specs": {
@@ -419,7 +419,7 @@
     {
       "name": "BAL No.7500 PROEXCEL 油圧式アルミジャッキ 1.5t",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B0DG4K95KJ",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-7500/ （2026-11-13 確認）",
       "specs": {
@@ -438,7 +438,7 @@
     {
       "name": "BAL No.7503 PROEXCEL 油圧式ガレージジャッキ 2t",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B0FXG7T3MQ",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-7503/ （2026-11-13 確認）",
       "specs": {
@@ -452,12 +452,13 @@
         "sizeText": "310(W)×590(L)×200(H)mm",
         "lowdown": true,
         "jan": "4960169075034"
-      }
+      },
+      "note": "Amazon の商品名は「最低位 80mm」だが、メーカー公式の揚幅は85〜430mm。表は公式の値。"
     },
     {
       "name": "BAL No.7501 PROEXCEL 油圧式ガレージジャッキ 1.5t",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B0FQRNLDG4",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-7501/ （2026-11-13 確認）",
       "specs": {
@@ -476,7 +477,7 @@
     {
       "name": "BAL No.7502 PROEXCEL 油圧式ガレージジャッキ 3t",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B0DTTHLPK7",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-7502/ （2026-11-13 確認）",
       "specs": {
@@ -495,7 +496,7 @@
     {
       "name": "BAL No.1396 ガレージジャッキ マンモス3t",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B01BHG3E5S",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-1396/ （2026-11-13 確認）",
       "specs": {
@@ -514,7 +515,7 @@
     {
       "name": "BAL No.925 ジャッキスタンド キーパーマン 2トン用【ローダウン車対応】",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B08KRKV33C",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-925/ （2026-11-13 確認）",
       "specs": {
@@ -534,7 +535,7 @@
     {
       "name": "BAL No.923 ジャッキスタンド キーパーマン 2トン用",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B08G8GRZGZ",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-923/ （2026-11-13 確認）",
       "specs": {
@@ -554,7 +555,7 @@
     {
       "name": "BAL No.924 ジャッキスタンド キーパーマン 3トン用",
       "brand": "大橋産業（BAL）",
-      "asin": "",
+      "asin": "B08G8MZC4N",
       "verified": true,
       "source": "メーカー公式 https://www.bal-ohashi.com/products/jack/no-924/ （2026-11-13 確認）",
       "specs": {

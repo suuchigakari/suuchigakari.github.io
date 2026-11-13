@@ -1,0 +1,258 @@
+{
+  "slug": "packing-cube",
+  "genre": "圧縮袋・パッキングキューブ（旅行）",
+  "genreNumber": 53,
+  "commissionRate": "要確認（ASIN 設定時に商品ページで確認）",
+  "title": "旅行の圧縮袋・パッキングキューブは「圧縮の仕方」と「重さ」で選ぶ｜MILESTO・モンベルの8製品を公式の仕様で比較",
+  "description": "衣類をまとめる圧縮袋・パッキングキューブは、ファスナーで圧縮するもの、丸めて空気を抜くもの、ベルトで締めるものがあります。MILESTO とモンベルの8製品を、公式のサイズ・容量・重さ・圧縮の方式で比べました。重さは65gから310gまで。",
+  "keywords": [
+    "圧縮袋 旅行",
+    "パッキングキューブ 比較",
+    "圧縮 パッキング オーガナイザー",
+    "衣類 圧縮袋 軽い"
+  ],
+  "asOf": "2026-11-13",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "LCCの機内持ち込みは7kg前後と重さの上限が厳しく、荷物をまとめる袋の重さも積み重なります。圧縮袋・パッキングキューブは、ファスナーを閉めて厚みを減らすもの、空気を押し出して丸めるもの、ベルトで締めるものがあり、重さも65gから310gまで違います。ブランド公式の仕様だけで並べました。",
+  "excludeReaders": [
+    {
+      "who": "無印良品のパッキングケースと比べたい人",
+      "why": "確認した2026-11-13時点で、無印良品のネットストアが停止中で仕様を確認できませんでした"
+    },
+    {
+      "who": "布団など大きな物を圧縮したい人",
+      "why": "このページは旅行で衣類をまとめる大きさの製品を扱います"
+    }
+  ],
+  "conclusion": [
+    "いちばん軽いのはモンベルのバキュームパック（65g、40×62cm）。ジッパーを閉めて空気を押し出しながら丸める方式",
+    "MILESTO の圧縮パッキングオーガナイザーは、4L×2（220g）と8L×2（310g）の2サイズ。中央のファスナーを1周閉じて圧縮する（UTILITY の説明）",
+    "モンベルのコンプレッションスタッフバッグ（S・M・L、68〜119g）は、ベルトで締めて小さくする。主に寝袋・着替え用",
+    "容量（L）が公式に書かれているのは MILESTO の4製品だけ。モンベルは寸法で書かれている"
+  ],
+  "filter": {
+    "heading": "袋の重さで絞り込む",
+    "note": "荷物の重さの上限が厳しいときは、袋の重さも見てください。",
+    "numberInputs": [
+      {
+        "key": "weightG",
+        "type": "atMost",
+        "label": "袋の重さの上限 (g)",
+        "unit": "g",
+        "default": 150,
+        "min": 50,
+        "max": 400,
+        "step": 10
+      }
+    ],
+    "flagInput": {
+      "key": "capStated",
+      "label": "容量（L）が公式に書かれているものだけ",
+      "okDetail": "容量の記載あり",
+      "ngDetail": "寸法のみ"
+    }
+  },
+  "chart": {
+    "key": "weightG",
+    "label": "重さ",
+    "unit": "g",
+    "order": "asc",
+    "note": "ブランド公式の重さです。"
+  },
+  "columns": [
+    {
+      "key": "type",
+      "label": "種類"
+    },
+    {
+      "key": "sizeText",
+      "label": "サイズ（公式）"
+    },
+    {
+      "key": "capacityText",
+      "label": "容量"
+    },
+    {
+      "key": "weightG",
+      "label": "重さ",
+      "unit": "g"
+    },
+    {
+      "key": "method",
+      "label": "圧縮の方式"
+    },
+    {
+      "key": "material",
+      "label": "素材"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "圧縮の方式は3通り",
+      "paragraphs": [
+        "MILESTO の圧縮パッキングオーガナイザー（UTILITY）は、中央のファスナーを1周閉じると厚みが減る方式です。1個に2つのポケットがあります（4L×2・8L×2 は商品名の記載）。PAPIERTIGRE とのコラボ品は、圧縮の方式が公式に書かれていません。",
+        "モンベルのバキュームパックは、ジッパーを閉めてから空気を押し出しながら丸めて圧縮します。コンプレッションスタッフバッグは、ベルトと面で締めて小さくする独自構造です。"
+      ]
+    },
+    {
+      "heading": "重さとサイズ",
+      "paragraphs": [
+        "もっとも軽いのはモンベルのバキュームパック（65g）で、40×62cmの大きさがあります。コンプレッションスタッフバッグは S 68g・M 90g・L 119g で、最小時と最大時の収納サイズが公式に書かれています（S は Φ14.5×30cm〜Φ25×34cm）。",
+        "MILESTO は 4L×2 が W300×H210×D130mm・220g、8L×2 が W430×H300×D130mm・310g です。公式の寸法は、使う前と圧縮後の区別が書かれていません。"
+      ]
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "LCCで弾かれないキャリーケースのサイズと重さ",
+      "href": "./lcc-carrycase.html"
+    },
+    {
+      "text": "2個持ちにするリュックのサイズ",
+      "href": "./lcc-backpack.html"
+    },
+    {
+      "text": "液体を入れるトラベルボトルの容量（100mL以下か）",
+      "href": "./travel-bottle.html"
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "name": "MILESTO UTILITY 圧縮パッキングオーガナイザーダブルポケット 4L×2",
+      "brand": "MILESTO",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://bruno-onlineshop.com/item/07643100.html （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "圧縮パッキングオーガナイザー（2ポケット）",
+        "sizeText": "W300mm×H210mm×D130mm（使用時・圧縮時の区別なし）",
+        "capacityText": "4L×2（商品名・商品詳細の記載）",
+        "capStated": true,
+        "weightG": 220,
+        "material": "表：ポリエステル（コーデュラ(R)）、裏：ポリエステル",
+        "method": "ファスナー式（中央のファスナーを1周閉じて圧縮）",
+        "code": "MLS905-TC（テラコッタ）"
+      }
+    },
+    {
+      "name": "MILESTO UTILITY 圧縮パッキングオーガナイザーダブルポケット 8L×2",
+      "brand": "MILESTO",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://bruno-onlineshop.com/item/07643106.html （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "圧縮パッキングオーガナイザー（2ポケット）",
+        "sizeText": "W430mm×H300mm×D130mm（使用時・圧縮時の区別なし）",
+        "capacityText": "8L×2（商品名の記載）",
+        "capStated": true,
+        "weightG": 310,
+        "material": "表：ポリエステル（コーデュラ(R)）、裏：ポリエステル",
+        "method": "ファスナー式（シリーズ共通の説明）",
+        "code": "MLS906-TC（テラコッタ）"
+      }
+    },
+    {
+      "name": "MILESTO×PAPIERTIGRE 圧縮パッキングオーガナイザー 4L×2",
+      "brand": "MILESTO",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://bruno-onlineshop.com/item/07643266.html （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "圧縮パッキングオーガナイザー（2ポケット）",
+        "sizeText": "W300mm×H210mm×D130mm（使用時・圧縮時の区別なし）",
+        "capacityText": "4L×2（商品名の記載）",
+        "capStated": true,
+        "weightG": 220,
+        "material": "表：ポリエステル（コーデュラ(R)）、裏：ポリエステル",
+        "method": "記載なし（商品名に「圧縮」）",
+        "code": "MLS950-MEPG（メモリー）"
+      }
+    },
+    {
+      "name": "MILESTO×PAPIERTIGRE 圧縮パッキングオーガナイザー 8L×2",
+      "brand": "MILESTO",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://bruno-onlineshop.com/item/07643269.html （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "圧縮パッキングオーガナイザー（2ポケット）",
+        "sizeText": "W430mm×H300mm×D130mm（使用時・圧縮時の区別なし）",
+        "capacityText": "8L×2（商品名の記載）",
+        "capStated": true,
+        "weightG": 310,
+        "material": "表：ポリエステル（コーデュラ(R)）、裏：ポリエステル",
+        "method": "記載なし（商品名に「圧縮」）",
+        "code": "MLS951-MEPG（メモリー）"
+      }
+    },
+    {
+      "name": "モンベル バキュームパック",
+      "brand": "モンベル",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://webshop.montbell.jp/goods/disp.php?product_id=1134141 （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "圧縮袋（丸めて空気を抜く）",
+        "sizeText": "40 x 62cm（使用時・圧縮時の区別なし）",
+        "capacityText": "公式に明記なし",
+        "capStated": false,
+        "weightG": 65,
+        "material": "ナイロン / ポリエチレン",
+        "method": "ジッパーを閉め、空気を押し出しながら丸めて圧縮（使用方法の記載）",
+        "code": "#1134141"
+      }
+    },
+    {
+      "name": "モンベル コンプレッションスタッフバッグ S",
+      "brand": "モンベル",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://webshop.montbell.jp/goods/disp.php?product_id=1133375 （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "コンプレッションスタッフバッグ",
+        "sizeText": "適応収納サイズ：Φ14.5 x 30cm（最小時）Φ25 x 34cm（最大時）",
+        "capacityText": "公式に明記なし",
+        "capStated": false,
+        "weightG": 68,
+        "material": "30デニール・ポリエステル・リップストップ［ウレタン・コーティング］",
+        "method": "ベルトと面で圧縮（独自構造）",
+        "code": "#1133375"
+      }
+    },
+    {
+      "name": "モンベル コンプレッションスタッフバッグ M",
+      "brand": "モンベル",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://webshop.montbell.jp/goods/disp.php?product_id=1133376 （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "コンプレッションスタッフバッグ",
+        "sizeText": "適応収納サイズ：Φ17.5 x 42cm（最小時）Φ31 x 46cm（最大時）",
+        "capacityText": "公式に明記なし",
+        "capStated": false,
+        "weightG": 90,
+        "material": "30デニール・ポリエステル・リップストップ［ウレタン・コーティング］",
+        "method": "ベルトと面で圧縮（独自構造）",
+        "code": "#1133376"
+      }
+    },
+    {
+      "name": "モンベル コンプレッションスタッフバッグ L",
+      "brand": "モンベル",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://webshop.montbell.jp/goods/disp.php?product_id=1133377 （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "type": "コンプレッションスタッフバッグ",
+        "sizeText": "適応収納サイズ：Φ19 x 49cm（最小時）Φ36 x 52cm（最大時）",
+        "capacityText": "公式に明記なし",
+        "capStated": false,
+        "weightG": 119,
+        "material": "30デニール・ポリエステル・リップストップ［ウレタン・コーティング］",
+        "method": "ベルトと面で圧縮（独自構造）",
+        "code": "#1133377"
+      }
+    }
+  ]
+}

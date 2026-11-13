@@ -1,0 +1,246 @@
+{
+  "slug": "travel-bottle",
+  "genre": "トラベルボトル（詰め替え容器）",
+  "genreNumber": 54,
+  "commissionRate": "要確認（ASIN 設定時に商品ページで確認）",
+  "title": "国際線のトラベルボトルは「1本100mL以下」で選ぶ｜モンベル・humangear（GoToob）の6製品を公式の容量で比較",
+  "description": "日本を出発する国際線では、液体は1本100ml以下の容器に入れ、1L以下の透明な袋にまとめます（国土交通省）。モンベルと humangear（GoToob）の詰め替えボトル6製品を、公式の容量・サイズ・重さで比べました。GoToob+ Large の3.4 fl oz は、換算すると約100.6mLです。",
+  "keywords": [
+    "トラベルボトル 100ml",
+    "国際線 液体 容器",
+    "詰め替えボトル 旅行",
+    "GoToob サイズ"
+  ],
+  "asOf": "2026-11-13",
+  "verdictLegend": "○＝条件を満たす、×＝満たさない、?＝公式に明記なし。",
+  "lead": "国際線で化粧水やシャンプーを機内に持ち込むときは、1本100ml以下の容器に入れ、1L以下の透明なプラスチック袋にまとめます。国土交通省は、容器が100mlを超えていれば中身が少なくても持ち込めないとしています。詰め替えボトルの容量を、ブランド公式の数値で確かめられるよう並べました。",
+  "excludeReaders": [
+    {
+      "who": "国内線だけを使う人",
+      "why": "国土交通省の案内では、国内線ではこの液体物の制限は行われません（通常の保安検査はあります）"
+    },
+    {
+      "who": "無印良品のボトルと比べたい人",
+      "why": "確認した2026-11-13時点で、無印良品のネットストアが停止中で仕様を確認できませんでした"
+    }
+  ],
+  "conclusion": [
+    "国際線は「1本100ml以下の容器」「1L以下の無色透明な袋（タテ＋ヨコ40cm以内）」（国土交通省）",
+    "容器の大きさで決まる。容器が100mlを超えていれば、中身が少なくても持ち込めない（国土交通省）",
+    "GoToob+ Large は3.4 fl oz（換算で約100.6mL）。100mLをわずかに超える計算になるため、確実なのは Medium（約73.9mL）以下",
+    "50mLクラスは、モンベルのミニクリアボトル（15g）と GoToob+ Small（45g）。重さは3倍違う"
+  ],
+  "filter": {
+    "heading": "容量で絞り込む",
+    "note": "国際線で機内に持ち込むなら、100mL以下を入れてください。",
+    "numberInputs": [
+      {
+        "key": "capacityMl",
+        "type": "atMost",
+        "label": "容量の上限 (mL)",
+        "unit": "mL",
+        "default": 100,
+        "min": 20,
+        "max": 200,
+        "step": 5
+      }
+    ],
+    "flagInput": {
+      "key": "under100",
+      "label": "100mL以下のものだけ",
+      "okDetail": "100mL以下",
+      "ngDetail": "100mLを超える"
+    }
+  },
+  "chart": {
+    "key": "capacityMl",
+    "label": "容量",
+    "unit": "mL",
+    "order": "asc",
+    "note": "humangear はfl oz表記を1 fl oz＝29.5735mLで換算した参考値（GoToob Mini は公式の27mL）。"
+  },
+  "columns": [
+    {
+      "key": "capacityText",
+      "label": "容量"
+    },
+    {
+      "key": "sizeText",
+      "label": "サイズ"
+    },
+    {
+      "key": "weightG",
+      "label": "重さ",
+      "unit": "g"
+    },
+    {
+      "key": "material",
+      "label": "素材"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "国際線の液体のルール（国土交通省）",
+      "paragraphs": [
+        "日本を出発する国際線では、液体（ジェル・エアゾールを含む）を機内に持ち込む場合、1本100ml以下の容器に入れ、1L以下のジッパー付きの透明なプラスチック袋に入れる必要があります。袋はタテとヨコを足して40cm以内なら形は問わないと、国土交通省の「よくある質問」にあります。",
+        "同じ資料では、容器が100mlを超えていれば、中身がごく少量でも持ち込めないとしています。内容量がg表記の場合は1g＝1mlと読み替えます。国内線ではこの制限は行われません。"
+      ],
+      "table": {
+        "head": [
+          "ポイント",
+          "国土交通省の説明"
+        ],
+        "rows": [
+          [
+            "容器",
+            "1本100ml以下（中身ではなく容器の容量）"
+          ],
+          [
+            "袋",
+            "1L以下・無色透明・ジッパー付き（ファスナー付きも可）"
+          ],
+          [
+            "袋の大きさ",
+            "タテ＋ヨコ40cm以内"
+          ],
+          [
+            "g表記",
+            "1g＝1mlと読み替え"
+          ],
+          [
+            "国内線",
+            "この制限は行われない"
+          ]
+        ],
+        "note": "国土交通省「国際線の航空機客室内への液体物持込制限について」のよくある質問（2026-11-13 確認）。"
+      }
+    },
+    {
+      "heading": "GoToob+ Large は「3.4 fl oz」",
+      "paragraphs": [
+        "humangear の GoToob+ は、容量をアメリカの単位（fl oz）で書いています。Large の3.4 fl oz は、1 fl oz＝29.5735mLで換算すると約100.6mLです。公式には「TSA-approved for carry-on travel」（米国の運輸保安庁の基準）とありますが、日本の「100ml以下」に当たるかは書かれていません。",
+        "迷わずに持ち込みたいなら、Medium（2.5 fl oz、約73.9mL）以下を選ぶのが確実です。XL（6.0 fl oz）は、公式に機内持ち込みの承認サイズではないと書かれています。"
+      ]
+    },
+    {
+      "heading": "重さと素材",
+      "paragraphs": [
+        "モンベルのミニクリアボトル（50mL）は PET 製で15g、GoToob+ Small（約50mL）はシリコーン製で45gです。GoToob はチューブを押して中身を出す形です。",
+        "GoToob Mini（27mL）は3本セットで、1本23gです。"
+      ]
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "モバイルバッテリーの機内ルール（2個まで・機内で充電できない）",
+      "href": "./mobile-battery.html"
+    },
+    {
+      "text": "衣類をまとめる圧縮袋・パッキングキューブ",
+      "href": "./packing-cube.html"
+    },
+    {
+      "text": "LCCの機内持ち込みサイズと重さ",
+      "href": "./lcc-carrycase.html"
+    }
+  ],
+  "sources": [],
+  "products": [
+    {
+      "name": "humangear GoToob Mini 3-Pack（HG2180）",
+      "brand": "humangear",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://www.humangear.com/shop/p/gotoob-mini-3-pack （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 27,
+        "capacityText": "27mL（公式）／0.9 fl oz",
+        "sizeText": "38×71×35mm",
+        "weightG": 23,
+        "material": "チューブ・キャップバルブ：シリコーン、IDリング・キャップ：ポリプロピレン",
+        "under100": true
+      },
+      "note": "3本入り。重さは1本あたり（Dry Weight）。"
+    },
+    {
+      "name": "モンベル ミニクリアボトル 50mL（#1124426）",
+      "brand": "モンベル",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://webshop.montbell.jp/goods/disp.php?product_id=1124426 （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 50,
+        "capacityText": "50mL（商品名）",
+        "sizeText": "Φ3.5×8.4cm",
+        "weightG": 15,
+        "material": "本体 PET、キャップ ポリプロピレン",
+        "under100": true
+      },
+      "note": "耐熱・耐冷温度は本体50℃/0℃、キャップ100℃/0℃（公式）。"
+    },
+    {
+      "name": "humangear GoToob+ Small（HG3101 ほか色違い）",
+      "brand": "humangear",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://www.humangear.com/shop/p/gotoob （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 50.3,
+        "capacityText": "1.7 fl oz（約50.3mL に換算）",
+        "sizeText": "50×80×48mm",
+        "weightG": 45,
+        "material": "チューブ・キャップバルブ：シリコーン、IDリング・キャップ：ポリプロピレン",
+        "under100": true
+      },
+      "note": "公式はfl oz表記。mLは1 fl oz＝29.5735mLで換算した参考値。"
+    },
+    {
+      "name": "humangear GoToob+ Medium（HG3104 ほか色違い）",
+      "brand": "humangear",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://www.humangear.com/shop/p/gotoob （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 73.9,
+        "capacityText": "2.5 fl oz（約73.9mL に換算）",
+        "sizeText": "50.8×101.6×48mm",
+        "weightG": 50,
+        "material": "チューブ・キャップバルブ：シリコーン、IDリング・キャップ：ポリプロピレン",
+        "under100": true
+      },
+      "note": "公式はfl oz表記。mLは換算した参考値。"
+    },
+    {
+      "name": "humangear GoToob+ Large（HG3107 ほか色違い）",
+      "brand": "humangear",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://www.humangear.com/shop/p/gotoob （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 100.5,
+        "capacityText": "3.4 fl oz（約100.6mL に換算）",
+        "sizeText": "57.15×114.3×48mm",
+        "weightG": 65,
+        "material": "チューブ・キャップバルブ：シリコーン、IDリング・キャップ：ポリプロピレン",
+        "under100": false
+      },
+      "note": "公式はfl oz表記。換算すると100mLをわずかに超える。公式に「TSA-approved for carry-on travel」（米国の保安検査）とあるが、日本の国際線の「100ml以下の容器」に当たるかは公式に明記なし。"
+    },
+    {
+      "name": "humangear GoToob+ XL（HG3109 ほか色違い）",
+      "brand": "humangear",
+      "asin": "",
+      "verified": true,
+      "source": "ブランド公式 https://www.humangear.com/shop/p/gotoob-xl （2026-11-13 運営者がブラウザで仕様欄を確認）",
+      "specs": {
+        "capacityMl": 177.4,
+        "capacityText": "6.0 fl oz（約177.4mL に換算）",
+        "sizeText": "63.5×133.35×44.45mm",
+        "weightG": 85,
+        "material": "チューブ・キャップバルブ：シリコーン、IDリング・キャップ：ポリプロピレン",
+        "under100": false
+      },
+      "note": "公式に「not an approved size for TSA carry-on」（米国の保安検査で機内持ち込み不可のサイズ）と記載。重さの単位は公式ページの表記のまま（2.99 (85 grams)）。"
+    }
+  ]
+}

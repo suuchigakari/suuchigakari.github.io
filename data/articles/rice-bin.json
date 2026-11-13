@@ -157,7 +157,7 @@
     {
       "name": "アスベル 密閉米びつ2kg（パッキン付）A7510",
       "brand": "アスベル",
-      "asin": "",
+      "asin": "B0D8B713FH",
       "verified": true,
       "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7510 （2026-11-13 確認）",
       "specs": {
@@ -177,7 +177,7 @@
     {
       "name": "山崎実業 1合分別 冷蔵庫用米びつ タワー（3760）",
       "brand": "山崎実業",
-      "asin": "",
+      "asin": "B07HMHBMKM",
       "verified": true,
       "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241311 （2026-11-13 確認）",
       "specs": {
@@ -197,7 +197,7 @@
     {
       "name": "アスベル 引き出し用米びつ6kg A7507",
       "brand": "アスベル",
-      "asin": "",
+      "asin": "B002TUYD1G",
       "verified": true,
       "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7507 （2026-11-13 確認）",
       "specs": {
@@ -217,7 +217,7 @@
     {
       "name": "アスベル 密閉米びつ6kg（パッキン付）A7511",
       "brand": "アスベル",
-      "asin": "",
+      "asin": "B0D2HL8WXF",
       "verified": true,
       "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7511 （2026-11-13 確認）",
       "specs": {
@@ -237,7 +237,7 @@
     {
       "name": "アスベル S密閉米びつ6kg（パッキン付）A7513",
       "brand": "アスベル",
-      "asin": "",
+      "asin": "B0DWM7FCWG",
       "verified": true,
       "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7513 （2026-11-13 確認）",
       "specs": {
@@ -257,7 +257,7 @@
     {
       "name": "アスベル 計量米びつ6kg型 A7504",
       "brand": "アスベル",
-      "asin": "",
+      "asin": "B01N0YZQT0",
       "verified": true,
       "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7504 （2026-11-13 確認）",
       "specs": {
@@ -277,7 +277,7 @@
     {
       "name": "アスベル S計量米びつ6kg A7527",
       "brand": "アスベル",
-      "asin": "",
+      "asin": "B0D8B6K4DQ",
       "verified": true,
       "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7527 （2026-11-13 確認）",
       "specs": {
@@ -297,7 +297,7 @@
     {
       "name": "山崎実業 密閉 袋ごと米びつ タワー 5kg（3375）",
       "brand": "山崎実業",
-      "asin": "",
+      "asin": "B06XCR2CXG",
       "verified": true,
       "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241211 （2026-11-13 確認）",
       "specs": {
@@ -317,7 +317,7 @@
     {
       "name": "山崎実業 密閉 シンク下米びつ タワー 5kg（3377）",
       "brand": "山崎実業",
-      "asin": "",
+      "asin": "B01N13VOJY",
       "verified": true,
       "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241212 （2026-11-13 確認）",
       "specs": {
@@ -337,7 +337,7 @@
     {
       "name": "山崎実業 密閉米びつ タワー 10kg（5423）",
       "brand": "山崎実業",
-      "asin": "",
+      "asin": "B094XFS2HT",
       "verified": true,
       "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241977 （2026-11-13 確認）",
       "specs": {
@@ -357,7 +357,7 @@
     {
       "name": "アスベル 引き出し用米びつ12kg A7508",
       "brand": "アスベル",
-      "asin": "",
+      "asin": "B002TV66ME",
       "verified": true,
       "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7508 （2026-11-13 確認）",
       "specs": {
@@ -377,7 +377,7 @@
     {
       "name": "アスベル 密閉米びつ12kg（パッキン付）A7512",
       "brand": "アスベル",
-      "asin": "",
+      "asin": "B0D7VGT68L",
       "verified": true,
       "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7512 （2026-11-13 確認）",
       "specs": {
@@ -397,7 +397,7 @@
     {
       "name": "アスベル S密閉米びつ12kg（パッキン付）A7514",
       "brand": "アスベル",
-      "asin": "",
+      "asin": "B0G1CGXWWS",
       "verified": true,
       "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7514 （2026-11-13 確認）",
       "specs": {
@@ -412,12 +412,13 @@
         "caster": "あり",
         "weightText": "公式に明記なし",
         "jan": "4974908751493"
-      }
+      },
+      "note": "Amazon の商品名に「10kg」と「12kg」が混在しているが、詳細欄の JAN（4974908751493）がメーカー公式と一致。容量は公式の約12kg。"
     },
     {
       "name": "アスベル 計量米びつ12kg型 A7503",
       "brand": "アスベル",
-      "asin": "",
+      "asin": "B01MT779O1",
       "verified": true,
       "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7503 （2026-11-13 確認）",
       "specs": {
@@ -437,7 +438,7 @@
     {
       "name": "アスベル S計量米びつ12kg A7528",
       "brand": "アスベル",
-      "asin": "",
+      "asin": "B0D7VK29XJ",
       "verified": true,
       "source": "メーカー公式 https://www.asvel.co.jp/product/item/a7528 （2026-11-13 確認）",
       "specs": {
@@ -457,7 +458,7 @@
     {
       "name": "山崎実業 密閉米びつ タワー 20kg（5425）",
       "brand": "山崎実業",
-      "asin": "",
+      "asin": "B099ZHMCD4",
       "verified": true,
       "source": "メーカー公式 https://www.yamajitsu.co.jp/products/241978 （2026-11-13 確認）",
       "specs": {
