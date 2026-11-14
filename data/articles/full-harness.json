@@ -2,7 +2,7 @@
   "slug": "full-harness",
   "genre": "フルハーネス（墜落制止用器具）",
   "genreNumber": 51,
-  "commissionRate": "4.00%（見込み。ASIN 設定時に確認）",
+  "commissionRate": "4.00%",
   "title": "フルハーネスは「使用可能質量」と「重さ」で選ぶ｜タジマ・藤井電工の38製品を公式の仕様で比較",
   "description": "フルハーネス型の墜落制止用器具は、使用可能質量（体重と装備の合計）が100kg用と130kg用に分かれます。タジマ21製品と藤井電工（ツヨロン）17製品のハーネス本体を、公式の使用可能質量・重さ・腿ベルトの形・バックルで比べました。",
   "keywords": [
@@ -125,7 +125,7 @@
     {
       "name": "タジマ セフハーネスA A4SFAF（フリーサイズ・130kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0D9YGVP32",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268761 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -163,7 +163,7 @@
     {
       "name": "タジマ セフハーネスS A4SFSF（フリーサイズ・130kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0D9YFD489",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268808 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -182,7 +182,7 @@
     {
       "name": "タジマ セフハーネスB A4SFBF（フリーサイズ・130kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0D9YD7F31",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268815 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -201,7 +201,7 @@
     {
       "name": "タジマ ハオルハーネスHA AHAF（サイズ記載なし・100kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0BPH1J6RT",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364267382 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -220,7 +220,7 @@
     {
       "name": "タジマ ハオルハーネスHA A4HAF（フリーサイズ・130kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0F35JY94R",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268976 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -258,7 +258,7 @@
     {
       "name": "タジマ ハオルハーネスHS AHSF（サイズ記載なし・100kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0BPHG1WYF",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364267412 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -277,7 +277,7 @@
     {
       "name": "タジマ ハオルハーネスHS A4HSF（フリーサイズ・130kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0F35DB5Q2",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268983 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -296,7 +296,7 @@
     {
       "name": "タジマ ハーネスZA AZAS（S・100kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B07N84H4PR",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261229 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -315,7 +315,7 @@
     {
       "name": "タジマ ハーネスZA AZAM（M・100kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B07N87NBJJ",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261236 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -334,7 +334,7 @@
     {
       "name": "タジマ ハーネスZA AZAL（L・100kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B07N84H691",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261243 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -353,7 +353,7 @@
     {
       "name": "タジマ ハーネスZA A4ZAL（L・130kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0F35ZYV6S",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364268990 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -372,7 +372,7 @@
     {
       "name": "タジマ ハーネスZS AZSS（S・100kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B07N865LBX",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261199 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -391,7 +391,7 @@
     {
       "name": "タジマ ハーネスZS AZSM（M・100kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B07N86CBMR",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261205 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -410,7 +410,7 @@
     {
       "name": "タジマ ハーネスZS AZSL（L・100kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B07N851MLX",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261212 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -429,7 +429,7 @@
     {
       "name": "タジマ ハーネスZS A4ZSL（L・130kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0F35ZNL8V",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364269003 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -448,7 +448,7 @@
     {
       "name": "タジマ ハーネスGS AGSS（S・100kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B07N851LNG",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261168 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -467,7 +467,7 @@
     {
       "name": "タジマ ハーネスGS AGSM（M・100kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B07N86BF85",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261175 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -486,7 +486,7 @@
     {
       "name": "タジマ ハーネスGS AGSL（L・100kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B07N8533MQ",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364261182 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -505,7 +505,7 @@
     {
       "name": "タジマ ハーネスGS A4GSL（L・130kg用）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0F35KRNDM",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364269010 ・ https://jpn.tajimatool.co.jp/page/harness_list （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -524,7 +524,7 @@
     {
       "name": "藤井電工（ツヨロン） カイトハーネス TH-521-OT",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B0CJ4P7HJP",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/kite-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -562,7 +562,7 @@
     {
       "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520V-OT-HG（ハイグレード）",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B0BN17D7KL",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -581,7 +581,7 @@
     {
       "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520V-OT-MG（ミドルグレード）",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B0BN17K13N",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -600,7 +600,7 @@
     {
       "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520V-OT-SG（スタンダード）",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B0BN1HP138",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -619,7 +619,7 @@
     {
       "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520H-OT-HG（ハイグレード）",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B0BN17L1CT",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -638,7 +638,7 @@
     {
       "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520H-OT-MG（ミドルグレード）",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B0BN168NDD",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -657,7 +657,7 @@
     {
       "name": "藤井電工（ツヨロン） ゼロGハーネス TH-520H-OT-SG（スタンダード）",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B0BN1HNK8Z",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/zero-g-harness/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -676,7 +676,7 @@
     {
       "name": "藤井電工（ツヨロン） レヴォハーネス TH-508-OT",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B0G63TQV6S",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/revo/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -695,7 +695,7 @@
     {
       "name": "藤井電工（ツヨロン） レヴォハーネス TH-508H-OT",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B0G64CWSZ8",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/revo/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -714,7 +714,7 @@
     {
       "name": "藤井電工（ツヨロン） レヴォハーネス TH-508OT-OT",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B09N1789WY",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/revo/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -733,7 +733,7 @@
     {
       "name": "藤井電工（ツヨロン） 黒影ハーネス TH-504-OT",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B07NMX1C35",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/kurokage/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -752,7 +752,7 @@
     {
       "name": "藤井電工（ツヨロン） ライトハーネス TH-510-OT",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B07NMM2RQK",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/light/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -771,7 +771,7 @@
     {
       "name": "藤井電工（ツヨロン） コアハーネス TH-502-OT",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B0CPLTDQ2K",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/core/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -790,7 +790,7 @@
     {
       "name": "藤井電工（ツヨロン） 飛燕ハーネス TH-506-OT",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B07W53BSJF",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/hien/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -809,7 +809,7 @@
     {
       "name": "藤井電工（ツヨロン） スマートハーネス TH-SM510-OT",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B07NMTXBF9",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/smart/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -828,7 +828,7 @@
     {
       "name": "藤井電工（ツヨロン） 小町ハーネス TH-509-OT",
       "brand": "藤井電工（ツヨロン）",
-      "asin": "",
+      "asin": "B0DQBX1KFZ",
       "verified": true,
       "source": "メーカー公式 https://www.fujii-denko.co.jp/product/harness/komachi/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -842,7 +842,7 @@
         "standard": "公式に明記なし",
         "vThigh": true
       },
-      "note": "女性専用ハーネス。ベルト色R/BLK。"
+      "note": "女性専用ハーネス。ベルト色R/BLK。Amazon の商品ページのカテゴリは「ペット用品」になっている（Amazon 側の登録）。"
     }
   ]
 }

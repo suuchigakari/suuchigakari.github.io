@@ -2,7 +2,7 @@
   "slug": "laser-level",
   "genre": "レーザー墨出し器",
   "genreNumber": 52,
-  "commissionRate": "4.00%（見込み。ASIN 設定時に確認）",
+  "commissionRate": "4.00%",
   "title": "レーザー墨出し器は「精度の書き方」と「レーザーの色」で比べる｜タジマ・シンワ・マキタ・マイゾックスの20製品を公式の仕様で比較",
   "description": "レーザー墨出し器の精度は「10mで±1mm」「5mで±2mm」のように、測る距離とセットで書かれています。タジマ・シンワ測定・マキタ・マイゾックスの20製品を、公式のライン構成・レーザーの色・精度・電源・重さで比べました。",
   "keywords": [
@@ -123,7 +123,7 @@
     {
       "name": "タジマ ZERO ジンバルTY 乾電池専用（ZERO-TY）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B00LWIJZ4Q",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364048578 （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -142,7 +142,7 @@
     {
       "name": "タジマ セフグリーンレーザー 縦横地墨（SFLA-TYZ）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0FY4PPDWN",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364143303 （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -161,7 +161,7 @@
     {
       "name": "タジマ セフグリーンレーザー 横全周（SFLA-YC）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0FY4QHB7J",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364143310 （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -180,7 +180,7 @@
     {
       "name": "タジマ ZERO GREEN ジンバルKY（ZEROG2-KY）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B0BLYKHVT1",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364142634 （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -199,7 +199,7 @@
     {
       "name": "タジマ ZERO BLUE ジンバルKY（ZEROBL-KY）",
       "brand": "タジマ",
-      "asin": "",
+      "asin": "B07L6X2XHD",
       "verified": true,
       "source": "メーカー公式 https://jpn.tajimatool.co.jp/product/4975364141859 （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -218,7 +218,7 @@
     {
       "name": "シンワ測定 レーザーロボ ＳＨＥＬＬグリーン（70827）",
       "brand": "シンワ測定",
-      "asin": "",
+      "asin": "B0BWSZPKKH",
       "verified": true,
       "source": "メーカー公式 https://www.shinwasokutei.co.jp/products/70827/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -237,7 +237,7 @@
     {
       "name": "シンワ測定 レーザーロボ ＳＨＥＬＬレッド（70826）",
       "brand": "シンワ測定",
-      "asin": "",
+      "asin": "B0BWSZZYQF",
       "verified": true,
       "source": "メーカー公式 https://www.shinwasokutei.co.jp/products/70826/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -256,7 +256,7 @@
     {
       "name": "シンワ測定 レーザーロボ ＬＥＸＩＡ２１ レッド（70931）",
       "brand": "シンワ測定",
-      "asin": "",
+      "asin": "B0855NKRH4",
       "verified": true,
       "source": "メーカー公式 https://www.shinwasokutei.co.jp/products/70931/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -275,7 +275,7 @@
     {
       "name": "シンワ測定 レーザーロボ ＬＥＸＩＡ－Ｅ２１ グリーン（70881）",
       "brand": "シンワ測定",
-      "asin": "",
+      "asin": "B09HBV6Q1S",
       "verified": true,
       "source": "メーカー公式 https://www.shinwasokutei.co.jp/products/70881/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -294,7 +294,7 @@
     {
       "name": "シンワ測定 レーザーロボ Ｘ ｌｉｎｅ ＭＩＮＩ グリーンフルライン・地墨クロス（71630）",
       "brand": "シンワ測定",
-      "asin": "",
+      "asin": "B0FS14FKLC",
       "verified": true,
       "source": "メーカー公式 https://www.shinwasokutei.co.jp/products/71630/ （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -313,7 +313,7 @@
     {
       "name": "マキタ 屋内･屋外兼用墨出し器 SK13P（SK13P）",
       "brand": "マキタ",
-      "asin": "",
+      "asin": "B01LAGGED4",
       "verified": true,
       "source": "メーカー公式 https://www.makita.co.jp/product/detail/?model=SK13P （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -332,7 +332,7 @@
     {
       "name": "マキタ 屋内･屋外兼用墨出し器 SK14P（SK14P）",
       "brand": "マキタ",
-      "asin": "",
+      "asin": "B013QQHSNG",
       "verified": true,
       "source": "メーカー公式 https://www.makita.co.jp/product/detail/?model=SK14P （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -351,7 +351,7 @@
     {
       "name": "マキタ 充電式屋内･屋外兼用墨出し器 SK10GD（SK10GD）",
       "brand": "マキタ",
-      "asin": "",
+      "asin": "B07TQ7NCV2",
       "verified": true,
       "source": "メーカー公式 https://www.makita.co.jp/product/detail/?model=SK10GD （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -370,7 +370,7 @@
     {
       "name": "マキタ 充電式屋内･屋外兼用墨出し器 SK20GD（SK20GD）",
       "brand": "マキタ",
-      "asin": "",
+      "asin": "B07TQ7L98P",
       "verified": true,
       "source": "メーカー公式 https://www.makita.co.jp/product/detail/?model=SK20GD （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -403,12 +403,12 @@
         "weightText": "1.4kg（BL1015装着時）",
         "range": "記載なし（鉛直指示範囲±4°）"
       },
-      "note": "受光器・三脚が付くセット。表は本体の仕様。"
+      "note": "受光器・三脚が付くセット。表は本体の仕様。Amazon には出品者が三脚などを付けた「オリジナルセット」しか見つからなかったため、リンクを付けていない。"
     },
     {
       "name": "マイゾックス レーザー墨出器 P-410EX（P-410EX）",
       "brand": "マイゾックス",
-      "asin": "",
+      "asin": "B00BODW21C",
       "verified": true,
       "source": "メーカー公式 https://www.myzox.co.jp/data/products/article/234 （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -426,7 +426,7 @@
     {
       "name": "マイゾックス リアルグリーンレーザー墨出器 G-410SR（G-410SR）",
       "brand": "マイゾックス",
-      "asin": "",
+      "asin": "B08PKMH5ZR",
       "verified": true,
       "source": "メーカー公式 https://www.myzox.co.jp/data/products/article/1034 （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -445,7 +445,7 @@
     {
       "name": "マイゾックス グリーンレーザー墨出器 G-210SR（G-210SR）",
       "brand": "マイゾックス",
-      "asin": "",
+      "asin": "B08TH127G3",
       "verified": true,
       "source": "メーカー公式 https://www.myzox.co.jp/data/products/article/1033 （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -464,7 +464,7 @@
     {
       "name": "マイゾックス グリーンレーザー墨出器 G-110SR（G-110SR）",
       "brand": "マイゾックス",
-      "asin": "",
+      "asin": "B08TGWC8RC",
       "verified": true,
       "source": "メーカー公式 https://www.myzox.co.jp/data/products/article/1032 （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {

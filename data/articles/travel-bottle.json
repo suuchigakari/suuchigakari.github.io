@@ -2,7 +2,7 @@
   "slug": "travel-bottle",
   "genre": "トラベルボトル（詰め替え容器）",
   "genreNumber": 54,
-  "commissionRate": "要確認（ASIN 設定時に商品ページで確認）",
+  "commissionRate": "4.00%（スポーツ＆アウトドア）",
   "title": "国際線のトラベルボトルは「1本100mL以下」で選ぶ｜モンベル・humangear（GoToob）の6製品を公式の容量で比較",
   "description": "日本を出発する国際線では、液体は1本100ml以下の容器に入れ、1L以下の透明な袋にまとめます（国土交通省）。モンベルと humangear（GoToob）の詰め替えボトル6製品を、公式の容量・サイズ・重さで比べました。GoToob+ Large の3.4 fl oz は、換算すると約100.6mLです。",
   "keywords": [
@@ -165,7 +165,7 @@
     {
       "name": "モンベル ミニクリアボトル 50mL（#1124426）",
       "brand": "モンベル",
-      "asin": "",
+      "asin": "B00C6QF03S",
       "verified": true,
       "source": "ブランド公式 https://webshop.montbell.jp/goods/disp.php?product_id=1124426 （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -181,7 +181,7 @@
     {
       "name": "humangear GoToob+ Small（HG3101 ほか色違い）",
       "brand": "humangear",
-      "asin": "",
+      "asin": "B0793FBPQ2",
       "verified": true,
       "source": "ブランド公式 https://www.humangear.com/shop/p/gotoob （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -192,12 +192,12 @@
         "material": "チューブ・キャップバルブ：シリコーン、IDリング・キャップ：ポリプロピレン",
         "under100": true
       },
-      "note": "公式はfl oz表記。mLは1 fl oz＝29.5735mLで換算した参考値。"
+      "note": "公式はfl oz表記。mLは1 fl oz＝29.5735mLで換算した参考値。Amazon の商品名の寸法・容量（例：Large 容量100ml）は公式（fl oz 表記）と違う。表は公式の値。"
     },
     {
       "name": "humangear GoToob+ Medium（HG3104 ほか色違い）",
       "brand": "humangear",
-      "asin": "",
+      "asin": "B0793HNCKR",
       "verified": true,
       "source": "ブランド公式 https://www.humangear.com/shop/p/gotoob （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -208,12 +208,12 @@
         "material": "チューブ・キャップバルブ：シリコーン、IDリング・キャップ：ポリプロピレン",
         "under100": true
       },
-      "note": "公式はfl oz表記。mLは換算した参考値。"
+      "note": "公式はfl oz表記。mLは換算した参考値。Amazon の商品名の寸法・容量（例：Large 容量100ml）は公式（fl oz 表記）と違う。表は公式の値。"
     },
     {
       "name": "humangear GoToob+ Large（HG3107 ほか色違い）",
       "brand": "humangear",
-      "asin": "",
+      "asin": "B0793DZR8L",
       "verified": true,
       "source": "ブランド公式 https://www.humangear.com/shop/p/gotoob （2026-11-13 運営者がブラウザで仕様欄を確認）",
       "specs": {
@@ -224,7 +224,7 @@
         "material": "チューブ・キャップバルブ：シリコーン、IDリング・キャップ：ポリプロピレン",
         "under100": false
       },
-      "note": "公式はfl oz表記。換算すると100mLをわずかに超える。公式に「TSA-approved for carry-on travel」（米国の保安検査）とあるが、日本の国際線の「100ml以下の容器」に当たるかは公式に明記なし。"
+      "note": "公式はfl oz表記。換算すると100mLをわずかに超える。公式に「TSA-approved for carry-on travel」（米国の保安検査）とあるが、日本の国際線の「100ml以下の容器」に当たるかは公式に明記なし。Amazon の商品名の寸法・容量（例：Large 容量100ml）は公式（fl oz 表記）と違う。表は公式の値。"
     },
     {
       "name": "humangear GoToob+ XL（HG3109 ほか色違い）",
