@@ -46,6 +46,13 @@ Amazonアソシエイト向けの商品比較サイトです。ジャンル選�
 
 - **運営者に渡すもの（Claude in Chrome への依頼文・転記テンプレートなど）は、ファイルで送るだけにしない。** チャットへのファイル送付は相手の画面に出ないことがあった（2026-11-13）。貼り付けて使う文章はチャットの本文にもそのまま載せ、ファイルは控えとして `docs/` に置き、GitHub の URL（https://github.com/suuchigakari/suuchigakari.github.io/blob/main/docs/...）も添える。
 
+## Codex によるレビュー（GitHub の PR）
+
+- 記事・データ・コードの変更は、`main` に直接入れず、作業ブランチから **PR を作り、PR に `@codex review` とコメントして Codex のレビューを受けてから** squash マージする（運営者が ChatGPT の Codex 設定でこのリポジトリのコードレビューを有効にしている前提）。
+- Codex の指摘は、`AGENTS.md` の「Review guidelines」に沿っているかを見て、正しいものは直して同じ PR にプッシュする。誤った指摘は理由を PR にコメントして対応しない。
+- Codex の応答がしばらく（目安30分）ない場合は、運営者に知らせたうえで従来どおりマージしてよい（定期点検の軽微な修正も同じ）。
+- Codex 向けのレビュー観点は `AGENTS.md` に書く。ルールを変えたら `CLAUDE.md` と `AGENTS.md` の両方を直す。
+
 ## 開示・表記
 
 - Amazonアソシエイトの開示文（`site.config.json` の `disclosure`）を全ページのヘッダーとフッターに表示する。消さない。
