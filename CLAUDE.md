@@ -46,6 +46,15 @@ Amazonアソシエイト向けの商品比較サイトです。ジャンル選�
 
 - **運営者に渡すもの（Claude in Chrome への依頼文・転記テンプレートなど）は、ファイルで送るだけにしない。** チャットへのファイル送付は相手の画面に出ないことがあった（2026-11-13）。貼り付けて使う文章はチャットの本文にもそのまま載せ、ファイルは控えとして `docs/` に置き、GitHub の URL（https://github.com/suuchigakari/suuchigakari.github.io/blob/main/docs/...）も添える。
 
+## Codex によるレビュー（GitHub の PR）
+
+- 運営者の ChatGPT は無料プランのため、Codex の自動レビュー（`@codex review`）は使えない。代わりに、運営者がパソコンの **Codex アプリ**（GitHub プラグイン＋Review Agent）で PR を読ませ、結果を PR にコメントしてもらう（コメントは運営者のアカウント `suuchigakari-note` 名義で付く）。組織 suuchigakari には GitHub アプリ「ChatGPT Codex Connector」がインストール済み（2026-11-18）。
+- **新しい記事の追加・記事の大きな書き換え・コードの変更**は、作業ブランチから PR を作り、運営者に Codex アプリでのレビューを頼む。頼むときは、Codex に貼る依頼文をチャット本文に載せる（例：「GitHub のリポジトリ suuchigakari/suuchigakari.github.io の Pull Request #<番号> を Review Agent でレビューし、AGENTS.md の Review guidelines と CLAUDE.md の観点で、日本語で PR にコメントしてください。ファイルの変更やマージはしないでください。指摘がなければ「指摘なし」とコメントしてください。」）。
+- **小さな修正・定期点検の修正・ASIN の設定**は、これまでどおり PR なしで main に入れてよい。
+- Codex の指摘は、`AGENTS.md` の「Review guidelines」と出典に照らして確かめ、正しいものは直して同じ PR にプッシュする。誤った指摘は理由を PR にコメントする。
+- 運営者が Codex でレビューできない・応答がない場合は、運営者に知らせたうえで従来どおりマージしてよい。マージは運営者の了承を得てから行う。
+- Codex 向けのレビュー観点は `AGENTS.md` に書く。ルールを変えたら `CLAUDE.md` と `AGENTS.md` の両方を直す。
+
 ## 開示・表記
 
 - Amazonアソシエイトの開示文（`site.config.json` の `disclosure`）を全ページのヘッダーとフッターに表示する。消さない。
