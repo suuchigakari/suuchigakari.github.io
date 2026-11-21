@@ -64,6 +64,7 @@ Amazonアソシエイト向けの商品比較サイトです。ジャンル選�
 - 全ページの末尾に、セール期間中は価格が変わる旨の注意（`priceNote`）を出している。
 - **Amazon の特別プログラム（Audible・Kindle+ など）の PR 枠**は `data/promos.json` に書く（`src/promo.js`）。出すのは `articles` に挙げた記事だけ（いまは旅行系の4記事）。文面は公式ページで確かめた事実だけで、料金・「おすすめ」・「使ってみた」は書かない。リンクは運営者が SiteStripe で作った「完全なリンク」を使い、`tag` が自分のトラッキング ID でないものは表示されない。紹介料の増額キャンペーンは読者向けに書かない。定期点検で公式ページの記載（無料体験の期間など）が変わっていないか確かめ、`checkedOn` を更新する。
 - 商品画像はPA-APIまたは公式ウィジェット経由でのみ利用可。画像を保存して貼らない。
+- **商品の写真は SiteStripe の「画像」リンクで出す。** 運営者が Amazon の商品ページ上部の SiteStripe →「画像」で発行したコードを、`data/sitestripe.json` の `asins.<ASIN>.html` にそのまま貼る（`checkedOn` も書く）。`src/sitestripe.js` がリンク先（amazon.co.jp の同じ ASIN・自分のタグ）と画像（ws-fe.amazon-adsystem.com の同じ ASIN・自分のタグ・MarketPlace=JP）を検証し、合うものだけを `<a><img>` に組み立て直して比較表のイラストの代わりに出す。貼られた HTML をそのまま出さない。画像の URL をこちらで作らない（SiteStripe で発行されたものだけ使う）。写真がある記事では、表の上の注記が「写真は Amazon の商品画像」に変わる。
 
 ## コード
 

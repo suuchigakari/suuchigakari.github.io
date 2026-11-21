@@ -1,0 +1,4 @@
+{
+  "note": "SiteStripe（Amazon アソシエイトの公式ツール）の「画像」タブで発行したコードを ASIN ごとに貼る。src/sitestripe.js が検証し、リンク先・画像・タグが一致するものだけ表示する。",
+  "asins": {}
+}

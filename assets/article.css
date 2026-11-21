@@ -69,3 +69,8 @@ td.verdict.ok-with-parts { color: var(--accent); }
 td.verdict.unknown { color: var(--muted); }
 td.unknown { color: var(--muted); }
 tr.note-row td { border-top: 0; }
+
+/* SiteStripe の商品画像（Amazon 公式のリンクツール）。イラストと同じ枠に収める */
+.product-cell .ss-photo { flex: 0 0 auto; display: inline-flex; width: 48px; height: 48px; border-radius: 8px; background: #fff; border: 1px solid var(--border); overflow: hidden; align-items: center; justify-content: center; }
+.product-cell .ss-photo img { width: 100%; height: 100%; object-fit: contain; }
+.ss-pixel { position: absolute; width: 1px; height: 1px; border: 0; }

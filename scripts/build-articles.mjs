@@ -25,6 +25,7 @@ import { renderPromos } from '../src/promo.js';
 import { categoryIcon, categoryOf, highlightNumbers, CATEGORIES } from '../src/theme.js';
 import { chartRows, chartSpec } from '../src/chart.js';
 import { articleSeo, homeSeo, lastCheckedFact } from '../src/seo.js';
+import { siteStripeFor, siteStripeImage } from '../src/sitestripe.js';
 import { illustration, illustrationDefs, illustrationKey } from '../src/illustrations.js';
 import {
   FIT,
@@ -269,6 +270,12 @@ function brandChip(product) {
   return `<span class="brand-chip">${escapeHtml(brand)}</span>`;
 }
 
+/** 商品の写真（SiteStripe の画像リンクがあれば）か、種類のイラスト。 */
+function productVisual(product, slug, config) {
+  const photo = siteStripeFor(config.siteStripe, product.asin, config.associateTag);
+  return photo ? siteStripeImage(photo, product.name, 48) : illustration(illustrationKey(slug, product.specs), 48);
+}
+
 function renderProductRow(product, columns, config, verdict, slug) {
   const url = product.asin
     ? buildAffiliateUrl({ asin: product.asin, tag: config.associateTag, domain: config.marketplace })
@@ -301,7 +308,7 @@ function renderProductRow(product, columns, config, verdict, slug) {
     verdict.results.find((result) => result.status !== FIT.OK);
   const detail = (failed ?? verdict.results[0])?.detail ?? '';
   return `          <tr data-product="${escapeHtml(product.name)}"${note ? ' class="has-note"' : ''}>
-            <th scope="row"><span class="product-cell">${illustration(illustrationKey(slug, product.specs), 48)}<span>${brandChip(product)}${name}</span></span></th>
+            <th scope="row"><span class="product-cell">${productVisual(product, slug, config)}<span>${brandChip(product)}${name}</span></span></th>
             <td class="verdict ${verdict.status}" data-label="判定">${STATUS_LABEL[verdict.status]}<span class="reason">${escapeHtml(
               detail,
             )}</span></td>
@@ -421,7 +428,9 @@ ${renderFilter(article.filter)}
           article.asOf,
         )} 確認）。${pending > 0 ? `仕様を確認できなかった ${pending} 件は掲載していません。` : ''}</p>
         <p class="legend"><span class="badge-verdict ok">○</span>条件を満たす <span class="badge-verdict ng">×</span>満たさない <span class="badge-verdict unknown">?</span>公式に明記なし</p>
-        <p class="ill-note">※商品の図は種類を表すイラストです。実物の形・色・デザインとは異なります。</p>
+        <p class="ill-note">${products.some((product) => siteStripeFor(config.siteStripe, product.asin, config.associateTag))
+          ? '※写真は Amazon の商品画像です（色違いの出品のことがあります）。写真がない商品の図は種類を表すイラストで、実物の形・色・デザインとは異なります。'
+          : '※商品の図は種類を表すイラストです。実物の形・色・デザインとは異なります。'}</p>
 ${renderTable(products, article.columns, config, initial, article.slug)}
         <p class="small">判定は「${escapeHtml(
           inputs.map((input) => `${input.label} ${input.default}`).join('』『'),
@@ -620,6 +629,7 @@ function renderLccPage(template, airlineData, luggageData, config, listEntry) {
 
 const configPath = fileURLToPath(new URL('site.config.json', root));
 const config = JSON.parse(await readFile(configPath, 'utf8'));
+config.siteStripe = JSON.parse(await readFile(fileURLToPath(new URL('data/sitestripe.json', root)), 'utf8'));
 
 const readJson = async (path) =>
   JSON.parse(await readFile(fileURLToPath(new URL(path, root)), 'utf8'));
