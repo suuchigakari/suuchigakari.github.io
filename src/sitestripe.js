@@ -22,6 +22,19 @@ function toUrl(raw) {
   }
 }
 
+/**
+ * 商品ページのパスか。/dp/<ASIN>・/<商品名>/dp/<ASIN>・/gp/product/<ASIN> だけを認め、
+ * ASIN はパスの1区切りとして完全一致すること（部分一致は認めない）。
+ */
+function isProductPath(pathname, asin) {
+  const parts = pathname.split('/').filter(Boolean);
+  const i = parts.findIndex((p, k) => (p === 'dp' && (k === 0 || k === 1)) || (p === 'product' && k === 1 && parts[0] === 'gp'));
+  if (i < 0) return false;
+  if (parts[i] === 'dp' && i === 1 && parts[0] === 'gp') return false;
+  const rest = parts.slice(i + 1);
+  return rest[0] === asin && rest.length <= 2;
+}
+
 function attr(tag, name) {
   const m = tag.match(new RegExp(`\\s${name}\\s*=\\s*(["'])(.*?)\\1`, 'i'));
   return m ? m[2] : null;
@@ -39,7 +52,7 @@ export function parseSiteStripe(html, asin, tag) {
   const imgTags = html.match(/<img\s[^>]*>/gi) ?? [];
   const href = toUrl(aTag && attr(aTag, 'href'));
   if (!href || href.protocol !== 'https:' || !LINK_HOSTS.has(href.hostname)) return null;
-  if (!href.pathname.toUpperCase().includes(`/${asin.toUpperCase()}`)) return null;
+  if (!isProductPath(href.pathname, asin)) return null;
   if (href.searchParams.get('tag') !== tag) return null;
 
   let imgSrc = null;
@@ -47,6 +60,7 @@ export function parseSiteStripe(html, asin, tag) {
   for (const t of imgTags) {
     const u = toUrl(attr(t, 'src'));
     if (!u) continue;
+    if (u.protocol !== 'https:') continue;
     if (u.hostname === IMG_HOST && u.pathname === '/widgets/q') {
       if (u.searchParams.get('ASIN') !== asin || u.searchParams.get('tag') !== tag) return null;
       if (u.searchParams.get('MarketPlace') !== 'JP') return null;

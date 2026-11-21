@@ -24,3 +24,20 @@ test('タグ・ASIN・ホストが違うものは使わない', () => {
   assert.equal(parseSiteStripe(good.replace('https://www.amazon.co.jp', 'https://evil.example.com'), ASIN, TAG), null);
   assert.equal(parseSiteStripe('<script>alert(1)</script>', ASIN, TAG), null);
 });
+
+test('リンク先の ASIN はパスの区切りとして完全一致したときだけ通す', () => {
+  const swap = (path) => good.replace(`https://www.amazon.co.jp/dp/${ASIN}?`, `https://www.amazon.co.jp${path}?`);
+  assert.equal(parseSiteStripe(swap(`/dp/${ASIN}-extra`), ASIN, TAG), null);
+  assert.equal(parseSiteStripe(swap(`/foo/${ASIN}`), ASIN, TAG), null);
+  assert.equal(parseSiteStripe(swap(`/a/b/dp/${ASIN}`), ASIN, TAG), null);
+  assert.ok(parseSiteStripe(swap(`/some-name/dp/${ASIN}`), ASIN, TAG));
+  assert.ok(parseSiteStripe(swap(`/gp/product/${ASIN}`), ASIN, TAG));
+  assert.ok(parseSiteStripe(swap(`/dp/${ASIN}/ref=x`), ASIN, TAG));
+});
+
+test('http の画像 URL は使わない', () => {
+  assert.equal(parseSiteStripe(good.replace('src="//ws-fe', 'src="http://ws-fe'), ASIN, TAG), null);
+  const p = parseSiteStripe(good.replace('https://ir-jp', 'http://ir-jp'), ASIN, TAG);
+  assert.ok(p);
+  assert.equal(p.pixelSrc, null);
+});
