@@ -26,7 +26,7 @@ import { categoryIcon, categoryOf, highlightNumbers, CATEGORIES } from '../src/t
 import { chartRows, chartSpec } from '../src/chart.js';
 import { articleSeo, homeSeo, lastCheckedFact } from '../src/seo.js';
 import { quickPicks } from '../src/quickpicks.js';
-import { rakutenUrlFor } from '../src/rakuten.js';
+import { rakutenLinkFor } from '../src/rakuten.js';
 import { illustration, illustrationDefs, illustrationKey } from '../src/illustrations.js';
 import {
   FIT,
@@ -209,9 +209,9 @@ function renderQuickPicks(article, products, config) {
     const url = product.asin
       ? buildAffiliateUrl({ asin: product.asin, tag: config.associateTag, domain: config.marketplace })
       : null;
-    const rakuten = rakutenUrlFor(product, config);
+    const rakuten = rakutenLinkFor(product, config);
     const rakutenCta = rakuten
-      ? `<a class="cta-small cta-rakuten" href="${escapeHtml(rakuten)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(config.rakutenCtaLabel ?? '楽天市場で探す')}</a>`
+      ? `<a class="cta-small cta-rakuten" href="${escapeHtml(rakuten.url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(rakuten.label)}</a>`
       : '';
     if (url) {
       return `<a class="qp-name" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(product.name)}</a><a class="cta-small" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(config.ctaLabel ?? 'Amazonで見る')}</a>${rakutenCta}`;
@@ -312,9 +312,9 @@ function renderProductRow(product, columns, config, verdict, slug) {
   const url = product.asin
     ? buildAffiliateUrl({ asin: product.asin, tag: config.associateTag, domain: config.marketplace })
     : null;
-  const rakuten = rakutenUrlFor(product, config);
+  const rakuten = rakutenLinkFor(product, config);
   const rakutenCta = rakuten
-    ? `\n              <a class="cta-small cta-rakuten" href="${escapeHtml(rakuten)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(config.rakutenCtaLabel ?? '楽天市場で探す')}</a>`
+    ? `\n              <a class="cta-small cta-rakuten" href="${escapeHtml(rakuten.url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(rakuten.label)}</a>`
     : '';
   const name = url
     ? `<a class="product-name" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(product.name)}</a>
