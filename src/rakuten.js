@@ -3,10 +3,14 @@
  *
  * 楽天市場は同じ商品でも店ごとに商品ページが分かれるため、型番などで楽天市場を検索したページへ
  * アフィリエイトリンク（hb.afl.rakuten.co.jp/hgc/<アフィリエイトID>/?pc=<URL>）を作る。
- * アフィリエイトIDは site.config.json の rakutenAffiliateId。
+ * アフィリエイトIDは site.config.json の rakutenAffiliateId（「URLを入力してリンクを作成」で発行される hgc 用の ID。
+ * 商品リンクの ichiba 用の ID とは別の値）。
  */
 
 const ID_RE = /^[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}\.[0-9a-f]{8}$/;
+
+/** 公式のテキストリンクに付く ut（{"page":"url","type":"text","col":1} を Base64 にしたもの）。 */
+const TEXT_LINK_UT = 'eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9';
 
 export function isValidRakutenId(id) {
   return typeof id === 'string' && ID_RE.test(id);
@@ -25,9 +29,12 @@ export function rakutenKeyword(product) {
 export function buildRakutenSearchUrl({ affiliateId, keyword }) {
   if (!isValidRakutenId(affiliateId) || !keyword) return null;
   const target = `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keyword)}/`;
+  // 楽天アフィリエイトの「URLを入力してリンクを作成」（テキストリンク）が出力する形と同じにする
+  // （2026-11-23 に運営者が公式の画面で作ったリンクと1文字ずつ一致することをテストで確認）。
   const url = new URL(`https://hb.afl.rakuten.co.jp/hgc/${affiliateId}/`);
   url.searchParams.set('pc', target);
-  url.searchParams.set('m', target);
+  url.searchParams.set('link_type', 'text');
+  url.searchParams.set('ut', TEXT_LINK_UT);
   return url.toString();
 }
 

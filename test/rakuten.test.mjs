@@ -2,13 +2,12 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { buildRakutenSearchUrl, rakutenKeyword, rakutenUrlFor, isValidRakutenId } from '../src/rakuten.js';
 
-const ID = '59ddc2e6.ad0dd3a7.59ddc2e7.0b154655';
+const ID = '0bc71f59.f8a1bcec.0bc71f5a.c364cce5';
 
-test('楽天市場の検索結果へのアフィリエイトリンクを作る', () => {
-  const url = new URL(buildRakutenSearchUrl({ affiliateId: ID, keyword: 'アルインコ MR150W' }));
-  assert.equal(url.hostname, 'hb.afl.rakuten.co.jp');
-  assert.equal(url.pathname, `/hgc/${ID}/`);
-  assert.equal(url.searchParams.get('pc'), 'https://search.rakuten.co.jp/search/mall/%E3%82%A2%E3%83%AB%E3%82%A4%E3%83%B3%E3%82%B3%20MR150W/');
+test('楽天の公式の「URLを入力してリンクを作成」と1文字も違わないリンクを作る', () => {
+  // 2026-11-23 に運営者が楽天アフィリエイトの画面で作ったテキストリンク（href）
+  const official = 'https://hb.afl.rakuten.co.jp/hgc/0bc71f59.f8a1bcec.0bc71f5a.c364cce5/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E3%2582%25A2%25E3%2583%25AB%25E3%2582%25A4%25E3%2583%25B3%25E3%2582%25B3%2520MR150W%2F&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9';
+  assert.equal(buildRakutenSearchUrl({ affiliateId: ID, keyword: 'アルインコ MR150W' }), official);
 });
 
 test('ID の形式が違うとリンクを作らない', () => {
