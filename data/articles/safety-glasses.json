@@ -380,6 +380,8 @@
     },
     {
       "name": "山本光学 SN-900",
+      "rakuten": true,
+      "rakutenQuery": "山本光学 SN-900",
       "brand": "山本光学",
       "asin": null,
       "verified": true,
