@@ -209,9 +209,14 @@ function renderQuickPicks(article, products, config) {
     const url = product.asin
       ? buildAffiliateUrl({ asin: product.asin, tag: config.associateTag, domain: config.marketplace })
       : null;
-    return url
-      ? `<a class="qp-name" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(product.name)}</a><a class="cta-small" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(config.ctaLabel ?? 'Amazonで見る')}</a>${(() => { const r = rakutenUrlFor(product, config); return r ? `<a class="cta-small cta-rakuten" href="${escapeHtml(r)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(config.rakutenCtaLabel ?? '楽天市場で探す')}</a>` : ''; })()}`
-      : `<span class="qp-name">${escapeHtml(product.name)}</span><span class="qp-nolink">Amazon へのリンクなし</span>`;
+    const rakuten = rakutenUrlFor(product, config);
+    const rakutenCta = rakuten
+      ? `<a class="cta-small cta-rakuten" href="${escapeHtml(rakuten)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(config.rakutenCtaLabel ?? '楽天市場で探す')}</a>`
+      : '';
+    if (url) {
+      return `<a class="qp-name" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(product.name)}</a><a class="cta-small" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(config.ctaLabel ?? 'Amazonで見る')}</a>${rakutenCta}`;
+    }
+    return `<span class="qp-name">${escapeHtml(product.name)}</span>${rakutenCta || '<span class="qp-nolink">Amazon へのリンクなし</span>'}`;
   };
   const cards = picks
     .map(
