@@ -1043,13 +1043,13 @@
   ],
   "quickPicks": [
     {
-      "title": "両足の重さが最も軽い",
+      "title": "片足・両足の別が公式に書かれた製品で、両足の重さが最も軽い",
       "key": "pairWeightG",
       "order": "asc",
       "unit": "g"
     },
     {
-      "title": "JSAA・JISの記載があるもので最も軽い",
+      "title": "JSAA・JISの記載があり、片足・両足の別が公式に書かれた製品で最も軽い",
       "key": "pairWeightG",
       "order": "asc",
       "unit": "g",
