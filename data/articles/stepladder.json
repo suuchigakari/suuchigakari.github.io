@@ -1005,5 +1005,25 @@
       "href": "./laser-level.html"
     }
   ],
-  "sources": []
+  "sources": [],
+  "quickPicks": [
+    {
+      "title": "使用最大高さが最も高い",
+      "key": "standM",
+      "order": "desc",
+      "unit": "m"
+    },
+    {
+      "title": "最大使用質量が最も大きい",
+      "key": "maxLoadKg",
+      "order": "desc",
+      "unit": "kg"
+    },
+    {
+      "title": "重さが最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg"
+    }
+  ]
 }

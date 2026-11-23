@@ -329,5 +329,19 @@
     "水やお湯をmL表示するモードと、実際の比重のずれ",
     "収納場所（引き出しに入る厚みか、壁掛けできるか）"
   ],
-  "sources": []
+  "sources": [],
+  "quickPicks": [
+    {
+      "title": "最大計量が最も大きい",
+      "key": "maxG",
+      "order": "desc",
+      "unit": "g"
+    },
+    {
+      "title": "本体重量が最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g"
+    }
+  ]
 }

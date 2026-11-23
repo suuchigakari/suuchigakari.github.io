@@ -255,5 +255,19 @@
     "食べこぼし対策（椅子の下に敷くマット、拭き取りやすい素材）",
     "フローリングの傷と滑り止め（脚の裏に貼るパッド）"
   ],
-  "sources": []
+  "sources": [],
+  "quickPicks": [
+    {
+      "title": "幅が最も細い",
+      "key": "widthCm",
+      "order": "asc",
+      "unit": "cm"
+    },
+    {
+      "title": "重量が最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg"
+    }
+  ]
 }

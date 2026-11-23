@@ -340,5 +340,13 @@
       "label": "モンベル 温度表示の基準（ISO23537）",
       "url": "https://webshop.montbell.jp/common/system/information/disp.php?c=2&id=328"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "重量が最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g"
+    }
   ]
 }

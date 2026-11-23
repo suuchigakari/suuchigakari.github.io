@@ -475,5 +475,13 @@
       },
       "note": "容量は公式に「米びつ：25L（お米：20kg）」。サイズの並びは公式に明記なし。"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "入るお米の量が最も多い",
+      "key": "capacityKg",
+      "order": "desc",
+      "unit": "kg"
+    }
   ]
 }

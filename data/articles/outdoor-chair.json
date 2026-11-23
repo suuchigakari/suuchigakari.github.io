@@ -488,5 +488,19 @@
     "収納袋が破れたときの代替と、フレームの砂の落とし方",
     "焚き火の火の粉に対する生地の耐性（ポリエステル製は穴が開く）"
   ],
-  "sources": []
+  "sources": [],
+  "quickPicks": [
+    {
+      "title": "耐荷重が最も大きい",
+      "key": "capacityKg",
+      "order": "desc",
+      "unit": "kg"
+    },
+    {
+      "title": "重量が最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg"
+    }
+  ]
 }

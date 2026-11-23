@@ -844,5 +844,22 @@
       },
       "note": "女性専用ハーネス。ベルト色R/BLK。Amazon の商品ページのカテゴリは「ペット用品」になっている（Amazon 側の登録）。"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "重さが最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g"
+    },
+    {
+      "title": "130kg用で最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g",
+      "where": {
+        "usableKg": 130
+      }
+    }
   ]
 }

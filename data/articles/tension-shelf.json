@@ -1328,5 +1328,19 @@
       "href": "./bath-magnet-rack.html"
     }
   ],
-  "sources": []
+  "sources": [],
+  "quickPicks": [
+    {
+      "title": "幅いっぱいでの参考耐荷重が最も大きい",
+      "key": "loadMinKg",
+      "order": "desc",
+      "unit": "kg"
+    },
+    {
+      "title": "奥行が最も深い",
+      "key": "depthCm",
+      "order": "desc",
+      "unit": "cm"
+    }
+  ]
 }

@@ -1040,5 +1040,22 @@
       "label": "ニューバランス プロスニーカーの仕様（国内販売元ドンケルの公式サイトで公開のカタログ Vol.4、2025年11月作成。運営者がブラウザで入手、2026-10-23）",
       "url": "https://www.donkel.co.jp/nbps/index.html"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "両足の重さが最も軽い",
+      "key": "pairWeightG",
+      "order": "asc",
+      "unit": "g"
+    },
+    {
+      "title": "JSAA・JISの記載があるもので最も軽い",
+      "key": "pairWeightG",
+      "order": "asc",
+      "unit": "g",
+      "where": {
+        "certified": true
+      }
+    }
   ]
 }

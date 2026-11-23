@@ -653,5 +653,19 @@
       "label": "キャプテンスタッグ 保冷効力の測定条件（JIS）",
       "url": "https://store.captainstag.net/products/list?category_id=107"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "容量が最も大きい",
+      "key": "capacityL",
+      "order": "desc",
+      "unit": "L"
+    },
+    {
+      "title": "重量が最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg"
+    }
   ]
 }

@@ -601,5 +601,19 @@
     "乾かす場所の確保（立てられるか、水切りかごに入るか）",
     "肉・魚用と野菜用を分けるときの2枚目の選び方"
   ],
-  "sources": []
+  "sources": [],
+  "quickPicks": [
+    {
+      "title": "重量が最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g"
+    },
+    {
+      "title": "厚みが最も薄い",
+      "key": "thicknessMm",
+      "order": "asc",
+      "unit": "mm"
+    }
+  ]
 }

@@ -25,6 +25,7 @@ import { renderPromos } from '../src/promo.js';
 import { categoryIcon, categoryOf, highlightNumbers, CATEGORIES } from '../src/theme.js';
 import { chartRows, chartSpec } from '../src/chart.js';
 import { articleSeo, homeSeo, lastCheckedFact } from '../src/seo.js';
+import { quickPicks } from '../src/quickpicks.js';
 import { illustration, illustrationDefs, illustrationKey } from '../src/illustrations.js';
 import {
   FIT,
@@ -199,9 +200,41 @@ function renderArticleConclusion(conclusion) {
       </section>`;
 }
 
-function renderToc(article, hasChart) {
+/** 記事冒頭の「数字で選ぶ早見表」。数値で決まる一番の製品だけを、リンク付きで並べる。 */
+function renderQuickPicks(article, products, config) {
+  const picks = quickPicks(article, products);
+  if (picks.length === 0) return '';
+  const item = (product) => {
+    const url = product.asin
+      ? buildAffiliateUrl({ asin: product.asin, tag: config.associateTag, domain: config.marketplace })
+      : null;
+    return url
+      ? `<a class="qp-name" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(product.name)}</a><a class="cta-small" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(config.ctaLabel ?? 'Amazonで見る')}</a>`
+      : `<span class="qp-name">${escapeHtml(product.name)}</span><span class="qp-nolink">Amazon へのリンクなし</span>`;
+  };
+  const cards = picks
+    .map(
+      (pick) => `          <li class="qp-card">
+            <p class="qp-title">${escapeHtml(pick.title)}<strong class="qp-value">${escapeHtml(pick.valueText)}</strong></p>
+            <ul class="qp-products">${pick.products.map((product) => `<li>${item(product)}</li>`).join('')}</ul>${
+              pick.others > 0 ? `\n            <p class="qp-others">ほか${pick.others}製品も同じ値</p>` : ''
+            }
+          </li>`,
+    )
+    .join('\n');
+  return `      <section id="quick-picks" class="quick-picks">
+        <h2>数字で選ぶ早見表</h2>
+        <p class="small">比較表の数値（メーカー公式の仕様）で一番になる製品です。使い方に合うかは、下の絞り込みと比較表で確かめてください。</p>
+        <ol class="qp-list">
+${cards}
+        </ol>
+      </section>`;
+}
+
+function renderToc(article, hasChart, hasPicks = false) {
   const items = [
     ['conclusion', '結論'],
+    ...(hasPicks ? [['quick-picks', '数字で選ぶ早見表']] : []),
     ...article.sections.map((section, index) => [sectionId(index), section.heading]),
     ...(hasChart ? [['chart', '数字で見る']] : []),
     ['filter-section', article.filter?.heading ?? '絞り込み'],
@@ -404,8 +437,9 @@ ${renderHero(article, category, products.length)}
       <p class="lead">${highlightNumbers(article.lead)}</p>
 
 ${renderArticleConclusion(article.conclusion)}
+${renderQuickPicks(article, products, config)}
 
-${renderToc(article, Boolean(chart))}
+${renderToc(article, Boolean(chart), quickPicks(article, products).length > 0)}
 
 ${renderExclusions(article.excludeReaders)}
 

@@ -294,5 +294,25 @@
       "url": "https://www.nihonikuji.co.jp/list_cat01_selectgate"
     }
   ],
-  "verdictLegend": "○＝本体のみで対応、△＝拡張パーツが必要、×＝対応範囲外、?＝公式に明記なし。"
+  "verdictLegend": "○＝本体のみで対応、△＝拡張パーツが必要、×＝対応範囲外、?＝公式に明記なし。",
+  "quickPicks": [
+    {
+      "title": "高さが最も高い",
+      "key": "heightCm",
+      "order": "desc",
+      "unit": "cm"
+    },
+    {
+      "title": "通過幅が最も広い",
+      "key": "passWidthCm",
+      "order": "desc",
+      "unit": "cm"
+    },
+    {
+      "title": "重量が最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg"
+    }
+  ]
 }

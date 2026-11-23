@@ -675,5 +675,24 @@
       "label": "羽田空港 モバイルバッテリー等の航空機内持ち込みについて（2026年4月24日以降）",
       "url": "https://tokyo-haneda.com/information/2026/detail_00022.html"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "10000mAhで最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g",
+      "where": {
+        "capacityText": {
+          "includes": "10000mAh"
+        }
+      }
+    },
+    {
+      "title": "重さが最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g"
+    }
   ]
 }
