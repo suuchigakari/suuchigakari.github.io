@@ -26,12 +26,12 @@ jobs:
           node-version: 22
       - run: npm test
 
-  deploy:
+  # アップロードと公開を別のジョブに分ける（GitHub の標準のひな形と同じ形）。
+  # 同じジョブで続けて行うと、公開の手順がアップロード直後のファイルを見つけられずに
+  # 失敗することがあった（2026-11-23、「No artifacts named "github-pages"」）。
+  build:
     needs: test
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - name: Jekyll の処理を無効にする
@@ -40,5 +40,13 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v4
