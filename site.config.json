@@ -12,11 +12,11 @@
   "featured": {
     "heading": "検索でよく見られている記事",
     "slugs": [
+      "mobile-battery",
       "stepladder",
-      "lcc-carrycase",
-      "mobile-battery"
+      "lcc-carrycase"
     ],
-    "checkedOn": "2026-11-12",
+    "checkedOn": "2026-11-23",
     "source": "Google Search Console の表示回数（過去3か月）"
   }
 }
