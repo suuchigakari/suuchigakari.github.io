@@ -126,6 +126,8 @@
   "products": [
     {
       "name": "ナカバヤシ ラゲッジスケール グリップタイプ MBL-06BK",
+      "rakuten": true,
+      "rakutenQuery": "ナカバヤシ MBL-06BK",
       "brand": "ナカバヤシ",
       "asin": "",
       "verified": true,
@@ -202,6 +204,8 @@
     },
     {
       "name": "ナカバヤシ 超小型ラゲッジスケール MBL-08BK",
+      "rakuten": true,
+      "rakutenQuery": "ナカバヤシ MBL-08BK",
       "brand": "ナカバヤシ",
       "asin": "",
       "verified": true,

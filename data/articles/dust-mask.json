@@ -170,6 +170,8 @@
     },
     {
       "name": "トーヨーセーフティー No.1709-C",
+      "rakuten": true,
+      "rakutenQuery": "トーヨーセーフティー 1709-C",
       "brand": "トーヨーセーフティー",
       "asin": null,
       "verified": true,
@@ -189,6 +191,8 @@
     },
     {
       "name": "トーヨーセーフティー No.1717",
+      "rakuten": true,
+      "rakutenQuery": "トーヨーセーフティー 1717",
       "brand": "トーヨーセーフティー",
       "asin": null,
       "verified": true,
@@ -269,6 +273,8 @@
     },
     {
       "name": "山本光学 3200V-A",
+      "rakuten": true,
+      "rakutenQuery": "山本光学 3200V-A",
       "brand": "山本光学",
       "asin": null,
       "verified": true,
@@ -289,6 +295,8 @@
     },
     {
       "name": "山本光学 3700-A（活性炭入）",
+      "rakuten": true,
+      "rakutenQuery": "山本光学 3700-A",
       "brand": "山本光学",
       "asin": null,
       "verified": true,

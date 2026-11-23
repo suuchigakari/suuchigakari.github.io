@@ -350,6 +350,8 @@
     },
     {
       "name": "谷沢製作所 ST#1830-JZⅡ（エアライト）",
+      "rakuten": true,
+      "rakutenQuery": "谷沢製作所 ST#1830-JZ",
       "brand": "谷沢製作所",
       "asin": null,
       "verified": true,

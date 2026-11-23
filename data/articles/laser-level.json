@@ -388,6 +388,8 @@
     },
     {
       "name": "マキタ 充電式屋内･屋外兼用墨出し器 SK40GD（SK40GD）",
+      "rakuten": true,
+      "rakutenQuery": "マキタ SK40GD",
       "brand": "マキタ",
       "asin": "",
       "verified": true,
@@ -482,6 +484,8 @@
     },
     {
       "name": "マイゾックス 電子自動整準リアルグリーンラインレーザー墨出器 G-440SR（G-440SR）",
+      "rakuten": true,
+      "rakutenQuery": "マイゾックス G-440SR",
       "brand": "マイゾックス",
       "asin": "",
       "verified": true,
