@@ -6,6 +6,7 @@
  */
 import { illustration } from './illustrations.js';
 import { buildAffiliateUrl, escapeHtml as e } from './affiliate.js';
+import { rakutenUrlFor } from './rakuten.js';
 import {
   DEFAULT_PERSONAL_ITEM_KG,
   conflictBetween,
@@ -130,7 +131,7 @@ export function renderProducts(productData, airlines, config) {
   const rows = listed.map((product) => {
     const results = evaluateAll(product, shown);
     const name = product.asin
-      ? `<a href="${e(buildAffiliateUrl({ asin: product.asin, tag: config.associateTag, domain: config.marketplace }))}" target="_blank" rel="nofollow sponsored noopener">${e(product.name)}</a>`
+      ? `<a href="${e(buildAffiliateUrl({ asin: product.asin, tag: config.associateTag, domain: config.marketplace }))}" target="_blank" rel="nofollow sponsored noopener">${e(product.name)}</a>${(() => { const r = rakutenUrlFor(product, config); return r ? ` <a class="cta-small cta-rakuten" href="${e(r)}" target="_blank" rel="nofollow sponsored noopener">${e(config.rakutenCtaLabel ?? '楽天市場で探す')}</a>` : ''; })()}`
       : e(product.name);
     const cells = [
       `<th scope="row"><span class="product-cell">${illustration('suitcase', 44)}<span>${name}</span></span></th>`,
