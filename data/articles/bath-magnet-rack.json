@@ -382,5 +382,25 @@
         "hasHook": false
       }
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "棚・トレーの耐荷重が最も大きい",
+      "key": "loadShelfKg",
+      "order": "desc",
+      "unit": "kg"
+    },
+    {
+      "title": "幅が最も狭い",
+      "key": "widthCm",
+      "order": "asc",
+      "unit": "cm"
+    },
+    {
+      "title": "重さが最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g"
+    }
   ]
 }

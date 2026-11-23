@@ -767,5 +767,13 @@
       "label": "セメダイン 一般用総合カタログ（塗装のできるシーリング材の説明）",
       "url": "https://www.cemedine.co.jp/sds/bef5j30000000ivz-att/LF0386-0.pdf"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "表面が乾くまでが最も短い",
+      "key": "tackFreeMin",
+      "order": "asc",
+      "unit": "分"
+    }
   ]
 }

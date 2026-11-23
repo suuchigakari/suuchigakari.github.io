@@ -577,5 +577,13 @@
       "label": "旭化成 ジップロックコンテナー",
       "url": "https://www.asahi-kasei.co.jp/saran/products/ziploc/container.html"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "容量が最も大きい",
+      "key": "capacityMl",
+      "order": "desc",
+      "unit": "ml"
+    }
   ]
 }

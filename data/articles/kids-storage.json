@@ -540,5 +540,19 @@
     "ボックスに入りきらない大きなおもちゃの置き場所",
     "小学校入学後の学習机・ランドセルラックへの切り替え"
   ],
-  "sources": []
+  "sources": [],
+  "quickPicks": [
+    {
+      "title": "幅が最も狭い",
+      "key": "widthCm",
+      "order": "asc",
+      "unit": "cm"
+    },
+    {
+      "title": "本体重量が最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg"
+    }
+  ]
 }

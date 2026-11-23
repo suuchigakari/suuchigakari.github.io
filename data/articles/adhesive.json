@@ -686,5 +686,13 @@
       "href": "./safety-glasses.html"
     }
   ],
-  "sources": []
+  "sources": [],
+  "quickPicks": [
+    {
+      "title": "固まり始めるまでが最も短い",
+      "key": "cureStartMin",
+      "order": "asc",
+      "unit": "分"
+    }
+  ]
 }

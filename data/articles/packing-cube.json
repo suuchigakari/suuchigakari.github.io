@@ -254,5 +254,13 @@
         "code": "#1133377"
       }
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "重さが最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g"
+    }
   ]
 }

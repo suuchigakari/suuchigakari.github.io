@@ -69,3 +69,16 @@ td.verdict.ok-with-parts { color: var(--accent); }
 td.verdict.unknown { color: var(--muted); }
 td.unknown { color: var(--muted); }
 tr.note-row td { border-top: 0; }
+
+/* 数字で選ぶ早見表（記事冒頭） */
+.quick-picks { margin: 24px 0; }
+.qp-list { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.qp-card { border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; background: #fff; }
+.qp-title { margin: 0 0 8px; font-weight: 700; font-size: .95rem; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.qp-value { color: var(--accent, #c2410c); font-size: 1.1rem; }
+.qp-products { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.qp-products li { display: flex; flex-direction: column; gap: 6px; }
+.qp-name { font-size: .9rem; line-height: 1.4; }
+.qp-nolink, .qp-others { font-size: .8rem; color: var(--muted, #6b7280); margin: 0; }
+.qp-products, .qp-products li { margin-left: 0; padding-left: 0; }
+.qp-products li::before { content: none; }

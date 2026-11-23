@@ -285,5 +285,22 @@
       "label": "LCC各社の機内持ち込み規定（2026年8月確認、各社の出典はLCCキャリーケース記事に記載）",
       "url": "./lcc-carrycase.html"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "LCC8社すべてに入るもので容量が最も大きい",
+      "key": "capacityL",
+      "order": "desc",
+      "unit": "L",
+      "where": {
+        "fitAllAirlines": true
+      }
+    },
+    {
+      "title": "重量が最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg"
+    }
   ]
 }

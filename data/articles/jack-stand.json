@@ -572,5 +572,35 @@
       },
       "note": "高さはサドルの高さ（公式）。"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "最低位が最も低いジャッキ",
+      "key": "lowMm",
+      "order": "asc",
+      "unit": "mm",
+      "where": {
+        "type": {
+          "excludes": "スタンド"
+        }
+      }
+    },
+    {
+      "title": "最高位が最も高いジャッキ",
+      "key": "highMm",
+      "order": "desc",
+      "unit": "mm",
+      "where": {
+        "type": {
+          "excludes": "スタンド"
+        }
+      }
+    },
+    {
+      "title": "最大荷重が最も大きい",
+      "key": "maxLoadT",
+      "order": "desc",
+      "unit": "トン"
+    }
   ]
 }

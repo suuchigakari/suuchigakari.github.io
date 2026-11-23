@@ -607,5 +607,22 @@
       "label": "JIS T8147 の保護めがねのレンズの品質と安全性（山本光学「保護めがねとは」、2026-10-24 確認）",
       "url": "https://yk-yamamoto.co.jp/userguide/detail/0/6/"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "重さが最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g"
+    },
+    {
+      "title": "JISの記載があるもので最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g",
+      "where": {
+        "jis": true
+      }
+    }
   ]
 }

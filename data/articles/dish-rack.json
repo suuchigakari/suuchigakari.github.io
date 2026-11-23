@@ -301,5 +301,19 @@
         "upperOnly": true
       }
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "耐荷重が最も大きい",
+      "key": "loadMainKg",
+      "order": "desc",
+      "unit": "kg"
+    },
+    {
+      "title": "重さが最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g"
+    }
   ]
 }

@@ -242,5 +242,22 @@
       },
       "note": "公式に「not an approved size for TSA carry-on」（米国の保安検査で機内持ち込み不可のサイズ）と記載。重さの単位は公式ページの表記のまま（2.99 (85 grams)）。"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "100mL以下で容量が最も大きい",
+      "key": "capacityMl",
+      "order": "desc",
+      "unit": "mL（fl oz からの換算）",
+      "where": {
+        "under100": true
+      }
+    },
+    {
+      "title": "重さが最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g"
+    }
   ]
 }

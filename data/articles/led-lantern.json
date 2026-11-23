@@ -412,5 +412,25 @@
     "虫が寄りにくい光色の選び方（暖色に切り替えられるか）",
     "停電時に使う場合の保管方法（充電式は自然放電する）"
   ],
-  "sources": []
+  "sources": [],
+  "quickPicks": [
+    {
+      "title": "最大光量が最も大きい",
+      "key": "maxLumen",
+      "order": "desc",
+      "unit": "ルーメン"
+    },
+    {
+      "title": "最大光量での点灯時間が最も長い",
+      "key": "maxModeHours",
+      "order": "desc",
+      "unit": "時間"
+    },
+    {
+      "title": "重量が最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g"
+    }
+  ]
 }

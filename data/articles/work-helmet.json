@@ -491,5 +491,25 @@
       "label": "保護帽の規格（昭和50年労働省告示第66号）の衝撃吸収性能の試験方法と基準（厚生労働省 職場のあんぜんサイト、2026-10-23 確認）",
       "url": "https://anzeninfo.mhlw.go.jp/horei/hor1-11/hor1-11-21-1-10.html"
     }
+  ],
+  "quickPicks": [
+    {
+      "title": "墜落時保護用で最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g",
+      "where": {
+        "fallProtection": true
+      }
+    },
+    {
+      "title": "検定に合格しているもので最も軽い",
+      "key": "weightG",
+      "order": "asc",
+      "unit": "g",
+      "where": {
+        "certified": true
+      }
+    }
   ]
 }

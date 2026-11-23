@@ -659,5 +659,25 @@
       "href": "./cooler-box.html"
     }
   ],
-  "sources": []
+  "sources": [],
+  "quickPicks": [
+    {
+      "title": "耐荷重が最も大きい",
+      "key": "capacityKg",
+      "order": "desc",
+      "unit": "kg"
+    },
+    {
+      "title": "重量が最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg"
+    },
+    {
+      "title": "収納時の長辺が最も短い",
+      "key": "packLongestCm",
+      "order": "asc",
+      "unit": "cm"
+    }
+  ]
 }
