@@ -5,7 +5,7 @@
   "googleSiteVerification": "2CJffNomqpZHkiUA48xe_KAlTQapl-aSkjtO58qHgY8",
   "associateTag": "suuchigakari-22",
   "marketplace": "amazon.co.jp",
-  "disclosure": "【PR】本サイトはプロモーション（広告）を含みます。Amazonのアソシエイトとして、数値で選ぶ比較ノートは適格販売により収入を得ています。記事内の商品リンクはアフィリエイトリンクです。",
+  "disclosure": "【PR】本サイトはプロモーション（広告）を含みます。Amazonのアソシエイトとして、数値で選ぶ比較ノートは適格販売により収入を得ています。また、楽天アフィリエイトを利用しています。記事内の商品リンクはアフィリエイトリンクです。",
   "ctaLabel": "Amazonで価格を見る",
   "priceNote": "価格・在庫は変動し、セール期間中は価格が変わることがあります。購入前に Amazon の商品ページで最新の価格をご確認ください。",
   "saleNotice": null,
@@ -18,5 +18,7 @@
     ],
     "checkedOn": "2026-11-23",
     "source": "Google Search Console の表示回数（過去3か月）"
-  }
+  },
+  "rakutenAffiliateId": "0bc71f59.f8a1bcec.0bc71f5a.c364cce5",
+  "rakutenCtaLabel": "楽天市場で探す"
 }
