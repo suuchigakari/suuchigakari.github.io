@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildRakutenSearchUrl, rakutenKeyword, rakutenUrlFor, isValidRakutenId } from '../src/rakuten.js';
+import { buildRakutenSearchUrl, rakutenKeyword, rakutenUrlFor, rakutenLinkFor, isValidRakutenId } from '../src/rakuten.js';
 
 const ID = '0bc71f59.f8a1bcec.0bc71f5a.c364cce5';
 
@@ -26,4 +26,19 @@ test('ASIN がある商品か rakuten: true の商品だけに付ける', () => 
   assert.equal(rakutenUrlFor({ name: 'B' }, config), null);
   assert.ok(rakutenUrlFor({ name: 'C', rakuten: true }, config));
   assert.equal(rakutenUrlFor({ name: 'D', asin: 'B000000000', rakuten: false }, config), null);
+});
+
+test('rakutenUrl（公式ショップの商品ページ）があれば商品ページへのリンクにし、ASIN がなくても出す', () => {
+  const config = { rakutenAffiliateId: ID };
+  const link = rakutenLinkFor({ name: 'X', rakutenUrl: 'https://item.rakuten.co.jp/mujirushi-ryohin/4550512345678/' }, config);
+  assert.equal(link.label, '楽天市場で見る');
+  assert.equal(link.url, `https://hb.afl.rakuten.co.jp/hgc/${ID}/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmujirushi-ryohin%2F4550512345678%2F&link_type=text&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6InRleHQiLCJjb2wiOjF9`);
+  assert.equal(rakutenLinkFor({ name: 'Y', asin: 'B000000000' }, config).label, '楽天市場で探す');
+  assert.equal(rakutenLinkFor({ name: 'Z', rakutenUrl: 'https://item.rakuten.co.jp/a/b/', rakuten: false }, config), null);
+});
+
+test('rakutenUrl が商品ページの形式でなければビルドを止める', () => {
+  const config = { rakutenAffiliateId: ID };
+  assert.throws(() => rakutenLinkFor({ name: 'X', rakutenUrl: 'https://search.rakuten.co.jp/search/mall/x/' }, config));
+  assert.throws(() => rakutenLinkFor({ name: 'X', rakutenUrl: 'https://example.com/' }, config));
 });
