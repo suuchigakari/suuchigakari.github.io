@@ -50,3 +50,29 @@ test('楽天のリンクは公式のテキストリンクと同じ属性の <a> 
   const anchor = html.match(/<a [^>]*>/)[0];
   assert.equal(anchor, '<a href="https://hb.afl.rakuten.co.jp/hgc/x/?pc=y&amp;link_type=text" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">');
 });
+
+test('楽天の商品リンクは、その商品の rakutenUrl へのリンクで価格なしのものだけを通す', async () => {
+  const { validateItemLinkHtml } = await import('../src/rakuten.js');
+  const target = 'https://item.rakuten.co.jp/keyuca/s10000191/';
+  const ut = (o) => Buffer.from(JSON.stringify(o)).toString('base64');
+  const make = (pc, opts) => `<table><tr><td><div><a href="https://hb.afl.rakuten.co.jp/ichiba/x/?pc=${encodeURIComponent(pc)}&link_type=picttext&ut=${encodeURIComponent(ut(opts))}" target="_blank"><img src="https://hbb.afl.rakuten.co.jp/hgb/x/?s=64x64" border="0"></a></div></td></tr></table>`;
+  assert.deepEqual(validateItemLinkHtml(make(target, { type: 'picttext', price: 0 }), target), []);
+  assert.ok(validateItemLinkHtml(make(target, { type: 'picttext', price: 1 }), target).some((p) => p.includes('価格')));
+  assert.ok(validateItemLinkHtml(make('https://item.rakuten.co.jp/other/1/', { type: 'picttext', price: 0 }), target).some((p) => p.includes('rakutenUrl')));
+  assert.ok(validateItemLinkHtml(make(target, { type: 'picttext', price: 0 }).replace('<div>', '<div><script>x</script>'), target).length > 0);
+});
+
+test('data/rakuten-item-links.json の商品リンクは、どれも記事の商品の rakutenUrl に対応し、検査を通る', async () => {
+  const { readFile, readdir } = await import('node:fs/promises');
+  const { validateItemLinkHtml } = await import('../src/rakuten.js');
+  const links = JSON.parse(await readFile(new URL('../data/rakuten-item-links.json', import.meta.url), 'utf8')).links;
+  const dir = new URL('../data/articles/', import.meta.url);
+  const urls = new Set();
+  for (const f of (await readdir(dir)).filter((n) => n.endsWith('.json'))) {
+    for (const p of JSON.parse(await readFile(new URL(f, dir), 'utf8')).products) if (p.rakutenUrl) urls.add(p.rakutenUrl);
+  }
+  for (const [url, entry] of Object.entries(links)) {
+    assert.ok(urls.has(url), `記事にない rakutenUrl: ${url}`);
+    assert.deepEqual(validateItemLinkHtml(entry.html, url), [], url);
+  }
+});

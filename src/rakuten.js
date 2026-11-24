@@ -93,3 +93,47 @@ export function rakutenUrlFor(product, config) {
 export function rakutenAnchorHtml(link, escape) {
   return `<span class="cta-small cta-rakuten"><a href="${escape(link.url)}" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">${escape(link.label)}</a></span>`;
 }
+
+/**
+ * 楽天アフィリエイトの「商品リンク」（画像＋テキスト）の HTML。
+ * 運営者がリンク作成で作った HTML を data/rakuten-item-links.json に1文字も変えずに入れ、そのまま出す
+ * （ガイドライン：生成された HTML の変更・画像サイズの変更の禁止）。
+ * 入れてよいのは、その商品の rakutenUrl へのリンクで、価格を表示しない設定（ut の price:0）のものだけ。
+ * 形が違えばビルドを止める。
+ */
+const ALLOWED_TAGS = new Set(['table', 'tr', 'td', 'div', 'a', 'img', 'p']);
+
+export function validateItemLinkHtml(html, rakutenUrl) {
+  const problems = [];
+  if (typeof html !== 'string' || !/^<table[\s\S]*<\/table>$/.test(html.trim())) problems.push('table で始まり table で終わる形ではない');
+  if (/<script|javascript:|\son[a-z]+\s*=/i.test(html)) problems.push('スクリプトを含む');
+  for (const [, tag] of html.matchAll(/<\/?([a-zA-Z0-9]+)/g)) {
+    if (!ALLOWED_TAGS.has(tag.toLowerCase())) problems.push(`想定外のタグ <${tag}>`);
+  }
+  const hrefs = [...html.matchAll(/href="([^"]*)"/g)].map((m) => m[1].replaceAll('&amp;', '&'));
+  if (hrefs.length === 0) problems.push('リンクがない');
+  for (const href of hrefs) {
+    let url;
+    try { url = new URL(href); } catch { problems.push(`URL として読めない: ${href}`); continue; }
+    if (url.origin !== 'https://hb.afl.rakuten.co.jp' || !url.pathname.startsWith('/ichiba/')) problems.push(`楽天アフィリエイトのリンクではない: ${href}`);
+    if (url.searchParams.get('pc') !== rakutenUrl) problems.push(`リンク先が rakutenUrl と違う: ${url.searchParams.get('pc')}`);
+    let ut = null;
+    try { ut = JSON.parse(Buffer.from(url.searchParams.get('ut') ?? '', 'base64').toString('utf8')); } catch { /* 下で扱う */ }
+    if (!ut || ut.type !== 'picttext') problems.push('画像＋テキストの商品リンクではない');
+    else if (ut.price !== 0) problems.push('価格を表示する設定になっている（price:0 で作り直す）');
+  }
+  for (const [, src] of html.matchAll(/<img[^>]*src="([^"]*)"/g)) {
+    if (!src.startsWith('https://hbb.afl.rakuten.co.jp/')) problems.push(`画像が楽天アフィリエイトの配信ではない: ${src}`);
+  }
+  return problems;
+}
+
+/** 商品の商品リンク（なければ空文字）。外側の div だけがこのサイトのもの。 */
+export function rakutenItemWidget(product, itemLinks) {
+  if (!product.rakutenUrl || product.rakuten === false) return '';
+  const entry = itemLinks?.[product.rakutenUrl];
+  if (!entry) return '';
+  const problems = validateItemLinkHtml(entry.html, product.rakutenUrl);
+  if (problems.length) throw new Error(`楽天の商品リンクが使えません（${product.name}）: ${problems.join(' / ')}`);
+  return `<div class="rk-item">${entry.html.trim()}</div>`;
+}

@@ -353,3 +353,9 @@ a.next-card:hover { background: var(--cat-soft); }
 .promo p { font-size: 0.92rem; }
 /* 楽天のリンクは公式の <a> をそのまま使うため、見た目は外側の span だけに付ける（<a> の色などは変えない） */
 .cta-small.cta-rakuten { background: #fff; border: 1px solid #bf0000; margin-left: 4px; }
+/* 楽天の商品リンク（画像＋テキスト）。中の HTML は楽天のリンク作成が出したまま。
+   比較表の table / td の指定が中に効かないよう、外側から打ち消すだけにする（中の文字色・大きさは変えない）。 */
+.rk-item { margin-top: 8px; }
+.rk-item table { min-width: 0; width: auto; background: transparent; border-collapse: separate; display: table; font-size: medium; }
+.rk-item tr { display: table-row; }
+.rk-item td { border: 0; padding: 0; display: table-cell; width: auto; background: transparent !important; }
