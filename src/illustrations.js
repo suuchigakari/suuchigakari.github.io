@@ -149,7 +149,7 @@ const BY_ARTICLE = {
     return 'tube';
   },
   'pressure-cooker': () => 'pressure-cooker',
-  'frying-pan': (specs) => (String(specs?.coatingType ?? '').startsWith('なし') ? 'frying-pan-metal' : 'frying-pan'),
+  'frying-pan': (specs) => (/^なし|ステンレス|鉄/.test(String(specs?.coatingType ?? '')) ? 'frying-pan-metal' : 'frying-pan'),
   'cutting-board': () => 'cutting-board',
   'food-container': () => 'container',
   'kitchen-scale': () => 'kitchen-scale',
