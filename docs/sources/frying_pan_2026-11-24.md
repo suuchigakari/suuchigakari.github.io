@@ -47,3 +47,9 @@
 - 仕様欄に記載なし：内径・深さ・底の直径・材質・対応熱源・食器洗い機・オーブン・原産国（商品名に「IH対応」。商品説明に3層構造と「金属製ツールや強火調理も可能」）
 - 販売終了・在庫なしの表示なし
 - ドウシシャ公式サイト（doshisha.co.jp）に仕様のページはなし。corellebrands.co.jp は運営者が Corelle Brands でドウシシャではないため使っていない
+
+## 追加：「次に困りそうなこと」の3項目を本文に（2026-11-24）
+
+- IH の鍋底の直径：パナソニック https://sumai.panasonic.jp/ihcook/guide/point-choose-pot.html （Aシリーズ 左右IH 12〜26cm・後ろIH 10〜18cm、10cm未満不可、底の反り・丸いもの不可）、https://sumai.panasonic.jp/ihcook/faq/a_03.html （鉄・ホーロー・有磁ステンレスは底径12cm以上、オールメタル対応IHでアルミ・銅・非磁性ステンレスは15cm以上、鉄・ステンレス対応IHではアルミ・銅鍋は使えない）
+- フタの直径：ティファール https://www.t-fal.co.jp/pots-pans/stackable/products/ingenio-butterfly-glass-lid-2100127202/ （「フライパン及び鍋の『縁の内径』のサイズに合うものをお選びください」、インジニオ・ネオ バタフライガラスぶた 26cm L99366）、バッラリーニ ヴィンチ／ボルザーノ ガラス蓋26cm（ツヴィリング公式の楽天市場店 https://item.rakuten.co.jp/zwilling-shop/z1034-619/ の商品名）
+- 鉄フライパンの手入れ：リバーライト https://www.riverlight.co.jp/ja/manual.php （料理を入れたままにすると塩分・酸で鉄肌が侵され穴が開くことがある、ハンドル・ボルトは有料で交換・販売店へ）、https://www.riverlight.co.jp/ja/maintenance.php （熱いお湯でコゲを柔らかく、ぬるま湯とブラシで洗剤なし、火にかけ中華お玉1杯の油を弱火で5分）、https://www.riverlight.co.jp/ja/return.php （こびりつきからの再生）。ビタクラフト https://www.vitacraft.co.jp/shop/products/detail.php?product_id=610 （窒化4層加工で錆びにくい）。サビを落とす手順は両社の公式ページで見つからず
