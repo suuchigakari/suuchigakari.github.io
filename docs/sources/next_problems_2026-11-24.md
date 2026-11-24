@@ -3,7 +3,7 @@
 | 記事 | 項目 | 出典 |
 |---|---|---|
 | mobile-battery | 端子の絶縁 | 羽田空港 https://tokyo-haneda.com/information/2026/detail_00022.html （「ショート防止のため、端子部分をテープで保護するか、個別のビニール袋に入れてください」、機内コンセントからの充電禁止・モバイルバッテリーからの充電をしない）。絶縁シート付属は記事内データ（エレコム DE-C76-10000WH） |
-| mobile-battery | 本体の充電時間 | Anker A1256 https://www.ankerjapan.com/products/a1256 （充電時間 2時間20分）、A1257 https://www.ankerjapan.com/products/a1257 （USB-C 入力 最大20W、充電時間の記載なし）。ほかの Anker 8製品も充電時間の記載なし（2026-11-24 確認） |
+| mobile-battery | 本体の充電時間 | Anker A1257 https://www.ankerjapan.com/products/a1257 （USB-C 入力 最大20W、充電時間の記載なし）。充電時間の記載があったのは A1256（2時間20分）だけだが、公式ページに「販売終了しました」と表示されているため本文では使わない（Codex の指摘、2026-11-24） |
 | lcc-backpack・luggage-scale | 身の回り品・帰りの重さ | このサイトの航空会社データ `data/airlines.json`（2026-08 確認、全社 weightScope=combined2） |
 | luggage-scale | 超過料金 | 料金は載せず、各社公式の「手荷物料金」ページで確かめる手順だけを書いた |
 | rice-bin | 内寸の測り方 | 測り方の手順のみ（数値なし） |
