@@ -63,6 +63,10 @@ export const ILLUSTRATIONS = {
     `${SHADOW(118, 30)}<rect x="36" y="14" width="56" height="8" rx="3" fill="url(#il-blue)"/><rect x="47" y="22" width="6" height="12" fill="#339af0"/><rect x="75" y="22" width="6" height="12" fill="#339af0"/><rect x="38" y="32" width="24" height="62" rx="4" fill="url(#il-glass)" stroke="#868e96"/><rect x="41" y="44" width="18" height="48" rx="3" fill="#f1f3f5"/><rect x="66" y="32" width="24" height="62" rx="4" fill="url(#il-glass)" stroke="#868e96"/><rect x="69" y="44" width="18" height="48" rx="3" fill="url(#il-amber)"/><path d="M40 94h48l-8 10H48z" fill="url(#il-gray)" stroke="#868e96"/><rect x="60" y="104" width="8" height="12" rx="2" fill="url(#il-gray)" stroke="#868e96"/><rect x="41" y="36" width="3" height="54" rx="1.5" fill="#fff" opacity=".6"/>`,
   bottle:
     `${SHADOW(114, 30)}<path d="M60 6h8l3 22H57z" fill="url(#il-aluV)" stroke="#868e96"/><rect x="50" y="26" width="28" height="14" rx="3" fill="url(#il-red)" stroke="#a61e1e"/><path d="M42 40h44c4 0 6 3 6 6v56c0 5-4 8-8 8H44c-4 0-8-3-8-8V46c0-3 2-6 6-6z" fill="url(#il-white)" stroke="#9aa3ab" stroke-width="1.2"/><rect x="42" y="58" width="44" height="30" fill="url(#il-yellowV)"/><rect x="48" y="66" width="24" height="3" rx="1" fill="#fff" opacity=".9"/><rect x="48" y="73" width="16" height="3" rx="1" fill="#fff" opacity=".7"/><rect x="40" y="44" width="4" height="60" rx="2" fill="#fff" opacity=".8"/>`,
+  'frying-pan':
+    `${SHADOW(104, 54)}<rect x="88" y="62" width="38" height="9" rx="4.5" transform="rotate(-8 88 66)" fill="url(#il-black)"/><ellipse cx="54" cy="74" rx="46" ry="20" fill="url(#il-alu)" stroke="#6b737b"/><ellipse cx="54" cy="70" rx="40" ry="15" fill="url(#il-black)"/><ellipse cx="44" cy="66" rx="16" ry="4" fill="#fff" opacity=".18"/>`,
+  'frying-pan-metal':
+    `${SHADOW(104, 54)}<rect x="88" y="62" width="38" height="9" rx="4.5" transform="rotate(-8 88 66)" fill="url(#il-wood)" stroke="#a9773c"/><ellipse cx="54" cy="74" rx="46" ry="20" fill="url(#il-gray)" stroke="#495057"/><ellipse cx="54" cy="70" rx="40" ry="15" fill="url(#il-aluV)" stroke="#868e96"/><ellipse cx="44" cy="66" rx="16" ry="4" fill="#fff" opacity=".35"/>`,
   'pressure-cooker':
     `${SHADOW(112)}<rect x="2" y="56" width="18" height="6" rx="3" fill="url(#il-black)"/><path d="M22 60h76v34c0 8-6 14-14 14H36c-8 0-14-6-14-14z" fill="url(#il-alu)" stroke="#6b737b"/><path d="M18 52c0-8 20-14 46-14s46 6 46 14v8H18z" fill="url(#il-aluV)" stroke="#6b737b"/><rect x="100" y="47" width="26" height="9" rx="4.5" fill="url(#il-black)"/><rect x="58" y="28" width="12" height="10" rx="2" fill="url(#il-black)"/><circle cx="64" cy="25" r="4" fill="#fa5252"/><rect x="30" y="64" width="6" height="36" rx="3" fill="#fff" opacity=".55"/>`,
   'cutting-board':
@@ -145,6 +149,7 @@ const BY_ARTICLE = {
     return 'tube';
   },
   'pressure-cooker': () => 'pressure-cooker',
+  'frying-pan': (specs) => (String(specs?.coatingType ?? '').startsWith('なし') ? 'frying-pan-metal' : 'frying-pan'),
   'cutting-board': () => 'cutting-board',
   'food-container': () => 'container',
   'kitchen-scale': () => 'kitchen-scale',

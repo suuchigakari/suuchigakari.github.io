@@ -44,6 +44,7 @@ export const ARTICLE_CATEGORY = {
   caulking: 'diy',
   adhesive: 'diy',
   'pressure-cooker': 'kitchen',
+  'frying-pan': 'kitchen',
   'cutting-board': 'kitchen',
   'food-container': 'kitchen',
   'kitchen-scale': 'kitchen',
