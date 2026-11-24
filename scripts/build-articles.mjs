@@ -345,7 +345,7 @@ function renderProductRow(product, columns, config, verdict, slug) {
     verdict.results.find((result) => result.status !== FIT.OK);
   const detail = (failed ?? verdict.results[0])?.detail ?? '';
   return `          <tr data-product="${escapeHtml(product.name)}"${note ? ' class="has-note"' : ''}>
-            <th scope="row"><span class="product-cell">${illustration(illustrationKey(slug, product.specs), 48)}<span>${brandChip(product)}${name}${widget}</span></span></th>
+            <th scope="row"><div class="product-cell">${illustration(illustrationKey(slug, product.specs), 48)}<div>${brandChip(product)}${name}${widget}</div></div></th>
             <td class="verdict ${verdict.status}" data-label="判定">${STATUS_LABEL[verdict.status]}<span class="reason">${escapeHtml(
               detail,
             )}</span></td>
