@@ -1,0 +1,10 @@
+{
+  "_note": "楽天アフィリエイトの「商品リンク」（画像＋テキスト）で運営者が作った HTML を、1文字も変えずに入れる。キーは記事 JSON の rakutenUrl。価格なし（ut の price:0）で作ったものだけを使う。",
+  "links": {
+    "https://item.rakuten.co.jp/keyuca/s10000191/": {
+      "html": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td><div style=\"border:1px solid #95A5A6;border-radius:.75rem;background-color:#FFFFFF;width:74px;margin:0px;padding:5px 0;text-align:center;overflow:hidden;\"><a href=\"https://hb.afl.rakuten.co.jp/ichiba/59ec2d6e.bcc26765.59ec2d6f.365ece62/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkeyuca%2Fs10000191%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiI2NHg2NCIsIm5hbSI6MSwibmFtcCI6ImRvd24iLCJjb20iOjAsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjowLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D\" target=\"_blank\" rel=\"nofollow sponsored noopener\" style=\"word-wrap:break-word;\"><img src=\"https://hbb.afl.rakuten.co.jp/hgb/59ec2d6e.bcc26765.59ec2d6f.365ece62/?me_id=1279101&item_id=10039488&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fkeyuca%2Fcabinet%2F46%2Fs10000191.jpg%3F_ex%3D64x64&s=64x64&t=picttext\" border=\"0\" style=\"margin:2px\" alt=\"\" title=\"\"></a><p style=\"font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word\"><a href=\"https://hb.afl.rakuten.co.jp/ichiba/59ec2d6e.bcc26765.59ec2d6f.365ece62/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkeyuca%2Fs10000191%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiI2NHg2NCIsIm5hbSI6MSwibmFtcCI6ImRvd24iLCJjb20iOjAsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjowLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D\" target=\"_blank\" rel=\"nofollow sponsored noopener\" style=\"word-wrap:break-word;\">【KEYUCA公式店】ケユカ 抗菌 滑りにくいD型まな板 [調理器具 キッチン用...</a></p></div></td></tr></table>",
+      "createdOn": "2026-11-24",
+      "source": "運営者が楽天アフィリエイトのリンク作成（Claude in Chrome）で作成。設定：画像＋テキスト・64x64・価格なし・コメントなし・ボタンなし"
+    }
+  }
+}

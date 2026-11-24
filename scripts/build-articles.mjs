@@ -26,7 +26,7 @@ import { categoryIcon, categoryOf, highlightNumbers, CATEGORIES } from '../src/t
 import { chartRows, chartSpec } from '../src/chart.js';
 import { articleSeo, homeSeo, lastCheckedFact } from '../src/seo.js';
 import { quickPicks } from '../src/quickpicks.js';
-import { rakutenLinkFor, rakutenAnchorHtml } from '../src/rakuten.js';
+import { rakutenLinkFor, rakutenAnchorHtml, rakutenItemWidget } from '../src/rakuten.js';
 import { illustration, illustrationDefs, illustrationKey } from '../src/illustrations.js';
 import {
   FIT,
@@ -320,6 +320,7 @@ function renderProductRow(product, columns, config, verdict, slug) {
     ? `<a class="product-name" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(product.name)}</a>
               <a class="cta-small" href="${escapeHtml(url)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(config.ctaLabel ?? 'Amazonで見る')}</a>${rakutenCta}`
     : `<span class="product-name">${escapeHtml(product.name)}</span>${rakutenCta}`;
+  const widget = rakutenItemWidget(product, config.rakutenItemLinks);
 
   const cells = columns
     .map((column) => {
@@ -344,7 +345,7 @@ function renderProductRow(product, columns, config, verdict, slug) {
     verdict.results.find((result) => result.status !== FIT.OK);
   const detail = (failed ?? verdict.results[0])?.detail ?? '';
   return `          <tr data-product="${escapeHtml(product.name)}"${note ? ' class="has-note"' : ''}>
-            <th scope="row"><span class="product-cell">${illustration(illustrationKey(slug, product.specs), 48)}<span>${brandChip(product)}${name}</span></span></th>
+            <th scope="row"><span class="product-cell">${illustration(illustrationKey(slug, product.specs), 48)}<span>${brandChip(product)}${name}${widget}</span></span></th>
             <td class="verdict ${verdict.status}" data-label="判定">${STATUS_LABEL[verdict.status]}<span class="reason">${escapeHtml(
               detail,
             )}</span></td>
@@ -669,6 +670,7 @@ const readJson = async (path) =>
   JSON.parse(await readFile(fileURLToPath(new URL(path, root)), 'utf8'));
 const airlineData = await readJson('data/airlines.json');
 const promoData = await readJson('data/promos.json');
+config.rakutenItemLinks = (await readJson('data/rakuten-item-links.json')).links;
 
 const files = (await readdir(fileURLToPath(articlesDir))).filter((file) => file.endsWith('.json'));
 const entries = [];
