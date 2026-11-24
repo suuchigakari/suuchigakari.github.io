@@ -141,3 +141,27 @@
 | baby-high-chair | 脚の裏にパッドを貼る前に、取扱説明書を確かめる | https://www.yamatoya-jp.com/support/how_to_care/ | 床の傷・脚のパッドの記載なし（「家具は水平な場所でお使いください」のみ）。2026-11-24 取得 |
 | baby-high-chair | 脚の裏にパッドを貼る前に、取扱説明書を確かめる | https://www.katoji.co.jp/products-detail_4236.html | 脚の裏・床の記載なし。2026-11-24 取得 |
 | baby-high-chair | 脚の裏にパッドを貼る前に、取扱説明書を確かめる | https://www.stokke.com/JPN/ja-jp/high-chairs/tripp-trapp-chair/100101.html | 脚の裏・床の記載は見つからず。2026-11-24 取得 |
+
+## 第3弾（kids-storage・kids-table-chair）
+
+エージェントが公式ページ・記事内データで確かめた出典。
+
+| 記事 | セクション | 出典 | 確かめたこと |
+|---|---|---|---|
+| kids-storage | 背の高い棚は、壁に固定できるかを先に確かめる | https://www.ikea.com/jp/ja/p/trofast-storage-combination-with-boxes-light-white-stained-pine-green-grey-grey-blue-s09477489/ | 安全性とコンプライアンス情報：「警告： 転倒の危険があります – 本製品はしっかりと固定する必要があります。 ご自宅に適したネジやねじ込みプラグをお使いください。 不明な点がある場合は、専門家からのアドバイスを得てください」。2026-11-24 取得 |
+| kids-storage | 背の高い棚は、壁に固定できるかを先に確かめる | https://shopyamatoya-jp.com/products/norsta-bookshelf | 転倒防止・壁固定・金具の記載なし（norsta-toyrack・norsta-hangerrack・buono-bookwagon も同じ）。2026-11-24 取得 |
+| kids-storage | 背の高い棚は、壁に固定できるかを先に確かめる | https://item.rakuten.co.jp/irisplaza-r/210373/ | 自動アクセスで本文が返らず（251496 も同じ）、確かめられなかった |
+| kids-storage | 背の高い棚は、壁に固定できるかを先に確かめる | https://www.cfa.go.jp/policies/child-safety-actions/handbook/content-6 | 「タンスなどの家具を倒して下敷きになる（1歳から6歳くらい）」家具は固定し、引き出しや開き扉にはストッパーを付け、家具で遊ばせない。2026-11-24 取得 |
+| kids-storage | 背の高い棚は、壁に固定できるかを先に確かめる | 記事内データ | 高さ120cm：ニトリ キッズ収納シェルフ（幅100×奥行40×高さ120cm）、ベルメゾン Aハンガー（高さ120cm）、ベルメゾン 高さ4段階調節式キッズハンガーラック（高さ120cm、キャスター含む） |
+| kids-storage | 大きなおもちゃは、ワゴンや下段の耐荷重で置き場所を決める | 記事内データ | アイリスオーヤマ KTHR-412R：ボックス大約40.8×31.2×12.8cm・小約20.3×31.2×12.8cm、ボックス大約3kg・小約1kg。ノスタ3 キッズトイラック：ワゴン10kg（キャスター付き）。ピエニ：ワゴン約10kg。ミア3：おもちゃ箱10kg（キャスター付き）。ベルメゾン 表紙が見えやすく置ける絵本ラック：地板15kg。セルフル：最上段・最下段の棚各10kg。耐荷重の記載なし：トロファスト・キッズ収納シェルフ・はじめて絵本ラック・絵本＆おもちゃラック |
+| kids-storage | 小学校に入ったら、対象年齢と高さを見直す | 記事内データ | 対象年齢：ブォーノ3 キッズブックワゴン 1才6か月〜6才、トロファスト 12か月以上（フレームの公式表記）、他は null。ノスタ3 ハンガーラック ポール96.5cm・112.5cmの2段階。ベルメゾン 高さ4段階調節式（各段の数値は記載なし）。セルフル 高さ74cm |
+| kids-storage | 小学校に入ったら、対象年齢と高さを見直す | https://www.bellemaison.jp/shop/commodity/0000/1109555 | 「ランドセルも置ける！キッズ収納ラック［日本製］」幅75×奥行40×高さ100cm、天板・棚板10kg／ハンガーバー5kg（自動アクセスが遮断されるため、運営者がブラウザで仕様欄を確認。docs/sources/kids_furniture_nitori_bellemaison_2026-10-22.csv、2026-10-22） |
+| kids-storage | 小学校に入ったら、対象年齢と高さを見直す | https://www.bellemaison.jp/shop/commodity/0000/1262467 | 「ランドセルラックにもなる伸縮絵本棚」奥行30×高さ90cm、天板10kg／絵本収納部5kg／棚板10kg、幅はタイプ名 A／60〜90、B／90〜150（同上、2026-10-22） |
+| kids-storage | 小学校に入ったら、対象年齢と高さを見直す | https://shopyamatoya-jp.com/products/norsta-hangerrack | ポールの高さ調整：2段階（96.5、112.5cm）。ランドセル・小学校の記載なし。2026-11-24 取得 |
+| kids-table-chair | 脚カバーやマットを使う前に確かめること | https://www.yamatoya-jp.com/support/how_to_care/ | 「家具は水平な場所でお使いください」。塩化ビニール製（PVC）のボールや玩具には可塑剤が使用されているため、製品と接触させると塗装部分を溶かす恐れがある。床・脚カバーの記載なし。2026-11-24 取得 |
+| kids-table-chair | 脚カバーやマットを使う前に確かめること | https://shopyamatoya-jp.com/products/norsta-chair | 脚カバー・床・フェルトの記載なし（norsta-desk・norsta-table・buono-deskchair も同じ）。2026-11-24 取得 |
+| kids-table-chair | 脚カバーやマットを使う前に確かめること | https://www.ikea.com/jp/ja/p/flisat-childrens-stool-pine-10596537/ | 公式の仕様・説明に床保護の記載なし（購入者レビューの記述は根拠にしていない）。flisat-childrens-table-30298419 も同じ。2026-11-24 取得 |
+| kids-table-chair | 脚カバーやマットを使う前に確かめること | 記事内データ | ノスタ3 天板と座面の差 19.5cm（同じ段どうし） |
+| kids-table-chair | 小学校入学の頃に、対象年齢の上限が来る | 記事内データ | 対象年齢：ノスタ3・ブォーノ3 1才6か月〜6才、フリサット 3〜6歳、HOPPL 6か月以上（上限なし）、ニトリ 記載なし。天板：ノスタ3 38・41・44cm、ブォーノ3 約38・41・44cm。セルフル 25〜63.2cmの7段階、きなこさんコラボ 40・43・46cm（sections）。幅：ノスタ3 デスク62cm、ブォーノ3 70cm、ニトリ 天然木 70cm |
+| kids-table-chair | 小学校入学の頃に、対象年齢の上限が来る | https://shopyamatoya-jp.com/products/norsta-desk | 対象年齢 1才6か月～6才。2026-11-24 取得 |
+| kids-table-chair | 小学校入学の頃に、対象年齢の上限が来る | https://shopyamatoya-jp.com/products/buono-deskchair | 対象年齢 １才６か月～6才。2026-11-24 取得 |
