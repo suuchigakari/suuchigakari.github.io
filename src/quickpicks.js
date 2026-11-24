@@ -50,9 +50,11 @@ export function quickPicks(article, products) {
       const values = pool.map((product) => product.specs[spec.key]);
       const best = spec.order === 'asc' ? Math.min(...values) : Math.max(...values);
       const top = pool.filter((product) => product.specs[spec.key] === best);
+      // 出典が概数（「約0.5kg（0.1kg単位）」など）のときは、項目に textKey を書くと、その表記をそのまま出す
+      const shownText = spec.textKey ? top[0].specs?.[spec.textKey] : null;
       return {
         title: spec.title,
-        valueText: formatValue(best, spec.unit),
+        valueText: typeof shownText === 'string' ? shownText : formatValue(best, spec.unit),
         products: top.slice(0, MAX_NAMES),
         others: Math.max(0, top.length - MAX_NAMES),
       };

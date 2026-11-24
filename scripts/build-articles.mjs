@@ -281,7 +281,7 @@ function renderChart(article, products) {
   const { rows, missing } = chartRows(products, spec);
   if (rows.length < 3) return '';
   const bar = (row) =>
-    `<li><span class="bar-name">${escapeHtml(row.name)}</span><span class="bar-track"><span class="bar" style="width:${row.percent}%"></span></span><span class="bar-value">${escapeHtml(formatChartValue(row.value, spec.unit))}</span></li>`;
+    `<li><span class="bar-name">${escapeHtml(row.name)}</span><span class="bar-track"><span class="bar" style="width:${row.percent}%"></span></span><span class="bar-value">${escapeHtml(row.text ?? formatChartValue(row.value, spec.unit))}</span></li>`;
   const SHOWN = 10;
   const rest = rows.slice(SHOWN);
   const bars = `${rows.slice(0, SHOWN).map(bar).join('\n          ')}${

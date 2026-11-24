@@ -1,0 +1,535 @@
+{
+  "slug": "frying-pan",
+  "genre": "フライパン",
+  "genreNumber": 55,
+  "commissionRate": "3.00%",
+  "title": "フライパン26cmの重さは約0.5〜1.25kg｜フッ素・セラミック・鉄・ステンレスを公式仕様で比べる",
+  "description": "同じ26cmでも、重さは約0.5kgから約1.25kgまで2倍以上、満水容量は2.0Lから3.7Lまで違います。コーティングの種類・IH・食洗機・お手入れを、メーカー公式の記載だけで並べました。",
+  "keywords": [
+    "フライパン 26cm 重さ 比較",
+    "フライパン コーティング 種類 違い",
+    "フライパン 鉄 フッ素 セラミック 比較"
+  ],
+  "asOf": "2026-11-24",
+  "verdictLegend": "○＝重さが条件以下、×＝重い、?＝公式に明記なし。重さは各社の「本体重量」「重量」の値です。",
+  "lead": "「26cm」と書かれたフライパンでも、メーカー公式の重さは約0.5kgから約1.25kgまで、2倍以上の開きがあります（いちばん軽いサーモスは0.1kg単位の表示）。満水容量も2.0Lから3.7Lまで違います。表面の加工は、フッ素樹脂・セラミックと明記したもの、メーカー独自の名前だけで種類を書いていないもの、コーティングのない鉄・ステンレスに分かれます。食器洗い機の可否や、お手入れの書き方もメーカーごとにばらばらなので、公式に書かれていることだけを揃えて並べました。",
+  "excludeReaders": [
+    {
+      "who": "中華鍋・炒め鍋（深さ8cm以上）を探している人",
+      "why": "掲載は一般的なフライパンと深型1製品です。容量の考え方が変わります"
+    },
+    {
+      "who": "「焦げ付かない期間」で選びたい人",
+      "why": "耐久性の書き方はメーカーごとに違い、共通の試験の数値は公開されていません。この記事では順位を付けていません"
+    },
+    {
+      "who": "取っ手のとれるフライパンをセットで揃えたい人",
+      "why": "掲載はフライパン単品です。セットの構成と収納の寸法は別の比べ方になります"
+    }
+  ],
+  "conclusion": [
+    "26cmでも重さは約0.5kg（サーモス KFI-026。0.1kg単位の表示）から約1.25kg（ティファール エクスペリエンス＋）まで、2倍以上違う",
+    "表面の加工は「フッ素樹脂」「セラミック」と明記した製品と、メーカー独自の名前だけの製品がある。ティファール・サーモスの製品ページには種類の記載がない",
+    "食器洗い機が「可」と明記されているのはティファールの4製品だけ。ほかは記載なし（不可という意味ではない）",
+    "鉄の2製品は窒化処理。リバーライトは「空焼き不要・洗って拭くだけ」、ビタクラフトは「面倒なお手入れは不要」とメーカーが書いている。重さは0.95kg前後"
+  ],
+  "sections": [
+    {
+      "heading": "コーティングの種類：公式に書かれている名前で分ける",
+      "paragraphs": [
+        "表面の加工を、メーカー公式の記載どおりに4つに分けました。「フッ素樹脂」と明記しているのは京セラ セラフォートと和平フレイズの2製品、「セラミック」と明記しているのはティファールのセラミックグライド（イノセラム）です。",
+        "ティファールの「チタン・アンリミテッド」やサーモスの「デュラブルコート」は、メーカー独自の名前で、製品ページにはフッ素樹脂かどうかが書かれていません。この記事では推測せず「メーカー独自名（種類の記載なし）」としています。",
+        "鉄の2製品（リバーライト・ビタクラフト スーパー鉄）は窒化処理で、塗るコーティングはありません。ビタクラフト コロラドはステンレスの5層材で、内側はステンレスです。"
+      ],
+      "table": {
+        "head": [
+          "分け方",
+          "掲載製品",
+          "公式の記載"
+        ],
+        "rows": [
+          [
+            "フッ素樹脂",
+            "京セラ セラフォート\n和平フレイズ 技逸品・ウルトライト",
+            "「フッ素樹脂塗膜加工」「ふっ素樹脂加工（シルクウェア）」"
+          ],
+          [
+            "セラミック",
+            "ティファール IHセラミックグライド",
+            "「セラミックコーティング『イノセラム』」"
+          ],
+          [
+            "メーカー独自名",
+            "ティファール 3製品\nサーモス KFI-026",
+            "「チタン・アンリミテッド」「ハードクリスタル」「デュラブルコート」（種類の記載なし）"
+          ],
+          [
+            "コーティングなし",
+            "リバーライト 極JAPAN\nビタクラフト スーパー鉄・コロラド",
+            "「窒化処理＋酸化処理」「窒化加工」「全面5層（ステンレス）」"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "耐久性：メーカーの比べ方がそろっていない",
+      "paragraphs": [
+        "ティファールは「チタン・コーティングと比べて6倍長持ち」と書いています。これは同じティファールの別のコーティングとの比較で、他社の製品と比べた数値ではありません。",
+        "京セラ・ティファール（セラミック）・サーモスは「焦げ付きにくさが長持ち」「耐摩耗性が高い」といった説明で、数値は書かれていません。共通の試験の結果が公開されていないため、この記事では耐久性で順位を付けず、各社の書き方をそのまま載せています。",
+        "保証期間を書いているのはビタクラフト コロラド（10年）だけでした。同じビタクラフトでもスーパー鉄は「保証対象外」です。"
+      ]
+    },
+    {
+      "heading": "お手入れ：食洗機と、鉄のフライパンの扱い",
+      "paragraphs": [
+        "食器洗い機が「可」と明記されているのは、ティファールの4製品です。サーモスは「丸洗いOK」の表示で、食器洗い機の可否は書かれていません。ほかの製品は記載がなく、不可とも可とも判断できません。",
+        "鉄の2製品は、どちらも窒化処理で「面倒なお手入れは不要」と書かれています。リバーライトは購入後の空焼きも、洗ったあとの空焼き・油の保湿も不要としています。",
+        "京セラ セラフォートは「強火で使わない（中火以下で十分）」「空焚きをしない」を注意事項に挙げています。ティファールは、金属製の調理器具を使うなら角の丸いものを、と書いています。"
+      ]
+    },
+    {
+      "heading": "大きさ：同じ26cmでも、測っている場所が違う",
+      "paragraphs": [
+        "「26cm」が内径なのか外径なのかは、メーカーで違います。ティファール・サーモス・ビタクラフトは内径、リバーライトは外径です。京セラと和平フレイズは表示サイズで、内径の記載はありません。",
+        "満水容量は、公式に書かれている製品だけで2.0L（リバーライト）から3.7L（ティファール ディープパン）まであります。底の直径を書いているのは鉄の2製品だけで、リバーライト17.5cm、ビタクラフト スーパー鉄20.5cmです。IHでは鍋底の大きさで加熱できる範囲が決まるため、IHで使うなら底径も確かめてください。"
+      ]
+    }
+  ],
+  "filter": {
+    "heading": "重さで絞り込む",
+    "note": "各社の「本体重量」「重量」で判定しています。片手で振るなら0.6kg前後が軽い側です。",
+    "numberInputs": [
+      {
+        "key": "weightKg",
+        "type": "atMost",
+        "label": "重さ (kg)",
+        "unit": "kg",
+        "default": 1.0,
+        "min": 0.4,
+        "max": 1.5,
+        "step": 0.05
+      }
+    ],
+    "flagInput": {
+      "key": "ih",
+      "label": "IH対応のものだけ"
+    }
+  },
+  "columns": [
+    {
+      "key": "sizeText",
+      "label": "表示サイズ"
+    },
+    {
+      "key": "weightText",
+      "label": "重さ"
+    },
+    {
+      "key": "capacityL",
+      "label": "満水容量",
+      "unit": "L"
+    },
+    {
+      "key": "depthCm",
+      "label": "深さ",
+      "unit": "cm"
+    },
+    {
+      "key": "coatingType",
+      "label": "表面の加工（分け方）"
+    },
+    {
+      "key": "surface",
+      "label": "表面の加工（公式の名前）"
+    },
+    {
+      "key": "body",
+      "label": "本体の材質"
+    },
+    {
+      "key": "heatSource",
+      "label": "対応熱源"
+    },
+    {
+      "key": "dishwasher",
+      "label": "食器洗い機"
+    },
+    {
+      "key": "handle",
+      "label": "取っ手"
+    },
+    {
+      "key": "durability",
+      "label": "耐久性（メーカーの説明）"
+    },
+    {
+      "key": "care",
+      "label": "お手入れ（メーカーの説明）"
+    },
+    {
+      "key": "warranty",
+      "label": "保証"
+    }
+  ],
+  "products": [
+    {
+      "name": "ティファール IHルージュ・アンリミテッド フライパン 26cm（G26205）",
+      "brand": "ティファール",
+      "asin": "",
+      "rakuten": true,
+      "rakutenQuery": "ティファール G26205",
+      "verified": true,
+      "source": "メーカー公式 https://www.t-fal.co.jp/pots-pans/fixed-handle/products/ihrouge-unlimited-2100132467/ （2026-11-24 確認）",
+      "specs": {
+        "sizeText": "内径 約26cm",
+        "depthCm": 5.7,
+        "capacityL": 2.9,
+        "weightKg": 1.16,
+        "weightText": "約1.16kg",
+        "body": "アルミニウム合金（底：アルミニウム合金＋ステンレス鋼）",
+        "surface": "チタン・アンリミテッド コーティング",
+        "coatingType": "メーカー独自名（種類の記載なし）",
+        "heatSource": "IH・ガス火",
+        "ih": true,
+        "dishwasher": "可",
+        "handle": "固定",
+        "durability": "チタン・コーティングと比べて6倍長持ち（ティファール社内の比較）",
+        "care": "金属製の調理器具は角の丸いものを。ナイロン樹脂製か木製をすすめる",
+        "warranty": null,
+        "origin": "フランス"
+      },
+      "note": "取っ手はフェノール樹脂。PFOA・鉛・カドミウム不使用と公式に記載。"
+    },
+    {
+      "name": "ティファール インジニオ・ネオ IHステンレス・アンリミテッド フライパン 26cm（L97105）",
+      "brand": "ティファール",
+      "asin": "",
+      "rakuten": true,
+      "rakutenQuery": "ティファール L97105",
+      "verified": true,
+      "source": "メーカー公式 https://www.t-fal.co.jp/pots-pans/stackable/products/ingenio-ih-stainless-unlimited-2100131233/ （2026-11-24 確認）",
+      "specs": {
+        "sizeText": "内径 約26cm",
+        "depthCm": 4.4,
+        "capacityL": 2.3,
+        "weightKg": 1.03,
+        "weightText": "約1.03kg",
+        "body": "ステンレス鋼（底：ステンレス鋼＋アルミニウム＋ステンレス鋼）",
+        "surface": "チタン・アンリミテッド コーティング",
+        "coatingType": "メーカー独自名（種類の記載なし）",
+        "heatSource": "IH・ガス火",
+        "ih": true,
+        "dishwasher": "可",
+        "handle": "着脱（取っ手のとれるシリーズ）",
+        "durability": "チタン・コーティングと比べて6倍長持ち（ティファール社内の比較）",
+        "care": "取っ手を外してオーブン・冷蔵庫に入れられる。金属製の調理器具は角の丸いものを",
+        "warranty": null,
+        "origin": "フランス"
+      },
+      "note": "取っ手のとれるシリーズ（インジニオ・ネオ）の単体品。外側がステンレス。"
+    },
+    {
+      "name": "ティファール エクスペリエンス＋ フライパン 26cm（E52305）",
+      "brand": "ティファール",
+      "asin": "",
+      "rakuten": true,
+      "rakutenQuery": "ティファール E52305",
+      "verified": true,
+      "source": "メーカー公式 https://www.t-fal.co.jp/pots-pans/fixed-handle/products/t-fal-experience-plus-2100133084/ （2026-11-24 確認）",
+      "specs": {
+        "sizeText": "内径 約26cm",
+        "depthCm": 5.15,
+        "capacityL": 2.6,
+        "weightKg": 1.25,
+        "weightText": "約1.25kg",
+        "body": "アルミニウム合金（底：アルミニウム合金＋ステンレス鋼）",
+        "surface": "コーティング（4層目のフィニッシュ層に「ハードクリスタル」）",
+        "coatingType": "メーカー独自名（種類の記載なし）",
+        "heatSource": "IH・ガス火",
+        "ih": true,
+        "dishwasher": "可",
+        "handle": "固定（ステンレス鋼）",
+        "durability": "フィニッシュ層のハードクリスタルで、金属へらなどによるダメージへの強さが向上（メーカーの説明）",
+        "care": "金属製の調理器具は角の丸いものを",
+        "warranty": null,
+        "origin": "フランス"
+      },
+      "note": "掲載中で最も重い。取っ手がステンレス鋼。"
+    },
+    {
+      "name": "ティファール IHセラミックグライド アースグレー ディープパン 26cm（C44277）",
+      "brand": "ティファール",
+      "asin": "",
+      "rakuten": true,
+      "rakutenQuery": "ティファール C44277",
+      "verified": true,
+      "source": "メーカー公式 https://www.t-fal.co.jp/pots-pans/fixed-handle/products/ih-ceramic-glide-2100133892/ （2026-11-24 確認）",
+      "specs": {
+        "sizeText": "内径 約26cm",
+        "depthCm": 7.2,
+        "capacityL": 3.7,
+        "weightKg": 1.16,
+        "weightText": "約1.16kg",
+        "body": "アルミニウム合金（底：アルミニウム合金＋ステンレス鋼）",
+        "surface": "セラミックコーティング「イノセラム」",
+        "coatingType": "セラミック",
+        "heatSource": "IH・ガス火",
+        "ih": true,
+        "dishwasher": "可",
+        "handle": "固定",
+        "durability": "使い始めのこびりつきにくさが長く続く（メーカーの説明。数値の記載なし）",
+        "care": "金属製の調理器具は角の丸いものを",
+        "warranty": null,
+        "origin": "フランス"
+      },
+      "note": "深型（ディープパン）。掲載中で唯一セラミックコーティングと明記。"
+    },
+    {
+      "name": "サーモス デュラブルシリーズ フライパン 26cm（KFI-026）",
+      "brand": "サーモス",
+      "asin": "",
+      "rakuten": true,
+      "rakutenQuery": "サーモス KFI-026",
+      "verified": true,
+      "source": "メーカー公式 https://www.thermos.jp/product/series/kfi.html ・https://www.thermos.jp/product/detail/kfi-026.html （仕様一覧、2026-11-24 確認）",
+      "specs": {
+        "sizeText": "内径 約26cm",
+        "depthCm": null,
+        "heightText": "胴部高さ 約5.5cm",
+        "capacityL": null,
+        "weightKg": 0.5,
+        "weightText": "約0.5kg（0.1kg単位の表示）",
+        "body": null,
+        "surface": "デュラブルコート（硬質フィラーを配合した耐久性コーティング）",
+        "coatingType": "メーカー独自名（種類の記載なし）",
+        "heatSource": "ガス火専用",
+        "ih": false,
+        "dishwasher": null,
+        "handle": "固定",
+        "durability": "耐摩耗性の高さが特長（メーカーの説明。数値の記載なし）",
+        "care": "「丸洗いOK」の表示（食器洗い機の可否は記載なし）",
+        "warranty": null,
+        "origin": null
+      },
+      "note": "重さは0.1kg単位の表示。本体の材質は製品ページ・カタログに記載なし。"
+    },
+    {
+      "name": "京セラ セラフォート フライパン 26cm（CFF-G26A-BBR）",
+      "brand": "京セラ",
+      "asin": "",
+      "rakuten": true,
+      "rakutenQuery": "京セラ CFF-G26A-BBR",
+      "verified": true,
+      "source": "メーカー公式 https://www.kyocera.co.jp/prdct/kitchen/product/series/frying_pan/cerafort_gas/CFF-G26A-BBR.html （2026-11-24 確認）",
+      "specs": {
+        "sizeText": "26cm（外寸 455×275×86mm）",
+        "depthCm": null,
+        "heightText": "パンの高さ 52.1mm",
+        "capacityL": 2.8,
+        "weightKg": 0.595,
+        "weightText": "595g",
+        "body": "アルミニウム合金",
+        "surface": "フッ素樹脂塗膜加工",
+        "coatingType": "フッ素樹脂",
+        "heatSource": "ガス火専用",
+        "ih": false,
+        "dishwasher": null,
+        "handle": "固定",
+        "durability": "使い始めの焦げ付きにくさが長持ち（メーカーの説明。数値の記載なし）",
+        "care": "強火で使わない（中火以下で使う）。空焚きをしない",
+        "warranty": null,
+        "origin": "中国"
+      },
+      "note": "京セラのフライパンで最も軽いシリーズと公式に記載。フッ素樹脂塗膜加工は PFOA/PFOS を使っていないと記載。"
+    },
+    {
+      "name": "リバーライト 極JAPAN フライパン 26cm",
+      "brand": "リバーライト",
+      "asin": "",
+      "rakuten": true,
+      "rakutenQuery": "リバーライト 極JAPAN フライパン 26cm",
+      "verified": true,
+      "source": "メーカー公式 https://www.riverlight.co.jp/ja/size.php （サイズ一覧）・https://www.riverlight.co.jp/ja/manual.php （品質表示・使用説明）・https://www.riverlight.co.jp/ja/kiwame_series.php （2026-11-24 確認）",
+      "specs": {
+        "sizeText": "外径 26cm",
+        "depthCm": null,
+        "heightText": "高さ 5.0cm（底面直径 17.5cm）",
+        "capacityL": 2.0,
+        "weightKg": 0.95,
+        "weightText": "950g",
+        "body": "鉄（冷間圧延鋼板・板厚1.6mm）",
+        "surface": "窒化処理＋酸化処理（塗装・コーティングなし）",
+        "coatingType": "なし（鉄）",
+        "heatSource": "IHを含むすべての熱源",
+        "ih": true,
+        "dishwasher": null,
+        "handle": "固定（木製）",
+        "durability": "一般的な鉄フライパンより極めてサビにくい（メーカーの説明）",
+        "care": "購入後の空焼き不要。使い終わったら洗って拭くだけ（洗浄後の空焼き・油の保湿も不要とメーカーが記載）",
+        "warranty": null,
+        "origin": "日本"
+      },
+      "note": "サイズ・重さは極シリーズ共通のサイズ一覧の「フライパン 26cm」。取っ手の材質は品質表示の「木製（ウレタン塗装）」。"
+    },
+    {
+      "name": "ビタクラフト スーパー鉄 フライパン 26cm",
+      "brand": "ビタクラフト",
+      "asin": "",
+      "rakuten": true,
+      "rakutenQuery": "ビタクラフト スーパー鉄 フライパン 26cm",
+      "verified": true,
+      "source": "メーカー公式 https://www.vitacraft.co.jp/shop/products/detail.php?product_id=610 （2026-11-24 確認）",
+      "specs": {
+        "sizeText": "内径 26.0cm",
+        "depthCm": 4.3,
+        "heightText": "深さ 4.3cm（底径 20.5cm）",
+        "capacityL": null,
+        "weightKg": 0.963,
+        "weightText": "約963g",
+        "body": "鉄（窒化加工・板厚約1.6mm）",
+        "surface": "窒化加工（コーティングの記載なし）",
+        "coatingType": "なし（鉄）",
+        "heatSource": "ガス・IH",
+        "ih": true,
+        "dishwasher": null,
+        "handle": "固定（ステンレス）",
+        "durability": null,
+        "care": "鉄フライパンに必須だった面倒なお手入れは不要。使った後はぬるま湯でさっと洗う（メーカーの説明）",
+        "warranty": "なし（保証対象外）",
+        "origin": "日本"
+      },
+      "note": "底径20.5cmは掲載中で最大（底径の記載がある2製品のうち）。"
+    },
+    {
+      "name": "ビタクラフト コロラド フライパン 26cm",
+      "brand": "ビタクラフト",
+      "asin": "",
+      "rakuten": true,
+      "rakutenQuery": "ビタクラフト コロラド フライパン 26cm",
+      "verified": true,
+      "source": "メーカー公式 https://www.vitacraft.co.jp/shop/products/detail.php?product_id=122 （2026-11-24 確認）",
+      "specs": {
+        "sizeText": "内径 26.0cm",
+        "depthCm": 5.0,
+        "capacityL": null,
+        "weightKg": null,
+        "weightText": null,
+        "body": "全面5層（ステンレス・アルミニウム・アルミニウム合金・アルミニウム・ステンレス）",
+        "surface": "ステンレス（5層材の内側の層。コーティングの記載なし）",
+        "coatingType": "なし（ステンレス）",
+        "heatSource": "ガス・IH・ハロゲンヒーター・ラジエントヒーター・シーズヒーター",
+        "ih": true,
+        "dishwasher": null,
+        "handle": "固定",
+        "durability": null,
+        "care": null,
+        "warranty": "10年",
+        "origin": "ベトナム"
+      },
+      "note": "重さは公式に記載なし。合わせ蓋の形状。保証期間の記載があるのは掲載中この製品だけ。"
+    },
+    {
+      "name": "和平フレイズ 技逸品 フライパン 26cm（MB-2076）",
+      "brand": "和平フレイズ",
+      "asin": "",
+      "rakuten": true,
+      "rakutenQuery": "技逸品 MB-2076",
+      "verified": true,
+      "source": "メーカー公式 https://www.wahei.co.jp/products/others/28850.html （2026-11-24 確認）",
+      "specs": {
+        "sizeText": "26cm（外寸 約465×270×100mm）",
+        "depthCm": null,
+        "capacityL": null,
+        "weightKg": 0.67,
+        "weightText": "約670g",
+        "body": "アルミニウム合金（外面：研磨仕上）",
+        "surface": "ふっ素樹脂加工（シルクウェアES）",
+        "coatingType": "フッ素樹脂",
+        "heatSource": "ガスコンロ専用",
+        "ih": false,
+        "dishwasher": null,
+        "handle": "固定（フェノール樹脂）",
+        "durability": null,
+        "care": null,
+        "warranty": null,
+        "origin": "日本"
+      },
+      "note": "JAN 4903779120763。"
+    },
+    {
+      "name": "和平フレイズ ウルトライト IH対応フライパン 26cm（RB-3272）",
+      "brand": "和平フレイズ",
+      "asin": "",
+      "rakuten": true,
+      "rakutenQuery": "和平フレイズ RB-3272",
+      "verified": true,
+      "source": "メーカー公式 https://www.wahei.co.jp/products/others/25127.html （2026-11-24 確認）",
+      "specs": {
+        "sizeText": "26cm（外寸 約440×265×105mm）",
+        "depthCm": null,
+        "capacityL": null,
+        "weightKg": 0.58,
+        "weightText": "約580g",
+        "body": "アルミニウム合金（底面：ステンレス鋼）",
+        "surface": "ふっ素樹脂加工（シルクウェアEK、Wマーブル）",
+        "coatingType": "フッ素樹脂",
+        "heatSource": "IH対応（ガス火の記載なし）",
+        "ih": true,
+        "dishwasher": null,
+        "handle": "固定（フェノール樹脂）",
+        "durability": null,
+        "care": null,
+        "warranty": null,
+        "origin": "中国"
+      },
+      "note": "JAN 4903779132728。同じシリーズのIH非対応品（RB-3265）は約430g。"
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "保存容器（作り置き）",
+      "href": "./food-container.html"
+    },
+    {
+      "text": "まな板",
+      "href": "./cutting-board.html"
+    },
+    "IHコンロの「使える鍋底の直径」の確かめ方",
+    "フライパンに合うフタ（ガラス蓋）の直径",
+    "鉄フライパンにサビが出たときの戻し方（メーカーの説明書）"
+  ],
+  "sources": [],
+  "quickPicks": [
+    {
+      "title": "重さが最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg",
+      "textKey": "weightText"
+    },
+    {
+      "title": "IH対応で重さが最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg",
+      "where": {
+        "ih": true
+      },
+      "textKey": "weightText"
+    },
+    {
+      "title": "満水容量が最も大きい",
+      "key": "capacityL",
+      "order": "desc",
+      "unit": "L"
+    }
+  ],
+  "chart": {
+    "key": "weightKg",
+    "label": "重さ",
+    "unit": "kg",
+    "order": "asc",
+    "textKey": "weightText",
+    "note": "各社の「本体重量」「重量」の表記のまま（約・g表示を含む）。サーモスは0.1kg単位の表示です。"
+  }
+}
