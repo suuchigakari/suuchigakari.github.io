@@ -20,13 +20,18 @@ export function chartSpec(article) {
     unit: override.unit ?? column?.unit ?? input?.unit ?? '',
     order: override.order ?? (input?.type === 'atMost' ? 'asc' : 'desc'),
     note: override.note ?? '',
+    textKey: override.textKey ?? null,
   };
 }
 
 /** 数値を持つ商品だけを並べ、最大値に対する割合を付ける。数値がない商品は件数だけ返す。 */
 export function chartRows(products, spec) {
   const withValue = products
-    .map((product) => ({ name: product.name, value: product.specs?.[spec.key] }))
+    // 記事 JSON の chart.textKey を指定したときだけ、その項目の表記（出典の「約0.5kg」など）をそのまま出す
+    .map((product) => {
+      const text = spec.textKey ? product.specs?.[spec.textKey] : null;
+      return { name: product.name, value: product.specs?.[spec.key], text: typeof text === 'string' ? text : null };
+    })
     .filter((row) => typeof row.value === 'number' && Number.isFinite(row.value));
   const sorted = withValue.sort((a, b) => (spec.order === 'asc' ? a.value - b.value : b.value - a.value));
   const max = Math.max(...sorted.map((row) => row.value), 0);

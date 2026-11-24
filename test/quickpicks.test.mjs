@@ -51,3 +51,14 @@ test('同じ製品・同じ値になった項目は重ねて出さない', () =>
   ] };
   assert.equal(quickPicks(a, products).length, 1);
 });
+
+test('textKey を指定した項目は、早見表に出典の表記（概数など）を出す', async () => {
+  const { quickPicks } = await import('../src/quickpicks.js');
+  const article = { quickPicks: [{ title: '重さが最も軽い', key: 'weightKg', order: 'asc', unit: 'kg', textKey: 'weightText' }] };
+  const products = [
+    { name: 'A', specs: { weightKg: 0.5, weightText: '約0.5kg（0.1kg単位の表示）' } },
+    { name: 'B', specs: { weightKg: 0.6 } },
+  ];
+  assert.equal(quickPicks(article, products)[0].valueText, '約0.5kg（0.1kg単位の表示）');
+  assert.equal(quickPicks(article, [{ name: 'C', specs: { weightKg: 0.7 } }, { name: 'D', specs: { weightKg: 0.8 } }])[0].valueText, '0.7kg');
+});
