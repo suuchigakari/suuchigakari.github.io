@@ -165,3 +165,61 @@
 | kids-table-chair | 小学校入学の頃に、対象年齢の上限が来る | 記事内データ | 対象年齢：ノスタ3・ブォーノ3 1才6か月〜6才、フリサット 3〜6歳、HOPPL 6か月以上（上限なし）、ニトリ 記載なし。天板：ノスタ3 38・41・44cm、ブォーノ3 約38・41・44cm。セルフル 25〜63.2cmの7段階、きなこさんコラボ 40・43・46cm（sections）。幅：ノスタ3 デスク62cm、ブォーノ3 70cm、ニトリ 天然木 70cm |
 | kids-table-chair | 小学校入学の頃に、対象年齢の上限が来る | https://shopyamatoya-jp.com/products/norsta-desk | 対象年齢 1才6か月～6才。2026-11-24 取得 |
 | kids-table-chair | 小学校入学の頃に、対象年齢の上限が来る | https://shopyamatoya-jp.com/products/buono-deskchair | 対象年齢 １才６か月～6才。2026-11-24 取得 |
+
+## 第3弾（cooler-box・water-jug・outdoor-chair・outdoor-table）
+
+エージェントが公式ページ・記事内データで確かめた出典。
+
+| 記事 | セクション | 出典 | 確かめたこと |
+|---|---|---|---|
+| cooler-box | 保冷剤の量はメーカーの目安を、置き場所はメーカーの説明を見る | https://www.captainstag.net/products/UE-111.html | 仕様欄「保冷材の使用目安（当社保冷剤）：UE-3021×2 または UE-3020×3」「※クーラーボックスの内側上面に敷き詰められる程度の数量が適量数。」（2026-11-24 確認） |
+| cooler-box | 保冷剤の量はメーカーの目安を、置き場所はメーカーの説明を見る | https://www.captainstag.net/products/UE-3021.html | 氷点下スーパーコールドパック（M） 重量 約750g |
+| cooler-box | 保冷剤の量はメーカーの目安を、置き場所はメーカーの説明を見る | https://www.captainstag.net/products/UE-3020.html | 氷点下スーパーコールドパック（S） 重量 約500g |
+| cooler-box | 保冷剤の量はメーカーの目安を、置き場所はメーカーの説明を見る | https://www.captainstag.net/faq/kitchen/kitchen-1/ | よくある質問（クールタイム）「使用個数は決まっていません。クーラーボックスの上部に蓋をするように置くのが効果的」「上部に加え側面にも入れると良い」「中に入れるものは十分冷やしてから入れてください」 |
+| cooler-box | 保冷剤の量はメーカーの目安を、置き場所はメーカーの説明を見る | https://www.coleman.co.jp/customersupport/faq/?category=cooler | よくある質問 Q02「長時間使用する場合は中を確認して頂き庫内温度の上昇を感じられた場合は氷、保冷剤などの追加を」 |
+| cooler-box | 保冷剤の量はメーカーの目安を、置き場所はメーカーの説明を見る | https://www.dcm-ekurashi.com/goods/812201 | 保冷剤使用量=350g×1個、750g×1個(目安)。運営者がブラウザで仕様欄を確認（docs/sources/hc_brands_komeri_dcm_kohnan_2026-10-24.csv、2026-10-24） |
+| cooler-box | 保冷剤の量はメーカーの目安を、置き場所はメーカーの説明を見る | https://www.dcm-ekurashi.com/goods/812202 | 保冷剤使用量=750g×2個(目安)。運営者がブラウザで確認（docs/sources/hc_brands_komeri_dcm_kohnan_2026-10-24.csv） |
+| cooler-box | 保冷剤の量はメーカーの目安を、置き場所はメーカーの説明を見る | https://www.kohnan-eshop.com/shop/g/g4548927046085/ | 9L 保冷剤目安=750g※2コ（17L g4548927046092 も同じ）。運営者がブラウザで確認（docs/sources/hc_brands_komeri_dcm_kohnan_2026-10-24.csv） |
+| cooler-box | 保冷剤の量はメーカーの目安を、置き場所はメーカーの説明を見る | https://www.kohnan-eshop.com/shop/g/g4548927046078/ | 36L 保冷剤目安=1000g 2個。運営者がブラウザで確認（docs/sources/hc_brands_komeri_dcm_kohnan_2026-10-24.csv） |
+| cooler-box | 保冷剤の量はメーカーの目安を、置き場所はメーカーの説明を見る | 記事内データ | コメリ 保冷剤付きクーラーボックス 13L の備考「380mLの保冷剤1個付き」 |
+| cooler-box | 氷点下タイプの保冷剤は、ふつうの保冷剤と凍る温度が違う | https://www.captainstag.net/products/UE-3021.html | 「24時間で凍結。氷点下が長く持続します（※当社比）」「一般保冷剤・氷との併用で保冷力アップ」（UE-3020 も同文） |
+| cooler-box | 氷点下タイプの保冷剤は、ふつうの保冷剤と凍る温度が違う | https://www.captainstag.net/faq/kitchen/kitchen-2/ | よくある質問「－１３℃付近で凍り始めます」「冷凍庫の冷却温度設定を最大」「４８時間以上凍らせてから」「従来のコールドパックは…０℃で凍り始め」「併用してご使用していただくなどの方法が最適」 |
+| cooler-box | 水抜き栓（ドレンプラグ）の有無と、メーカーが書いている洗い方 | https://yeti.co.jp/products/roadie-24-cool-box-charcoal | 「BESTDAM™ドレンプラグ しっかりと液漏れを防止しつつ、すばやく排水できます」、FAQ「石鹸とぬるま湯…ぬるま湯と漂白剤で6：1の割合の溶液」 |
+| cooler-box | 水抜き栓（ドレンプラグ）の有無と、メーカーが書いている洗い方 | https://yeti.co.jp/products/roadie-15-cool-box-rescue-red | 「BESTDAM™ ドレインプラグ：水漏れを防ぎつつ、素早い排水が可能」、FAQ同文のお手入れ |
+| cooler-box | 水抜き栓（ドレンプラグ）の有無と、メーカーが書いている洗い方 | https://www.coleman.co.jp/customersupport/faq/?category=cooler | Q04「クーラーの水を抜く部分が破損してしまったので交換したい」→パーツ販売・修理受付 |
+| cooler-box | 水抜き栓（ドレンプラグ）の有無と、メーカーが書いている洗い方 | https://ec.coleman.co.jp/item/2000037321.html | エクストリームクーラー/28QT の商品ページに水抜き栓の記載なし（エクスカーション、キャプテンスタッグ各ページも記載なし） |
+| cooler-box | 車に積むときに、公式ページで確かめられること | https://yeti.co.jp/products/roadie-15-cool-box-rescue-red | 「BEARFOOT™ ノンスリップフィート：ボートの上や車内でも滑りを防止」「ANCHORPOINT™ タイダウンスロット：ボートやトレーラー、トラックの荷台への固定が簡単」 |
+| cooler-box | 車に積むときに、公式ページで確かめられること | https://yeti.co.jp/products/roadie-24-cool-box-charcoal | 「船上や車のバックシートでの滑りを防止」「ANCHORPOINT™タイダウン固定具」「どんな車種でもシートの後ろに収まる」 |
+| cooler-box | 車に積むときに、公式ページで確かめられること | https://www.captainstag.net/products/UE-111.html | 「耐熱温度：80度、耐冷温度：-10度」（UE-88・UE-87 の各ページも同じ） |
+| water-jug | 蛇口の下にコップが入るかは、蛇口の出口の高さで決まる | https://www.captainstag.net/products/UE-2053.html | 「コックを底面より下に設置した」「三脚スタンドは折りたたんで収納可能」、製品サイズ 180×210×高さ315mm、収納サイズ 高さ275mm |
+| water-jug | 蛇口の下にコップが入るかは、蛇口の出口の高さで決まる | https://www.captainstag.net/products/UE-2054.html | 「「特許構造」の注ぎ口で、本体を傾けずに最後まで注ぐことが可能」「三脚スタンドは折りたたんで収納可能」 |
+| water-jug | 蛇口の下にコップが入るかは、蛇口の出口の高さで決まる | https://www.dod.camp/product/wt3_863/ | 「ワンタッチで水を出せて、レバーを下向きに固定すれば水を出し続けられます」「水を出す際は上部のフタを少し緩めた状態で」 |
+| water-jug | 蛇口の下にコップが入るかは、蛇口の出口の高さで決まる | 記事内データ | 各製品の sizeCm（蛇口の高さの項目はない） |
+| water-jug | 口の大きさと、メーカーが書いている洗い方・乾かし方 | https://www.thermos.jp/product/detail/fjq-2001.html | 口径（約cm）7.4（fjq-2501・fjq-3001 も 7.4） |
+| water-jug | 口の大きさと、メーカーが書いている洗い方・乾かし方 | https://www.dod.camp/product/wt3_863/ | 「開口部直径約7.5cm」「吊り下げるとほぼ全ての面が傾斜になり、水が流れ出ていきやすい構造」 |
+| water-jug | 口の大きさと、メーカーが書いている洗い方・乾かし方 | https://www.captainstag.net/products/UE-2053.html | 「注水や洗浄の際に使いやすい広口タイプ」（UE-2054 も同文） |
+| water-jug | 口の大きさと、メーカーが書いている洗い方・乾かし方 | https://www.captainstag.net/products/UE-2052.html | 「広口キャップで内部の洗浄が楽々！」「耐熱温度／80度」（UE-2051 も同文） |
+| water-jug | 口の大きさと、メーカーが書いている洗い方・乾かし方 | https://yeti.co.jp/products/rambler-1-2-jug-black | FAQ「食器洗浄機を使用できますか？ はい」「フタからウェッジを取り外し、洗って乾かしてから元に戻す」（ガロン rambler-1-jug-rescue-red も同じFAQ） |
+| water-jug | 口の大きさと、メーカーが書いている洗い方・乾かし方 | https://www.cainz.com/g/4550596211688.html | 耐熱温度:60℃、耐冷温度:－20℃ |
+| outdoor-chair | 脚の沈み込みは、脚先の形を見て、対策品はメーカーに確かめる | https://www.cainz.com/g/4549509761594.html | 材質・素材「●脚パーツ/ナイロン」 |
+| outdoor-chair | 脚の沈み込みは、脚先の形を見て、対策品はメーカーに確かめる | https://ec.coleman.co.jp/item/2190857.html | コールマン各チェア（2000033560・2220524）、キャプテンスタッグ UC-1502・UP-1034、カインズ各チェアの公式ページに地面・沈み込みに関する記載なし |
+| outdoor-chair | 収納袋や部品は、メーカーに問い合わせられる | https://www.captainstag.net/faq/sale/sale-1/ | 「部品在庫および、ご用意可能部品であれば、弊社より直接ご購入いただけます」「廃番品や生産終了品は部品供給ができない場合がございます」「製品番号は、M-○○○○、U○-○○○○等」 |
+| outdoor-chair | 収納袋や部品は、メーカーに問い合わせられる | https://www.coleman.co.jp/customersupport/faq/?category=parts-fix | Q08「パーツがほしい」→パーツカタログでパーツ検索 |
+| outdoor-chair | 収納袋や部品は、メーカーに問い合わせられる | https://ec.coleman.co.jp/item/2190857.html | 「シートの生地はフレームから取り外し可能」「付属品：収納ケース」 |
+| outdoor-chair | 収納袋や部品は、メーカーに問い合わせられる | 記事内データ | リゾートチェア packSize 約14×14×87cm、ヒーリングチェアNX 約25×14×65cm |
+| outdoor-chair | このページのチェアの生地は、公式の材質欄ではポリエステル | https://ec.coleman.co.jp/item/2190857.html | 材質：シート／ポリエステル（2000033560・2220524 も同じ） |
+| outdoor-chair | このページのチェアの生地は、公式の材質欄ではポリエステル | https://www.captainstag.net/products/UC-1502.html | 張り材：ポリエスル（表記ママ）。なお同ページに「生産終了」の表示あり（2026-11-24） |
+| outdoor-chair | このページのチェアの生地は、公式の材質欄ではポリエステル | https://www.captainstag.net/products/UP-1034.html | 張り材：ポリエステル100% |
+| outdoor-chair | このページのチェアの生地は、公式の材質欄ではポリエステル | https://www.cainz.com/g/4550596131436.html | シート:ポリエステル（4549509761594・4549509984498・4550596131443・4550596131450・4550596131429・4550596131641 も同様） |
+| outdoor-chair | このページのチェアの生地は、公式の材質欄ではポリエステル | https://www.dcm-ekurashi.com/goods/1223606 | 材質=張り材・ポリエステル､構造部材・金属。運営者がブラウザで確認（docs/sources/hc_brands_komeri_dcm_kohnan_2026-10-24.csv） |
+| outdoor-chair | このページのチェアの生地は、公式の材質欄ではポリエステル | https://www.dod.camp/product/tb1_031/ | テーブル天板生地：600D ポリエステル(難燃加工) |
+| outdoor-table | 脚を1本ずつ調整するアジャスターは、公式ページで見つけられなかった | https://ec.coleman.co.jp/item/2205813.html | 「高さをスムーズに3段階調節可能なアップグレードされた脚を採用(70/60/41cm)」。アジャスターの記載なし（2000026802・2238312・2000038844 も記載なし） |
+| outdoor-table | 脚を1本ずつ調整するアジャスターは、公式ページで見つけられなかった | https://www.cainz.com/g/4550596130842.html | 「3段階の高さに調節できる」。アジャスターの記載なし |
+| outdoor-table | 脚を1本ずつ調整するアジャスターは、公式ページで見つけられなかった | https://www.cainz.com/g/4549509653608.html | 使用上の注意「本製品の安全上、少しでも異常がある場合は使用しないでください」（4549509982876・4549509982883・4549509982890 も同文） |
+| outdoor-table | 脚を1本ずつ調整するアジャスターは、公式ページで見つけられなかった | https://www.captainstag.net/products/M-3713.html | M-3713・UC-501・UC-530、DOD tb2_264・tb1_031、ユニフレーム 682104・682111 の公式ページにアジャスターの記載なし |
+| outdoor-table | 脚を1本ずつ調整するアジャスターは、公式ページで見つけられなかった | 記事内データ | heightsCm（ナチュラルパズルテーブル/120 41／60／70cm、折りたたみテーブル M 44.8／62／70.9cm） |
+| outdoor-table | 熱いものについて公式に書かれていること（置ける・置かない） | https://www.uniflame.co.jp/product/682104/ | 「熱やキズに強いステンレス製天板 安心して熱した鍋やバーナーなどを直接置けます。」（682111 も同文） |
+| outdoor-table | 熱いものについて公式に書かれていること（置ける・置かない） | https://www.dod.camp/product/tb2_264/ | 「バーナー調理も安心のアルミ天板」「卓上バーナーを置いてそのまま調理ができます」「軽くて熱に強いため、焚き火周りの熱いもの置き場」 |
+| outdoor-table | 熱いものについて公式に書かれていること（置ける・置かない） | https://www.dod.camp/product/tb1_031/ | 「薄手のアルミ天板を耐熱加工生地で包み込む構造」「天板生地には難燃加工を施しています」、材質 600D ポリエステル(難燃加工) |
+| outdoor-table | 熱いものについて公式に書かれていること（置ける・置かない） | https://www.cainz.com/g/4550596130842.html | 使用上の注意「加熱した鍋、湯沸かしなどを直接置かないでください」（4550596130859 も同文） |
+| outdoor-table | 熱いものについて公式に書かれていること（置ける・置かない） | https://www.cainz.com/g/4549509653608.html | 使用上の注意「火気や熱を避けてください」（4549509982876・4549509982883・4549509982890 も同文） |
