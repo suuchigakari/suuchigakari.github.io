@@ -84,3 +84,12 @@ export function rakutenUrlFor(product, config) {
   if (!product.asin && product.rakuten !== true) return null;
   return buildRakutenSearchUrl({ affiliateId: config.rakutenAffiliateId, keyword: rakutenKeyword(product) });
 }
+
+/**
+ * 楽天のリンクの HTML。楽天アフィリエイトのリンク作成（テキストリンク）が出力する <a> を
+ * 属性も含めてそのまま出す（ガイドライン「リンクタグ（aタグ）…の属性を追加・削除・変更する行為」の禁止）。
+ * 編集してよいのはリンクの文字だけ。見た目は外側の <span class="cta-small cta-rakuten"> で付け、<a> には触れない。
+ */
+export function rakutenAnchorHtml(link, escape) {
+  return `<span class="cta-small cta-rakuten"><a href="${escape(link.url)}" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">${escape(link.label)}</a></span>`;
+}

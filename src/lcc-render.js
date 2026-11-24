@@ -6,7 +6,7 @@
  */
 import { illustration } from './illustrations.js';
 import { buildAffiliateUrl, escapeHtml as e } from './affiliate.js';
-import { rakutenLinkFor } from './rakuten.js';
+import { rakutenLinkFor, rakutenAnchorHtml } from './rakuten.js';
 import {
   DEFAULT_PERSONAL_ITEM_KG,
   conflictBetween,
@@ -132,7 +132,7 @@ export function renderProducts(productData, airlines, config) {
     const results = evaluateAll(product, shown);
     const rakuten = rakutenLinkFor(product, config);
     const rakutenCta = rakuten
-      ? ` <a class="cta-small cta-rakuten" href="${e(rakuten.url)}" target="_blank" rel="nofollow sponsored noopener">${e(rakuten.label)}</a>`
+      ? ` ${rakutenAnchorHtml(rakuten, e)}`
       : '';
     const name = (product.asin
       ? `<a href="${e(buildAffiliateUrl({ asin: product.asin, tag: config.associateTag, domain: config.marketplace }))}" target="_blank" rel="nofollow sponsored noopener">${e(product.name)}</a>`

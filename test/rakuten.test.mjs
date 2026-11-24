@@ -42,3 +42,11 @@ test('rakutenUrl が商品ページの形式でなければビルドを止める
   assert.throws(() => rakutenLinkFor({ name: 'X', rakutenUrl: 'https://search.rakuten.co.jp/search/mall/x/' }, config));
   assert.throws(() => rakutenLinkFor({ name: 'X', rakutenUrl: 'https://example.com/' }, config));
 });
+
+test('楽天のリンクは公式のテキストリンクと同じ属性の <a> にする（属性の追加・削除をしない）', async () => {
+  const { rakutenAnchorHtml } = await import('../src/rakuten.js');
+  const esc = (s) => String(s).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;');
+  const html = rakutenAnchorHtml({ url: 'https://hb.afl.rakuten.co.jp/hgc/x/?pc=y&link_type=text', label: '楽天市場で見る' }, esc);
+  const anchor = html.match(/<a [^>]*>/)[0];
+  assert.equal(anchor, '<a href="https://hb.afl.rakuten.co.jp/hgc/x/?pc=y&amp;link_type=text" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">');
+});
