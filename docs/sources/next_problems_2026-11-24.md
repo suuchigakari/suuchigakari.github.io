@@ -62,7 +62,7 @@
 | sleeping-bag | インナーシーツやカバーで補える温度は、数値を書いている製品が少ない | https://webshop.montbell.jp/goods/disp.php?product_id=1121520 | クリマエア ライト ウォームアップシーツ：スリーピングバッグの使用可能温度を約3℃下げることができます |
 | sleeping-bag | インナーシーツやカバーで補える温度は、数値を書いている製品が少ない | https://webshop.montbell.jp/goods/disp.php?product_id=1121482 | U.L.スリーピングバッグカバー：結露などから本体を守るとともに、保温力を高めることもできます（温度の数値なし） |
 | sleeping-bag | インナーシーツやカバーで補える温度は、数値を書いている製品が少ない | https://webshop.montbell.jp/goods/disp.php?product_id=1121426 | インナーシーツ（別売）固定用トグルループ付き |
-| sleeping-bag | インナーシーツやカバーで補える温度は、数値を書いている製品が少ない | https://www.isuka.co.jp/products/lineup/product.php?seq=243 | イスカ公式は自動取得で403となり確認できず |
+| sleeping-bag | インナーシーツやカバーで補える温度は、数値を書いている製品が少ない | https://www.isuka.co.jp/products/lineup/schlaf_item.php?sub=2 | イスカ公式は自動取得で403。2026-11-25 に運営者がブラウザで確認（docs/sources/isuka_2026-11-25.md）：カバー・シーツ8製品とも温度の数値の記載なし |
 | sleeping-bag | 収納袋に入れるときと、出したあとのふくらみの戻し方 | https://support.montbell.jp/common/system/information/disp.php?c=7&id=7 | ジッパーをきちんと閉め、軽くたたんで空気を押し出す。完全に乾燥したら全体を優しくたたいて化繊綿の偏りをほぐす。保管は圧縮しないように |
 | sleeping-bag | 収納袋に入れるときと、出したあとのふくらみの戻し方 | https://webshop.montbell.jp/goods/disp.php?product_id=1121426 | テーパードスパイラルスタッフバッグ：バイアスの生地を使用し伸縮、入口が広く入れやすい |
 | sleeping-bag | 収納袋に入れるときと、出したあとのふくらみの戻し方 | https://webshop.montbell.jp/goods/instruction/1121426.pdf | 取扱説明書（英語部分）：Do NOT keep the product compressed for extended periods. After drying, store it loosely in a large, breathable bag. After drying, gently pat the entire product to restore the shape. |
