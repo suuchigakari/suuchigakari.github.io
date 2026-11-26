@@ -60,6 +60,7 @@ export const ARTICLE_CATEGORY = {
   'kids-table-chair': 'kids',
   'lcc-carrycase': 'travel',
   'lcc-backpack': 'travel',
+  'carry-on-boston-bag': 'travel',
   'luggage-scale': 'travel',
   'mobile-battery': 'travel',
   'full-length-mirror': 'home',
