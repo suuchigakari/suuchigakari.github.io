@@ -1,0 +1,398 @@
+{
+  "slug": "carry-on-boston-bag",
+  "genre": "機内持ち込みボストンバッグ・ダッフルバッグ",
+  "genreNumber": 56,
+  "commissionRate": "8.00%（バッグ・スーツケースの見込み。ASIN 設定時に商品ページで確認）",
+  "airlineFit": {
+    "group": "LCC"
+  },
+  "title": "ボストンバッグの機内持ち込みは「マチ」で決まる｜12製品をLCC8社の規定で判定",
+  "description": "「機内持ち込み可能サイズ」と書かれたダッフルバッグでも、LCCでは8社中1社にしか収まらないことがあります。メーカー公式のサイズ（高さ・幅・マチ）と重さから、ボストンバッグ・ダッフルバッグ12製品がLCC8社の機内持ち込み規定に収まるかを判定しました。",
+  "keywords": [
+    "ボストンバッグ 機内持ち込み",
+    "ボストンバッグ 機内持ち込み LCC",
+    "ダッフルバッグ 機内持ち込み サイズ",
+    "ピーチ 機内持ち込み ボストンバッグ",
+    "ジェットスター 機内持ち込み ボストンバッグ"
+  ],
+  "asOf": "2026-11-26",
+  "verdictLegend": "表の「寸法・重量が収まるLCC」は、各社の規定（2026年8月に確認、出典はLCCキャリーケース記事）にメーカー公式のサイズと重量を当てはめた結果です。向きを入れ替えて収まれば収まるとしています。重量が公式に明記なしの製品は、寸法が収まっても収まるとはしていません。",
+  "lead": "ボストンバッグやダッフルバッグは、容量より「マチ（奥行）」と「幅」で機内に持ち込めるかが決まります。このページの12製品では、公式に「機内持ち込み可能サイズ」と書かれたダッフルバッグ（55×25×27cm）がLCC8社のうち ZIPAIR にしか収まらない一方、30Lの3製品（3WAYバッグ1製品とボストンバッグ2製品）は8社すべてに収まりました。メーカー公式のサイズと重さから、LCC8社それぞれに持ち込めるかを判定しました。",
+  "excludeReaders": [
+    {
+      "who": "ANA・JALなど大手航空会社だけに乗る人",
+      "why": "大手は各辺55×40×25cm・3辺合計115cm以内とLCCより緩く、このページの12製品のうち11製品が寸法上は収まります（下の本文に結果を書いています）"
+    },
+    {
+      "who": "ボストンバッグを預け荷物にする人",
+      "why": "機内持ち込みの寸法を気にする必要がないので、容量と持ちやすさで選べます"
+    },
+    {
+      "who": "キャスター付きで転がしたい人",
+      "why": "このページはキャスターのないバッグだけです。キャリーケースは別の記事で比べています"
+    }
+  ],
+  "conclusion": [
+    "容量では決まらない。30Lでも、マチ27cmのダッフルバッグは奥行23cm・20cmまでのLCC6社に入らず、幅44〜45cm・マチ18cmのボストンバッグはLCC8社すべてに入る",
+    "LCC8社すべてに入るのは、向きを変えて50×36×20cmの箱に収まるもの。このページでは6製品（モンベル トライパック 30、anello の MART・NEW STANDARD・motte・JASPER、Legato Largo 肩楽）",
+    "「機内持ち込み可能」「CABIN」という書き方は、どの航空会社の規定かまでは示していない。ミレー デフィ ダッフル 30 は ANA・JAL には収まるが、LCCで収まるのは ZIPAIR だけ"
+  ],
+  "sections": [
+    {
+      "heading": "ボストンバッグは「マチ」と「幅」で引っかかる",
+      "paragraphs": [
+        "このページで判定したLCC8社の機内持ち込み規定は、各辺の上限が会社ごとに違います。ジェットスター・スプリング・ジャパン・エアアジア・香港エクスプレスは各辺56×36×23cm、ピーチは50×40×25cm、ZIPAIR は55×40×25cm、チェジュ航空とティーウェイ航空は55×40×20cmです。",
+        "ボストンバッグは横に長い形なので、長い辺（幅）は56cmや55cmの上限に収まりやすい一方、2番目に長い辺が36cmを超えたり、いちばん短い辺（マチ）が23cmや20cmを超えたりして外れます。anello の CABIN（幅49×高さ40×マチ20cm）は高さ40cmが「36cmまで」の4社を超え、EXPAND5（幅50×高さ35×マチ21cm）はマチ21cmがチェジュ航空・ティーウェイ航空の20cmを超えます。",
+        "空港のゲージは向きを問わず入るかどうかで測るため、判定では縦横を入れ替えて収まる向きがあれば収まるとしています。ピーチは公式サイトに各辺の上限が明記されておらず、このサイトでは50×40×25cmとして判定しています。"
+      ]
+    },
+    {
+      "heading": "「機内持ち込み可能サイズ」はどの規定のことか",
+      "paragraphs": [
+        "ミレー デフィ ダッフル 30 は、公式に「機内持ち込み可能サイズ」と書かれています。公式のサイズ W55_H25_D27cm は、向きを変えると55×27×25cmで、ANA・JAL の各辺55×40×25cm（3辺合計115cm以内）に収まります。",
+        "ところがLCCでは、55cmの辺がピーチの50cmを、25cmの辺が奥行23cmまでの4社と20cmまでの2社を超えるため、収まるのは ZIPAIR だけです。モンベル トライパック 30 も公式の記載は「国内線の機内に持ち込みできるサイズ」で、どの会社でも通るとは書かれていません（このページの判定では、トライパック 30 はLCC8社すべての寸法に収まります）。",
+        "anello の CABIN も、商品名に CABIN とありますが、公式の商品説明に機内持ち込みの記載はありません。乗る会社が決まっているなら、その会社の各辺の上限と、公式のサイズを照らし合わせてください。"
+      ]
+    },
+    {
+      "heading": "LCC8社すべてに入るのは「50×36×20cm」の箱に収まるもの",
+      "paragraphs": [
+        "8社の規定の、それぞれいちばん厳しい値を取ると、各辺50×36×20cmになります。向きを変えてこの中に収まれば、どのLCCに乗っても寸法では断られません。",
+        "このページでは、モンベル トライパック 30（高さ50×幅33×奥行き20cm）、anello の MART（幅44×高さ33×マチ18cm）・NEW STANDARD（幅45×高さ30×マチ18cm）・motte（幅40×高さ30×マチ16cm）・JASPER（幅39×高さ31×マチ16cm）、Legato Largo 肩楽（幅42×高さ27×マチ18cm）の6製品が収まります。容量は21〜30Lです。"
+      ]
+    },
+    {
+      "heading": "拡張できるバッグは、広げた状態で判定する",
+      "paragraphs": [
+        "anello の TRACK（高さ30-38cm）と SPS（高さ31-40cm）は、高さを広げて容量を増やせます。表は広げた状態で判定しています。どちらもマチ24cm・幅40cmのため、広げない状態でも収まるのはピーチと ZIPAIR だけです。",
+        "行きは閉じて、帰りにお土産で広げる使い方をする場合は、帰りの便の会社の規定で確かめてください。"
+      ]
+    },
+    {
+      "heading": "ANA・JAL（参考）の判定",
+      "paragraphs": [
+        "このサイトの航空会社データ（ANA・JAL は各辺55×40×25cmと3辺合計115cm以内の両方を満たすものを可とする）で同じように判定すると、12製品のうち11製品が寸法上は収まります。",
+        "収まらないのは、アンダーアーマー UAアンディナイアブル5.0 ダッフルバッグ Sサイズ（W55×H25.7×D27cm）です。いちばん短い辺の25.7cmが25cmを超えます。アンダーアーマーの公式ページには、独自の採寸方法で測っており、生地の特性で1cm前後の誤差が出る場合があると書かれています。"
+      ]
+    },
+    {
+      "heading": "公式のサイズは「詰めすぎない状態」の目安",
+      "paragraphs": [
+        "ボストンバッグは生地が柔らかいため、荷物を詰めると膨らみます。特にマチは、詰め方しだいで公式の寸法を超えます。また、各社とも寸法は独自の採寸方法で測っており、持ち手やポケットの膨らみを含むかどうかは商品ページに書かれていません。規定ぎりぎりの製品を選ぶ場合は、出発前に詰めた状態で測ってください。",
+        "重量も確認が必要です。LCCの多くは機内持ち込みが「手荷物と身の回り品の合計7kgまで」（チェジュ航空・ティーウェイ航空は10kg）で、バッグ本体の重さも含まれます。このページの製品は、公式に重量の記載がある11製品で0.43kgから0.907kgです。"
+      ]
+    }
+  ],
+  "filter": {
+    "heading": "容量とLCC全社対応で絞り込む",
+    "note": "必要な容量を入れてください。乗る会社を決めていない場合は、LCC8社すべてに入るものだけを表示できます。",
+    "numberInputs": [
+      {
+        "key": "capacityL",
+        "type": "atLeast",
+        "label": "必要な容量 (L)",
+        "unit": "L",
+        "default": 20,
+        "min": 10,
+        "max": 45,
+        "step": 1
+      }
+    ],
+    "flagInput": {
+      "key": "fitAllAirlines",
+      "label": "LCC8社すべての寸法・重量に収まるものだけ",
+      "okDetail": "8社すべてに収まる",
+      "ngDetail": "収まらない会社がある"
+    }
+  },
+  "columns": [
+    {
+      "key": "outerCm",
+      "label": "公式のサイズ（高さ×幅×奥行）",
+      "unit": "cm"
+    },
+    {
+      "key": "totalCm",
+      "label": "3辺合計",
+      "unit": "cm"
+    },
+    {
+      "key": "capacityL",
+      "label": "容量",
+      "unit": "L"
+    },
+    {
+      "key": "weightKg",
+      "label": "重量",
+      "unit": "kg"
+    },
+    {
+      "key": "fitAirlines",
+      "label": "寸法・重量が収まるLCC"
+    }
+  ],
+  "products": [
+    {
+      "name": "モンベル トライパック 30（#1133106）",
+      "brand": "モンベル",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://webshop.montbell.jp/goods/disp.php?product_id=1133106（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          50,
+          33,
+          20
+        ],
+        "capacityL": 30,
+        "weightKg": 0.907
+      },
+      "note": "手持ち・肩掛け・背負うの3WAY。公式の寸法は高さ50×幅33×奥行き20cmで、LCC8社すべての寸法に収まる。公式に「国内線の機内に持ち込みできるサイズです」「飛行機によっては機内にお持ち込みいただけない場合がございます」と記載。掲載中で最も重い（907g）。"
+    },
+    {
+      "name": "anello GRANDE 2WAY ボストンバッグ/MART（GTM0866）",
+      "brand": "anello GRANDE",
+      "asin": "",
+      "verified": true,
+      "source": "anello・Legato Largo の公式通販 CARROT ONLINE（ブランドを持つキャロットカンパニーの運営） https://www.carrot-online.jp/c/category/boston/GTM0866（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          33,
+          44,
+          18
+        ],
+        "capacityL": 30,
+        "weightKg": 0.65
+      },
+      "note": "公式の寸法は幅44×高さ33×マチ18cm。LCC8社すべての寸法に収まる。"
+    },
+    {
+      "name": "anello 2WAYボストンバッグ/NEW STANDARD（AGB5002）",
+      "brand": "anello",
+      "asin": "",
+      "verified": true,
+      "source": "anello・Legato Largo の公式通販 CARROT ONLINE（ブランドを持つキャロットカンパニーの運営） https://www.carrot-online.jp/c/category/boston/AGB5002（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          30,
+          45,
+          18
+        ],
+        "capacityL": 30,
+        "weightKg": 0.57
+      },
+      "note": "公式の寸法は幅45×高さ30×マチ18cm。LCC8社すべての寸法に収まる。"
+    },
+    {
+      "name": "anello GRANDE 2WAYボストンバッグ/motte（GHM0558）",
+      "brand": "anello GRANDE",
+      "asin": "",
+      "verified": true,
+      "source": "anello・Legato Largo の公式通販 CARROT ONLINE（ブランドを持つキャロットカンパニーの運営） https://www.carrot-online.jp/c/category/boston/GHM0558（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          30,
+          40,
+          16
+        ],
+        "capacityL": 25,
+        "weightKg": 0.47
+      },
+      "note": "公式の寸法は幅40×高さ30×マチ16cm。LCC8社すべての寸法に収まる。"
+    },
+    {
+      "name": "anello 2WAY ボストンバッグ/JASPER（ATB5142）",
+      "brand": "anello",
+      "asin": "",
+      "verified": true,
+      "source": "anello・Legato Largo の公式通販 CARROT ONLINE（ブランドを持つキャロットカンパニーの運営） https://www.carrot-online.jp/c/category/boston/ATB5142（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          31,
+          39,
+          16
+        ],
+        "capacityL": 22,
+        "weightKg": 0.48
+      },
+      "note": "公式の寸法は幅39×高さ31×マチ16cm。3辺合計86cmで、掲載中で最も小さい（motte と同じ）。LCC8社すべての寸法に収まる。"
+    },
+    {
+      "name": "Legato Largo 2WAYボストンバッグ/肩楽（LH-V0111）",
+      "brand": "Legato Largo",
+      "asin": "",
+      "verified": true,
+      "source": "anello・Legato Largo の公式通販 CARROT ONLINE（ブランドを持つキャロットカンパニーの運営） https://www.carrot-online.jp/c/category/boston/LH-V0111（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          27,
+          42,
+          18
+        ],
+        "capacityL": 21,
+        "weightKg": 0.62
+      },
+      "note": "公式の寸法は幅42×高さ27×マチ18cm。LCC8社すべての寸法に収まる。素材はナイロン（ほかの anello の掲載品はポリエステル）。"
+    },
+    {
+      "name": "anello 2WAYボストンバッグ/EXPAND5（ATN1182）",
+      "brand": "anello",
+      "asin": "",
+      "verified": true,
+      "source": "anello・Legato Largo の公式通販 CARROT ONLINE（ブランドを持つキャロットカンパニーの運営） https://www.carrot-online.jp/c/category/boston/ATN1182（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          35,
+          50,
+          21
+        ],
+        "capacityL": 35,
+        "weightKg": 0.85
+      },
+      "note": "公式の寸法は幅50×高さ35×マチ21cm。マチ21cmが、奥行20cmまでのチェジュ航空・ティーウェイ航空を超える。公式通販ではネイビー・オリーブが販売終了（ほかの色は販売中、2026-11-26 確認）。"
+    },
+    {
+      "name": "anello GRANDE 2WAYボストンバッグ(L)/CABIN（GTM0178）",
+      "brand": "anello GRANDE",
+      "asin": "",
+      "verified": true,
+      "source": "anello・Legato Largo の公式通販 CARROT ONLINE（ブランドを持つキャロットカンパニーの運営） https://www.carrot-online.jp/c/category/boston/GTM0178（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          40,
+          49,
+          20
+        ],
+        "capacityL": 36,
+        "weightKg": 0.64
+      },
+      "note": "公式の寸法は幅49×高さ40×マチ20cm。商品名に CABIN とあるが、幅49cm・高さ40cmのため「幅36cmまで」の4社（ジェットスター・スプリング・ジャパン・エアアジア・香港エクスプレス）には向きを変えても収まらない。公式の商品説明に機内持ち込みの記載はない。"
+    },
+    {
+      "name": "anello 2WAY拡張ボストンバッグ/TRACK（AT-C2611）",
+      "brand": "anello",
+      "asin": "",
+      "verified": true,
+      "source": "anello・Legato Largo の公式通販 CARROT ONLINE（ブランドを持つキャロットカンパニーの運営） https://www.carrot-online.jp/c/category/boston/AT-C2611（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          38,
+          40,
+          24
+        ],
+        "capacityL": 30,
+        "weightKg": 0.81
+      },
+      "note": "公式の寸法は幅40×高さ30-38×マチ24cm、容量は約30L（最大時）、重さ約810g。表は高さ38cmの最大時で判定。高さ30cmの状態でも、マチ24cmと幅40cmのため収まるのはピーチと ZIPAIR だけ。"
+    },
+    {
+      "name": "anello GRANDE 2WAY拡張ボストンバッグ/SPS（GT-C3341）",
+      "brand": "anello GRANDE",
+      "asin": "",
+      "verified": true,
+      "source": "anello・Legato Largo の公式通販 CARROT ONLINE（ブランドを持つキャロットカンパニーの運営） https://www.carrot-online.jp/c/category/boston/GT-C3341（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          40,
+          40,
+          24
+        ],
+        "capacityL": 30,
+        "weightKg": 0.75
+      },
+      "note": "公式の寸法は幅40×高さ31-40×マチ24cm、容量は21L（拡張時30L）。表は拡張時（高さ40cm・30L）で判定。拡張しない状態（高さ31cm）でも、マチ24cmと幅40cmのため収まるのはピーチと ZIPAIR だけ。"
+    },
+    {
+      "name": "ミレー デフィ ダッフル 30（MIS01311）",
+      "brand": "ミレー",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.millet.jp/products/mis01311（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          25,
+          55,
+          27
+        ],
+        "capacityL": 30,
+        "weightKg": 0.43
+      },
+      "note": "公式の寸法は W55_H25_D27cm。公式に「機内持ち込み可能サイズ」と記載があり、ANA・JAL（55×40×25cm）には向きを変えると収まるが、LCCで収まるのは ZIPAIR（55×40×25cm）だけ。55cmの辺がピーチの50cmを、いちばん短い辺（25cm）が奥行23cm・20cmまでの6社を超える。掲載中で最も軽い（430g）。背負うこともできる。"
+    },
+    {
+      "name": "アンダーアーマー UAアンディナイアブル5.0 ダッフルバッグ Sサイズ（1369222）",
+      "brand": "アンダーアーマー",
+      "asin": "",
+      "verified": true,
+      "source": "メーカー公式 https://www.underarmour.co.jp/commodity/SUND2150D/UN1825DU042254/（2026-11-26 確認）",
+      "specs": {
+        "outerCm": [
+          25.7,
+          55,
+          27
+        ],
+        "capacityL": 43.3,
+        "weightKg": null
+      },
+      "note": "公式の寸法は W55cm×H25.7cm×D27cm、容量43.3L。いちばん短い辺が25.7cmで、ANA・JAL・ピーチ・ZIPAIR の25cmを0.7cm超えるため、寸法だけで LCC8社すべてと ANA・JAL に収まらない（公式は独自の採寸方法で、生地の特性により1cm前後の誤差がある旨を記載）。重量は公式に明記なし。"
+    }
+  ],
+  "nextProblems": [
+    {
+      "text": "キャスター付きのキャリーケースをLCCの規定で比べる",
+      "href": "./lcc-carrycase.html"
+    },
+    {
+      "text": "背負うならリュックをLCCの規定で比べる",
+      "href": "./lcc-backpack.html"
+    },
+    {
+      "text": "出発前に荷物の重さを量る（7kgを超えていないか）",
+      "href": "./luggage-scale.html"
+    },
+    {
+      "text": "衣類をまとめる圧縮袋・パッキングキューブ",
+      "href": "./packing-cube.html"
+    },
+    {
+      "text": "バッグに入れるモバイルバッテリーの機内ルール（2026年4月から2個まで）",
+      "href": "./mobile-battery.html"
+    }
+  ],
+  "sources": [
+    {
+      "label": "LCC各社とANA・JALの機内持ち込み規定（2026年8月確認、各社の出典はLCCキャリーケース記事に記載）",
+      "url": "./lcc-carrycase.html"
+    },
+    {
+      "label": "anello・Legato Largo 公式通販 CARROT ONLINE（キャロットカンパニー）のボストンバッグ各商品ページ（2026-11-26 確認）",
+      "url": "https://www.carrot-online.jp/c/category/boston/GTM0866"
+    }
+  ],
+  "quickPicks": [
+    {
+      "title": "LCC8社すべてに入るもので容量が最も大きい",
+      "key": "capacityL",
+      "order": "desc",
+      "unit": "L",
+      "where": {
+        "fitAllAirlines": true
+      }
+    },
+    {
+      "title": "LCC8社すべてに入るもので重量が最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg",
+      "where": {
+        "fitAllAirlines": true
+      }
+    },
+    {
+      "title": "重量が最も軽い",
+      "key": "weightKg",
+      "order": "asc",
+      "unit": "kg"
+    }
+  ]
+}

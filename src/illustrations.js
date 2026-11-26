@@ -99,6 +99,8 @@ export const ILLUSTRATIONS = {
     `${SHADOW(118, 40)}<path d="M50 30V8h28v22" stroke="#868e96" stroke-width="4" fill="none"/><rect x="48" y="4" width="32" height="8" rx="3" fill="url(#il-black)"/><rect x="28" y="28" width="72" height="80" rx="10" fill="url(#il-navy)" stroke="#14263d" stroke-width="1.2"/><path d="M46 34v68M64 34v68M82 34v68" stroke="#fff" opacity=".18" stroke-width="4"/><rect x="32" y="34" width="4" height="66" rx="2" fill="#fff" opacity=".25"/><circle cx="38" cy="112" r="5" fill="#212529"/><circle cx="90" cy="112" r="5" fill="#212529"/>`,
   backpack:
     `${SHADOW(116, 44)}<path d="M54 16c0-8 20-8 20 0" stroke="#343a40" stroke-width="4" fill="none"/><path d="M28 40c0-16 16-26 36-26s36 10 36 26v62c0 6-4 10-10 10H38c-6 0-10-4-10-10z" fill="url(#il-black)" stroke="#212529"/><path d="M38 70h52v30c0 4-3 6-6 6H44c-3 0-6-2-6-6z" fill="#495057" stroke="#212529"/><path d="M40 72h48" stroke="#ced4da" stroke-width="1.5" stroke-dasharray="2 2"/><path d="M36 42c4-14 14-20 28-20" stroke="#fff" opacity=".2" stroke-width="4" fill="none"/><rect x="56" y="80" width="16" height="4" rx="2" fill="url(#il-orange)"/>`,
+  duffel:
+    `${SHADOW(112, 54)}<path d="M44 52c0-22 40-22 40 0" stroke="#343a40" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M14 66c0-10 8-16 18-16h64c10 0 18 6 18 16v30c0 8-6 12-12 12H26c-6 0-12-4-12-12z" fill="url(#il-navy)" stroke="#14263d" stroke-width="1.2"/><ellipse cx="18" cy="80" rx="6" ry="20" fill="#14263d" opacity=".55"/><ellipse cx="110" cy="80" rx="6" ry="20" fill="#14263d" opacity=".55"/><path d="M24 56h80" stroke="#adb5bd" stroke-width="2" stroke-dasharray="3 2"/><rect x="84" y="52" width="8" height="8" rx="2" fill="url(#il-aluV)"/><path d="M22 66c6-8 16-10 30-10" stroke="#fff" opacity=".2" stroke-width="4" fill="none"/><path d="M40 92h48" stroke="#fff" opacity=".15" stroke-width="3"/>`,
   'luggage-scale':
     `${SHADOW(118, 30)}<rect x="40" y="10" width="48" height="40" rx="12" fill="url(#il-black)" stroke="#212529"/><rect x="50" y="20" width="28" height="14" rx="2" fill="#c0eb75"/><text x="64" y="31" text-anchor="middle" font-size="10" fill="#2b3a1c" font-family="monospace">0.0</text><circle cx="64" cy="42" r="3" fill="url(#il-aluV)"/><rect x="60" y="50" width="8" height="16" fill="#343a40"/><path d="M64 66c-10 0-12 14-2 16 6 1 8 8 2 10" stroke="#adb5bd" stroke-width="4" fill="none" stroke-linecap="round"/><rect x="44" y="94" width="40" height="18" rx="4" fill="url(#il-orange)"/>`,
   'power-bank':
@@ -165,6 +167,7 @@ const BY_ARTICLE = {
   'kids-table-chair': () => 'kids-table',
   'lcc-carrycase': () => 'suitcase',
   'lcc-backpack': () => 'backpack',
+  'carry-on-boston-bag': () => 'duffel',
   'luggage-scale': () => 'luggage-scale',
   'mobile-battery': () => 'power-bank',
   'full-length-mirror': () => 'mirror',
