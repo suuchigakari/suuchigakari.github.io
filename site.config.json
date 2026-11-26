@@ -8,7 +8,13 @@
   "disclosure": "【PR】本サイトはプロモーション（広告）を含みます。Amazonのアソシエイトとして、数値で選ぶ比較ノートは適格販売により収入を得ています。また、楽天アフィリエイトを利用しています。記事内の商品リンクはアフィリエイトリンクです。",
   "ctaLabel": "Amazonで価格を見る",
   "priceNote": "価格・在庫は変動し、セール期間中は価格が変わることがあります。購入前に Amazon の商品ページで最新の価格をご確認ください。",
-  "saleNotice": null,
+  "saleNotice": {
+    "name": "Amazon ブラックフライデー（先行セール 11月27日〜29日、本セール 11月30日〜12月7日）",
+    "start": "2026-11-27",
+    "end": "2026-12-07",
+    "source": "https://press.aboutamazon.com/jp/2026/11/black-friday-2026",
+    "checkedOn": "2026-11-26"
+  },
   "featured": {
     "heading": "検索でよく見られている記事",
     "slugs": [
